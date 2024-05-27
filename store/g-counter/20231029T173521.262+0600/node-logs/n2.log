@@ -1,0 +1,25 @@
+2023/10/29 17:35:22 Received {c0 n2 {"type":"init","node_id":"n2","node_ids":["n0","n1","n2"],"msg_id":1}}
+2023/10/29 17:35:22 Node n2 initialized
+2023/10/29 17:35:22 Sent {"src":"n2","dest":"c0","body":{"in_reply_to":1,"type":"init_ok"}}
+2023/10/29 17:35:22 Received {c7 n2 {"type":"read","msg_id":1}}
+2023/10/29 17:35:22 Sent {"src":"n2","dest":"seq-kv","body":{"key":"counter","msg_id":1,"type":"read"}}
+2023/10/29 17:35:22 Received {seq-kv n2 {"type":"read_ok","value":0,"in_reply_to":1}}
+2023/10/29 17:35:22 Sent {"src":"n2","dest":"c7","body":{"in_reply_to":1,"type":"read_ok","value":0}}
+2023/10/29 17:35:22 Received {c7 n2 {"type":"read","msg_id":2}}
+2023/10/29 17:35:22 Sent {"src":"n2","dest":"seq-kv","body":{"key":"counter","msg_id":2,"type":"read"}}
+2023/10/29 17:35:22 Received {seq-kv n2 {"type":"read_ok","value":0,"in_reply_to":2}}
+2023/10/29 17:35:22 Sent {"src":"n2","dest":"c7","body":{"in_reply_to":2,"type":"read_ok","value":0}}
+2023/10/29 17:35:22 Received {c7 n2 {"delta":2,"type":"add","msg_id":3}}
+2023/10/29 17:35:22 Sent {"src":"n2","dest":"seq-kv","body":{"key":"counter","msg_id":3,"type":"read"}}
+2023/10/29 17:35:22 Received {seq-kv n2 {"type":"read_ok","value":0,"in_reply_to":3}}
+panic: interface conversion: interface {} is float64, not int
+
+goroutine 35 [running]:
+main.main.func4({{0x140001842b8, 0x2}, {0x140001842ba, 0x2}, {0x140001a2060, 0x23, 0x30}})
+	/Users/googrand/projects/golang/dist_systems/counter/main.go:78 +0x290
+github.com/jepsen-io/maelstrom/demo/go.(*Node).handleMessage(0x0?, 0x0?, {{0x140001842b8, 0x2}, {0x140001842ba, 0x2}, {0x140001a2060, 0x23, 0x30}})
+	/Users/googrand/go/pkg/mod/github.com/jepsen-io/maelstrom/demo/go@v0.0.0-20230918143807-815e8c3bd0a7/node.go:151 +0x70
+github.com/jepsen-io/maelstrom/demo/go.(*Node).Run.func2()
+	/Users/googrand/go/pkg/mod/github.com/jepsen-io/maelstrom/demo/go@v0.0.0-20230918143807-815e8c3bd0a7/node.go:129 +0x78
+created by github.com/jepsen-io/maelstrom/demo/go.(*Node).Run in goroutine 1
+	/Users/googrand/go/pkg/mod/github.com/jepsen-io/maelstrom/demo/go@v0.0.0-20230918143807-815e8c3bd0a7/node.go:127 +0x468

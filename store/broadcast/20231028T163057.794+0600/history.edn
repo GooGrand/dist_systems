@@ -1,0 +1,16 @@
+{:index 0, :time 18065750, :type :invoke, :process 0, :f :read, :value nil}
+{:index 1, :time 24537833, :type :ok, :process 0, :f :read, :value [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0]}
+{:index 2, :time 104700750, :type :invoke, :process 0, :f :read, :value nil}
+{:index 3, :time 106279958, :type :ok, :process 0, :f :read, :value [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0]}
+{:index 4, :time 204365250, :type :invoke, :process 0, :f :read, :value nil}
+{:index 5, :time 206507333, :type :ok, :process 0, :f :read, :value [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0]}
+{:index 6, :time 321866541, :type :invoke, :process 0, :f :broadcast, :value 0}
+{:index 7, :time 5329835916, :type :info, :process 0, :f :broadcast, :value 0, :error :net-timeout}
+{:index 8, :time 5329951500, :type :invoke, :process 1, :f :read, :value nil}
+{:index 9, :time 10335138583, :type :fail, :process 1, :f :read, :value nil, :error :net-timeout}
+{:index 10, :time 10335242875, :type :invoke, :process 1, :f :read, :value nil}
+{:index 11, :time 15340342875, :type :fail, :process 1, :f :read, :value nil, :error :net-timeout}
+{:index 12, :time 15340401291, :type :invoke, :process 1, :f :broadcast, :value 1}
+{:index 13, :time 20340865708, :type :info, :process 1, :f :broadcast, :value 1, :error :net-timeout}
+{:index 14, :time 30347045458, :type :invoke, :process 2, :f :read, :value nil, :final? true}
+{:index 15, :time 35350817416, :type :fail, :process 2, :f :read, :value nil, :final? true, :error :net-timeout}

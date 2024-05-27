@@ -1,0 +1,15 @@
+2023/10/28 16:12:08 Received {c0 n0 {"type":"init","node_id":"n0","node_ids":["n0"],"msg_id":1}}
+2023/10/28 16:12:08 Node n0 initialized
+2023/10/28 16:12:08 Sent {"src":"n0","dest":"c0","body":{"in_reply_to":1,"type":"init_ok"}}
+2023/10/28 16:12:08 Received {c1 n0 {"type":"topology","topology":{"n0":[]},"msg_id":1}}
+panic: assignment to entry in nil map
+
+goroutine 20 [running]:
+main.main.func5({{0x140000a6370, 0x2}, {0x140000a6372, 0x2}, {0x140000a80c0, 0x33, 0x40}})
+	/Users/googrand/projects/golang/dist_systems/broadcast/main.go:69 +0xc4
+github.com/jepsen-io/maelstrom/demo/go.(*Node).handleMessage(0x0?, 0x0?, {{0x140000a6370, 0x2}, {0x140000a6372, 0x2}, {0x140000a80c0, 0x33, 0x40}})
+	/Users/googrand/go/pkg/mod/github.com/jepsen-io/maelstrom/demo/go@v0.0.0-20230918143807-815e8c3bd0a7/node.go:151 +0x70
+github.com/jepsen-io/maelstrom/demo/go.(*Node).Run.func2()
+	/Users/googrand/go/pkg/mod/github.com/jepsen-io/maelstrom/demo/go@v0.0.0-20230918143807-815e8c3bd0a7/node.go:129 +0x78
+created by github.com/jepsen-io/maelstrom/demo/go.(*Node).Run in goroutine 1
+	/Users/googrand/go/pkg/mod/github.com/jepsen-io/maelstrom/demo/go@v0.0.0-20230918143807-815e8c3bd0a7/node.go:127 +0x468

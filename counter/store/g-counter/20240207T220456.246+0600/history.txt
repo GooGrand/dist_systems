@@ -1,0 +1,3368 @@
+0	:invoke	:add	2
+1	:invoke	:read	nil
+:nemesis	:info	:start-partition	:majorities-ring
+:nemesis	:info	:start-partition	[:isolated {"n1" #{"n2"}, "n2" #{"n0"}, "n0" #{"n1"}}]
+1	:ok	:read	0
+0	:info	:add	2	indeterminate: throw+: {:type :rpc-error, :code 22, :name :precondition-failed, :definite? true, :body {:code 22, :in_reply_to 1, :text "current value 0 is not 2", :type "error"}}
+3	:invoke	:read	nil
+3	:ok	:read	0
+3	:invoke	:read	nil
+3	:ok	:read	0
+1	:invoke	:read	nil
+1	:ok	:read	0
+2	:invoke	:read	nil
+2	:ok	:read	0
+3	:invoke	:add	3
+3	:info	:add	3	indeterminate: throw+: {:type :rpc-error, :code 22, :name :precondition-failed, :definite? true, :body {:code 22, :in_reply_to 3, :text "current value 0 is not 3", :type "error"}}
+6	:invoke	:read	nil
+1	:invoke	:read	nil
+6	:ok	:read	0
+1	:ok	:read	0
+2	:invoke	:add	2
+2	:info	:add	2	indeterminate: throw+: {:type :rpc-error, :code 22, :name :precondition-failed, :definite? true, :body {:code 22, :in_reply_to 2, :text "current value 0 is not 2", :type "error"}}
+6	:invoke	:read	nil
+6	:ok	:read	0
+6	:invoke	:read	nil
+6	:ok	:read	0
+1	:invoke	:add	2
+1	:info	:add	2	indeterminate: throw+: {:type :rpc-error, :code 22, :name :precondition-failed, :definite? true, :body {:code 22, :in_reply_to 4, :text "current value 0 is not 2", :type "error"}}
+5	:invoke	:read	nil
+5	:ok	:read	0
+6	:invoke	:read	nil
+6	:ok	:read	0
+6	:invoke	:add	2
+4	:invoke	:read	nil
+4	:ok	:read	0
+6	:info	:add	2	indeterminate: throw+: {:type :rpc-error, :code 22, :name :precondition-failed, :definite? true, :body {:code 22, :in_reply_to 5, :text "current value 0 is not 2", :type "error"}}
+5	:invoke	:read	nil
+5	:ok	:read	0
+9	:invoke	:read	nil
+9	:ok	:read	0
+9	:invoke	:read	nil
+4	:invoke	:read	nil
+9	:ok	:read	0
+4	:ok	:read	0
+5	:invoke	:read	nil
+5	:ok	:read	0
+9	:invoke	:add	4
+9	:info	:add	4	indeterminate: throw+: {:type :rpc-error, :code 22, :name :precondition-failed, :definite? true, :body {:code 22, :in_reply_to 3, :text "current value 0 is not 4", :type "error"}}
+12	:invoke	:read	nil
+12	:ok	:read	0
+4	:invoke	:read	nil
+4	:ok	:read	0
+5	:invoke	:add	4
+5	:info	:add	4	indeterminate: throw+: {:type :rpc-error, :code 22, :name :precondition-failed, :definite? true, :body {:code 22, :in_reply_to 4, :text "current value 0 is not 4", :type "error"}}
+12	:invoke	:read	nil
+12	:ok	:read	0
+12	:invoke	:read	nil
+12	:ok	:read	0
+4	:invoke	:read	nil
+4	:ok	:read	0
+8	:invoke	:add	1
+12	:invoke	:read	nil
+12	:ok	:read	0
+8	:info	:add	1	indeterminate: throw+: {:type :rpc-error, :code 22, :name :precondition-failed, :definite? true, :body {:code 22, :in_reply_to 1, :text "current value 0 is not 1", :type "error"}}
+12	:invoke	:read	nil
+12	:ok	:read	0
+4	:invoke	:add	3
+4	:info	:add	3	indeterminate: throw+: {:type :rpc-error, :code 22, :name :precondition-failed, :definite? true, :body {:code 22, :in_reply_to 5, :text "current value 0 is not 3", :type "error"}}
+11	:invoke	:add	1
+11	:info	:add	1	indeterminate: throw+: {:type :rpc-error, :code 22, :name :precondition-failed, :definite? true, :body {:code 22, :in_reply_to 1, :text "current value 0 is not 1", :type "error"}}
+12	:invoke	:add	0
+12	:ok	:add	0
+12	:invoke	:read	nil
+12	:ok	:read	0
+7	:invoke	:add	2
+14	:invoke	:read	nil
+12	:invoke	:read	nil
+14	:ok	:read	0
+7	:info	:add	2	indeterminate: throw+: {:type :rpc-error, :code 22, :name :precondition-failed, :definite? true, :body {:code 22, :in_reply_to 1, :text "current value 0 is not 2", :type "error"}}
+12	:ok	:read	0
+12	:invoke	:read	nil
+12	:ok	:read	0
+10	:invoke	:add	1
+10	:info	:add	1	indeterminate: throw+: {:type :rpc-error, :code 22, :name :precondition-failed, :definite? true, :body {:code 22, :in_reply_to 1, :text "current value 0 is not 1", :type "error"}}
+14	:invoke	:add	3
+14	:info	:add	3	indeterminate: throw+: {:type :rpc-error, :code 22, :name :precondition-failed, :definite? true, :body {:code 22, :in_reply_to 2, :text "current value 0 is not 3", :type "error"}}
+12	:invoke	:read	nil
+12	:ok	:read	0
+12	:invoke	:read	nil
+12	:ok	:read	0
+13	:invoke	:read	nil
+13	:ok	:read	0
+17	:invoke	:add	3
+17	:info	:add	3	indeterminate: throw+: {:type :rpc-error, :code 22, :name :precondition-failed, :definite? true, :body {:code 22, :in_reply_to 1, :text "current value 0 is not 3", :type "error"}}
+12	:invoke	:add	1
+12	:info	:add	1	indeterminate: throw+: {:type :rpc-error, :code 22, :name :precondition-failed, :definite? true, :body {:code 22, :in_reply_to 12, :text "current value 0 is not 1", :type "error"}}
+15	:invoke	:add	0
+15	:ok	:add	0
+13	:invoke	:add	4
+13	:info	:add	4	indeterminate: throw+: {:type :rpc-error, :code 22, :name :precondition-failed, :definite? true, :body {:code 22, :in_reply_to 2, :text "current value 0 is not 4", :type "error"}}
+20	:invoke	:read	nil
+20	:ok	:read	0
+15	:invoke	:read	nil
+15	:ok	:read	0
+15	:invoke	:read	nil
+15	:ok	:read	0
+16	:invoke	:read	nil
+16	:ok	:read	0
+20	:invoke	:read	nil
+20	:ok	:read	0
+15	:invoke	:read	nil
+15	:ok	:read	0
+15	:invoke	:read	nil
+15	:ok	:read	0
+16	:invoke	:add	3
+16	:info	:add	3	indeterminate: throw+: {:type :rpc-error, :code 22, :name :precondition-failed, :definite? true, :body {:code 22, :in_reply_to 2, :text "current value 0 is not 3", :type "error"}}
+20	:invoke	:add	0
+20	:ok	:add	0
+15	:invoke	:read	nil
+15	:ok	:read	0
+15	:invoke	:read	nil
+15	:ok	:read	0
+19	:invoke	:read	nil
+19	:ok	:read	0
+20	:invoke	:add	3
+20	:info	:add	3	indeterminate: throw+: {:type :rpc-error, :code 22, :name :precondition-failed, :definite? true, :body {:code 22, :in_reply_to 4, :text "current value 0 is not 3", :type "error"}}
+15	:invoke	:read	nil
+15	:ok	:read	0
+15	:invoke	:read	nil
+15	:ok	:read	0
+19	:invoke	:add	3
+23	:invoke	:read	nil
+23	:ok	:read	0
+19	:info	:add	3	indeterminate: throw+: {:type :rpc-error, :code 22, :name :precondition-failed, :definite? true, :body {:code 22, :in_reply_to 2, :text "current value 0 is not 3", :type "error"}}
+15	:invoke	:read	nil
+15	:ok	:read	0
+15	:invoke	:read	nil
+15	:ok	:read	0
+22	:invoke	:read	nil
+22	:ok	:read	0
+23	:invoke	:read	nil
+23	:ok	:read	0
+15	:invoke	:read	nil
+15	:ok	:read	0
+15	:invoke	:read	nil
+22	:invoke	:read	nil
+15	:ok	:read	0
+22	:ok	:read	0
+23	:invoke	:read	nil
+23	:ok	:read	0
+15	:invoke	:add	4
+15	:info	:add	4	indeterminate: throw+: {:type :rpc-error, :code 22, :name :precondition-failed, :definite? true, :body {:code 22, :in_reply_to 14, :text "current value 0 is not 4", :type "error"}}
+18	:invoke	:read	nil
+18	:ok	:read	0
+22	:invoke	:read	nil
+22	:ok	:read	0
+23	:invoke	:read	nil
+23	:ok	:read	0
+18	:invoke	:add	0
+18	:ok	:add	0
+18	:invoke	:read	nil
+18	:ok	:read	0
+22	:invoke	:read	nil
+22	:ok	:read	0
+23	:invoke	:add	3
+23	:info	:add	3	indeterminate: throw+: {:type :rpc-error, :code 22, :name :precondition-failed, :definite? true, :body {:code 22, :in_reply_to 5, :text "current value 0 is not 3", :type "error"}}
+18	:invoke	:add	3
+18	:info	:add	3	indeterminate: throw+: {:type :rpc-error, :code 22, :name :precondition-failed, :definite? true, :body {:code 22, :in_reply_to 4, :text "current value 0 is not 3", :type "error"}}
+21	:invoke	:add	4
+21	:info	:add	4	indeterminate: throw+: {:type :rpc-error, :code 22, :name :precondition-failed, :definite? true, :body {:code 22, :in_reply_to 1, :text "current value 0 is not 4", :type "error"}}
+22	:invoke	:add	0
+22	:ok	:add	0
+26	:invoke	:add	4
+26	:info	:add	4	indeterminate: throw+: {:type :rpc-error, :code 22, :name :precondition-failed, :definite? true, :body {:code 22, :in_reply_to 1, :text "current value 0 is not 4", :type "error"}}
+24	:invoke	:read	nil
+24	:ok	:read	0
+24	:invoke	:add	2
+24	:info	:add	2	indeterminate: throw+: {:type :rpc-error, :code 22, :name :precondition-failed, :definite? true, :body {:code 22, :in_reply_to 2, :text "current value 0 is not 2", :type "error"}}
+22	:invoke	:add	1
+22	:info	:add	1	indeterminate: throw+: {:type :rpc-error, :code 22, :name :precondition-failed, :definite? true, :body {:code 22, :in_reply_to 6, :text "current value 0 is not 1", :type "error"}}
+29	:invoke	:read	nil
+29	:ok	:read	0
+27	:invoke	:read	nil
+27	:ok	:read	0
+27	:invoke	:read	nil
+27	:ok	:read	0
+25	:invoke	:add	2
+25	:info	:add	2	indeterminate: throw+: {:type :rpc-error, :code 22, :name :precondition-failed, :definite? true, :body {:code 22, :in_reply_to 1, :text "current value 0 is not 2", :type "error"}}
+29	:invoke	:read	nil
+29	:ok	:read	0
+27	:invoke	:add	0
+27	:ok	:add	0
+27	:invoke	:add	3
+27	:info	:add	3	indeterminate: throw+: {:type :rpc-error, :code 22, :name :precondition-failed, :definite? true, :body {:code 22, :in_reply_to 4, :text "current value 0 is not 3", :type "error"}}
+28	:invoke	:read	nil
+28	:ok	:read	0
+29	:invoke	:add	4
+29	:info	:add	4	indeterminate: throw+: {:type :rpc-error, :code 22, :name :precondition-failed, :definite? true, :body {:code 22, :in_reply_to 3, :text "current value 0 is not 4", :type "error"}}
+30	:invoke	:read	nil
+30	:ok	:read	0
+30	:invoke	:read	nil
+30	:ok	:read	0
+28	:invoke	:read	nil
+28	:ok	:read	0
+32	:invoke	:read	nil
+32	:ok	:read	0
+30	:invoke	:add	4
+30	:info	:add	4	indeterminate: throw+: {:type :rpc-error, :code 22, :name :precondition-failed, :definite? true, :body {:code 22, :in_reply_to 3, :text "current value 0 is not 4", :type "error"}}
+33	:invoke	:read	nil
+28	:invoke	:add	3
+33	:ok	:read	0
+28	:info	:add	3	indeterminate: throw+: {:type :rpc-error, :code 22, :name :precondition-failed, :definite? true, :body {:code 22, :in_reply_to 3, :text "current value 0 is not 3", :type "error"}}
+32	:invoke	:add	2
+32	:info	:add	2	indeterminate: throw+: {:type :rpc-error, :code 22, :name :precondition-failed, :definite? true, :body {:code 22, :in_reply_to 2, :text "current value 0 is not 2", :type "error"}}
+33	:invoke	:read	nil
+33	:ok	:read	0
+33	:invoke	:add	4
+33	:info	:add	4	indeterminate: throw+: {:type :rpc-error, :code 22, :name :precondition-failed, :definite? true, :body {:code 22, :in_reply_to 3, :text "current value 0 is not 4", :type "error"}}
+31	:invoke	:read	nil
+31	:ok	:read	0
+35	:invoke	:read	nil
+35	:ok	:read	0
+36	:invoke	:read	nil
+36	:ok	:read	0
+36	:invoke	:read	nil
+36	:ok	:read	0
+31	:invoke	:read	nil
+31	:ok	:read	0
+35	:invoke	:read	nil
+35	:ok	:read	0
+36	:invoke	:read	nil
+36	:ok	:read	0
+36	:invoke	:read	nil
+36	:ok	:read	0
+31	:invoke	:add	3
+31	:info	:add	3	indeterminate: throw+: {:type :rpc-error, :code 22, :name :precondition-failed, :definite? true, :body {:code 22, :in_reply_to 3, :text "current value 0 is not 3", :type "error"}}
+35	:invoke	:add	4
+35	:info	:add	4	indeterminate: throw+: {:type :rpc-error, :code 22, :name :precondition-failed, :definite? true, :body {:code 22, :in_reply_to 3, :text "current value 0 is not 4", :type "error"}}
+36	:invoke	:read	nil
+36	:ok	:read	0
+36	:invoke	:read	nil
+36	:ok	:read	0
+34	:invoke	:add	3
+34	:info	:add	3	indeterminate: throw+: {:type :rpc-error, :code 22, :name :precondition-failed, :definite? true, :body {:code 22, :in_reply_to 1, :text "current value 0 is not 3", :type "error"}}
+38	:invoke	:read	nil
+38	:ok	:read	0
+36	:invoke	:read	nil
+36	:ok	:read	0
+36	:invoke	:add	3
+36	:info	:add	3	indeterminate: throw+: {:type :rpc-error, :code 22, :name :precondition-failed, :definite? true, :body {:code 22, :in_reply_to 8, :text "current value 0 is not 3", :type "error"}}
+37	:invoke	:read	nil
+37	:ok	:read	0
+38	:invoke	:read	nil
+38	:ok	:read	0
+39	:invoke	:add	0
+39	:ok	:add	0
+39	:invoke	:read	nil
+39	:ok	:read	0
+37	:invoke	:read	nil
+37	:ok	:read	0
+38	:invoke	:read	nil
+38	:ok	:read	0
+39	:invoke	:add	1
+39	:info	:add	1	indeterminate: throw+: {:type :rpc-error, :code 22, :name :precondition-failed, :definite? true, :body {:code 22, :in_reply_to 3, :text "current value 0 is not 1", :type "error"}}
+42	:invoke	:read	nil
+42	:ok	:read	0
+37	:invoke	:read	nil
+37	:ok	:read	0
+38	:invoke	:read	nil
+38	:ok	:read	0
+42	:invoke	:add	1
+42	:info	:add	1	indeterminate: throw+: {:type :rpc-error, :code 22, :name :precondition-failed, :definite? true, :body {:code 22, :in_reply_to 2, :text "current value 0 is not 1", :type "error"}}
+45	:invoke	:read	nil
+45	:ok	:read	0
+37	:invoke	:read	nil
+37	:ok	:read	0
+38	:invoke	:read	nil
+38	:ok	:read	0
+45	:invoke	:add	2
+45	:info	:add	2	indeterminate: throw+: {:type :rpc-error, :code 22, :name :precondition-failed, :definite? true, :body {:code 22, :in_reply_to 2, :text "current value 0 is not 2", :type "error"}}
+48	:invoke	:read	nil
+48	:ok	:read	0
+37	:invoke	:read	nil
+37	:ok	:read	0
+38	:invoke	:add	2
+38	:info	:add	2	indeterminate: throw+: {:type :rpc-error, :code 22, :name :precondition-failed, :definite? true, :body {:code 22, :in_reply_to 6, :text "current value 0 is not 2", :type "error"}}
+48	:invoke	:read	nil
+48	:ok	:read	0
+48	:invoke	:read	nil
+48	:ok	:read	0
+37	:invoke	:read	nil
+37	:ok	:read	0
+41	:invoke	:read	nil
+41	:ok	:read	0
+48	:invoke	:add	2
+48	:info	:add	2	indeterminate: throw+: {:type :rpc-error, :code 22, :name :precondition-failed, :definite? true, :body {:code 22, :in_reply_to 4, :text "current value 0 is not 2", :type "error"}}
+51	:invoke	:read	nil
+51	:ok	:read	0
+37	:invoke	:read	nil
+37	:ok	:read	0
+41	:invoke	:add	2
+41	:info	:add	2	indeterminate: throw+: {:type :rpc-error, :code 22, :name :precondition-failed, :definite? true, :body {:code 22, :in_reply_to 2, :text "current value 0 is not 2", :type "error"}}
+51	:invoke	:read	nil
+51	:ok	:read	0
+51	:invoke	:read	nil
+51	:ok	:read	0
+37	:invoke	:add	4
+37	:info	:add	4	indeterminate: throw+: {:type :rpc-error, :code 22, :name :precondition-failed, :definite? true, :body {:code 22, :in_reply_to 8, :text "current value 0 is not 4", :type "error"}}
+44	:invoke	:read	nil
+44	:ok	:read	0
+51	:invoke	:read	nil
+51	:ok	:read	0
+51	:invoke	:read	nil
+51	:ok	:read	0
+40	:invoke	:add	0
+40	:ok	:add	0
+44	:invoke	:read	nil
+44	:ok	:read	0
+51	:invoke	:add	0
+40	:invoke	:read	nil
+51	:ok	:add	0
+40	:ok	:read	0
+40	:invoke	:add	4
+40	:info	:add	4	indeterminate: throw+: {:type :rpc-error, :code 22, :name :precondition-failed, :definite? true, :body {:code 22, :in_reply_to 3, :text "current value 0 is not 4", :type "error"}}
+44	:invoke	:add	3
+44	:info	:add	3	indeterminate: throw+: {:type :rpc-error, :code 22, :name :precondition-failed, :definite? true, :body {:code 22, :in_reply_to 3, :text "current value 0 is not 3", :type "error"}}
+51	:invoke	:read	nil
+51	:ok	:read	0
+51	:invoke	:add	3
+51	:info	:add	3	indeterminate: throw+: {:type :rpc-error, :code 22, :name :precondition-failed, :definite? true, :body {:code 22, :in_reply_to 8, :text "current value 0 is not 3", :type "error"}}
+43	:invoke	:read	nil
+43	:ok	:read	0
+47	:invoke	:read	nil
+47	:ok	:read	0
+54	:invoke	:read	nil
+54	:ok	:read	0
+54	:invoke	:read	nil
+54	:ok	:read	0
+43	:invoke	:add	2
+43	:info	:add	2	indeterminate: throw+: {:type :rpc-error, :code 22, :name :precondition-failed, :definite? true, :body {:code 22, :in_reply_to 2, :text "current value 0 is not 2", :type "error"}}
+47	:invoke	:add	2
+47	:info	:add	2	indeterminate: throw+: {:type :rpc-error, :code 22, :name :precondition-failed, :definite? true, :body {:code 22, :in_reply_to 2, :text "current value 0 is not 2", :type "error"}}
+54	:invoke	:add	0
+54	:ok	:add	0
+54	:invoke	:read	nil
+54	:ok	:read	0
+46	:invoke	:read	nil
+46	:ok	:read	0
+50	:invoke	:add	2
+50	:info	:add	2	indeterminate: throw+: {:type :rpc-error, :code 22, :name :precondition-failed, :definite? true, :body {:code 22, :in_reply_to 1, :text "current value 0 is not 2", :type "error"}}
+54	:invoke	:read	nil
+54	:ok	:read	0
+54	:invoke	:read	nil
+54	:ok	:read	0
+46	:invoke	:read	nil
+46	:ok	:read	0
+53	:invoke	:add	3
+53	:info	:add	3	indeterminate: throw+: {:type :rpc-error, :code 22, :name :precondition-failed, :definite? true, :body {:code 22, :in_reply_to 1, :text "current value 0 is not 3", :type "error"}}
+54	:invoke	:read	nil
+54	:ok	:read	0
+54	:invoke	:read	nil
+54	:ok	:read	0
+46	:invoke	:read	nil
+46	:ok	:read	0
+56	:invoke	:read	nil
+56	:ok	:read	0
+54	:invoke	:read	nil
+54	:ok	:read	0
+54	:invoke	:add	3
+54	:info	:add	3	indeterminate: throw+: {:type :rpc-error, :code 22, :name :precondition-failed, :definite? true, :body {:code 22, :in_reply_to 10, :text "current value 0 is not 3", :type "error"}}
+46	:invoke	:read	nil
+46	:ok	:read	0
+56	:invoke	:add	1
+56	:info	:add	1	indeterminate: throw+: {:type :rpc-error, :code 22, :name :precondition-failed, :definite? true, :body {:code 22, :in_reply_to 2, :text "current value 0 is not 1", :type "error"}}
+57	:invoke	:read	nil
+57	:ok	:read	0
+57	:invoke	:add	0
+57	:ok	:add	0
+46	:invoke	:read	nil
+46	:ok	:read	0
+59	:invoke	:read	nil
+59	:ok	:read	0
+57	:invoke	:add	4
+57	:info	:add	4	indeterminate: throw+: {:type :rpc-error, :code 22, :name :precondition-failed, :definite? true, :body {:code 22, :in_reply_to 3, :text "current value 0 is not 4", :type "error"}}
+60	:invoke	:read	nil
+60	:ok	:read	0
+46	:invoke	:add	1
+46	:info	:add	1	indeterminate: throw+: {:type :rpc-error, :code 22, :name :precondition-failed, :definite? true, :body {:code 22, :in_reply_to 6, :text "current value 0 is not 1", :type "error"}}
+59	:invoke	:add	3
+59	:info	:add	3	indeterminate: throw+: {:type :rpc-error, :code 22, :name :precondition-failed, :definite? true, :body {:code 22, :in_reply_to 2, :text "current value 0 is not 3", :type "error"}}
+60	:invoke	:read	nil
+60	:ok	:read	0
+60	:invoke	:read	nil
+60	:ok	:read	0
+49	:invoke	:add	0
+49	:ok	:add	0
+62	:invoke	:add	0
+62	:ok	:add	0
+60	:invoke	:read	nil
+60	:ok	:read	0
+60	:invoke	:read	nil
+60	:ok	:read	0
+49	:invoke	:add	0
+49	:ok	:add	0
+62	:invoke	:read	nil
+62	:ok	:read	0
+60	:invoke	:add	1
+60	:info	:add	1	indeterminate: throw+: {:type :rpc-error, :code 22, :name :precondition-failed, :definite? true, :body {:code 22, :in_reply_to 6, :text "current value 0 is not 1", :type "error"}}
+63	:invoke	:read	nil
+63	:ok	:read	0
+49	:invoke	:add	4
+49	:info	:add	4	indeterminate: throw+: {:type :rpc-error, :code 22, :name :precondition-failed, :definite? true, :body {:code 22, :in_reply_to 3, :text "current value 0 is not 4", :type "error"}}
+62	:invoke	:read	nil
+62	:ok	:read	0
+63	:invoke	:add	4
+63	:info	:add	4	indeterminate: throw+: {:type :rpc-error, :code 22, :name :precondition-failed, :definite? true, :body {:code 22, :in_reply_to 2, :text "current value 0 is not 4", :type "error"}}
+66	:invoke	:read	nil
+66	:ok	:read	0
+52	:invoke	:read	nil
+52	:ok	:read	0
+62	:invoke	:add	1
+62	:info	:add	1	indeterminate: throw+: {:type :rpc-error, :code 22, :name :precondition-failed, :definite? true, :body {:code 22, :in_reply_to 4, :text "current value 0 is not 1", :type "error"}}
+66	:invoke	:read	nil
+66	:ok	:read	0
+66	:invoke	:read	nil
+52	:invoke	:read	nil
+66	:ok	:read	0
+52	:ok	:read	0
+65	:invoke	:read	nil
+65	:ok	:read	0
+66	:invoke	:add	1
+66	:info	:add	1	indeterminate: throw+: {:type :rpc-error, :code 22, :name :precondition-failed, :definite? true, :body {:code 22, :in_reply_to 4, :text "current value 0 is not 1", :type "error"}}
+69	:invoke	:read	nil
+52	:invoke	:add	4
+69	:ok	:read	0
+52	:info	:add	4	indeterminate: throw+: {:type :rpc-error, :code 22, :name :precondition-failed, :definite? true, :body {:code 22, :in_reply_to 3, :text "current value 0 is not 4", :type "error"}}
+65	:invoke	:read	nil
+65	:ok	:read	0
+69	:invoke	:read	nil
+69	:ok	:read	0
+69	:invoke	:read	nil
+69	:ok	:read	0
+55	:invoke	:add	3
+65	:invoke	:add	2
+65	:info	:add	2	indeterminate: throw+: {:type :rpc-error, :code 22, :name :precondition-failed, :definite? true, :body {:code 22, :in_reply_to 3, :text "current value 0 is not 2", :type "error"}}
+55	:info	:add	3	indeterminate: throw+: {:type :rpc-error, :code 22, :name :precondition-failed, :definite? true, :body {:code 22, :in_reply_to 1, :text "current value 0 is not 3", :type "error"}}
+69	:invoke	:add	2
+69	:info	:add	2	indeterminate: throw+: {:type :rpc-error, :code 22, :name :precondition-failed, :definite? true, :body {:code 22, :in_reply_to 4, :text "current value 0 is not 2", :type "error"}}
+72	:invoke	:add	3
+72	:info	:add	3	indeterminate: throw+: {:type :rpc-error, :code 22, :name :precondition-failed, :definite? true, :body {:code 22, :in_reply_to 1, :text "current value 0 is not 3", :type "error"}}
+58	:invoke	:read	nil
+58	:ok	:read	0
+68	:invoke	:add	1
+68	:info	:add	1	indeterminate: throw+: {:type :rpc-error, :code 22, :name :precondition-failed, :definite? true, :body {:code 22, :in_reply_to 1, :text "current value 0 is not 1", :type "error"}}
+75	:invoke	:add	0
+75	:ok	:add	0
+75	:invoke	:add	0
+75	:ok	:add	0
+58	:invoke	:read	nil
+58	:ok	:read	0
+71	:invoke	:read	nil
+75	:invoke	:read	nil
+71	:ok	:read	0
+75	:ok	:read	0
+75	:invoke	:read	nil
+75	:ok	:read	0
+58	:invoke	:add	1
+58	:info	:add	1	indeterminate: throw+: {:type :rpc-error, :code 22, :name :precondition-failed, :definite? true, :body {:code 22, :in_reply_to 3, :text "current value 0 is not 1", :type "error"}}
+71	:invoke	:read	nil
+71	:ok	:read	0
+75	:invoke	:add	1
+75	:info	:add	1	indeterminate: throw+: {:type :rpc-error, :code 22, :name :precondition-failed, :definite? true, :body {:code 22, :in_reply_to 5, :text "current value 0 is not 1", :type "error"}}
+78	:invoke	:add	2
+78	:info	:add	2	indeterminate: throw+: {:type :rpc-error, :code 22, :name :precondition-failed, :definite? true, :body {:code 22, :in_reply_to 1, :text "current value 0 is not 2", :type "error"}}
+61	:invoke	:read	nil
+61	:ok	:read	0
+71	:invoke	:add	2
+71	:info	:add	2	indeterminate: throw+: {:type :rpc-error, :code 22, :name :precondition-failed, :definite? true, :body {:code 22, :in_reply_to 3, :text "current value 0 is not 2", :type "error"}}
+81	:invoke	:read	nil
+81	:ok	:read	0
+81	:invoke	:add	4
+81	:info	:add	4	indeterminate: throw+: {:type :rpc-error, :code 22, :name :precondition-failed, :definite? true, :body {:code 22, :in_reply_to 2, :text "current value 0 is not 4", :type "error"}}
+61	:invoke	:read	nil
+61	:ok	:read	0
+74	:invoke	:read	nil
+74	:ok	:read	0
+84	:invoke	:add	3
+84	:info	:add	3	indeterminate: throw+: {:type :rpc-error, :code 22, :name :precondition-failed, :definite? true, :body {:code 22, :in_reply_to 1, :text "current value 0 is not 3", :type "error"}}
+87	:invoke	:read	nil
+61	:invoke	:read	nil
+61	:ok	:read	0
+87	:ok	:read	0
+74	:invoke	:add	2
+74	:info	:add	2	indeterminate: throw+: {:type :rpc-error, :code 22, :name :precondition-failed, :definite? true, :body {:code 22, :in_reply_to 2, :text "current value 0 is not 2", :type "error"}}
+87	:invoke	:read	nil
+87	:ok	:read	0
+87	:invoke	:read	nil
+87	:ok	:read	0
+61	:invoke	:read	nil
+61	:ok	:read	0
+77	:invoke	:read	nil
+77	:ok	:read	0
+87	:invoke	:read	nil
+87	:ok	:read	0
+87	:invoke	:add	1
+87	:info	:add	1	indeterminate: throw+: {:type :rpc-error, :code 22, :name :precondition-failed, :definite? true, :body {:code 22, :in_reply_to 5, :text "current value 0 is not 1", :type "error"}}
+61	:invoke	:read	nil
+61	:ok	:read	0
+77	:invoke	:read	nil
+77	:ok	:read	0
+90	:invoke	:add	3
+90	:info	:add	3	indeterminate: throw+: {:type :rpc-error, :code 22, :name :precondition-failed, :definite? true, :body {:code 22, :in_reply_to 1, :text "current value 0 is not 3", :type "error"}}
+93	:invoke	:read	nil
+93	:ok	:read	0
+61	:invoke	:add	2
+61	:info	:add	2	indeterminate: throw+: {:type :rpc-error, :code 22, :name :precondition-failed, :definite? true, :body {:code 22, :in_reply_to 6, :text "current value 0 is not 2", :type "error"}}
+77	:invoke	:add	1
+77	:info	:add	1	indeterminate: throw+: {:type :rpc-error, :code 22, :name :precondition-failed, :definite? true, :body {:code 22, :in_reply_to 3, :text "current value 0 is not 1", :type "error"}}
+93	:invoke	:add	0
+93	:ok	:add	0
+93	:invoke	:read	nil
+93	:ok	:read	0
+64	:invoke	:add	0
+64	:ok	:add	0
+80	:invoke	:read	nil
+80	:ok	:read	0
+93	:invoke	:read	nil
+93	:ok	:read	0
+93	:invoke	:read	nil
+93	:ok	:read	0
+64	:invoke	:add	0
+64	:ok	:add	0
+80	:invoke	:read	nil
+80	:ok	:read	0
+93	:invoke	:read	nil
+93	:ok	:read	0
+93	:invoke	:read	nil
+93	:ok	:read	0
+64	:invoke	:read	nil
+64	:ok	:read	0
+80	:invoke	:add	2
+80	:info	:add	2	indeterminate: throw+: {:type :rpc-error, :code 22, :name :precondition-failed, :definite? true, :body {:code 22, :in_reply_to 3, :text "current value 0 is not 2", :type "error"}}
+93	:invoke	:add	3
+93	:info	:add	3	indeterminate: throw+: {:type :rpc-error, :code 22, :name :precondition-failed, :definite? true, :body {:code 22, :in_reply_to 8, :text "current value 0 is not 3", :type "error"}}
+96	:invoke	:read	nil
+96	:ok	:read	0
+64	:invoke	:read	nil
+64	:ok	:read	0
+83	:invoke	:read	nil
+83	:ok	:read	0
+96	:invoke	:read	nil
+64	:invoke	:read	nil
+96	:ok	:read	0
+64	:ok	:read	0
+64	:invoke	:read	nil
+64	:ok	:read	0
+83	:invoke	:add	3
+83	:info	:add	3	indeterminate: throw+: {:type :rpc-error, :code 22, :name :precondition-failed, :definite? true, :body {:code 22, :in_reply_to 2, :text "current value 0 is not 3", :type "error"}}
+96	:invoke	:read	nil
+96	:ok	:read	0
+96	:invoke	:read	nil
+96	:ok	:read	0
+64	:invoke	:add	0
+64	:ok	:add	0
+86	:invoke	:add	0
+86	:ok	:add	0
+96	:invoke	:add	4
+96	:info	:add	4	indeterminate: throw+: {:type :rpc-error, :code 22, :name :precondition-failed, :definite? true, :body {:code 22, :in_reply_to 5, :text "current value 0 is not 4", :type "error"}}
+99	:invoke	:read	nil
+99	:ok	:read	0
+64	:invoke	:read	nil
+64	:ok	:read	0
+86	:invoke	:read	nil
+99	:invoke	:read	nil
+86	:ok	:read	0
+99	:ok	:read	0
+99	:invoke	:read	nil
+99	:ok	:read	0
+64	:invoke	:read	nil
+64	:ok	:read	0
+86	:invoke	:read	nil
+86	:ok	:read	0
+99	:invoke	:read	nil
+99	:ok	:read	0
+99	:invoke	:read	nil
+99	:ok	:read	0
+64	:invoke	:read	nil
+64	:ok	:read	0
+86	:invoke	:read	nil
+86	:ok	:read	0
+99	:invoke	:read	nil
+99	:ok	:read	0
+99	:invoke	:read	nil
+99	:ok	:read	0
+64	:invoke	:add	4
+64	:info	:add	4	indeterminate: throw+: {:type :rpc-error, :code 22, :name :precondition-failed, :definite? true, :body {:code 22, :in_reply_to 11, :text "current value 0 is not 4", :type "error"}}
+86	:invoke	:read	nil
+86	:ok	:read	0
+99	:invoke	:add	2
+99	:info	:add	2	indeterminate: throw+: {:type :rpc-error, :code 22, :name :precondition-failed, :definite? true, :body {:code 22, :in_reply_to 8, :text "current value 0 is not 2", :type "error"}}
+102	:invoke	:read	nil
+102	:ok	:read	0
+67	:invoke	:add	0
+67	:ok	:add	0
+86	:invoke	:read	nil
+86	:ok	:read	0
+102	:invoke	:read	nil
+102	:ok	:read	0
+102	:invoke	:read	nil
+102	:ok	:read	0
+67	:invoke	:read	nil
+67	:ok	:read	0
+86	:invoke	:read	nil
+86	:ok	:read	0
+102	:invoke	:read	nil
+102	:ok	:read	0
+102	:invoke	:add	1
+102	:info	:add	1	indeterminate: throw+: {:type :rpc-error, :code 22, :name :precondition-failed, :definite? true, :body {:code 22, :in_reply_to 5, :text "current value 0 is not 1", :type "error"}}
+67	:invoke	:read	nil
+67	:ok	:read	0
+86	:invoke	:read	nil
+86	:ok	:read	0
+105	:invoke	:read	nil
+105	:ok	:read	0
+105	:invoke	:add	0
+67	:invoke	:read	nil
+67	:ok	:read	0
+105	:ok	:add	0
+86	:invoke	:add	2
+86	:info	:add	2	indeterminate: throw+: {:type :rpc-error, :code 22, :name :precondition-failed, :definite? true, :body {:code 22, :in_reply_to 9, :text "current value 0 is not 2", :type "error"}}
+105	:invoke	:add	0
+105	:ok	:add	0
+105	:invoke	:read	nil
+105	:ok	:read	0
+67	:invoke	:add	1
+67	:info	:add	1	indeterminate: throw+: {:type :rpc-error, :code 22, :name :precondition-failed, :definite? true, :body {:code 22, :in_reply_to 5, :text "current value 0 is not 1", :type "error"}}
+89	:invoke	:read	nil
+89	:ok	:read	0
+105	:invoke	:add	1
+105	:info	:add	1	indeterminate: throw+: {:type :rpc-error, :code 22, :name :precondition-failed, :definite? true, :body {:code 22, :in_reply_to 5, :text "current value 0 is not 1", :type "error"}}
+108	:invoke	:add	0
+108	:ok	:add	0
+70	:invoke	:add	3
+70	:info	:add	3	indeterminate: throw+: {:type :rpc-error, :code 22, :name :precondition-failed, :definite? true, :body {:code 22, :in_reply_to 1, :text "current value 0 is not 3", :type "error"}}
+89	:invoke	:read	nil
+89	:ok	:read	0
+108	:invoke	:read	nil
+108	:ok	:read	0
+108	:invoke	:add	1
+108	:info	:add	1	indeterminate: throw+: {:type :rpc-error, :code 22, :name :precondition-failed, :definite? true, :body {:code 22, :in_reply_to 3, :text "current value 0 is not 1", :type "error"}}
+73	:invoke	:read	nil
+73	:ok	:read	0
+89	:invoke	:read	nil
+89	:ok	:read	0
+111	:invoke	:read	nil
+111	:ok	:read	0
+111	:invoke	:read	nil
+111	:ok	:read	0
+73	:invoke	:add	1
+73	:info	:add	1	indeterminate: throw+: {:type :rpc-error, :code 22, :name :precondition-failed, :definite? true, :body {:code 22, :in_reply_to 2, :text "current value 0 is not 1", :type "error"}}
+89	:invoke	:read	nil
+89	:ok	:read	0
+111	:invoke	:add	2
+111	:info	:add	2	indeterminate: throw+: {:type :rpc-error, :code 22, :name :precondition-failed, :definite? true, :body {:code 22, :in_reply_to 3, :text "current value 0 is not 2", :type "error"}}
+114	:invoke	:read	nil
+76	:invoke	:read	nil
+114	:ok	:read	0
+76	:ok	:read	0
+89	:invoke	:read	nil
+89	:ok	:read	0
+114	:invoke	:read	nil
+114	:ok	:read	0
+114	:invoke	:add	2
+114	:info	:add	2	indeterminate: throw+: {:type :rpc-error, :code 22, :name :precondition-failed, :definite? true, :body {:code 22, :in_reply_to 3, :text "current value 0 is not 2", :type "error"}}
+76	:invoke	:add	4
+76	:info	:add	4	indeterminate: throw+: {:type :rpc-error, :code 22, :name :precondition-failed, :definite? true, :body {:code 22, :in_reply_to 2, :text "current value 0 is not 4", :type "error"}}
+89	:invoke	:read	nil
+89	:ok	:read	0
+117	:invoke	:read	nil
+117	:ok	:read	0
+117	:invoke	:read	nil
+117	:ok	:read	0
+79	:invoke	:read	nil
+79	:ok	:read	0
+89	:invoke	:add	4
+89	:info	:add	4	indeterminate: throw+: {:type :rpc-error, :code 22, :name :precondition-failed, :definite? true, :body {:code 22, :in_reply_to 7, :text "current value 0 is not 4", :type "error"}}
+117	:invoke	:read	nil
+117	:ok	:read	0
+117	:invoke	:read	nil
+117	:ok	:read	0
+79	:invoke	:read	nil
+79	:ok	:read	0
+92	:invoke	:read	nil
+92	:ok	:read	0
+117	:invoke	:add	0
+117	:ok	:add	0
+117	:invoke	:read	nil
+117	:ok	:read	0
+79	:invoke	:read	nil
+79	:ok	:read	0
+92	:invoke	:add	2
+92	:info	:add	2	indeterminate: throw+: {:type :rpc-error, :code 22, :name :precondition-failed, :definite? true, :body {:code 22, :in_reply_to 2, :text "current value 0 is not 2", :type "error"}}
+117	:invoke	:read	nil
+117	:ok	:read	0
+117	:invoke	:read	nil
+117	:ok	:read	0
+79	:invoke	:add	3
+79	:info	:add	3	indeterminate: throw+: {:type :rpc-error, :code 22, :name :precondition-failed, :definite? true, :body {:code 22, :in_reply_to 4, :text "current value 0 is not 3", :type "error"}}
+95	:invoke	:read	nil
+95	:ok	:read	0
+117	:invoke	:add	2
+117	:info	:add	2	indeterminate: throw+: {:type :rpc-error, :code 22, :name :precondition-failed, :definite? true, :body {:code 22, :in_reply_to 9, :text "current value 0 is not 2", :type "error"}}
+120	:invoke	:read	nil
+120	:ok	:read	0
+82	:invoke	:add	2
+82	:info	:add	2	indeterminate: throw+: {:type :rpc-error, :code 22, :name :precondition-failed, :definite? true, :body {:code 22, :in_reply_to 1, :text "current value 0 is not 2", :type "error"}}
+95	:invoke	:add	4
+95	:info	:add	4	indeterminate: throw+: {:type :rpc-error, :code 22, :name :precondition-failed, :definite? true, :body {:code 22, :in_reply_to 2, :text "current value 0 is not 4", :type "error"}}
+120	:invoke	:add	4
+120	:info	:add	4	indeterminate: throw+: {:type :rpc-error, :code 22, :name :precondition-failed, :definite? true, :body {:code 22, :in_reply_to 2, :text "current value 0 is not 4", :type "error"}}
+123	:invoke	:read	nil
+123	:ok	:read	0
+85	:invoke	:add	0
+85	:ok	:add	0
+98	:invoke	:read	nil
+98	:ok	:read	0
+123	:invoke	:add	2
+123	:info	:add	2	indeterminate: throw+: {:type :rpc-error, :code 22, :name :precondition-failed, :definite? true, :body {:code 22, :in_reply_to 2, :text "current value 0 is not 2", :type "error"}}
+126	:invoke	:add	1
+126	:info	:add	1	indeterminate: throw+: {:type :rpc-error, :code 22, :name :precondition-failed, :definite? true, :body {:code 22, :in_reply_to 1, :text "current value 0 is not 1", :type "error"}}
+85	:invoke	:read	nil
+85	:ok	:read	0
+98	:invoke	:read	nil
+98	:ok	:read	0
+129	:invoke	:read	nil
+129	:ok	:read	0
+129	:invoke	:read	nil
+129	:ok	:read	0
+85	:invoke	:read	nil
+85	:ok	:read	0
+98	:invoke	:add	1
+98	:info	:add	1	indeterminate: throw+: {:type :rpc-error, :code 22, :name :precondition-failed, :definite? true, :body {:code 22, :in_reply_to 3, :text "current value 0 is not 1", :type "error"}}
+129	:invoke	:read	nil
+129	:ok	:read	0
+129	:invoke	:add	3
+129	:info	:add	3	indeterminate: throw+: {:type :rpc-error, :code 22, :name :precondition-failed, :definite? true, :body {:code 22, :in_reply_to 4, :text "current value 0 is not 3", :type "error"}}
+85	:invoke	:add	2
+101	:invoke	:read	nil
+101	:ok	:read	0
+85	:info	:add	2	indeterminate: throw+: {:type :rpc-error, :code 22, :name :precondition-failed, :definite? true, :body {:code 22, :in_reply_to 4, :text "current value 0 is not 2", :type "error"}}
+132	:invoke	:add	1
+132	:info	:add	1	indeterminate: throw+: {:type :rpc-error, :code 22, :name :precondition-failed, :definite? true, :body {:code 22, :in_reply_to 1, :text "current value 0 is not 1", :type "error"}}
+135	:invoke	:read	nil
+135	:ok	:read	0
+88	:invoke	:add	0
+88	:ok	:add	0
+101	:invoke	:read	nil
+101	:ok	:read	0
+135	:invoke	:add	2
+135	:info	:add	2	indeterminate: throw+: {:type :rpc-error, :code 22, :name :precondition-failed, :definite? true, :body {:code 22, :in_reply_to 2, :text "current value 0 is not 2", :type "error"}}
+138	:invoke	:read	nil
+138	:ok	:read	0
+88	:invoke	:add	1
+88	:info	:add	1	indeterminate: throw+: {:type :rpc-error, :code 22, :name :precondition-failed, :definite? true, :body {:code 22, :in_reply_to 2, :text "current value 0 is not 1", :type "error"}}
+101	:invoke	:add	4
+101	:info	:add	4	indeterminate: throw+: {:type :rpc-error, :code 22, :name :precondition-failed, :definite? true, :body {:code 22, :in_reply_to 3, :text "current value 0 is not 4", :type "error"}}
+138	:invoke	:read	nil
+138	:ok	:read	0
+138	:invoke	:read	nil
+138	:ok	:read	0
+91	:invoke	:add	0
+91	:ok	:add	0
+104	:invoke	:read	nil
+104	:ok	:read	0
+138	:invoke	:add	0
+138	:ok	:add	0
+138	:invoke	:read	nil
+138	:ok	:read	0
+91	:invoke	:add	4
+91	:info	:add	4	indeterminate: throw+: {:type :rpc-error, :code 22, :name :precondition-failed, :definite? true, :body {:code 22, :in_reply_to 2, :text "current value 0 is not 4", :type "error"}}
+104	:invoke	:read	nil
+104	:ok	:read	0
+138	:invoke	:add	0
+138	:ok	:add	0
+138	:invoke	:read	nil
+138	:ok	:read	0
+94	:invoke	:read	nil
+94	:ok	:read	0
+104	:invoke	:add	3
+104	:info	:add	3	indeterminate: throw+: {:type :rpc-error, :code 22, :name :precondition-failed, :definite? true, :body {:code 22, :in_reply_to 3, :text "current value 0 is not 3", :type "error"}}
+138	:invoke	:read	nil
+138	:ok	:read	0
+138	:invoke	:add	0
+138	:ok	:add	0
+94	:invoke	:read	nil
+94	:ok	:read	0
+107	:invoke	:add	3
+107	:info	:add	3	indeterminate: throw+: {:type :rpc-error, :code 22, :name :precondition-failed, :definite? true, :body {:code 22, :in_reply_to 1, :text "current value 0 is not 3", :type "error"}}
+138	:invoke	:read	nil
+138	:ok	:read	0
+138	:invoke	:read	nil
+138	:ok	:read	0
+94	:invoke	:add	0
+94	:ok	:add	0
+110	:invoke	:add	4
+110	:info	:add	4	indeterminate: throw+: {:type :rpc-error, :code 22, :name :precondition-failed, :definite? true, :body {:code 22, :in_reply_to 1, :text "current value 0 is not 4", :type "error"}}
+138	:invoke	:add	1
+138	:info	:add	1	indeterminate: throw+: {:type :rpc-error, :code 22, :name :precondition-failed, :definite? true, :body {:code 22, :in_reply_to 12, :text "current value 0 is not 1", :type "error"}}
+141	:invoke	:read	nil
+141	:ok	:read	0
+94	:invoke	:read	nil
+94	:ok	:read	0
+113	:invoke	:read	nil
+113	:ok	:read	0
+141	:invoke	:read	nil
+141	:ok	:read	0
+141	:invoke	:read	nil
+141	:ok	:read	0
+94	:invoke	:read	nil
+94	:ok	:read	0
+113	:invoke	:add	2
+113	:info	:add	2	indeterminate: throw+: {:type :rpc-error, :code 22, :name :precondition-failed, :definite? true, :body {:code 22, :in_reply_to 2, :text "current value 0 is not 2", :type "error"}}
+141	:invoke	:read	nil
+141	:ok	:read	0
+141	:invoke	:add	1
+141	:info	:add	1	indeterminate: throw+: {:type :rpc-error, :code 22, :name :precondition-failed, :definite? true, :body {:code 22, :in_reply_to 5, :text "current value 0 is not 1", :type "error"}}
+94	:invoke	:read	nil
+116	:invoke	:read	nil
+94	:ok	:read	0
+116	:ok	:read	0
+144	:invoke	:add	3
+144	:info	:add	3	indeterminate: throw+: {:type :rpc-error, :code 22, :name :precondition-failed, :definite? true, :body {:code 22, :in_reply_to 1, :text "current value 0 is not 3", :type "error"}}
+147	:invoke	:read	nil
+147	:ok	:read	0
+94	:invoke	:read	nil
+94	:ok	:read	0
+116	:invoke	:read	nil
+116	:ok	:read	0
+147	:invoke	:add	3
+147	:info	:add	3	indeterminate: throw+: {:type :rpc-error, :code 22, :name :precondition-failed, :definite? true, :body {:code 22, :in_reply_to 2, :text "current value 0 is not 3", :type "error"}}
+150	:invoke	:read	nil
+150	:ok	:read	0
+94	:invoke	:add	4
+116	:invoke	:read	nil
+116	:ok	:read	0
+94	:info	:add	4	indeterminate: throw+: {:type :rpc-error, :code 22, :name :precondition-failed, :definite? true, :body {:code 22, :in_reply_to 8, :text "current value 0 is not 4", :type "error"}}
+150	:invoke	:read	nil
+150	:ok	:read	0
+150	:invoke	:read	nil
+150	:ok	:read	0
+97	:invoke	:read	nil
+97	:ok	:read	0
+116	:invoke	:read	nil
+116	:ok	:read	0
+150	:invoke	:add	1
+150	:info	:add	1	indeterminate: throw+: {:type :rpc-error, :code 22, :name :precondition-failed, :definite? true, :body {:code 22, :in_reply_to 4, :text "current value 0 is not 1", :type "error"}}
+153	:invoke	:read	nil
+153	:ok	:read	0
+97	:invoke	:add	4
+97	:info	:add	4	indeterminate: throw+: {:type :rpc-error, :code 22, :name :precondition-failed, :definite? true, :body {:code 22, :in_reply_to 2, :text "current value 0 is not 4", :type "error"}}
+116	:invoke	:read	nil
+116	:ok	:read	0
+153	:invoke	:add	4
+153	:info	:add	4	indeterminate: throw+: {:type :rpc-error, :code 22, :name :precondition-failed, :definite? true, :body {:code 22, :in_reply_to 2, :text "current value 0 is not 4", :type "error"}}
+156	:invoke	:add	3
+156	:info	:add	3	indeterminate: throw+: {:type :rpc-error, :code 22, :name :precondition-failed, :definite? true, :body {:code 22, :in_reply_to 1, :text "current value 0 is not 3", :type "error"}}
+100	:invoke	:read	nil
+100	:ok	:read	0
+116	:invoke	:add	0
+116	:ok	:add	0
+159	:invoke	:read	nil
+159	:ok	:read	0
+159	:invoke	:read	nil
+159	:ok	:read	0
+100	:invoke	:read	nil
+100	:ok	:read	0
+116	:invoke	:read	nil
+116	:ok	:read	0
+159	:invoke	:add	2
+159	:info	:add	2	indeterminate: throw+: {:type :rpc-error, :code 22, :name :precondition-failed, :definite? true, :body {:code 22, :in_reply_to 3, :text "current value 0 is not 2", :type "error"}}
+162	:invoke	:read	nil
+162	:ok	:read	0
+100	:invoke	:read	nil
+100	:ok	:read	0
+116	:invoke	:read	nil
+116	:ok	:read	0
+162	:invoke	:add	3
+162	:info	:add	3	indeterminate: throw+: {:type :rpc-error, :code 22, :name :precondition-failed, :definite? true, :body {:code 22, :in_reply_to 2, :text "current value 0 is not 3", :type "error"}}
+165	:invoke	:add	1
+165	:info	:add	1	indeterminate: throw+: {:type :rpc-error, :code 22, :name :precondition-failed, :definite? true, :body {:code 22, :in_reply_to 1, :text "current value 0 is not 1", :type "error"}}
+100	:invoke	:read	nil
+100	:ok	:read	0
+116	:invoke	:add	0
+116	:ok	:add	0
+168	:invoke	:read	nil
+168	:ok	:read	0
+168	:invoke	:read	nil
+168	:ok	:read	0
+100	:invoke	:read	nil
+100	:ok	:read	0
+116	:invoke	:read	nil
+116	:ok	:read	0
+168	:invoke	:read	nil
+168	:ok	:read	0
+168	:invoke	:read	nil
+168	:ok	:read	0
+100	:invoke	:add	0
+100	:ok	:add	0
+116	:invoke	:read	nil
+116	:ok	:read	0
+168	:invoke	:add	4
+168	:info	:add	4	indeterminate: throw+: {:type :rpc-error, :code 22, :name :precondition-failed, :definite? true, :body {:code 22, :in_reply_to 5, :text "current value 0 is not 4", :type "error"}}
+171	:invoke	:add	2
+171	:info	:add	2	indeterminate: throw+: {:type :rpc-error, :code 22, :name :precondition-failed, :definite? true, :body {:code 22, :in_reply_to 1, :text "current value 0 is not 2", :type "error"}}
+100	:invoke	:add	3
+100	:info	:add	3	indeterminate: throw+: {:type :rpc-error, :code 22, :name :precondition-failed, :definite? true, :body {:code 22, :in_reply_to 7, :text "current value 0 is not 3", :type "error"}}
+116	:invoke	:read	nil
+116	:ok	:read	0
+174	:invoke	:add	0
+174	:ok	:add	0
+174	:invoke	:read	nil
+174	:ok	:read	0
+103	:invoke	:read	nil
+103	:ok	:read	0
+116	:invoke	:read	nil
+116	:ok	:read	0
+174	:invoke	:read	nil
+174	:ok	:read	0
+174	:invoke	:add	3
+174	:info	:add	3	indeterminate: throw+: {:type :rpc-error, :code 22, :name :precondition-failed, :definite? true, :body {:code 22, :in_reply_to 4, :text "current value 0 is not 3", :type "error"}}
+103	:invoke	:read	nil
+103	:ok	:read	0
+116	:invoke	:add	1
+116	:info	:add	1	indeterminate: throw+: {:type :rpc-error, :code 22, :name :precondition-failed, :definite? true, :body {:code 22, :in_reply_to 14, :text "current value 0 is not 1", :type "error"}}
+177	:invoke	:read	nil
+177	:ok	:read	0
+177	:invoke	:add	2
+177	:info	:add	2	indeterminate: throw+: {:type :rpc-error, :code 22, :name :precondition-failed, :definite? true, :body {:code 22, :in_reply_to 2, :text "current value 0 is not 2", :type "error"}}
+103	:invoke	:add	2
+103	:info	:add	2	indeterminate: throw+: {:type :rpc-error, :code 22, :name :precondition-failed, :definite? true, :body {:code 22, :in_reply_to 3, :text "current value 0 is not 2", :type "error"}}
+119	:invoke	:add	4
+119	:info	:add	4	indeterminate: throw+: {:type :rpc-error, :code 22, :name :precondition-failed, :definite? true, :body {:code 22, :in_reply_to 1, :text "current value 0 is not 4", :type "error"}}
+180	:invoke	:read	nil
+180	:ok	:read	0
+180	:invoke	:read	nil
+180	:ok	:read	0
+106	:invoke	:read	nil
+106	:ok	:read	0
+122	:invoke	:add	4
+122	:info	:add	4	indeterminate: throw+: {:type :rpc-error, :code 22, :name :precondition-failed, :definite? true, :body {:code 22, :in_reply_to 1, :text "current value 0 is not 4", :type "error"}}
+180	:invoke	:read	nil
+180	:ok	:read	0
+180	:invoke	:add	0
+180	:ok	:add	0
+106	:invoke	:read	nil
+106	:ok	:read	0
+125	:invoke	:add	2
+125	:info	:add	2	indeterminate: throw+: {:type :rpc-error, :code 22, :name :precondition-failed, :definite? true, :body {:code 22, :in_reply_to 1, :text "current value 0 is not 2", :type "error"}}
+180	:invoke	:read	nil
+180	:ok	:read	0
+180	:invoke	:read	nil
+180	:ok	:read	0
+106	:invoke	:add	0
+128	:invoke	:read	nil
+106	:ok	:add	0
+128	:ok	:read	0
+180	:invoke	:read	nil
+180	:ok	:read	0
+180	:invoke	:add	0
+180	:ok	:add	0
+106	:invoke	:read	nil
+106	:ok	:read	0
+128	:invoke	:add	1
+128	:info	:add	1	indeterminate: throw+: {:type :rpc-error, :code 22, :name :precondition-failed, :definite? true, :body {:code 22, :in_reply_to 2, :text "current value 0 is not 1", :type "error"}}
+180	:invoke	:read	nil
+180	:ok	:read	0
+180	:invoke	:read	nil
+180	:ok	:read	0
+106	:invoke	:add	3
+106	:info	:add	3	indeterminate: throw+: {:type :rpc-error, :code 22, :name :precondition-failed, :definite? true, :body {:code 22, :in_reply_to 5, :text "current value 0 is not 3", :type "error"}}
+131	:invoke	:add	4
+131	:info	:add	4	indeterminate: throw+: {:type :rpc-error, :code 22, :name :precondition-failed, :definite? true, :body {:code 22, :in_reply_to 1, :text "current value 0 is not 4", :type "error"}}
+180	:invoke	:read	nil
+180	:ok	:read	0
+180	:invoke	:add	3
+180	:info	:add	3	indeterminate: throw+: {:type :rpc-error, :code 22, :name :precondition-failed, :definite? true, :body {:code 22, :in_reply_to 12, :text "current value 0 is not 3", :type "error"}}
+109	:invoke	:read	nil
+109	:ok	:read	0
+134	:invoke	:add	3
+134	:info	:add	3	indeterminate: throw+: {:type :rpc-error, :code 22, :name :precondition-failed, :definite? true, :body {:code 22, :in_reply_to 1, :text "current value 0 is not 3", :type "error"}}
+183	:invoke	:read	nil
+183	:ok	:read	0
+183	:invoke	:add	4
+183	:info	:add	4	indeterminate: throw+: {:type :rpc-error, :code 22, :name :precondition-failed, :definite? true, :body {:code 22, :in_reply_to 2, :text "current value 0 is not 4", :type "error"}}
+109	:invoke	:add	4
+109	:info	:add	4	indeterminate: throw+: {:type :rpc-error, :code 22, :name :precondition-failed, :definite? true, :body {:code 22, :in_reply_to 2, :text "current value 0 is not 4", :type "error"}}
+137	:invoke	:read	nil
+137	:ok	:read	0
+186	:invoke	:add	4
+186	:info	:add	4	indeterminate: throw+: {:type :rpc-error, :code 22, :name :precondition-failed, :definite? true, :body {:code 22, :in_reply_to 1, :text "current value 0 is not 4", :type "error"}}
+189	:invoke	:read	nil
+189	:ok	:read	0
+112	:invoke	:read	nil
+112	:ok	:read	0
+137	:invoke	:read	nil
+137	:ok	:read	0
+189	:invoke	:read	nil
+189	:ok	:read	0
+189	:invoke	:add	2
+189	:info	:add	2	indeterminate: throw+: {:type :rpc-error, :code 22, :name :precondition-failed, :definite? true, :body {:code 22, :in_reply_to 3, :text "current value 0 is not 2", :type "error"}}
+112	:invoke	:add	4
+112	:info	:add	4	indeterminate: throw+: {:type :rpc-error, :code 22, :name :precondition-failed, :definite? true, :body {:code 22, :in_reply_to 2, :text "current value 0 is not 4", :type "error"}}
+137	:invoke	:add	4
+192	:invoke	:add	3
+137	:info	:add	4	indeterminate: throw+: {:type :rpc-error, :code 22, :name :precondition-failed, :definite? true, :body {:code 22, :in_reply_to 3, :text "current value 0 is not 4", :type "error"}}
+192	:info	:add	3	indeterminate: throw+: {:type :rpc-error, :code 22, :name :precondition-failed, :definite? true, :body {:code 22, :in_reply_to 1, :text "current value 0 is not 3", :type "error"}}
+195	:invoke	:read	nil
+195	:ok	:read	0
+115	:invoke	:read	nil
+115	:ok	:read	0
+140	:invoke	:read	nil
+140	:ok	:read	0
+195	:invoke	:read	nil
+195	:ok	:read	0
+195	:invoke	:read	nil
+195	:ok	:read	0
+115	:invoke	:read	nil
+115	:ok	:read	0
+140	:invoke	:read	nil
+140	:ok	:read	0
+195	:invoke	:add	1
+195	:info	:add	1	indeterminate: throw+: {:type :rpc-error, :code 22, :name :precondition-failed, :definite? true, :body {:code 22, :in_reply_to 4, :text "current value 0 is not 1", :type "error"}}
+198	:invoke	:read	nil
+198	:ok	:read	0
+115	:invoke	:add	0
+115	:ok	:add	0
+140	:invoke	:add	4
+140	:info	:add	4	indeterminate: throw+: {:type :rpc-error, :code 22, :name :precondition-failed, :definite? true, :body {:code 22, :in_reply_to 3, :text "current value 0 is not 4", :type "error"}}
+198	:invoke	:add	0
+198	:ok	:add	0
+198	:invoke	:add	4
+198	:info	:add	4	indeterminate: throw+: {:type :rpc-error, :code 22, :name :precondition-failed, :definite? true, :body {:code 22, :in_reply_to 3, :text "current value 0 is not 4", :type "error"}}
+115	:invoke	:read	nil
+143	:invoke	:read	nil
+115	:ok	:read	0
+143	:ok	:read	0
+201	:invoke	:add	1
+115	:invoke	:add	0
+115	:ok	:add	0
+201	:info	:add	1	indeterminate: throw+: {:type :rpc-error, :code 22, :name :precondition-failed, :definite? true, :body {:code 22, :in_reply_to 1, :text "current value 0 is not 1", :type "error"}}
+115	:invoke	:add	3
+115	:info	:add	3	indeterminate: throw+: {:type :rpc-error, :code 22, :name :precondition-failed, :definite? true, :body {:code 22, :in_reply_to 6, :text "current value 0 is not 3", :type "error"}}
+143	:invoke	:read	nil
+143	:ok	:read	0
+204	:invoke	:read	nil
+204	:ok	:read	0
+204	:invoke	:read	nil
+204	:ok	:read	0
+118	:invoke	:read	nil
+118	:ok	:read	0
+143	:invoke	:add	0
+143	:ok	:add	0
+204	:invoke	:add	3
+204	:info	:add	3	indeterminate: throw+: {:type :rpc-error, :code 22, :name :precondition-failed, :definite? true, :body {:code 22, :in_reply_to 3, :text "current value 0 is not 3", :type "error"}}
+207	:invoke	:read	nil
+207	:ok	:read	0
+118	:invoke	:read	nil
+118	:ok	:read	0
+143	:invoke	:read	nil
+143	:ok	:read	0
+207	:invoke	:add	2
+207	:info	:add	2	indeterminate: throw+: {:type :rpc-error, :code 22, :name :precondition-failed, :definite? true, :body {:code 22, :in_reply_to 2, :text "current value 0 is not 2", :type "error"}}
+210	:invoke	:read	nil
+210	:ok	:read	0
+118	:invoke	:read	nil
+118	:ok	:read	0
+143	:invoke	:read	nil
+143	:ok	:read	0
+210	:invoke	:read	nil
+210	:ok	:read	0
+210	:invoke	:read	nil
+210	:ok	:read	0
+118	:invoke	:read	nil
+118	:ok	:read	0
+143	:invoke	:add	2
+143	:info	:add	2	indeterminate: throw+: {:type :rpc-error, :code 22, :name :precondition-failed, :definite? true, :body {:code 22, :in_reply_to 6, :text "current value 0 is not 2", :type "error"}}
+210	:invoke	:read	nil
+210	:ok	:read	0
+210	:invoke	:read	nil
+210	:ok	:read	0
+118	:invoke	:read	nil
+118	:ok	:read	0
+146	:invoke	:read	nil
+146	:ok	:read	0
+210	:invoke	:add	1
+210	:info	:add	1	indeterminate: throw+: {:type :rpc-error, :code 22, :name :precondition-failed, :definite? true, :body {:code 22, :in_reply_to 6, :text "current value 0 is not 1", :type "error"}}
+213	:invoke	:read	nil
+213	:ok	:read	0
+118	:invoke	:add	4
+118	:info	:add	4	indeterminate: throw+: {:type :rpc-error, :code 22, :name :precondition-failed, :definite? true, :body {:code 22, :in_reply_to 6, :text "current value 0 is not 4", :type "error"}}
+146	:invoke	:add	2
+146	:info	:add	2	indeterminate: throw+: {:type :rpc-error, :code 22, :name :precondition-failed, :definite? true, :body {:code 22, :in_reply_to 2, :text "current value 0 is not 2", :type "error"}}
+213	:invoke	:read	nil
+213	:ok	:read	0
+213	:invoke	:read	nil
+213	:ok	:read	0
+121	:invoke	:read	nil
+121	:ok	:read	0
+149	:invoke	:add	2
+149	:info	:add	2	indeterminate: throw+: {:type :rpc-error, :code 22, :name :precondition-failed, :definite? true, :body {:code 22, :in_reply_to 1, :text "current value 0 is not 2", :type "error"}}
+213	:invoke	:read	nil
+213	:ok	:read	0
+213	:invoke	:add	2
+213	:info	:add	2	indeterminate: throw+: {:type :rpc-error, :code 22, :name :precondition-failed, :definite? true, :body {:code 22, :in_reply_to 5, :text "current value 0 is not 2", :type "error"}}
+121	:invoke	:read	nil
+121	:ok	:read	0
+152	:invoke	:add	4
+152	:info	:add	4	indeterminate: throw+: {:type :rpc-error, :code 22, :name :precondition-failed, :definite? true, :body {:code 22, :in_reply_to 1, :text "current value 0 is not 4", :type "error"}}
+216	:invoke	:read	nil
+216	:ok	:read	0
+216	:invoke	:read	nil
+216	:ok	:read	0
+121	:invoke	:read	nil
+121	:ok	:read	0
+155	:invoke	:read	nil
+155	:ok	:read	0
+216	:invoke	:read	nil
+216	:ok	:read	0
+216	:invoke	:read	nil
+216	:ok	:read	0
+121	:invoke	:read	nil
+121	:ok	:read	0
+155	:invoke	:add	2
+155	:info	:add	2	indeterminate: throw+: {:type :rpc-error, :code 22, :name :precondition-failed, :definite? true, :body {:code 22, :in_reply_to 2, :text "current value 0 is not 2", :type "error"}}
+216	:invoke	:read	nil
+216	:ok	:read	0
+216	:invoke	:add	4
+216	:info	:add	4	indeterminate: throw+: {:type :rpc-error, :code 22, :name :precondition-failed, :definite? true, :body {:code 22, :in_reply_to 6, :text "current value 0 is not 4", :type "error"}}
+121	:invoke	:read	nil
+121	:ok	:read	0
+158	:invoke	:read	nil
+158	:ok	:read	0
+219	:invoke	:read	nil
+219	:ok	:read	0
+219	:invoke	:add	3
+219	:info	:add	3	indeterminate: throw+: {:type :rpc-error, :code 22, :name :precondition-failed, :definite? true, :body {:code 22, :in_reply_to 2, :text "current value 0 is not 3", :type "error"}}
+121	:invoke	:read	nil
+121	:ok	:read	0
+158	:invoke	:read	nil
+158	:ok	:read	0
+222	:invoke	:read	nil
+222	:ok	:read	0
+222	:invoke	:read	nil
+222	:ok	:read	0
+121	:invoke	:read	nil
+121	:ok	:read	0
+158	:invoke	:read	nil
+158	:ok	:read	0
+222	:invoke	:add	4
+222	:info	:add	4	indeterminate: throw+: {:type :rpc-error, :code 22, :name :precondition-failed, :definite? true, :body {:code 22, :in_reply_to 3, :text "current value 0 is not 4", :type "error"}}
+225	:invoke	:add	2
+225	:info	:add	2	indeterminate: throw+: {:type :rpc-error, :code 22, :name :precondition-failed, :definite? true, :body {:code 22, :in_reply_to 1, :text "current value 0 is not 2", :type "error"}}
+121	:invoke	:read	nil
+121	:ok	:read	0
+158	:invoke	:read	nil
+158	:ok	:read	0
+228	:invoke	:read	nil
+228	:ok	:read	0
+228	:invoke	:read	nil
+228	:ok	:read	0
+121	:invoke	:add	1
+121	:info	:add	1	indeterminate: throw+: {:type :rpc-error, :code 22, :name :precondition-failed, :definite? true, :body {:code 22, :in_reply_to 9, :text "current value 0 is not 1", :type "error"}}
+158	:invoke	:read	nil
+158	:ok	:read	0
+228	:invoke	:read	nil
+228	:ok	:read	0
+228	:invoke	:read	nil
+228	:ok	:read	0
+124	:invoke	:add	2
+124	:info	:add	2	indeterminate: throw+: {:type :rpc-error, :code 22, :name :precondition-failed, :definite? true, :body {:code 22, :in_reply_to 1, :text "current value 0 is not 2", :type "error"}}
+158	:invoke	:add	0
+158	:ok	:add	0
+228	:invoke	:read	nil
+228	:ok	:read	0
+228	:invoke	:add	0
+228	:ok	:add	0
+127	:invoke	:read	nil
+127	:ok	:read	0
+158	:invoke	:read	nil
+158	:ok	:read	0
+228	:invoke	:add	4
+228	:info	:add	4	indeterminate: throw+: {:type :rpc-error, :code 22, :name :precondition-failed, :definite? true, :body {:code 22, :in_reply_to 7, :text "current value 0 is not 4", :type "error"}}
+231	:invoke	:read	nil
+127	:invoke	:read	nil
+231	:ok	:read	0
+127	:ok	:read	0
+158	:invoke	:read	nil
+158	:ok	:read	0
+231	:invoke	:read	nil
+231	:ok	:read	0
+231	:invoke	:add	1
+231	:info	:add	1	indeterminate: throw+: {:type :rpc-error, :code 22, :name :precondition-failed, :definite? true, :body {:code 22, :in_reply_to 3, :text "current value 0 is not 1", :type "error"}}
+127	:invoke	:add	2
+127	:info	:add	2	indeterminate: throw+: {:type :rpc-error, :code 22, :name :precondition-failed, :definite? true, :body {:code 22, :in_reply_to 3, :text "current value 0 is not 2", :type "error"}}
+158	:invoke	:add	2
+158	:info	:add	2	indeterminate: throw+: {:type :rpc-error, :code 22, :name :precondition-failed, :definite? true, :body {:code 22, :in_reply_to 9, :text "current value 0 is not 2", :type "error"}}
+234	:invoke	:read	nil
+234	:ok	:read	0
+234	:invoke	:read	nil
+234	:ok	:read	0
+130	:invoke	:add	0
+130	:ok	:add	0
+161	:invoke	:add	0
+161	:ok	:add	0
+234	:invoke	:read	nil
+234	:ok	:read	0
+234	:invoke	:read	nil
+234	:ok	:read	0
+130	:invoke	:read	nil
+130	:ok	:read	0
+161	:invoke	:read	nil
+161	:ok	:read	0
+234	:invoke	:read	nil
+234	:ok	:read	0
+234	:invoke	:read	nil
+234	:ok	:read	0
+130	:invoke	:read	nil
+130	:ok	:read	0
+161	:invoke	:read	nil
+161	:ok	:read	0
+234	:invoke	:read	nil
+234	:ok	:read	0
+234	:invoke	:add	0
+234	:ok	:add	0
+130	:invoke	:read	nil
+130	:ok	:read	0
+161	:invoke	:read	nil
+161	:ok	:read	0
+234	:invoke	:read	nil
+234	:ok	:read	0
+234	:invoke	:read	nil
+234	:ok	:read	0
+130	:invoke	:read	nil
+130	:ok	:read	0
+161	:invoke	:read	nil
+161	:ok	:read	0
+234	:invoke	:add	2
+234	:info	:add	2	indeterminate: throw+: {:type :rpc-error, :code 22, :name :precondition-failed, :definite? true, :body {:code 22, :in_reply_to 11, :text "current value 0 is not 2", :type "error"}}
+237	:invoke	:read	nil
+130	:invoke	:read	nil
+130	:ok	:read	0
+237	:ok	:read	0
+161	:invoke	:add	0
+161	:ok	:add	0
+237	:invoke	:read	nil
+237	:ok	:read	0
+237	:invoke	:add	1
+237	:info	:add	1	indeterminate: throw+: {:type :rpc-error, :code 22, :name :precondition-failed, :definite? true, :body {:code 22, :in_reply_to 3, :text "current value 0 is not 1", :type "error"}}
+130	:invoke	:read	nil
+130	:ok	:read	0
+161	:invoke	:read	nil
+161	:ok	:read	0
+240	:invoke	:add	0
+240	:ok	:add	0
+240	:invoke	:read	nil
+240	:ok	:read	0
+130	:invoke	:read	nil
+161	:invoke	:read	nil
+130	:ok	:read	0
+240	:invoke	:read	nil
+161	:ok	:read	0
+240	:ok	:read	0
+240	:invoke	:read	nil
+240	:ok	:read	0
+130	:invoke	:add	3
+130	:info	:add	3	indeterminate: throw+: {:type :rpc-error, :code 22, :name :precondition-failed, :definite? true, :body {:code 22, :in_reply_to 9, :text "current value 0 is not 3", :type "error"}}
+161	:invoke	:add	2
+161	:info	:add	2	indeterminate: throw+: {:type :rpc-error, :code 22, :name :precondition-failed, :definite? true, :body {:code 22, :in_reply_to 9, :text "current value 0 is not 2", :type "error"}}
+240	:invoke	:read	nil
+240	:ok	:read	0
+240	:invoke	:add	0
+240	:ok	:add	0
+133	:invoke	:add	2
+133	:info	:add	2	indeterminate: throw+: {:type :rpc-error, :code 22, :name :precondition-failed, :definite? true, :body {:code 22, :in_reply_to 1, :text "current value 0 is not 2", :type "error"}}
+164	:invoke	:add	2
+164	:info	:add	2	indeterminate: throw+: {:type :rpc-error, :code 22, :name :precondition-failed, :definite? true, :body {:code 22, :in_reply_to 1, :text "current value 0 is not 2", :type "error"}}
+240	:invoke	:read	nil
+240	:ok	:read	0
+240	:invoke	:read	nil
+240	:ok	:read	0
+136	:invoke	:read	nil
+136	:ok	:read	0
+167	:invoke	:add	0
+240	:invoke	:read	nil
+167	:ok	:add	0
+240	:ok	:read	0
+240	:invoke	:read	nil
+240	:ok	:read	0
+136	:invoke	:read	nil
+136	:ok	:read	0
+167	:invoke	:read	nil
+167	:ok	:read	0
+240	:invoke	:read	nil
+240	:ok	:read	0
+240	:invoke	:read	nil
+240	:ok	:read	0
+136	:invoke	:add	3
+136	:info	:add	3	indeterminate: throw+: {:type :rpc-error, :code 22, :name :precondition-failed, :definite? true, :body {:code 22, :in_reply_to 3, :text "current value 0 is not 3", :type "error"}}
+167	:invoke	:read	nil
+167	:ok	:read	0
+240	:invoke	:add	4
+139	:invoke	:read	nil
+139	:ok	:read	0
+139	:invoke	:read	nil
+139	:ok	:read	0
+240	:info	:add	4	indeterminate: throw+: {:type :rpc-error, :code 22, :name :precondition-failed, :definite? true, :body {:code 22, :in_reply_to 13, :text "current value 0 is not 4", :type "error"}}
+167	:invoke	:read	nil
+167	:ok	:read	0
+243	:invoke	:read	nil
+243	:ok	:read	0
+243	:invoke	:read	nil
+243	:ok	:read	0
+139	:invoke	:read	nil
+139	:ok	:read	0
+167	:invoke	:read	nil
+167	:ok	:read	0
+243	:invoke	:add	2
+243	:info	:add	2	indeterminate: throw+: {:type :rpc-error, :code 22, :name :precondition-failed, :definite? true, :body {:code 22, :in_reply_to 3, :text "current value 0 is not 2", :type "error"}}
+246	:invoke	:read	nil
+246	:ok	:read	0
+139	:invoke	:read	nil
+139	:ok	:read	0
+167	:invoke	:read	nil
+167	:ok	:read	0
+246	:invoke	:read	nil
+246	:ok	:read	0
+246	:invoke	:read	nil
+246	:ok	:read	0
+139	:invoke	:read	nil
+139	:ok	:read	0
+167	:invoke	:read	nil
+167	:ok	:read	0
+246	:invoke	:add	2
+246	:info	:add	2	indeterminate: throw+: {:type :rpc-error, :code 22, :name :precondition-failed, :definite? true, :body {:code 22, :in_reply_to 4, :text "current value 0 is not 2", :type "error"}}
+249	:invoke	:read	nil
+249	:ok	:read	0
+139	:invoke	:add	1
+139	:info	:add	1	indeterminate: throw+: {:type :rpc-error, :code 22, :name :precondition-failed, :definite? true, :body {:code 22, :in_reply_to 6, :text "current value 0 is not 1", :type "error"}}
+167	:invoke	:read	nil
+167	:ok	:read	0
+249	:invoke	:read	nil
+249	:ok	:read	0
+249	:invoke	:add	3
+249	:info	:add	3	indeterminate: throw+: {:type :rpc-error, :code 22, :name :precondition-failed, :definite? true, :body {:code 22, :in_reply_to 3, :text "current value 0 is not 3", :type "error"}}
+142	:invoke	:read	nil
+142	:ok	:read	0
+167	:invoke	:add	1
+167	:info	:add	1	indeterminate: throw+: {:type :rpc-error, :code 22, :name :precondition-failed, :definite? true, :body {:code 22, :in_reply_to 9, :text "current value 0 is not 1", :type "error"}}
+252	:invoke	:add	4
+252	:info	:add	4	indeterminate: throw+: {:type :rpc-error, :code 22, :name :precondition-failed, :definite? true, :body {:code 22, :in_reply_to 1, :text "current value 0 is not 4", :type "error"}}
+255	:invoke	:add	2
+142	:invoke	:add	0
+142	:ok	:add	0
+255	:info	:add	2	indeterminate: throw+: {:type :rpc-error, :code 22, :name :precondition-failed, :definite? true, :body {:code 22, :in_reply_to 1, :text "current value 0 is not 2", :type "error"}}
+170	:invoke	:add	2
+170	:info	:add	2	indeterminate: throw+: {:type :rpc-error, :code 22, :name :precondition-failed, :definite? true, :body {:code 22, :in_reply_to 1, :text "current value 0 is not 2", :type "error"}}
+258	:invoke	:read	nil
+258	:ok	:read	0
+258	:invoke	:read	nil
+258	:ok	:read	0
+142	:invoke	:read	nil
+142	:ok	:read	0
+173	:invoke	:read	nil
+173	:ok	:read	0
+258	:invoke	:read	nil
+258	:ok	:read	0
+258	:invoke	:read	nil
+258	:ok	:read	0
+142	:invoke	:add	0
+142	:ok	:add	0
+173	:invoke	:read	nil
+173	:ok	:read	0
+258	:invoke	:read	nil
+258	:ok	:read	0
+258	:invoke	:add	4
+258	:info	:add	4	indeterminate: throw+: {:type :rpc-error, :code 22, :name :precondition-failed, :definite? true, :body {:code 22, :in_reply_to 6, :text "current value 0 is not 4", :type "error"}}
+142	:invoke	:read	nil
+142	:ok	:read	0
+173	:invoke	:read	nil
+173	:ok	:read	0
+261	:invoke	:read	nil
+261	:ok	:read	0
+261	:invoke	:read	nil
+261	:ok	:read	0
+142	:invoke	:read	nil
+142	:ok	:read	0
+173	:invoke	:read	nil
+173	:ok	:read	0
+261	:invoke	:read	nil
+261	:ok	:read	0
+261	:invoke	:read	nil
+261	:ok	:read	0
+142	:invoke	:read	nil
+142	:ok	:read	0
+173	:invoke	:read	nil
+173	:ok	:read	0
+261	:invoke	:read	nil
+261	:ok	:read	0
+261	:invoke	:read	nil
+261	:ok	:read	0
+142	:invoke	:read	nil
+142	:ok	:read	0
+173	:invoke	:read	nil
+173	:ok	:read	0
+261	:invoke	:read	nil
+261	:ok	:read	0
+261	:invoke	:read	nil
+261	:ok	:read	0
+142	:invoke	:read	nil
+142	:ok	:read	0
+173	:invoke	:read	nil
+173	:ok	:read	0
+261	:invoke	:read	nil
+261	:ok	:read	0
+261	:invoke	:read	nil
+261	:ok	:read	0
+142	:invoke	:read	nil
+142	:ok	:read	0
+173	:invoke	:read	nil
+173	:ok	:read	0
+261	:invoke	:read	nil
+261	:ok	:read	0
+261	:invoke	:add	4
+261	:info	:add	4	indeterminate: throw+: {:type :rpc-error, :code 22, :name :precondition-failed, :definite? true, :body {:code 22, :in_reply_to 12, :text "current value 0 is not 4", :type "error"}}
+142	:invoke	:read	nil
+142	:ok	:read	0
+173	:invoke	:add	0
+173	:ok	:add	0
+264	:invoke	:read	nil
+264	:ok	:read	0
+264	:invoke	:read	nil
+264	:ok	:read	0
+142	:invoke	:read	nil
+142	:ok	:read	0
+173	:invoke	:read	nil
+173	:ok	:read	0
+264	:invoke	:add	4
+264	:info	:add	4	indeterminate: throw+: {:type :rpc-error, :code 22, :name :precondition-failed, :definite? true, :body {:code 22, :in_reply_to 3, :text "current value 0 is not 4", :type "error"}}
+267	:invoke	:read	nil
+267	:ok	:read	0
+142	:invoke	:read	nil
+142	:ok	:read	0
+173	:invoke	:add	3
+173	:info	:add	3	indeterminate: throw+: {:type :rpc-error, :code 22, :name :precondition-failed, :definite? true, :body {:code 22, :in_reply_to 11, :text "current value 0 is not 3", :type "error"}}
+267	:invoke	:read	nil
+267	:ok	:read	0
+267	:invoke	:add	1
+267	:info	:add	1	indeterminate: throw+: {:type :rpc-error, :code 22, :name :precondition-failed, :definite? true, :body {:code 22, :in_reply_to 3, :text "current value 0 is not 1", :type "error"}}
+142	:invoke	:read	nil
+142	:ok	:read	0
+176	:invoke	:read	nil
+176	:ok	:read	0
+270	:invoke	:add	4
+270	:info	:add	4	indeterminate: throw+: {:type :rpc-error, :code 22, :name :precondition-failed, :definite? true, :body {:code 22, :in_reply_to 1, :text "current value 0 is not 4", :type "error"}}
+273	:invoke	:read	nil
+273	:ok	:read	0
+142	:invoke	:read	nil
+142	:ok	:read	0
+176	:invoke	:read	nil
+176	:ok	:read	0
+273	:invoke	:read	nil
+273	:ok	:read	0
+273	:invoke	:read	nil
+273	:ok	:read	0
+142	:invoke	:read	nil
+142	:ok	:read	0
+176	:invoke	:read	nil
+176	:ok	:read	0
+273	:invoke	:add	1
+273	:info	:add	1	indeterminate: throw+: {:type :rpc-error, :code 22, :name :precondition-failed, :definite? true, :body {:code 22, :in_reply_to 4, :text "current value 0 is not 1", :type "error"}}
+276	:invoke	:read	nil
+276	:ok	:read	0
+142	:invoke	:read	nil
+176	:invoke	:read	nil
+142	:ok	:read	0
+176	:ok	:read	0
+276	:invoke	:read	nil
+276	:ok	:read	0
+276	:invoke	:read	nil
+276	:ok	:read	0
+142	:invoke	:read	nil
+142	:ok	:read	0
+176	:invoke	:read	nil
+176	:ok	:read	0
+276	:invoke	:read	nil
+276	:ok	:read	0
+276	:invoke	:read	nil
+276	:ok	:read	0
+142	:invoke	:read	nil
+142	:ok	:read	0
+176	:invoke	:read	nil
+176	:ok	:read	0
+276	:invoke	:read	nil
+276	:ok	:read	0
+276	:invoke	:read	nil
+276	:ok	:read	0
+142	:invoke	:read	nil
+142	:ok	:read	0
+176	:invoke	:add	2
+176	:info	:add	2	indeterminate: throw+: {:type :rpc-error, :code 22, :name :precondition-failed, :definite? true, :body {:code 22, :in_reply_to 7, :text "current value 0 is not 2", :type "error"}}
+276	:invoke	:add	2
+276	:info	:add	2	indeterminate: throw+: {:type :rpc-error, :code 22, :name :precondition-failed, :definite? true, :body {:code 22, :in_reply_to 8, :text "current value 0 is not 2", :type "error"}}
+279	:invoke	:read	nil
+279	:ok	:read	0
+142	:invoke	:read	nil
+179	:invoke	:read	nil
+142	:ok	:read	0
+179	:ok	:read	0
+279	:invoke	:add	3
+279	:info	:add	3	indeterminate: throw+: {:type :rpc-error, :code 22, :name :precondition-failed, :definite? true, :body {:code 22, :in_reply_to 2, :text "current value 0 is not 3", :type "error"}}
+282	:invoke	:add	3
+282	:info	:add	3	indeterminate: throw+: {:type :rpc-error, :code 22, :name :precondition-failed, :definite? true, :body {:code 22, :in_reply_to 1, :text "current value 0 is not 3", :type "error"}}
+142	:invoke	:read	nil
+142	:ok	:read	0
+179	:invoke	:read	nil
+179	:ok	:read	0
+285	:invoke	:read	nil
+285	:ok	:read	0
+285	:invoke	:add	1
+285	:info	:add	1	indeterminate: throw+: {:type :rpc-error, :code 22, :name :precondition-failed, :definite? true, :body {:code 22, :in_reply_to 2, :text "current value 0 is not 1", :type "error"}}
+142	:invoke	:read	nil
+142	:ok	:read	0
+179	:invoke	:read	nil
+179	:ok	:read	0
+288	:invoke	:read	nil
+288	:ok	:read	0
+288	:invoke	:add	1
+288	:info	:add	1	indeterminate: throw+: {:type :rpc-error, :code 22, :name :precondition-failed, :definite? true, :body {:code 22, :in_reply_to 2, :text "current value 0 is not 1", :type "error"}}
+142	:invoke	:read	nil
+142	:ok	:read	0
+179	:invoke	:read	nil
+179	:ok	:read	0
+291	:invoke	:read	nil
+291	:ok	:read	0
+291	:invoke	:read	nil
+291	:ok	:read	0
+142	:invoke	:read	nil
+142	:ok	:read	0
+179	:invoke	:read	nil
+179	:ok	:read	0
+291	:invoke	:add	3
+291	:info	:add	3	indeterminate: throw+: {:type :rpc-error, :code 22, :name :precondition-failed, :definite? true, :body {:code 22, :in_reply_to 3, :text "current value 0 is not 3", :type "error"}}
+294	:invoke	:read	nil
+294	:ok	:read	0
+142	:invoke	:read	nil
+142	:ok	:read	0
+179	:invoke	:read	nil
+179	:ok	:read	0
+294	:invoke	:read	nil
+294	:ok	:read	0
+294	:invoke	:read	nil
+294	:ok	:read	0
+142	:invoke	:read	nil
+142	:ok	:read	0
+179	:invoke	:read	nil
+294	:invoke	:read	nil
+294	:ok	:read	0
+179	:ok	:read	0
+294	:invoke	:read	nil
+294	:ok	:read	0
+142	:invoke	:read	nil
+142	:ok	:read	0
+179	:invoke	:read	nil
+179	:ok	:read	0
+294	:invoke	:add	4
+294	:info	:add	4	indeterminate: throw+: {:type :rpc-error, :code 22, :name :precondition-failed, :definite? true, :body {:code 22, :in_reply_to 6, :text "current value 0 is not 4", :type "error"}}
+297	:invoke	:add	1
+297	:info	:add	1	indeterminate: throw+: {:type :rpc-error, :code 22, :name :precondition-failed, :definite? true, :body {:code 22, :in_reply_to 1, :text "current value 0 is not 1", :type "error"}}
+142	:invoke	:read	nil
+142	:ok	:read	0
+179	:invoke	:read	nil
+179	:ok	:read	0
+300	:invoke	:add	2
+300	:info	:add	2	indeterminate: throw+: {:type :rpc-error, :code 22, :name :precondition-failed, :definite? true, :body {:code 22, :in_reply_to 1, :text "current value 0 is not 2", :type "error"}}
+303	:invoke	:add	2
+303	:info	:add	2	indeterminate: throw+: {:type :rpc-error, :code 22, :name :precondition-failed, :definite? true, :body {:code 22, :in_reply_to 1, :text "current value 0 is not 2", :type "error"}}
+142	:invoke	:read	nil
+142	:ok	:read	0
+179	:invoke	:read	nil
+179	:ok	:read	0
+306	:invoke	:read	nil
+306	:ok	:read	0
+306	:invoke	:add	3
+306	:info	:add	3	indeterminate: throw+: {:type :rpc-error, :code 22, :name :precondition-failed, :definite? true, :body {:code 22, :in_reply_to 2, :text "current value 0 is not 3", :type "error"}}
+142	:invoke	:read	nil
+142	:ok	:read	0
+179	:invoke	:read	nil
+179	:ok	:read	0
+309	:invoke	:read	nil
+309	:ok	:read	0
+309	:invoke	:read	nil
+309	:ok	:read	0
+142	:invoke	:add	3
+142	:info	:add	3	indeterminate: throw+: {:type :rpc-error, :code 22, :name :precondition-failed, :definite? true, :body {:code 22, :in_reply_to 32, :text "current value 0 is not 3", :type "error"}}
+179	:invoke	:read	nil
+179	:ok	:read	0
+309	:invoke	:read	nil
+309	:ok	:read	0
+309	:invoke	:add	1
+309	:info	:add	1	indeterminate: throw+: {:type :rpc-error, :code 22, :name :precondition-failed, :definite? true, :body {:code 22, :in_reply_to 4, :text "current value 0 is not 1", :type "error"}}
+145	:invoke	:add	0
+145	:ok	:add	0
+179	:invoke	:read	nil
+179	:ok	:read	0
+312	:invoke	:read	nil
+312	:ok	:read	0
+312	:invoke	:read	nil
+312	:ok	:read	0
+145	:invoke	:add	0
+145	:ok	:add	0
+179	:invoke	:read	nil
+179	:ok	:read	0
+312	:invoke	:add	0
+312	:ok	:add	0
+312	:invoke	:add	0
+312	:ok	:add	0
+145	:invoke	:read	nil
+145	:ok	:read	0
+179	:invoke	:read	nil
+312	:invoke	:read	nil
+179	:ok	:read	0
+312	:ok	:read	0
+312	:invoke	:read	nil
+312	:ok	:read	0
+145	:invoke	:read	nil
+145	:ok	:read	0
+179	:invoke	:read	nil
+179	:ok	:read	0
+312	:invoke	:add	4
+312	:info	:add	4	indeterminate: throw+: {:type :rpc-error, :code 22, :name :precondition-failed, :definite? true, :body {:code 22, :in_reply_to 7, :text "current value 0 is not 4", :type "error"}}
+315	:invoke	:read	nil
+315	:ok	:read	0
+145	:invoke	:add	3
+145	:info	:add	3	indeterminate: throw+: {:type :rpc-error, :code 22, :name :precondition-failed, :definite? true, :body {:code 22, :in_reply_to 5, :text "current value 0 is not 3", :type "error"}}
+179	:invoke	:read	nil
+179	:ok	:read	0
+315	:invoke	:read	nil
+315	:ok	:read	0
+315	:invoke	:read	nil
+315	:ok	:read	0
+148	:invoke	:read	nil
+148	:ok	:read	0
+179	:invoke	:add	1
+179	:info	:add	1	indeterminate: throw+: {:type :rpc-error, :code 22, :name :precondition-failed, :definite? true, :body {:code 22, :in_reply_to 18, :text "current value 0 is not 1", :type "error"}}
+315	:invoke	:add	2
+315	:info	:add	2	indeterminate: throw+: {:type :rpc-error, :code 22, :name :precondition-failed, :definite? true, :body {:code 22, :in_reply_to 4, :text "current value 0 is not 2", :type "error"}}
+318	:invoke	:read	nil
+318	:ok	:read	0
+148	:invoke	:add	0
+148	:ok	:add	0
+182	:invoke	:add	2
+318	:invoke	:read	nil
+318	:ok	:read	0
+182	:info	:add	2	indeterminate: throw+: {:type :rpc-error, :code 22, :name :precondition-failed, :definite? true, :body {:code 22, :in_reply_to 1, :text "current value 0 is not 2", :type "error"}}
+318	:invoke	:read	nil
+318	:ok	:read	0
+148	:invoke	:add	2
+148	:info	:add	2	indeterminate: throw+: {:type :rpc-error, :code 22, :name :precondition-failed, :definite? true, :body {:code 22, :in_reply_to 3, :text "current value 0 is not 2", :type "error"}}
+185	:invoke	:add	0
+185	:ok	:add	0
+318	:invoke	:read	nil
+318	:ok	:read	0
+318	:invoke	:add	1
+318	:info	:add	1	indeterminate: throw+: {:type :rpc-error, :code 22, :name :precondition-failed, :definite? true, :body {:code 22, :in_reply_to 5, :text "current value 0 is not 1", :type "error"}}
+151	:invoke	:add	4
+151	:info	:add	4	indeterminate: throw+: {:type :rpc-error, :code 22, :name :precondition-failed, :definite? true, :body {:code 22, :in_reply_to 1, :text "current value 0 is not 4", :type "error"}}
+185	:invoke	:add	3
+185	:info	:add	3	indeterminate: throw+: {:type :rpc-error, :code 22, :name :precondition-failed, :definite? true, :body {:code 22, :in_reply_to 2, :text "current value 0 is not 3", :type "error"}}
+321	:invoke	:read	nil
+321	:ok	:read	0
+321	:invoke	:add	3
+321	:info	:add	3	indeterminate: throw+: {:type :rpc-error, :code 22, :name :precondition-failed, :definite? true, :body {:code 22, :in_reply_to 2, :text "current value 0 is not 3", :type "error"}}
+154	:invoke	:read	nil
+154	:ok	:read	0
+188	:invoke	:read	nil
+188	:ok	:read	0
+324	:invoke	:read	nil
+324	:ok	:read	0
+324	:invoke	:read	nil
+324	:ok	:read	0
+154	:invoke	:read	nil
+154	:ok	:read	0
+188	:invoke	:read	nil
+188	:ok	:read	0
+324	:invoke	:read	nil
+324	:ok	:read	0
+324	:invoke	:read	nil
+324	:ok	:read	0
+154	:invoke	:read	nil
+154	:ok	:read	0
+188	:invoke	:read	nil
+188	:ok	:read	0
+324	:invoke	:read	nil
+324	:ok	:read	0
+324	:invoke	:add	2
+324	:info	:add	2	indeterminate: throw+: {:type :rpc-error, :code 22, :name :precondition-failed, :definite? true, :body {:code 22, :in_reply_to 6, :text "current value 0 is not 2", :type "error"}}
+154	:invoke	:read	nil
+154	:ok	:read	0
+188	:invoke	:add	1
+188	:info	:add	1	indeterminate: throw+: {:type :rpc-error, :code 22, :name :precondition-failed, :definite? true, :body {:code 22, :in_reply_to 4, :text "current value 0 is not 1", :type "error"}}
+327	:invoke	:read	nil
+327	:ok	:read	0
+327	:invoke	:read	nil
+327	:ok	:read	0
+154	:invoke	:read	nil
+154	:ok	:read	0
+191	:invoke	:read	nil
+191	:ok	:read	0
+327	:invoke	:read	nil
+327	:ok	:read	0
+327	:invoke	:read	nil
+327	:ok	:read	0
+154	:invoke	:add	1
+154	:info	:add	1	indeterminate: throw+: {:type :rpc-error, :code 22, :name :precondition-failed, :definite? true, :body {:code 22, :in_reply_to 6, :text "current value 0 is not 1", :type "error"}}
+191	:invoke	:read	nil
+191	:ok	:read	0
+327	:invoke	:add	3
+327	:info	:add	3	indeterminate: throw+: {:type :rpc-error, :code 22, :name :precondition-failed, :definite? true, :body {:code 22, :in_reply_to 5, :text "current value 0 is not 3", :type "error"}}
+330	:invoke	:read	nil
+330	:ok	:read	0
+157	:invoke	:read	nil
+157	:ok	:read	0
+191	:invoke	:read	nil
+191	:ok	:read	0
+330	:invoke	:add	0
+330	:ok	:add	0
+330	:invoke	:add	4
+330	:info	:add	4	indeterminate: throw+: {:type :rpc-error, :code 22, :name :precondition-failed, :definite? true, :body {:code 22, :in_reply_to 3, :text "current value 0 is not 4", :type "error"}}
+157	:invoke	:read	nil
+157	:ok	:read	0
+191	:invoke	:read	nil
+191	:ok	:read	0
+333	:invoke	:read	nil
+333	:ok	:read	0
+333	:invoke	:read	nil
+333	:ok	:read	0
+157	:invoke	:read	nil
+157	:ok	:read	0
+191	:invoke	:read	nil
+191	:ok	:read	0
+333	:invoke	:read	nil
+333	:ok	:read	0
+333	:invoke	:add	1
+333	:info	:add	1	indeterminate: throw+: {:type :rpc-error, :code 22, :name :precondition-failed, :definite? true, :body {:code 22, :in_reply_to 4, :text "current value 0 is not 1", :type "error"}}
+157	:invoke	:add	4
+157	:info	:add	4	indeterminate: throw+: {:type :rpc-error, :code 22, :name :precondition-failed, :definite? true, :body {:code 22, :in_reply_to 4, :text "current value 0 is not 4", :type "error"}}
+191	:invoke	:read	nil
+191	:ok	:read	0
+336	:invoke	:add	4
+336	:info	:add	4	indeterminate: throw+: {:type :rpc-error, :code 22, :name :precondition-failed, :definite? true, :body {:code 22, :in_reply_to 1, :text "current value 0 is not 4", :type "error"}}
+339	:invoke	:read	nil
+339	:ok	:read	0
+160	:invoke	:read	nil
+160	:ok	:read	0
+191	:invoke	:read	nil
+339	:invoke	:read	nil
+191	:ok	:read	0
+339	:ok	:read	0
+339	:invoke	:read	nil
+339	:ok	:read	0
+160	:invoke	:read	nil
+160	:ok	:read	0
+191	:invoke	:add	1
+191	:info	:add	1	indeterminate: throw+: {:type :rpc-error, :code 22, :name :precondition-failed, :definite? true, :body {:code 22, :in_reply_to 8, :text "current value 0 is not 1", :type "error"}}
+339	:invoke	:read	nil
+339	:ok	:read	0
+339	:invoke	:read	nil
+339	:ok	:read	0
+160	:invoke	:add	3
+160	:info	:add	3	indeterminate: throw+: {:type :rpc-error, :code 22, :name :precondition-failed, :definite? true, :body {:code 22, :in_reply_to 3, :text "current value 0 is not 3", :type "error"}}
+194	:invoke	:add	2
+194	:info	:add	2	indeterminate: throw+: {:type :rpc-error, :code 22, :name :precondition-failed, :definite? true, :body {:code 22, :in_reply_to 1, :text "current value 0 is not 2", :type "error"}}
+339	:invoke	:read	nil
+339	:ok	:read	0
+339	:invoke	:read	nil
+339	:ok	:read	0
+163	:invoke	:add	3
+197	:invoke	:read	nil
+339	:invoke	:read	nil
+339	:ok	:read	0
+197	:ok	:read	0
+163	:info	:add	3	indeterminate: throw+: {:type :rpc-error, :code 22, :name :precondition-failed, :definite? true, :body {:code 22, :in_reply_to 1, :text "current value 0 is not 3", :type "error"}}
+339	:invoke	:read	nil
+339	:ok	:read	0
+166	:invoke	:add	3
+166	:info	:add	3	indeterminate: throw+: {:type :rpc-error, :code 22, :name :precondition-failed, :definite? true, :body {:code 22, :in_reply_to 1, :text "current value 0 is not 3", :type "error"}}
+197	:invoke	:read	nil
+197	:ok	:read	0
+339	:invoke	:read	nil
+339	:ok	:read	0
+339	:invoke	:read	nil
+339	:ok	:read	0
+169	:invoke	:read	nil
+169	:ok	:read	0
+197	:invoke	:read	nil
+197	:ok	:read	0
+339	:invoke	:read	nil
+339	:ok	:read	0
+339	:invoke	:add	0
+339	:ok	:add	0
+169	:invoke	:read	nil
+169	:ok	:read	0
+197	:invoke	:read	nil
+197	:ok	:read	0
+339	:invoke	:read	nil
+339	:ok	:read	0
+339	:invoke	:read	nil
+339	:ok	:read	0
+169	:invoke	:read	nil
+169	:ok	:read	0
+197	:invoke	:read	nil
+197	:ok	:read	0
+339	:invoke	:read	nil
+339	:ok	:read	0
+339	:invoke	:add	3
+339	:info	:add	3	indeterminate: throw+: {:type :rpc-error, :code 22, :name :precondition-failed, :definite? true, :body {:code 22, :in_reply_to 17, :text "current value 0 is not 3", :type "error"}}
+169	:invoke	:read	nil
+169	:ok	:read	0
+197	:invoke	:read	nil
+197	:ok	:read	0
+342	:invoke	:read	nil
+342	:ok	:read	0
+342	:invoke	:read	nil
+169	:invoke	:read	nil
+342	:ok	:read	0
+169	:ok	:read	0
+197	:invoke	:add	2
+197	:info	:add	2	indeterminate: throw+: {:type :rpc-error, :code 22, :name :precondition-failed, :definite? true, :body {:code 22, :in_reply_to 7, :text "current value 0 is not 2", :type "error"}}
+342	:invoke	:add	3
+342	:info	:add	3	indeterminate: throw+: {:type :rpc-error, :code 22, :name :precondition-failed, :definite? true, :body {:code 22, :in_reply_to 3, :text "current value 0 is not 3", :type "error"}}
+345	:invoke	:add	3
+345	:info	:add	3	indeterminate: throw+: {:type :rpc-error, :code 22, :name :precondition-failed, :definite? true, :body {:code 22, :in_reply_to 1, :text "current value 0 is not 3", :type "error"}}
+169	:invoke	:read	nil
+169	:ok	:read	0
+200	:invoke	:add	3
+348	:invoke	:add	4
+200	:info	:add	3	indeterminate: throw+: {:type :rpc-error, :code 22, :name :precondition-failed, :definite? true, :body {:code 22, :in_reply_to 1, :text "current value 0 is not 3", :type "error"}}
+169	:invoke	:read	nil
+169	:ok	:read	0
+348	:info	:add	4	indeterminate: throw+: {:type :rpc-error, :code 22, :name :precondition-failed, :definite? true, :body {:code 22, :in_reply_to 1, :text "current value 0 is not 4", :type "error"}}
+169	:invoke	:read	nil
+169	:ok	:read	0
+203	:invoke	:read	nil
+203	:ok	:read	0
+351	:invoke	:read	nil
+351	:ok	:read	0
+351	:invoke	:read	nil
+351	:ok	:read	0
+169	:invoke	:read	nil
+169	:ok	:read	0
+203	:invoke	:read	nil
+203	:ok	:read	0
+351	:invoke	:add	1
+351	:info	:add	1	indeterminate: throw+: {:type :rpc-error, :code 22, :name :precondition-failed, :definite? true, :body {:code 22, :in_reply_to 3, :text "current value 0 is not 1", :type "error"}}
+354	:invoke	:add	3
+354	:info	:add	3	indeterminate: throw+: {:type :rpc-error, :code 22, :name :precondition-failed, :definite? true, :body {:code 22, :in_reply_to 1, :text "current value 0 is not 3", :type "error"}}
+169	:invoke	:read	nil
+169	:ok	:read	0
+203	:invoke	:read	nil
+203	:ok	:read	0
+357	:invoke	:add	4
+357	:info	:add	4	indeterminate: throw+: {:type :rpc-error, :code 22, :name :precondition-failed, :definite? true, :body {:code 22, :in_reply_to 1, :text "current value 0 is not 4", :type "error"}}
+360	:invoke	:read	nil
+360	:ok	:read	0
+169	:invoke	:read	nil
+169	:ok	:read	0
+203	:invoke	:add	1
+203	:info	:add	1	indeterminate: throw+: {:type :rpc-error, :code 22, :name :precondition-failed, :definite? true, :body {:code 22, :in_reply_to 4, :text "current value 0 is not 1", :type "error"}}
+360	:invoke	:read	nil
+360	:ok	:read	0
+360	:invoke	:add	1
+360	:info	:add	1	indeterminate: throw+: {:type :rpc-error, :code 22, :name :precondition-failed, :definite? true, :body {:code 22, :in_reply_to 3, :text "current value 0 is not 1", :type "error"}}
+169	:invoke	:read	nil
+169	:ok	:read	0
+206	:invoke	:add	0
+206	:ok	:add	0
+363	:invoke	:read	nil
+363	:ok	:read	0
+363	:invoke	:add	2
+363	:info	:add	2	indeterminate: throw+: {:type :rpc-error, :code 22, :name :precondition-failed, :definite? true, :body {:code 22, :in_reply_to 2, :text "current value 0 is not 2", :type "error"}}
+169	:invoke	:read	nil
+169	:ok	:read	0
+206	:invoke	:add	2
+206	:info	:add	2	indeterminate: throw+: {:type :rpc-error, :code 22, :name :precondition-failed, :definite? true, :body {:code 22, :in_reply_to 2, :text "current value 0 is not 2", :type "error"}}
+366	:invoke	:read	nil
+366	:ok	:read	0
+366	:invoke	:add	3
+366	:info	:add	3	indeterminate: throw+: {:type :rpc-error, :code 22, :name :precondition-failed, :definite? true, :body {:code 22, :in_reply_to 2, :text "current value 0 is not 3", :type "error"}}
+169	:invoke	:read	nil
+169	:ok	:read	0
+209	:invoke	:read	nil
+209	:ok	:read	0
+369	:invoke	:read	nil
+369	:ok	:read	0
+369	:invoke	:add	4
+369	:info	:add	4	indeterminate: throw+: {:type :rpc-error, :code 22, :name :precondition-failed, :definite? true, :body {:code 22, :in_reply_to 2, :text "current value 0 is not 4", :type "error"}}
+169	:invoke	:read	nil
+169	:ok	:read	0
+209	:invoke	:read	nil
+209	:ok	:read	0
+372	:invoke	:read	nil
+372	:ok	:read	0
+372	:invoke	:read	nil
+372	:ok	:read	0
+169	:invoke	:add	4
+169	:info	:add	4	indeterminate: throw+: {:type :rpc-error, :code 22, :name :precondition-failed, :definite? true, :body {:code 22, :in_reply_to 16, :text "current value 0 is not 4", :type "error"}}
+209	:invoke	:add	1
+209	:info	:add	1	indeterminate: throw+: {:type :rpc-error, :code 22, :name :precondition-failed, :definite? true, :body {:code 22, :in_reply_to 3, :text "current value 0 is not 1", :type "error"}}
+372	:invoke	:read	nil
+372	:ok	:read	0
+372	:invoke	:read	nil
+372	:ok	:read	0
+172	:invoke	:read	nil
+172	:ok	:read	0
+212	:invoke	:read	nil
+212	:ok	:read	0
+372	:invoke	:add	3
+372	:info	:add	3	indeterminate: throw+: {:type :rpc-error, :code 22, :name :precondition-failed, :definite? true, :body {:code 22, :in_reply_to 5, :text "current value 0 is not 3", :type "error"}}
+375	:invoke	:read	nil
+375	:ok	:read	0
+172	:invoke	:add	2
+172	:info	:add	2	indeterminate: throw+: {:type :rpc-error, :code 22, :name :precondition-failed, :definite? true, :body {:code 22, :in_reply_to 2, :text "current value 0 is not 2", :type "error"}}
+212	:invoke	:read	nil
+212	:ok	:read	0
+375	:invoke	:read	nil
+375	:ok	:read	0
+375	:invoke	:read	nil
+375	:ok	:read	0
+175	:invoke	:read	nil
+175	:ok	:read	0
+212	:invoke	:add	3
+212	:info	:add	3	indeterminate: throw+: {:type :rpc-error, :code 22, :name :precondition-failed, :definite? true, :body {:code 22, :in_reply_to 3, :text "current value 0 is not 3", :type "error"}}
+375	:invoke	:add	3
+375	:info	:add	3	indeterminate: throw+: {:type :rpc-error, :code 22, :name :precondition-failed, :definite? true, :body {:code 22, :in_reply_to 4, :text "current value 0 is not 3", :type "error"}}
+378	:invoke	:add	2
+378	:info	:add	2	indeterminate: throw+: {:type :rpc-error, :code 22, :name :precondition-failed, :definite? true, :body {:code 22, :in_reply_to 1, :text "current value 0 is not 2", :type "error"}}
+175	:invoke	:read	nil
+175	:ok	:read	0
+215	:invoke	:add	2
+215	:info	:add	2	indeterminate: throw+: {:type :rpc-error, :code 22, :name :precondition-failed, :definite? true, :body {:code 22, :in_reply_to 1, :text "current value 0 is not 2", :type "error"}}
+381	:invoke	:read	nil
+381	:ok	:read	0
+381	:invoke	:read	nil
+381	:ok	:read	0
+175	:invoke	:add	0
+218	:invoke	:read	nil
+218	:ok	:read	0
+175	:ok	:add	0
+381	:invoke	:add	1
+381	:info	:add	1	indeterminate: throw+: {:type :rpc-error, :code 22, :name :precondition-failed, :definite? true, :body {:code 22, :in_reply_to 3, :text "current value 0 is not 1", :type "error"}}
+384	:invoke	:read	nil
+384	:ok	:read	0
+175	:invoke	:read	nil
+175	:ok	:read	0
+218	:invoke	:add	3
+218	:info	:add	3	indeterminate: throw+: {:type :rpc-error, :code 22, :name :precondition-failed, :definite? true, :body {:code 22, :in_reply_to 2, :text "current value 0 is not 3", :type "error"}}
+384	:invoke	:read	nil
+384	:ok	:read	0
+384	:invoke	:add	4
+384	:info	:add	4	indeterminate: throw+: {:type :rpc-error, :code 22, :name :precondition-failed, :definite? true, :body {:code 22, :in_reply_to 3, :text "current value 0 is not 4", :type "error"}}
+175	:invoke	:add	0
+175	:ok	:add	0
+221	:invoke	:add	3
+221	:info	:add	3	indeterminate: throw+: {:type :rpc-error, :code 22, :name :precondition-failed, :definite? true, :body {:code 22, :in_reply_to 1, :text "current value 0 is not 3", :type "error"}}
+387	:invoke	:read	nil
+387	:ok	:read	0
+387	:invoke	:read	nil
+387	:ok	:read	0
+175	:invoke	:read	nil
+175	:ok	:read	0
+224	:invoke	:read	nil
+224	:ok	:read	0
+387	:invoke	:add	1
+387	:info	:add	1	indeterminate: throw+: {:type :rpc-error, :code 22, :name :precondition-failed, :definite? true, :body {:code 22, :in_reply_to 3, :text "current value 0 is not 1", :type "error"}}
+390	:invoke	:add	2
+390	:info	:add	2	indeterminate: throw+: {:type :rpc-error, :code 22, :name :precondition-failed, :definite? true, :body {:code 22, :in_reply_to 1, :text "current value 0 is not 2", :type "error"}}
+175	:invoke	:add	4
+175	:info	:add	4	indeterminate: throw+: {:type :rpc-error, :code 22, :name :precondition-failed, :definite? true, :body {:code 22, :in_reply_to 7, :text "current value 0 is not 4", :type "error"}}
+224	:invoke	:read	nil
+224	:ok	:read	0
+393	:invoke	:read	nil
+393	:ok	:read	0
+393	:invoke	:read	nil
+393	:ok	:read	0
+178	:invoke	:add	0
+178	:ok	:add	0
+224	:invoke	:read	nil
+393	:invoke	:read	nil
+393	:ok	:read	0
+224	:ok	:read	0
+393	:invoke	:add	2
+393	:info	:add	2	indeterminate: throw+: {:type :rpc-error, :code 22, :name :precondition-failed, :definite? true, :body {:code 22, :in_reply_to 4, :text "current value 0 is not 2", :type "error"}}
+178	:invoke	:read	nil
+178	:ok	:read	0
+224	:invoke	:read	nil
+224	:ok	:read	0
+396	:invoke	:read	nil
+396	:ok	:read	0
+396	:invoke	:add	4
+396	:info	:add	4	indeterminate: throw+: {:type :rpc-error, :code 22, :name :precondition-failed, :definite? true, :body {:code 22, :in_reply_to 2, :text "current value 0 is not 4", :type "error"}}
+178	:invoke	:read	nil
+178	:ok	:read	0
+224	:invoke	:read	nil
+224	:ok	:read	0
+399	:invoke	:add	1
+399	:info	:add	1	indeterminate: throw+: {:type :rpc-error, :code 22, :name :precondition-failed, :definite? true, :body {:code 22, :in_reply_to 1, :text "current value 0 is not 1", :type "error"}}
+402	:invoke	:add	3
+402	:info	:add	3	indeterminate: throw+: {:type :rpc-error, :code 22, :name :precondition-failed, :definite? true, :body {:code 22, :in_reply_to 1, :text "current value 0 is not 3", :type "error"}}
+178	:invoke	:read	nil
+178	:ok	:read	0
+224	:invoke	:read	nil
+224	:ok	:read	0
+405	:invoke	:read	nil
+405	:ok	:read	0
+405	:invoke	:read	nil
+405	:ok	:read	0
+178	:invoke	:add	4
+178	:info	:add	4	indeterminate: throw+: {:type :rpc-error, :code 22, :name :precondition-failed, :definite? true, :body {:code 22, :in_reply_to 5, :text "current value 0 is not 4", :type "error"}}
+224	:invoke	:add	2
+224	:info	:add	2	indeterminate: throw+: {:type :rpc-error, :code 22, :name :precondition-failed, :definite? true, :body {:code 22, :in_reply_to 7, :text "current value 0 is not 2", :type "error"}}
+405	:invoke	:add	0
+405	:ok	:add	0
+405	:invoke	:add	1
+405	:info	:add	1	indeterminate: throw+: {:type :rpc-error, :code 22, :name :precondition-failed, :definite? true, :body {:code 22, :in_reply_to 4, :text "current value 0 is not 1", :type "error"}}
+181	:invoke	:read	nil
+181	:ok	:read	0
+227	:invoke	:read	nil
+227	:ok	:read	0
+408	:invoke	:add	4
+408	:info	:add	4	indeterminate: throw+: {:type :rpc-error, :code 22, :name :precondition-failed, :definite? true, :body {:code 22, :in_reply_to 1, :text "current value 0 is not 4", :type "error"}}
+411	:invoke	:read	nil
+411	:ok	:read	0
+181	:invoke	:read	nil
+181	:ok	:read	0
+227	:invoke	:read	nil
+227	:ok	:read	0
+411	:invoke	:read	nil
+411	:ok	:read	0
+411	:invoke	:add	0
+411	:ok	:add	0
+181	:invoke	:read	nil
+181	:ok	:read	0
+227	:invoke	:read	nil
+227	:ok	:read	0
+411	:invoke	:add	0
+411	:ok	:add	0
+411	:invoke	:read	nil
+411	:ok	:read	0
+181	:invoke	:read	nil
+181	:ok	:read	0
+227	:invoke	:add	2
+227	:info	:add	2	indeterminate: throw+: {:type :rpc-error, :code 22, :name :precondition-failed, :definite? true, :body {:code 22, :in_reply_to 4, :text "current value 0 is not 2", :type "error"}}
+411	:invoke	:add	4
+411	:info	:add	4	indeterminate: throw+: {:type :rpc-error, :code 22, :name :precondition-failed, :definite? true, :body {:code 22, :in_reply_to 6, :text "current value 0 is not 4", :type "error"}}
+414	:invoke	:read	nil
+414	:ok	:read	0
+181	:invoke	:read	nil
+181	:ok	:read	0
+230	:invoke	:read	nil
+230	:ok	:read	0
+414	:invoke	:add	2
+414	:info	:add	2	indeterminate: throw+: {:type :rpc-error, :code 22, :name :precondition-failed, :definite? true, :body {:code 22, :in_reply_to 2, :text "current value 0 is not 2", :type "error"}}
+417	:invoke	:read	nil
+417	:ok	:read	0
+181	:invoke	:read	nil
+181	:ok	:read	0
+230	:invoke	:add	3
+230	:info	:add	3	indeterminate: throw+: {:type :rpc-error, :code 22, :name :precondition-failed, :definite? true, :body {:code 22, :in_reply_to 2, :text "current value 0 is not 3", :type "error"}}
+417	:invoke	:read	nil
+417	:ok	:read	0
+417	:invoke	:add	0
+417	:ok	:add	0
+181	:invoke	:read	nil
+181	:ok	:read	0
+233	:invoke	:read	nil
+233	:ok	:read	0
+417	:invoke	:add	2
+417	:info	:add	2	indeterminate: throw+: {:type :rpc-error, :code 22, :name :precondition-failed, :definite? true, :body {:code 22, :in_reply_to 4, :text "current value 0 is not 2", :type "error"}}
+420	:invoke	:read	nil
+420	:ok	:read	0
+181	:invoke	:add	0
+181	:ok	:add	0
+233	:invoke	:add	2
+233	:info	:add	2	indeterminate: throw+: {:type :rpc-error, :code 22, :name :precondition-failed, :definite? true, :body {:code 22, :in_reply_to 2, :text "current value 0 is not 2", :type "error"}}
+420	:invoke	:read	nil
+420	:ok	:read	0
+420	:invoke	:read	nil
+420	:ok	:read	0
+181	:invoke	:read	nil
+181	:ok	:read	0
+236	:invoke	:read	nil
+236	:ok	:read	0
+420	:invoke	:read	nil
+420	:ok	:read	0
+420	:invoke	:read	nil
+420	:ok	:read	0
+181	:invoke	:add	3
+181	:info	:add	3	indeterminate: throw+: {:type :rpc-error, :code 22, :name :precondition-failed, :definite? true, :body {:code 22, :in_reply_to 10, :text "current value 0 is not 3", :type "error"}}
+236	:invoke	:add	4
+236	:info	:add	4	indeterminate: throw+: {:type :rpc-error, :code 22, :name :precondition-failed, :definite? true, :body {:code 22, :in_reply_to 2, :text "current value 0 is not 4", :type "error"}}
+420	:invoke	:read	nil
+420	:ok	:read	0
+420	:invoke	:read	nil
+420	:ok	:read	0
+184	:invoke	:read	nil
+184	:ok	:read	0
+239	:invoke	:add	1
+239	:info	:add	1	indeterminate: throw+: {:type :rpc-error, :code 22, :name :precondition-failed, :definite? true, :body {:code 22, :in_reply_to 1, :text "current value 0 is not 1", :type "error"}}
+420	:invoke	:add	2
+420	:info	:add	2	indeterminate: throw+: {:type :rpc-error, :code 22, :name :precondition-failed, :definite? true, :body {:code 22, :in_reply_to 8, :text "current value 0 is not 2", :type "error"}}
+423	:invoke	:add	3
+423	:info	:add	3	indeterminate: throw+: {:type :rpc-error, :code 22, :name :precondition-failed, :definite? true, :body {:code 22, :in_reply_to 1, :text "current value 0 is not 3", :type "error"}}
+184	:invoke	:read	nil
+184	:ok	:read	0
+242	:invoke	:add	4
+242	:info	:add	4	indeterminate: throw+: {:type :rpc-error, :code 22, :name :precondition-failed, :definite? true, :body {:code 22, :in_reply_to 1, :text "current value 0 is not 4", :type "error"}}
+426	:invoke	:read	nil
+426	:ok	:read	0
+426	:invoke	:read	nil
+426	:ok	:read	0
+184	:invoke	:read	nil
+184	:ok	:read	0
+245	:invoke	:read	nil
+245	:ok	:read	0
+426	:invoke	:add	3
+426	:info	:add	3	indeterminate: throw+: {:type :rpc-error, :code 22, :name :precondition-failed, :definite? true, :body {:code 22, :in_reply_to 3, :text "current value 0 is not 3", :type "error"}}
+429	:invoke	:read	nil
+429	:ok	:read	0
+184	:invoke	:read	nil
+184	:ok	:read	0
+245	:invoke	:read	nil
+245	:ok	:read	0
+429	:invoke	:read	nil
+429	:ok	:read	0
+429	:invoke	:read	nil
+429	:ok	:read	0
+184	:invoke	:add	2
+184	:info	:add	2	indeterminate: throw+: {:type :rpc-error, :code 22, :name :precondition-failed, :definite? true, :body {:code 22, :in_reply_to 5, :text "current value 0 is not 2", :type "error"}}
+245	:invoke	:add	4
+245	:info	:add	4	indeterminate: throw+: {:type :rpc-error, :code 22, :name :precondition-failed, :definite? true, :body {:code 22, :in_reply_to 3, :text "current value 0 is not 4", :type "error"}}
+429	:invoke	:add	3
+429	:info	:add	3	indeterminate: throw+: {:type :rpc-error, :code 22, :name :precondition-failed, :definite? true, :body {:code 22, :in_reply_to 4, :text "current value 0 is not 3", :type "error"}}
+432	:invoke	:read	nil
+432	:ok	:read	0
+187	:invoke	:add	0
+187	:ok	:add	0
+248	:invoke	:read	nil
+248	:ok	:read	0
+432	:invoke	:add	0
+432	:ok	:add	0
+432	:invoke	:read	nil
+432	:ok	:read	0
+187	:invoke	:read	nil
+187	:ok	:read	0
+248	:invoke	:read	nil
+248	:ok	:read	0
+432	:invoke	:add	1
+432	:info	:add	1	indeterminate: throw+: {:type :rpc-error, :code 22, :name :precondition-failed, :definite? true, :body {:code 22, :in_reply_to 4, :text "current value 0 is not 1", :type "error"}}
+435	:invoke	:read	nil
+435	:ok	:read	0
+187	:invoke	:add	0
+187	:ok	:add	0
+248	:invoke	:add	2
+248	:info	:add	2	indeterminate: throw+: {:type :rpc-error, :code 22, :name :precondition-failed, :definite? true, :body {:code 22, :in_reply_to 3, :text "current value 0 is not 2", :type "error"}}
+435	:invoke	:add	3
+435	:info	:add	3	indeterminate: throw+: {:type :rpc-error, :code 22, :name :precondition-failed, :definite? true, :body {:code 22, :in_reply_to 2, :text "current value 0 is not 3", :type "error"}}
+438	:invoke	:add	1
+438	:info	:add	1	indeterminate: throw+: {:type :rpc-error, :code 22, :name :precondition-failed, :definite? true, :body {:code 22, :in_reply_to 1, :text "current value 0 is not 1", :type "error"}}
+187	:invoke	:read	nil
+187	:ok	:read	0
+251	:invoke	:add	3
+251	:info	:add	3	indeterminate: throw+: {:type :rpc-error, :code 22, :name :precondition-failed, :definite? true, :body {:code 22, :in_reply_to 1, :text "current value 0 is not 3", :type "error"}}
+441	:invoke	:read	nil
+441	:ok	:read	0
+441	:invoke	:read	nil
+441	:ok	:read	0
+187	:invoke	:add	4
+187	:info	:add	4	indeterminate: throw+: {:type :rpc-error, :code 22, :name :precondition-failed, :definite? true, :body {:code 22, :in_reply_to 5, :text "current value 0 is not 4", :type "error"}}
+254	:invoke	:add	0
+254	:ok	:add	0
+441	:invoke	:add	0
+441	:ok	:add	0
+441	:invoke	:add	0
+441	:ok	:add	0
+190	:invoke	:read	nil
+190	:ok	:read	0
+254	:invoke	:add	3
+254	:info	:add	3	indeterminate: throw+: {:type :rpc-error, :code 22, :name :precondition-failed, :definite? true, :body {:code 22, :in_reply_to 2, :text "current value 0 is not 3", :type "error"}}
+441	:invoke	:add	4
+441	:info	:add	4	indeterminate: throw+: {:type :rpc-error, :code 22, :name :precondition-failed, :definite? true, :body {:code 22, :in_reply_to 5, :text "current value 0 is not 4", :type "error"}}
+444	:invoke	:add	4
+444	:info	:add	4	indeterminate: throw+: {:type :rpc-error, :code 22, :name :precondition-failed, :definite? true, :body {:code 22, :in_reply_to 1, :text "current value 0 is not 4", :type "error"}}
+190	:invoke	:read	nil
+190	:ok	:read	0
+257	:invoke	:read	nil
+257	:ok	:read	0
+447	:invoke	:read	nil
+447	:ok	:read	0
+447	:invoke	:read	nil
+447	:ok	:read	0
+190	:invoke	:read	nil
+190	:ok	:read	0
+257	:invoke	:add	3
+257	:info	:add	3	indeterminate: throw+: {:type :rpc-error, :code 22, :name :precondition-failed, :definite? true, :body {:code 22, :in_reply_to 2, :text "current value 0 is not 3", :type "error"}}
+447	:invoke	:read	nil
+447	:ok	:read	0
+447	:invoke	:read	nil
+447	:ok	:read	0
+190	:invoke	:read	nil
+190	:ok	:read	0
+260	:invoke	:add	1
+260	:info	:add	1	indeterminate: throw+: {:type :rpc-error, :code 22, :name :precondition-failed, :definite? true, :body {:code 22, :in_reply_to 1, :text "current value 0 is not 1", :type "error"}}
+447	:invoke	:add	3
+447	:info	:add	3	indeterminate: throw+: {:type :rpc-error, :code 22, :name :precondition-failed, :definite? true, :body {:code 22, :in_reply_to 5, :text "current value 0 is not 3", :type "error"}}
+450	:invoke	:read	nil
+450	:ok	:read	0
+190	:invoke	:add	3
+190	:info	:add	3	indeterminate: throw+: {:type :rpc-error, :code 22, :name :precondition-failed, :definite? true, :body {:code 22, :in_reply_to 5, :text "current value 0 is not 3", :type "error"}}
+263	:invoke	:read	nil
+263	:ok	:read	0
+450	:invoke	:read	nil
+450	:ok	:read	0
+450	:invoke	:read	nil
+450	:ok	:read	0
+193	:invoke	:add	1
+193	:info	:add	1	indeterminate: throw+: {:type :rpc-error, :code 22, :name :precondition-failed, :definite? true, :body {:code 22, :in_reply_to 1, :text "current value 0 is not 1", :type "error"}}
+263	:invoke	:add	3
+263	:info	:add	3	indeterminate: throw+: {:type :rpc-error, :code 22, :name :precondition-failed, :definite? true, :body {:code 22, :in_reply_to 2, :text "current value 0 is not 3", :type "error"}}
+450	:invoke	:add	2
+450	:info	:add	2	indeterminate: throw+: {:type :rpc-error, :code 22, :name :precondition-failed, :definite? true, :body {:code 22, :in_reply_to 4, :text "current value 0 is not 2", :type "error"}}
+453	:invoke	:read	nil
+453	:ok	:read	0
+196	:invoke	:add	2
+196	:info	:add	2	indeterminate: throw+: {:type :rpc-error, :code 22, :name :precondition-failed, :definite? true, :body {:code 22, :in_reply_to 1, :text "current value 0 is not 2", :type "error"}}
+266	:invoke	:add	0
+266	:ok	:add	0
+453	:invoke	:read	nil
+453	:ok	:read	0
+453	:invoke	:read	nil
+453	:ok	:read	0
+199	:invoke	:add	2
+199	:info	:add	2	indeterminate: throw+: {:type :rpc-error, :code 22, :name :precondition-failed, :definite? true, :body {:code 22, :in_reply_to 1, :text "current value 0 is not 2", :type "error"}}
+266	:invoke	:read	nil
+266	:ok	:read	0
+453	:invoke	:read	nil
+453	:ok	:read	0
+453	:invoke	:read	nil
+453	:ok	:read	0
+202	:invoke	:read	nil
+202	:ok	:read	0
+266	:invoke	:add	0
+266	:ok	:add	0
+453	:invoke	:read	nil
+453	:ok	:read	0
+453	:invoke	:add	4
+453	:info	:add	4	indeterminate: throw+: {:type :rpc-error, :code 22, :name :precondition-failed, :definite? true, :body {:code 22, :in_reply_to 7, :text "current value 0 is not 4", :type "error"}}
+202	:invoke	:read	nil
+202	:ok	:read	0
+266	:invoke	:read	nil
+266	:ok	:read	0
+456	:invoke	:read	nil
+456	:ok	:read	0
+456	:invoke	:read	nil
+456	:ok	:read	0
+202	:invoke	:add	4
+202	:info	:add	4	indeterminate: throw+: {:type :rpc-error, :code 22, :name :precondition-failed, :definite? true, :body {:code 22, :in_reply_to 3, :text "current value 0 is not 4", :type "error"}}
+266	:invoke	:read	nil
+266	:ok	:read	0
+456	:invoke	:add	2
+205	:invoke	:add	1
+456	:info	:add	2	indeterminate: throw+: {:type :rpc-error, :code 22, :name :precondition-failed, :definite? true, :body {:code 22, :in_reply_to 3, :text "current value 0 is not 2", :type "error"}}
+205	:info	:add	1	indeterminate: throw+: {:type :rpc-error, :code 22, :name :precondition-failed, :definite? true, :body {:code 22, :in_reply_to 1, :text "current value 0 is not 1", :type "error"}}
+208	:invoke	:add	4
+208	:info	:add	4	indeterminate: throw+: {:type :rpc-error, :code 22, :name :precondition-failed, :definite? true, :body {:code 22, :in_reply_to 1, :text "current value 0 is not 4", :type "error"}}
+266	:invoke	:read	nil
+266	:ok	:read	0
+459	:invoke	:read	nil
+459	:ok	:read	0
+459	:invoke	:add	2
+459	:info	:add	2	indeterminate: throw+: {:type :rpc-error, :code 22, :name :precondition-failed, :definite? true, :body {:code 22, :in_reply_to 2, :text "current value 0 is not 2", :type "error"}}
+211	:invoke	:add	2
+211	:info	:add	2	indeterminate: throw+: {:type :rpc-error, :code 22, :name :precondition-failed, :definite? true, :body {:code 22, :in_reply_to 1, :text "current value 0 is not 2", :type "error"}}
+266	:invoke	:add	4
+266	:info	:add	4	indeterminate: throw+: {:type :rpc-error, :code 22, :name :precondition-failed, :definite? true, :body {:code 22, :in_reply_to 7, :text "current value 0 is not 4", :type "error"}}
+462	:invoke	:read	nil
+462	:ok	:read	0
+462	:invoke	:read	nil
+462	:ok	:read	0
+214	:invoke	:read	nil
+214	:ok	:read	0
+269	:invoke	:read	nil
+269	:ok	:read	0
+462	:invoke	:add	3
+462	:info	:add	3	indeterminate: throw+: {:type :rpc-error, :code 22, :name :precondition-failed, :definite? true, :body {:code 22, :in_reply_to 3, :text "current value 0 is not 3", :type "error"}}
+465	:invoke	:add	2
+465	:info	:add	2	indeterminate: throw+: {:type :rpc-error, :code 22, :name :precondition-failed, :definite? true, :body {:code 22, :in_reply_to 1, :text "current value 0 is not 2", :type "error"}}
+214	:invoke	:read	nil
+214	:ok	:read	0
+269	:invoke	:read	nil
+269	:ok	:read	0
+468	:invoke	:read	nil
+468	:ok	:read	0
+468	:invoke	:read	nil
+468	:ok	:read	0
+214	:invoke	:add	0
+214	:ok	:add	0
+269	:invoke	:read	nil
+269	:ok	:read	0
+468	:invoke	:read	nil
+468	:ok	:read	0
+468	:invoke	:read	nil
+468	:ok	:read	0
+214	:invoke	:read	nil
+214	:ok	:read	0
+269	:invoke	:read	nil
+269	:ok	:read	0
+468	:invoke	:add	3
+468	:info	:add	3	indeterminate: throw+: {:type :rpc-error, :code 22, :name :precondition-failed, :definite? true, :body {:code 22, :in_reply_to 5, :text "current value 0 is not 3", :type "error"}}
+471	:invoke	:add	3
+471	:info	:add	3	indeterminate: throw+: {:type :rpc-error, :code 22, :name :precondition-failed, :definite? true, :body {:code 22, :in_reply_to 1, :text "current value 0 is not 3", :type "error"}}
+214	:invoke	:read	nil
+214	:ok	:read	0
+269	:invoke	:read	nil
+269	:ok	:read	0
+474	:invoke	:add	2
+474	:info	:add	2	indeterminate: throw+: {:type :rpc-error, :code 22, :name :precondition-failed, :definite? true, :body {:code 22, :in_reply_to 1, :text "current value 0 is not 2", :type "error"}}
+477	:invoke	:read	nil
+477	:ok	:read	0
+214	:invoke	:read	nil
+214	:ok	:read	0
+269	:invoke	:read	nil
+269	:ok	:read	0
+477	:invoke	:add	0
+477	:ok	:add	0
+477	:invoke	:read	nil
+477	:ok	:read	0
+214	:invoke	:read	nil
+214	:ok	:read	0
+269	:invoke	:read	nil
+269	:ok	:read	0
+477	:invoke	:add	4
+477	:info	:add	4	indeterminate: throw+: {:type :rpc-error, :code 22, :name :precondition-failed, :definite? true, :body {:code 22, :in_reply_to 4, :text "current value 0 is not 4", :type "error"}}
+480	:invoke	:read	nil
+480	:ok	:read	0
+214	:invoke	:read	nil
+214	:ok	:read	0
+269	:invoke	:add	3
+269	:info	:add	3	indeterminate: throw+: {:type :rpc-error, :code 22, :name :precondition-failed, :definite? true, :body {:code 22, :in_reply_to 8, :text "current value 0 is not 3", :type "error"}}
+480	:invoke	:read	nil
+480	:ok	:read	0
+480	:invoke	:add	3
+480	:info	:add	3	indeterminate: throw+: {:type :rpc-error, :code 22, :name :precondition-failed, :definite? true, :body {:code 22, :in_reply_to 3, :text "current value 0 is not 3", :type "error"}}
+214	:invoke	:read	nil
+214	:ok	:read	0
+272	:invoke	:read	nil
+272	:ok	:read	0
+483	:invoke	:add	0
+483	:ok	:add	0
+483	:invoke	:read	nil
+483	:ok	:read	0
+214	:invoke	:add	1
+214	:info	:add	1	indeterminate: throw+: {:type :rpc-error, :code 22, :name :precondition-failed, :definite? true, :body {:code 22, :in_reply_to 10, :text "current value 0 is not 1", :type "error"}}
+272	:invoke	:read	nil
+272	:ok	:read	0
+483	:invoke	:read	nil
+483	:ok	:read	0
+483	:invoke	:read	nil
+483	:ok	:read	0
+217	:invoke	:read	nil
+217	:ok	:read	0
+272	:invoke	:read	nil
+272	:ok	:read	0
+483	:invoke	:add	3
+483	:info	:add	3	indeterminate: throw+: {:type :rpc-error, :code 22, :name :precondition-failed, :definite? true, :body {:code 22, :in_reply_to 5, :text "current value 0 is not 3", :type "error"}}
+486	:invoke	:read	nil
+486	:ok	:read	0
+217	:invoke	:read	nil
+217	:ok	:read	0
+272	:invoke	:read	nil
+272	:ok	:read	0
+486	:invoke	:read	nil
+486	:ok	:read	0
+486	:invoke	:read	nil
+486	:ok	:read	0
+217	:invoke	:add	2
+217	:info	:add	2	indeterminate: throw+: {:type :rpc-error, :code 22, :name :precondition-failed, :definite? true, :body {:code 22, :in_reply_to 3, :text "current value 0 is not 2", :type "error"}}
+272	:invoke	:read	nil
+272	:ok	:read	0
+486	:invoke	:read	nil
+486	:ok	:read	0
+486	:invoke	:add	1
+486	:info	:add	1	indeterminate: throw+: {:type :rpc-error, :code 22, :name :precondition-failed, :definite? true, :body {:code 22, :in_reply_to 5, :text "current value 0 is not 1", :type "error"}}
+220	:invoke	:add	2
+220	:info	:add	2	indeterminate: throw+: {:type :rpc-error, :code 22, :name :precondition-failed, :definite? true, :body {:code 22, :in_reply_to 1, :text "current value 0 is not 2", :type "error"}}
+272	:invoke	:read	nil
+272	:ok	:read	0
+489	:invoke	:read	nil
+489	:ok	:read	0
+489	:invoke	:read	nil
+489	:ok	:read	0
+223	:invoke	:read	nil
+223	:ok	:read	0
+272	:invoke	:read	nil
+272	:ok	:read	0
+489	:invoke	:read	nil
+489	:ok	:read	0
+489	:invoke	:read	nil
+489	:ok	:read	0
+223	:invoke	:read	nil
+223	:ok	:read	0
+272	:invoke	:read	nil
+272	:ok	:read	0
+489	:invoke	:add	3
+489	:info	:add	3	indeterminate: throw+: {:type :rpc-error, :code 22, :name :precondition-failed, :definite? true, :body {:code 22, :in_reply_to 5, :text "current value 0 is not 3", :type "error"}}
+492	:invoke	:add	1
+492	:info	:add	1	indeterminate: throw+: {:type :rpc-error, :code 22, :name :precondition-failed, :definite? true, :body {:code 22, :in_reply_to 1, :text "current value 0 is not 1", :type "error"}}
+223	:invoke	:read	nil
+223	:ok	:read	0
+272	:invoke	:add	3
+272	:info	:add	3	indeterminate: throw+: {:type :rpc-error, :code 22, :name :precondition-failed, :definite? true, :body {:code 22, :in_reply_to 9, :text "current value 0 is not 3", :type "error"}}
+495	:invoke	:read	nil
+495	:ok	:read	0
+495	:invoke	:read	nil
+495	:ok	:read	0
+223	:invoke	:read	nil
+223	:ok	:read	0
+275	:invoke	:add	2
+275	:info	:add	2	indeterminate: throw+: {:type :rpc-error, :code 22, :name :precondition-failed, :definite? true, :body {:code 22, :in_reply_to 1, :text "current value 0 is not 2", :type "error"}}
+495	:invoke	:read	nil
+495	:ok	:read	0
+495	:invoke	:read	nil
+495	:ok	:read	0
+223	:invoke	:read	nil
+223	:ok	:read	0
+278	:invoke	:read	nil
+278	:ok	:read	0
+495	:invoke	:read	nil
+495	:ok	:read	0
+495	:invoke	:read	nil
+495	:ok	:read	0
+223	:invoke	:read	nil
+223	:ok	:read	0
+278	:invoke	:read	nil
+278	:ok	:read	0
+495	:invoke	:read	nil
+495	:ok	:read	0
+495	:invoke	:read	nil
+495	:ok	:read	0
+223	:invoke	:read	nil
+223	:ok	:read	0
+278	:invoke	:read	nil
+278	:ok	:read	0
+495	:invoke	:read	nil
+495	:ok	:read	0
+495	:invoke	:add	3
+495	:info	:add	3	indeterminate: throw+: {:type :rpc-error, :code 22, :name :precondition-failed, :definite? true, :body {:code 22, :in_reply_to 10, :text "current value 0 is not 3", :type "error"}}
+223	:invoke	:read	nil
+223	:ok	:read	0
+278	:invoke	:read	nil
+278	:ok	:read	0
+498	:invoke	:read	nil
+498	:ok	:read	0
+498	:invoke	:read	nil
+498	:ok	:read	0
+223	:invoke	:add	0
+223	:ok	:add	0
+278	:invoke	:read	nil
+498	:invoke	:read	nil
+278	:ok	:read	0
+498	:ok	:read	0
+498	:invoke	:read	nil
+498	:ok	:read	0
+223	:invoke	:read	nil
+223	:ok	:read	0
+278	:invoke	:read	nil
+278	:ok	:read	0
+498	:invoke	:read	nil
+498	:ok	:read	0
+498	:invoke	:read	nil
+498	:ok	:read	0
+223	:invoke	:read	nil
+223	:ok	:read	0
+278	:invoke	:read	nil
+278	:ok	:read	0
+498	:invoke	:add	4
+498	:info	:add	4	indeterminate: throw+: {:type :rpc-error, :code 22, :name :precondition-failed, :definite? true, :body {:code 22, :in_reply_to 7, :text "current value 0 is not 4", :type "error"}}
+501	:invoke	:read	nil
+501	:ok	:read	0
+223	:invoke	:read	nil
+223	:ok	:read	0
+278	:invoke	:add	4
+501	:invoke	:add	3
+278	:info	:add	4	indeterminate: throw+: {:type :rpc-error, :code 22, :name :precondition-failed, :definite? true, :body {:code 22, :in_reply_to 8, :text "current value 0 is not 4", :type "error"}}
+501	:info	:add	3	indeterminate: throw+: {:type :rpc-error, :code 22, :name :precondition-failed, :definite? true, :body {:code 22, :in_reply_to 2, :text "current value 0 is not 3", :type "error"}}
+504	:invoke	:add	3
+504	:info	:add	3	indeterminate: throw+: {:type :rpc-error, :code 22, :name :precondition-failed, :definite? true, :body {:code 22, :in_reply_to 1, :text "current value 0 is not 3", :type "error"}}
+223	:invoke	:add	1
+223	:info	:add	1	indeterminate: throw+: {:type :rpc-error, :code 22, :name :precondition-failed, :definite? true, :body {:code 22, :in_reply_to 13, :text "current value 0 is not 1", :type "error"}}
+281	:invoke	:read	nil
+281	:ok	:read	0
+507	:invoke	:read	nil
+507	:ok	:read	0
+507	:invoke	:read	nil
+507	:ok	:read	0
+226	:invoke	:read	nil
+226	:ok	:read	0
+281	:invoke	:add	3
+281	:info	:add	3	indeterminate: throw+: {:type :rpc-error, :code 22, :name :precondition-failed, :definite? true, :body {:code 22, :in_reply_to 2, :text "current value 0 is not 3", :type "error"}}
+507	:invoke	:add	4
+507	:info	:add	4	indeterminate: throw+: {:type :rpc-error, :code 22, :name :precondition-failed, :definite? true, :body {:code 22, :in_reply_to 3, :text "current value 0 is not 4", :type "error"}}
+510	:invoke	:read	nil
+510	:ok	:read	0
+226	:invoke	:add	3
+226	:info	:add	3	indeterminate: throw+: {:type :rpc-error, :code 22, :name :precondition-failed, :definite? true, :body {:code 22, :in_reply_to 2, :text "current value 0 is not 3", :type "error"}}
+284	:invoke	:add	2
+284	:info	:add	2	indeterminate: throw+: {:type :rpc-error, :code 22, :name :precondition-failed, :definite? true, :body {:code 22, :in_reply_to 1, :text "current value 0 is not 2", :type "error"}}
+510	:invoke	:read	nil
+510	:ok	:read	0
+510	:invoke	:add	1
+510	:info	:add	1	indeterminate: throw+: {:type :rpc-error, :code 22, :name :precondition-failed, :definite? true, :body {:code 22, :in_reply_to 3, :text "current value 0 is not 1", :type "error"}}
+229	:invoke	:read	nil
+229	:ok	:read	0
+287	:invoke	:read	nil
+287	:ok	:read	0
+513	:invoke	:read	nil
+513	:ok	:read	0
+513	:invoke	:read	nil
+513	:ok	:read	0
+229	:invoke	:add	2
+229	:info	:add	2	indeterminate: throw+: {:type :rpc-error, :code 22, :name :precondition-failed, :definite? true, :body {:code 22, :in_reply_to 2, :text "current value 0 is not 2", :type "error"}}
+287	:invoke	:read	nil
+287	:ok	:read	0
+513	:invoke	:read	nil
+232	:invoke	:add	1
+513	:ok	:read	0
+232	:info	:add	1	indeterminate: throw+: {:type :rpc-error, :code 22, :name :precondition-failed, :definite? true, :body {:code 22, :in_reply_to 1, :text "current value 0 is not 1", :type "error"}}
+235	:invoke	:read	nil
+235	:ok	:read	0
+287	:invoke	:add	4
+287	:info	:add	4	indeterminate: throw+: {:type :rpc-error, :code 22, :name :precondition-failed, :definite? true, :body {:code 22, :in_reply_to 3, :text "current value 0 is not 4", :type "error"}}
+513	:invoke	:add	2
+513	:info	:add	2	indeterminate: throw+: {:type :rpc-error, :code 22, :name :precondition-failed, :definite? true, :body {:code 22, :in_reply_to 4, :text "current value 0 is not 2", :type "error"}}
+516	:invoke	:add	2
+516	:info	:add	2	indeterminate: throw+: {:type :rpc-error, :code 22, :name :precondition-failed, :definite? true, :body {:code 22, :in_reply_to 1, :text "current value 0 is not 2", :type "error"}}
+235	:invoke	:read	nil
+235	:ok	:read	0
+290	:invoke	:read	nil
+290	:ok	:read	0
+519	:invoke	:add	0
+519	:ok	:add	0
+519	:invoke	:read	nil
+519	:ok	:read	0
+235	:invoke	:add	2
+235	:info	:add	2	indeterminate: throw+: {:type :rpc-error, :code 22, :name :precondition-failed, :definite? true, :body {:code 22, :in_reply_to 3, :text "current value 0 is not 2", :type "error"}}
+290	:invoke	:read	nil
+290	:ok	:read	0
+519	:invoke	:add	0
+519	:ok	:add	0
+519	:invoke	:read	nil
+519	:ok	:read	0
+238	:invoke	:read	nil
+238	:ok	:read	0
+290	:invoke	:read	nil
+290	:ok	:read	0
+519	:invoke	:read	nil
+519	:ok	:read	0
+519	:invoke	:read	nil
+519	:ok	:read	0
+238	:invoke	:read	nil
+290	:invoke	:read	nil
+238	:ok	:read	0
+290	:ok	:read	0
+519	:invoke	:add	3
+519	:info	:add	3	indeterminate: throw+: {:type :rpc-error, :code 22, :name :precondition-failed, :definite? true, :body {:code 22, :in_reply_to 7, :text "current value 0 is not 3", :type "error"}}
+522	:invoke	:read	nil
+522	:ok	:read	0
+238	:invoke	:read	nil
+238	:ok	:read	0
+290	:invoke	:read	nil
+290	:ok	:read	0
+522	:invoke	:add	4
+522	:info	:add	4	indeterminate: throw+: {:type :rpc-error, :code 22, :name :precondition-failed, :definite? true, :body {:code 22, :in_reply_to 2, :text "current value 0 is not 4", :type "error"}}
+525	:invoke	:add	4
+525	:info	:add	4	indeterminate: throw+: {:type :rpc-error, :code 22, :name :precondition-failed, :definite? true, :body {:code 22, :in_reply_to 1, :text "current value 0 is not 4", :type "error"}}
+238	:invoke	:read	nil
+238	:ok	:read	0
+290	:invoke	:add	0
+290	:ok	:add	0
+528	:invoke	:add	1
+528	:info	:add	1	indeterminate: throw+: {:type :rpc-error, :code 22, :name :precondition-failed, :definite? true, :body {:code 22, :in_reply_to 1, :text "current value 0 is not 1", :type "error"}}
+531	:invoke	:read	nil
+531	:ok	:read	0
+238	:invoke	:read	nil
+238	:ok	:read	0
+290	:invoke	:read	nil
+290	:ok	:read	0
+531	:invoke	:read	nil
+531	:ok	:read	0
+531	:invoke	:add	0
+531	:ok	:add	0
+238	:invoke	:read	nil
+238	:ok	:read	0
+290	:invoke	:read	nil
+290	:ok	:read	0
+531	:invoke	:read	nil
+531	:ok	:read	0
+531	:invoke	:read	nil
+531	:ok	:read	0
+238	:invoke	:add	0
+238	:ok	:add	0
+290	:invoke	:add	1
+290	:info	:add	1	indeterminate: throw+: {:type :rpc-error, :code 22, :name :precondition-failed, :definite? true, :body {:code 22, :in_reply_to 9, :text "current value 0 is not 1", :type "error"}}
+531	:invoke	:read	nil
+531	:ok	:read	0
+531	:invoke	:read	nil
+531	:ok	:read	0
+238	:invoke	:add	0
+238	:ok	:add	0
+293	:invoke	:add	4
+293	:info	:add	4	indeterminate: throw+: {:type :rpc-error, :code 22, :name :precondition-failed, :definite? true, :body {:code 22, :in_reply_to 1, :text "current value 0 is not 4", :type "error"}}
+531	:invoke	:add	1
+531	:info	:add	1	indeterminate: throw+: {:type :rpc-error, :code 22, :name :precondition-failed, :definite? true, :body {:code 22, :in_reply_to 8, :text "current value 0 is not 1", :type "error"}}
+534	:invoke	:read	nil
+534	:ok	:read	0
+238	:invoke	:read	nil
+238	:ok	:read	0
+296	:invoke	:read	nil
+296	:ok	:read	0
+534	:invoke	:add	3
+534	:info	:add	3	indeterminate: throw+: {:type :rpc-error, :code 22, :name :precondition-failed, :definite? true, :body {:code 22, :in_reply_to 2, :text "current value 0 is not 3", :type "error"}}
+537	:invoke	:read	nil
+537	:ok	:read	0
+238	:invoke	:add	3
+238	:info	:add	3	indeterminate: throw+: {:type :rpc-error, :code 22, :name :precondition-failed, :definite? true, :body {:code 22, :in_reply_to 10, :text "current value 0 is not 3", :type "error"}}
+296	:invoke	:read	nil
+296	:ok	:read	0
+537	:invoke	:read	nil
+537	:ok	:read	0
+537	:invoke	:read	nil
+537	:ok	:read	0
+241	:invoke	:add	2
+241	:info	:add	2	indeterminate: throw+: {:type :rpc-error, :code 22, :name :precondition-failed, :definite? true, :body {:code 22, :in_reply_to 1, :text "current value 0 is not 2", :type "error"}}
+296	:invoke	:add	2
+296	:info	:add	2	indeterminate: throw+: {:type :rpc-error, :code 22, :name :precondition-failed, :definite? true, :body {:code 22, :in_reply_to 3, :text "current value 0 is not 2", :type "error"}}
+537	:invoke	:read	nil
+537	:ok	:read	0
+537	:invoke	:read	nil
+537	:ok	:read	0
+244	:invoke	:read	nil
+244	:ok	:read	0
+299	:invoke	:add	2
+299	:info	:add	2	indeterminate: throw+: {:type :rpc-error, :code 22, :name :precondition-failed, :definite? true, :body {:code 22, :in_reply_to 1, :text "current value 0 is not 2", :type "error"}}
+537	:invoke	:read	nil
+537	:ok	:read	0
+537	:invoke	:read	nil
+537	:ok	:read	0
+244	:invoke	:add	1
+244	:info	:add	1	indeterminate: throw+: {:type :rpc-error, :code 22, :name :precondition-failed, :definite? true, :body {:code 22, :in_reply_to 2, :text "current value 0 is not 1", :type "error"}}
+302	:invoke	:read	nil
+302	:ok	:read	0
+537	:invoke	:read	nil
+537	:ok	:read	0
+537	:invoke	:read	nil
+537	:ok	:read	0
+247	:invoke	:read	nil
+247	:ok	:read	0
+302	:invoke	:read	nil
+302	:ok	:read	0
+537	:invoke	:add	0
+537	:ok	:add	0
+537	:invoke	:read	nil
+537	:ok	:read	0
+247	:invoke	:read	nil
+247	:ok	:read	0
+302	:invoke	:read	nil
+302	:ok	:read	0
+537	:invoke	:read	nil
+537	:ok	:read	0
+537	:invoke	:read	nil
+537	:ok	:read	0
+247	:invoke	:read	nil
+247	:ok	:read	0
+302	:invoke	:read	nil
+302	:ok	:read	0
+537	:invoke	:add	4
+537	:info	:add	4	indeterminate: throw+: {:type :rpc-error, :code 22, :name :precondition-failed, :definite? true, :body {:code 22, :in_reply_to 14, :text "current value 0 is not 4", :type "error"}}
+540	:invoke	:read	nil
+540	:ok	:read	0
+247	:invoke	:add	2
+247	:info	:add	2	indeterminate: throw+: {:type :rpc-error, :code 22, :name :precondition-failed, :definite? true, :body {:code 22, :in_reply_to 4, :text "current value 0 is not 2", :type "error"}}
+302	:invoke	:add	3
+302	:info	:add	3	indeterminate: throw+: {:type :rpc-error, :code 22, :name :precondition-failed, :definite? true, :body {:code 22, :in_reply_to 5, :text "current value 0 is not 3", :type "error"}}
+540	:invoke	:read	nil
+540	:ok	:read	0
+540	:invoke	:read	nil
+540	:ok	:read	0
+250	:invoke	:read	nil
+250	:ok	:read	0
+305	:invoke	:add	2
+305	:info	:add	2	indeterminate: throw+: {:type :rpc-error, :code 22, :name :precondition-failed, :definite? true, :body {:code 22, :in_reply_to 1, :text "current value 0 is not 2", :type "error"}}
+540	:invoke	:read	nil
+540	:ok	:read	0
+540	:invoke	:read	nil
+540	:ok	:read	0
+250	:invoke	:read	nil
+250	:ok	:read	0
+308	:invoke	:read	nil
+308	:ok	:read	0
+540	:invoke	:read	nil
+540	:ok	:read	0
+540	:invoke	:read	nil
+540	:ok	:read	0
+250	:invoke	:read	nil
+250	:ok	:read	0
+308	:invoke	:add	4
+308	:info	:add	4	indeterminate: throw+: {:type :rpc-error, :code 22, :name :precondition-failed, :definite? true, :body {:code 22, :in_reply_to 2, :text "current value 0 is not 4", :type "error"}}
+540	:invoke	:add	4
+540	:info	:add	4	indeterminate: throw+: {:type :rpc-error, :code 22, :name :precondition-failed, :definite? true, :body {:code 22, :in_reply_to 8, :text "current value 0 is not 4", :type "error"}}
+543	:invoke	:read	nil
+543	:ok	:read	0
+250	:invoke	:add	1
+250	:info	:add	1	indeterminate: throw+: {:type :rpc-error, :code 22, :name :precondition-failed, :definite? true, :body {:code 22, :in_reply_to 4, :text "current value 0 is not 1", :type "error"}}
+311	:invoke	:read	nil
+311	:ok	:read	0
+543	:invoke	:read	nil
+543	:ok	:read	0
+543	:invoke	:read	nil
+253	:invoke	:read	nil
+543	:ok	:read	0
+253	:ok	:read	0
+311	:invoke	:add	1
+311	:info	:add	1	indeterminate: throw+: {:type :rpc-error, :code 22, :name :precondition-failed, :definite? true, :body {:code 22, :in_reply_to 2, :text "current value 0 is not 1", :type "error"}}
+543	:invoke	:add	2
+543	:info	:add	2	indeterminate: throw+: {:type :rpc-error, :code 22, :name :precondition-failed, :definite? true, :body {:code 22, :in_reply_to 4, :text "current value 0 is not 2", :type "error"}}
+546	:invoke	:read	nil
+253	:invoke	:read	nil
+546	:ok	:read	0
+253	:ok	:read	0
+314	:invoke	:read	nil
+546	:invoke	:read	nil
+314	:ok	:read	0
+546	:ok	:read	0
+546	:invoke	:read	nil
+546	:ok	:read	0
+253	:invoke	:add	2
+253	:info	:add	2	indeterminate: throw+: {:type :rpc-error, :code 22, :name :precondition-failed, :definite? true, :body {:code 22, :in_reply_to 3, :text "current value 0 is not 2", :type "error"}}
+314	:invoke	:add	2
+314	:info	:add	2	indeterminate: throw+: {:type :rpc-error, :code 22, :name :precondition-failed, :definite? true, :body {:code 22, :in_reply_to 2, :text "current value 0 is not 2", :type "error"}}
+546	:invoke	:add	2
+256	:invoke	:read	nil
+546	:info	:add	2	indeterminate: throw+: {:type :rpc-error, :code 22, :name :precondition-failed, :definite? true, :body {:code 22, :in_reply_to 4, :text "current value 0 is not 2", :type "error"}}
+256	:ok	:read	0
+256	:invoke	:read	nil
+256	:ok	:read	0
+317	:invoke	:read	nil
+317	:ok	:read	0
+549	:invoke	:read	nil
+549	:ok	:read	0
+549	:invoke	:add	2
+549	:info	:add	2	indeterminate: throw+: {:type :rpc-error, :code 22, :name :precondition-failed, :definite? true, :body {:code 22, :in_reply_to 2, :text "current value 0 is not 2", :type "error"}}
+256	:invoke	:read	nil
+256	:ok	:read	0
+317	:invoke	:add	1
+317	:info	:add	1	indeterminate: throw+: {:type :rpc-error, :code 22, :name :precondition-failed, :definite? true, :body {:code 22, :in_reply_to 2, :text "current value 0 is not 1", :type "error"}}
+552	:invoke	:read	nil
+552	:ok	:read	0
+552	:invoke	:read	nil
+552	:ok	:read	0
+256	:invoke	:read	nil
+320	:invoke	:read	nil
+256	:ok	:read	0
+320	:ok	:read	0
+552	:invoke	:read	nil
+552	:ok	:read	0
+552	:invoke	:read	nil
+552	:ok	:read	0
+256	:invoke	:add	3
+256	:info	:add	3	indeterminate: throw+: {:type :rpc-error, :code 22, :name :precondition-failed, :definite? true, :body {:code 22, :in_reply_to 5, :text "current value 0 is not 3", :type "error"}}
+320	:invoke	:add	1
+320	:info	:add	1	indeterminate: throw+: {:type :rpc-error, :code 22, :name :precondition-failed, :definite? true, :body {:code 22, :in_reply_to 2, :text "current value 0 is not 1", :type "error"}}
+552	:invoke	:read	nil
+552	:ok	:read	0
+552	:invoke	:read	nil
+259	:invoke	:add	3
+552	:ok	:read	0
+259	:info	:add	3	indeterminate: throw+: {:type :rpc-error, :code 22, :name :precondition-failed, :definite? true, :body {:code 22, :in_reply_to 1, :text "current value 0 is not 3", :type "error"}}
+323	:invoke	:read	nil
+323	:ok	:read	0
+552	:invoke	:read	nil
+552	:ok	:read	0
+552	:invoke	:read	nil
+552	:ok	:read	0
+262	:invoke	:read	nil
+262	:ok	:read	0
+323	:invoke	:read	nil
+323	:ok	:read	0
+552	:invoke	:add	0
+552	:ok	:add	0
+552	:invoke	:read	nil
+552	:ok	:read	0
+262	:invoke	:add	0
+262	:ok	:add	0
+323	:invoke	:read	nil
+323	:ok	:read	0
+552	:invoke	:add	1
+552	:info	:add	1	indeterminate: throw+: {:type :rpc-error, :code 22, :name :precondition-failed, :definite? true, :body {:code 22, :in_reply_to 11, :text "current value 0 is not 1", :type "error"}}
+555	:invoke	:add	1
+555	:info	:add	1	indeterminate: throw+: {:type :rpc-error, :code 22, :name :precondition-failed, :definite? true, :body {:code 22, :in_reply_to 1, :text "current value 0 is not 1", :type "error"}}
+262	:invoke	:read	nil
+262	:ok	:read	0
+323	:invoke	:add	2
+323	:info	:add	2	indeterminate: throw+: {:type :rpc-error, :code 22, :name :precondition-failed, :definite? true, :body {:code 22, :in_reply_to 4, :text "current value 0 is not 2", :type "error"}}
+558	:invoke	:read	nil
+558	:ok	:read	0
+558	:invoke	:read	nil
+558	:ok	:read	0
+262	:invoke	:read	nil
+262	:ok	:read	0
+326	:invoke	:read	nil
+326	:ok	:read	0
+558	:invoke	:add	3
+558	:info	:add	3	indeterminate: throw+: {:type :rpc-error, :code 22, :name :precondition-failed, :definite? true, :body {:code 22, :in_reply_to 3, :text "current value 0 is not 3", :type "error"}}
+561	:invoke	:add	4
+561	:info	:add	4	indeterminate: throw+: {:type :rpc-error, :code 22, :name :precondition-failed, :definite? true, :body {:code 22, :in_reply_to 1, :text "current value 0 is not 4", :type "error"}}
+262	:invoke	:read	nil
+262	:ok	:read	0
+326	:invoke	:read	nil
+326	:ok	:read	0
+564	:invoke	:read	nil
+564	:ok	:read	0
+564	:invoke	:read	nil
+564	:ok	:read	0
+262	:invoke	:read	nil
+262	:ok	:read	0
+326	:invoke	:read	nil
+326	:ok	:read	0
+564	:invoke	:read	nil
+564	:ok	:read	0
+564	:invoke	:add	4
+564	:info	:add	4	indeterminate: throw+: {:type :rpc-error, :code 22, :name :precondition-failed, :definite? true, :body {:code 22, :in_reply_to 4, :text "current value 0 is not 4", :type "error"}}
+262	:invoke	:read	nil
+262	:ok	:read	0
+326	:invoke	:add	0
+326	:ok	:add	0
+567	:invoke	:add	4
+567	:info	:add	4	indeterminate: throw+: {:type :rpc-error, :code 22, :name :precondition-failed, :definite? true, :body {:code 22, :in_reply_to 1, :text "current value 0 is not 4", :type "error"}}
+570	:invoke	:read	nil
+262	:invoke	:add	2
+570	:ok	:read	0
+262	:info	:add	2	indeterminate: throw+: {:type :rpc-error, :code 22, :name :precondition-failed, :definite? true, :body {:code 22, :in_reply_to 8, :text "current value 0 is not 2", :type "error"}}
+326	:invoke	:read	nil
+326	:ok	:read	0
+570	:invoke	:add	1
+570	:info	:add	1	indeterminate: throw+: {:type :rpc-error, :code 22, :name :precondition-failed, :definite? true, :body {:code 22, :in_reply_to 2, :text "current value 0 is not 1", :type "error"}}
+573	:invoke	:read	nil
+573	:ok	:read	0
+265	:invoke	:read	nil
+265	:ok	:read	0
+326	:invoke	:read	nil
+326	:ok	:read	0
+573	:invoke	:read	nil
+573	:ok	:read	0
+573	:invoke	:add	0
+573	:ok	:add	0
+265	:invoke	:add	0
+265	:ok	:add	0
+326	:invoke	:read	nil
+326	:ok	:read	0
+573	:invoke	:read	nil
+573	:ok	:read	0
+573	:invoke	:read	nil
+573	:ok	:read	0
+265	:invoke	:read	nil
+265	:ok	:read	0
+326	:invoke	:read	nil
+326	:ok	:read	0
+573	:invoke	:read	nil
+573	:ok	:read	0
+573	:invoke	:add	0
+573	:ok	:add	0
+265	:invoke	:add	2
+265	:info	:add	2	indeterminate: throw+: {:type :rpc-error, :code 22, :name :precondition-failed, :definite? true, :body {:code 22, :in_reply_to 4, :text "current value 0 is not 2", :type "error"}}
+326	:invoke	:read	nil
+326	:ok	:read	0
+573	:invoke	:read	nil
+573	:ok	:read	0
+573	:invoke	:read	nil
+573	:ok	:read	0
+268	:invoke	:read	nil
+268	:ok	:read	0
+326	:invoke	:read	nil
+326	:ok	:read	0
+573	:invoke	:add	1
+573	:info	:add	1	indeterminate: throw+: {:type :rpc-error, :code 22, :name :precondition-failed, :definite? true, :body {:code 22, :in_reply_to 10, :text "current value 0 is not 1", :type "error"}}
+576	:invoke	:read	nil
+576	:ok	:read	0
+268	:invoke	:read	nil
+268	:ok	:read	0
+326	:invoke	:add	2
+326	:info	:add	2	indeterminate: throw+: {:type :rpc-error, :code 22, :name :precondition-failed, :definite? true, :body {:code 22, :in_reply_to 11, :text "current value 0 is not 2", :type "error"}}
+576	:invoke	:add	3
+576	:info	:add	3	indeterminate: throw+: {:type :rpc-error, :code 22, :name :precondition-failed, :definite? true, :body {:code 22, :in_reply_to 2, :text "current value 0 is not 3", :type "error"}}
+579	:invoke	:read	nil
+579	:ok	:read	0
+268	:invoke	:read	nil
+268	:ok	:read	0
+329	:invoke	:read	nil
+329	:ok	:read	0
+579	:invoke	:add	4
+579	:info	:add	4	indeterminate: throw+: {:type :rpc-error, :code 22, :name :precondition-failed, :definite? true, :body {:code 22, :in_reply_to 2, :text "current value 0 is not 4", :type "error"}}
+582	:invoke	:read	nil
+582	:ok	:read	0
+268	:invoke	:read	nil
+268	:ok	:read	0
+329	:invoke	:read	nil
+329	:ok	:read	0
+582	:invoke	:read	nil
+582	:ok	:read	0
+582	:invoke	:read	nil
+582	:ok	:read	0
+268	:invoke	:read	nil
+268	:ok	:read	0
+329	:invoke	:read	nil
+329	:ok	:read	0
+582	:invoke	:read	nil
+582	:ok	:read	0
+582	:invoke	:add	2
+582	:info	:add	2	indeterminate: throw+: {:type :rpc-error, :code 22, :name :precondition-failed, :definite? true, :body {:code 22, :in_reply_to 5, :text "current value 0 is not 2", :type "error"}}
+268	:invoke	:add	0
+268	:ok	:add	0
+329	:invoke	:read	nil
+329	:ok	:read	0
+585	:invoke	:read	nil
+585	:ok	:read	0
+585	:invoke	:add	3
+585	:info	:add	3	indeterminate: throw+: {:type :rpc-error, :code 22, :name :precondition-failed, :definite? true, :body {:code 22, :in_reply_to 2, :text "current value 0 is not 3", :type "error"}}
+268	:invoke	:read	nil
+268	:ok	:read	0
+329	:invoke	:read	nil
+329	:ok	:read	0
+588	:invoke	:read	nil
+588	:ok	:read	0
+588	:invoke	:add	0
+588	:ok	:add	0
+268	:invoke	:read	nil
+268	:ok	:read	0
+329	:invoke	:add	1
+329	:info	:add	1	indeterminate: throw+: {:type :rpc-error, :code 22, :name :precondition-failed, :definite? true, :body {:code 22, :in_reply_to 6, :text "current value 0 is not 1", :type "error"}}
+588	:invoke	:read	nil
+588	:ok	:read	0
+588	:invoke	:add	2
+588	:info	:add	2	indeterminate: throw+: {:type :rpc-error, :code 22, :name :precondition-failed, :definite? true, :body {:code 22, :in_reply_to 4, :text "current value 0 is not 2", :type "error"}}
+268	:invoke	:read	nil
+268	:ok	:read	0
+332	:invoke	:add	4
+332	:info	:add	4	indeterminate: throw+: {:type :rpc-error, :code 22, :name :precondition-failed, :definite? true, :body {:code 22, :in_reply_to 1, :text "current value 0 is not 4", :type "error"}}
+591	:invoke	:add	2
+268	:invoke	:add	2
+591	:info	:add	2	indeterminate: throw+: {:type :rpc-error, :code 22, :name :precondition-failed, :definite? true, :body {:code 22, :in_reply_to 1, :text "current value 0 is not 2", :type "error"}}
+268	:info	:add	2	indeterminate: throw+: {:type :rpc-error, :code 22, :name :precondition-failed, :definite? true, :body {:code 22, :in_reply_to 10, :text "current value 0 is not 2", :type "error"}}
+271	:invoke	:read	nil
+271	:ok	:read	0
+335	:invoke	:read	nil
+335	:ok	:read	0
+594	:invoke	:read	nil
+594	:ok	:read	0
+594	:invoke	:add	1
+594	:info	:add	1	indeterminate: throw+: {:type :rpc-error, :code 22, :name :precondition-failed, :definite? true, :body {:code 22, :in_reply_to 2, :text "current value 0 is not 1", :type "error"}}
+271	:invoke	:add	3
+271	:info	:add	3	indeterminate: throw+: {:type :rpc-error, :code 22, :name :precondition-failed, :definite? true, :body {:code 22, :in_reply_to 2, :text "current value 0 is not 3", :type "error"}}
+335	:invoke	:add	1
+335	:info	:add	1	indeterminate: throw+: {:type :rpc-error, :code 22, :name :precondition-failed, :definite? true, :body {:code 22, :in_reply_to 2, :text "current value 0 is not 1", :type "error"}}
+597	:invoke	:read	nil
+597	:ok	:read	0
+597	:invoke	:add	2
+597	:info	:add	2	indeterminate: throw+: {:type :rpc-error, :code 22, :name :precondition-failed, :definite? true, :body {:code 22, :in_reply_to 2, :text "current value 0 is not 2", :type "error"}}
+274	:invoke	:read	nil
+274	:ok	:read	0
+338	:invoke	:read	nil
+338	:ok	:read	0
+600	:invoke	:add	4
+600	:info	:add	4	indeterminate: throw+: {:type :rpc-error, :code 22, :name :precondition-failed, :definite? true, :body {:code 22, :in_reply_to 1, :text "current value 0 is not 4", :type "error"}}
+603	:invoke	:read	nil
+603	:ok	:read	0
+274	:invoke	:read	nil
+274	:ok	:read	0
+338	:invoke	:read	nil
+603	:invoke	:add	0
+338	:ok	:read	0
+603	:ok	:add	0
+603	:invoke	:add	0
+603	:ok	:add	0
+274	:invoke	:read	nil
+274	:ok	:read	0
+338	:invoke	:read	nil
+338	:ok	:read	0
+603	:invoke	:read	nil
+603	:ok	:read	0
+603	:invoke	:add	4
+603	:info	:add	4	indeterminate: throw+: {:type :rpc-error, :code 22, :name :precondition-failed, :definite? true, :body {:code 22, :in_reply_to 5, :text "current value 0 is not 4", :type "error"}}
+274	:invoke	:add	2
+274	:info	:add	2	indeterminate: throw+: {:type :rpc-error, :code 22, :name :precondition-failed, :definite? true, :body {:code 22, :in_reply_to 4, :text "current value 0 is not 2", :type "error"}}
+338	:invoke	:read	nil
+338	:ok	:read	0
+606	:invoke	:add	0
+606	:ok	:add	0
+606	:invoke	:read	nil
+606	:ok	:read	0
+277	:invoke	:read	nil
+277	:ok	:read	0
+338	:invoke	:read	nil
+338	:ok	:read	0
+606	:invoke	:read	nil
+606	:ok	:read	0
+606	:invoke	:read	nil
+606	:ok	:read	0
+277	:invoke	:read	nil
+277	:ok	:read	0
+338	:invoke	:read	nil
+338	:ok	:read	0
+606	:invoke	:read	nil
+606	:ok	:read	0
+606	:invoke	:read	nil
+606	:ok	:read	0
+277	:invoke	:add	1
+277	:info	:add	1	indeterminate: throw+: {:type :rpc-error, :code 22, :name :precondition-failed, :definite? true, :body {:code 22, :in_reply_to 3, :text "current value 0 is not 1", :type "error"}}
+338	:invoke	:read	nil
+338	:ok	:read	0
+606	:invoke	:read	nil
+606	:ok	:read	0
+606	:invoke	:read	nil
+606	:ok	:read	0
+280	:invoke	:read	nil
+280	:ok	:read	0
+338	:invoke	:read	nil
+338	:ok	:read	0
+:nemesis	:info	:stop-partition	nil
+:nemesis	:info	:stop-partition	:network-healed
+606	:invoke	:read	nil
+606	:ok	:read	0
+280	:invoke	:read	nil
+280	:ok	:read	0
+338	:invoke	:read	nil
+338	:ok	:read	0
+606	:invoke	:read	nil
+606	:ok	:read	0
+606	:invoke	:read	nil
+606	:ok	:read	0
+280	:invoke	:add	1
+280	:info	:add	1	indeterminate: throw+: {:type :rpc-error, :code 22, :name :precondition-failed, :definite? true, :body {:code 22, :in_reply_to 3, :text "current value 0 is not 1", :type "error"}}
+338	:invoke	:read	nil
+338	:ok	:read	0
+606	:invoke	:read	nil
+606	:ok	:read	0
+606	:invoke	:add	4
+606	:info	:add	4	indeterminate: throw+: {:type :rpc-error, :code 22, :name :precondition-failed, :definite? true, :body {:code 22, :in_reply_to 13, :text "current value 0 is not 4", :type "error"}}
+283	:invoke	:read	nil
+283	:ok	:read	0
+338	:invoke	:read	nil
+338	:ok	:read	0
+609	:invoke	:add	1
+609	:info	:add	1	indeterminate: throw+: {:type :rpc-error, :code 22, :name :precondition-failed, :definite? true, :body {:code 22, :in_reply_to 1, :text "current value 0 is not 1", :type "error"}}
+612	:invoke	:read	nil
+612	:ok	:read	0
+283	:invoke	:read	nil
+283	:ok	:read	0
+338	:invoke	:add	1
+338	:info	:add	1	indeterminate: throw+: {:type :rpc-error, :code 22, :name :precondition-failed, :definite? true, :body {:code 22, :in_reply_to 12, :text "current value 0 is not 1", :type "error"}}
+612	:invoke	:read	nil
+612	:ok	:read	0
+612	:invoke	:read	nil
+612	:ok	:read	0
+283	:invoke	:read	nil
+283	:ok	:read	0
+341	:invoke	:add	4
+341	:info	:add	4	indeterminate: throw+: {:type :rpc-error, :code 22, :name :precondition-failed, :definite? true, :body {:code 22, :in_reply_to 1, :text "current value 0 is not 4", :type "error"}}
+612	:invoke	:read	nil
+612	:ok	:read	0
+612	:invoke	:read	nil
+612	:ok	:read	0
+283	:invoke	:read	nil
+283	:ok	:read	0
+344	:invoke	:add	0
+344	:ok	:add	0
+612	:invoke	:read	nil
+612	:ok	:read	0
+612	:invoke	:add	1
+612	:info	:add	1	indeterminate: throw+: {:type :rpc-error, :code 22, :name :precondition-failed, :definite? true, :body {:code 22, :in_reply_to 7, :text "current value 0 is not 1", :type "error"}}
+283	:invoke	:read	nil
+283	:ok	:read	0
+344	:invoke	:read	nil
+344	:ok	:read	0
+615	:invoke	:read	nil
+615	:ok	:read	0
+615	:invoke	:read	nil
+615	:ok	:read	0
+283	:invoke	:read	nil
+283	:ok	:read	0
+344	:invoke	:add	0
+344	:ok	:add	0
+615	:invoke	:read	nil
+615	:ok	:read	0
+615	:invoke	:read	nil
+615	:ok	:read	0
+283	:invoke	:read	nil
+283	:ok	:read	0
+344	:invoke	:read	nil
+344	:ok	:read	0
+615	:invoke	:add	0
+615	:ok	:add	0
+615	:invoke	:read	nil
+283	:invoke	:add	1
+615	:ok	:read	0
+283	:info	:add	1	indeterminate: throw+: {:type :rpc-error, :code 22, :name :precondition-failed, :definite? true, :body {:code 22, :in_reply_to 8, :text "current value 0 is not 1", :type "error"}}
+344	:invoke	:read	nil
+615	:invoke	:read	nil
+344	:ok	:read	0
+615	:ok	:read	0
+615	:invoke	:read	nil
+615	:ok	:read	0
+286	:invoke	:add	2
+286	:info	:add	2	indeterminate: throw+: {:type :rpc-error, :code 22, :name :precondition-failed, :definite? true, :body {:code 22, :in_reply_to 1, :text "current value 0 is not 2", :type "error"}}
+344	:invoke	:read	nil
+344	:ok	:read	0
+615	:invoke	:read	nil
+615	:ok	:read	0
+615	:invoke	:read	nil
+615	:ok	:read	0
+289	:invoke	:read	nil
+289	:ok	:read	0
+344	:invoke	:read	nil
+344	:ok	:read	0
+615	:invoke	:read	nil
+615	:ok	:read	0
+615	:invoke	:read	nil
+615	:ok	:read	0
+289	:invoke	:read	nil
+289	:ok	:read	0
+344	:invoke	:add	4
+344	:info	:add	4	indeterminate: throw+: {:type :rpc-error, :code 22, :name :precondition-failed, :definite? true, :body {:code 22, :in_reply_to 8, :text "current value 0 is not 4", :type "error"}}
+615	:invoke	:read	nil
+289	:invoke	:add	0
+615	:ok	:read	0
+289	:ok	:add	0
+289	:invoke	:read	nil
+289	:ok	:read	0
+347	:invoke	:read	nil
+347	:ok	:read	0
+615	:invoke	:read	nil
+615	:ok	:read	0
+615	:invoke	:read	nil
+615	:ok	:read	0
+289	:invoke	:add	3
+289	:info	:add	3	indeterminate: throw+: {:type :rpc-error, :code 22, :name :precondition-failed, :definite? true, :body {:code 22, :in_reply_to 5, :text "current value 0 is not 3", :type "error"}}
+347	:invoke	:read	nil
+347	:ok	:read	0
+615	:invoke	:add	2
+615	:info	:add	2	indeterminate: throw+: {:type :rpc-error, :code 22, :name :precondition-failed, :definite? true, :body {:code 22, :in_reply_to 16, :text "current value 0 is not 2", :type "error"}}
+618	:invoke	:read	nil
+618	:ok	:read	0
+292	:invoke	:read	nil
+292	:ok	:read	0
+347	:invoke	:add	4
+347	:info	:add	4	indeterminate: throw+: {:type :rpc-error, :code 22, :name :precondition-failed, :definite? true, :body {:code 22, :in_reply_to 3, :text "current value 0 is not 4", :type "error"}}
+618	:invoke	:add	1
+618	:info	:add	1	indeterminate: throw+: {:type :rpc-error, :code 22, :name :precondition-failed, :definite? true, :body {:code 22, :in_reply_to 2, :text "current value 0 is not 1", :type "error"}}
+621	:invoke	:read	nil
+621	:ok	:read	0
+292	:invoke	:read	nil
+292	:ok	:read	0
+350	:invoke	:read	nil
+350	:ok	:read	0
+621	:invoke	:add	1
+621	:info	:add	1	indeterminate: throw+: {:type :rpc-error, :code 22, :name :precondition-failed, :definite? true, :body {:code 22, :in_reply_to 2, :text "current value 0 is not 1", :type "error"}}
+624	:invoke	:read	nil
+624	:ok	:read	0
+292	:invoke	:add	1
+292	:info	:add	1	indeterminate: throw+: {:type :rpc-error, :code 22, :name :precondition-failed, :definite? true, :body {:code 22, :in_reply_to 3, :text "current value 0 is not 1", :type "error"}}
+350	:invoke	:read	nil
+350	:ok	:read	0
+624	:invoke	:read	nil
+295	:invoke	:add	0
+624	:ok	:read	0
+350	:invoke	:read	nil
+350	:ok	:read	0
+295	:ok	:add	0
+350	:invoke	:add	4
+350	:info	:add	4	indeterminate: throw+: {:type :rpc-error, :code 22, :name :precondition-failed, :definite? true, :body {:code 22, :in_reply_to 4, :text "current value 0 is not 4", :type "error"}}
+624	:invoke	:read	nil
+624	:ok	:read	0
+624	:invoke	:add	2
+624	:info	:add	2	indeterminate: throw+: {:type :rpc-error, :code 22, :name :precondition-failed, :definite? true, :body {:code 22, :in_reply_to 4, :text "current value 0 is not 2", :type "error"}}
+295	:invoke	:read	nil
+353	:invoke	:add	1
+295	:ok	:read	0
+353	:info	:add	1	indeterminate: throw+: {:type :rpc-error, :code 22, :name :precondition-failed, :definite? true, :body {:code 22, :in_reply_to 1, :text "current value 0 is not 1", :type "error"}}
+627	:invoke	:read	nil
+627	:ok	:read	0
+627	:invoke	:read	nil
+627	:ok	:read	0
+295	:invoke	:read	nil
+295	:ok	:read	0
+356	:invoke	:add	2
+627	:invoke	:read	nil
+627	:ok	:read	0
+356	:info	:add	2	indeterminate: throw+: {:type :rpc-error, :code 22, :name :precondition-failed, :definite? true, :body {:code 22, :in_reply_to 1, :text "current value 0 is not 2", :type "error"}}
+627	:invoke	:add	1
+627	:info	:add	1	indeterminate: throw+: {:type :rpc-error, :code 22, :name :precondition-failed, :definite? true, :body {:code 22, :in_reply_to 4, :text "current value 0 is not 1", :type "error"}}
+295	:invoke	:read	nil
+295	:ok	:read	0
+359	:invoke	:read	nil
+359	:ok	:read	0
+630	:invoke	:add	3
+630	:info	:add	3	indeterminate: throw+: {:type :rpc-error, :code 22, :name :precondition-failed, :definite? true, :body {:code 22, :in_reply_to 1, :text "current value 0 is not 3", :type "error"}}
+633	:invoke	:add	0
+633	:ok	:add	0
+295	:invoke	:read	nil
+295	:ok	:read	0
+359	:invoke	:read	nil
+359	:ok	:read	0
+633	:invoke	:add	2
+633	:info	:add	2	indeterminate: throw+: {:type :rpc-error, :code 22, :name :precondition-failed, :definite? true, :body {:code 22, :in_reply_to 2, :text "current value 0 is not 2", :type "error"}}
+636	:invoke	:read	nil
+636	:ok	:read	0
+295	:invoke	:read	nil
+359	:invoke	:read	nil
+359	:ok	:read	0
+295	:ok	:read	0
+636	:invoke	:read	nil
+636	:ok	:read	0
+636	:invoke	:read	nil
+636	:ok	:read	0
+295	:invoke	:read	nil
+295	:ok	:read	0
+359	:invoke	:read	nil
+359	:ok	:read	0
+636	:invoke	:read	nil
+636	:ok	:read	0
+636	:invoke	:add	0
+636	:ok	:add	0
+295	:invoke	:read	nil
+295	:ok	:read	0
+359	:invoke	:add	3
+359	:info	:add	3	indeterminate: throw+: {:type :rpc-error, :code 22, :name :precondition-failed, :definite? true, :body {:code 22, :in_reply_to 5, :text "current value 0 is not 3", :type "error"}}
+636	:invoke	:read	nil
+636	:ok	:read	0
+636	:invoke	:read	nil
+636	:ok	:read	0
+295	:invoke	:add	2
+295	:info	:add	2	indeterminate: throw+: {:type :rpc-error, :code 22, :name :precondition-failed, :definite? true, :body {:code 22, :in_reply_to 9, :text "current value 0 is not 2", :type "error"}}
+362	:invoke	:add	1
+362	:info	:add	1	indeterminate: throw+: {:type :rpc-error, :code 22, :name :precondition-failed, :definite? true, :body {:code 22, :in_reply_to 1, :text "current value 0 is not 1", :type "error"}}
+636	:invoke	:add	1
+636	:info	:add	1	indeterminate: throw+: {:type :rpc-error, :code 22, :name :precondition-failed, :definite? true, :body {:code 22, :in_reply_to 8, :text "current value 0 is not 1", :type "error"}}
+639	:invoke	:add	1
+639	:info	:add	1	indeterminate: throw+: {:type :rpc-error, :code 22, :name :precondition-failed, :definite? true, :body {:code 22, :in_reply_to 1, :text "current value 0 is not 1", :type "error"}}
+298	:invoke	:read	nil
+298	:ok	:read	0
+365	:invoke	:add	3
+365	:info	:add	3	indeterminate: throw+: {:type :rpc-error, :code 22, :name :precondition-failed, :definite? true, :body {:code 22, :in_reply_to 1, :text "current value 0 is not 3", :type "error"}}
+642	:invoke	:read	nil
+298	:invoke	:read	nil
+642	:ok	:read	0
+298	:ok	:read	0
+298	:invoke	:read	nil
+298	:ok	:read	0
+368	:invoke	:add	1
+368	:info	:add	1	indeterminate: throw+: {:type :rpc-error, :code 22, :name :precondition-failed, :definite? true, :body {:code 22, :in_reply_to 1, :text "current value 0 is not 1", :type "error"}}
+642	:invoke	:read	nil
+642	:ok	:read	0
+642	:invoke	:read	nil
+642	:ok	:read	0
+298	:invoke	:add	2
+298	:info	:add	2	indeterminate: throw+: {:type :rpc-error, :code 22, :name :precondition-failed, :definite? true, :body {:code 22, :in_reply_to 4, :text "current value 0 is not 2", :type "error"}}
+371	:invoke	:read	nil
+371	:ok	:read	0
+642	:invoke	:add	0
+642	:ok	:add	0
+642	:invoke	:add	0
+642	:ok	:add	0
+301	:invoke	:read	nil
+301	:ok	:read	0
+371	:invoke	:add	1
+371	:info	:add	1	indeterminate: throw+: {:type :rpc-error, :code 22, :name :precondition-failed, :definite? true, :body {:code 22, :in_reply_to 2, :text "current value 0 is not 1", :type "error"}}
+642	:invoke	:read	nil
+642	:ok	:read	0
+642	:invoke	:read	nil
+642	:ok	:read	0
+301	:invoke	:read	nil
+301	:ok	:read	0
+374	:invoke	:read	nil
+374	:ok	:read	0
+642	:invoke	:read	nil
+642	:ok	:read	0
+642	:invoke	:read	nil
+642	:ok	:read	0
+301	:invoke	:read	nil
+301	:ok	:read	0
+374	:invoke	:read	nil
+374	:ok	:read	0
+642	:invoke	:read	nil
+642	:ok	:read	0
+642	:invoke	:read	nil
+642	:ok	:read	0
+301	:invoke	:read	nil
+301	:ok	:read	0
+374	:invoke	:read	nil
+374	:ok	:read	0
+642	:invoke	:read	nil
+642	:ok	:read	0
+642	:invoke	:read	nil
+642	:ok	:read	0
+301	:invoke	:add	1
+301	:info	:add	1	indeterminate: throw+: {:type :rpc-error, :code 22, :name :precondition-failed, :definite? true, :body {:code 22, :in_reply_to 5, :text "current value 0 is not 1", :type "error"}}
+374	:invoke	:add	2
+374	:info	:add	2	indeterminate: throw+: {:type :rpc-error, :code 22, :name :precondition-failed, :definite? true, :body {:code 22, :in_reply_to 4, :text "current value 0 is not 2", :type "error"}}
+642	:invoke	:read	nil
+642	:ok	:read	0
+642	:invoke	:add	0
+642	:ok	:add	0
+304	:invoke	:read	nil
+304	:ok	:read	0
+377	:invoke	:add	4
+377	:info	:add	4	indeterminate: throw+: {:type :rpc-error, :code 22, :name :precondition-failed, :definite? true, :body {:code 22, :in_reply_to 1, :text "current value 0 is not 4", :type "error"}}
+642	:invoke	:add	2
+642	:info	:add	2	indeterminate: throw+: {:type :rpc-error, :code 22, :name :precondition-failed, :definite? true, :body {:code 22, :in_reply_to 16, :text "current value 0 is not 2", :type "error"}}
+645	:invoke	:add	0
+645	:ok	:add	0
+304	:invoke	:read	nil
+304	:ok	:read	0
+380	:invoke	:read	nil
+380	:ok	:read	0
+645	:invoke	:read	nil
+645	:ok	:read	0
+645	:invoke	:read	nil
+645	:ok	:read	0
+304	:invoke	:add	4
+304	:info	:add	4	indeterminate: throw+: {:type :rpc-error, :code 22, :name :precondition-failed, :definite? true, :body {:code 22, :in_reply_to 3, :text "current value 0 is not 4", :type "error"}}
+380	:invoke	:read	nil
+380	:ok	:read	0
+645	:invoke	:read	nil
+645	:ok	:read	0
+645	:invoke	:read	nil
+645	:ok	:read	0
+307	:invoke	:read	nil
+307	:ok	:read	0
+380	:invoke	:read	nil
+380	:ok	:read	0
+645	:invoke	:read	nil
+645	:ok	:read	0
+:nemesis	:info	:stop-partition	nil
+:nemesis	:info	:stop-partition	:network-healed
+645	:invoke	:read	nil
+307	:invoke	:read	nil
+380	:invoke	:read	nil
+645	:ok	:read	0
+307	:ok	:read	0
+380	:ok	:read	0

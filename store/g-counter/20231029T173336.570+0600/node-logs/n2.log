@@ -1,0 +1,37 @@
+2023/10/29 17:33:37 Received {c0 n2 {"type":"init","node_id":"n2","node_ids":["n0","n1","n2"],"msg_id":1}}
+2023/10/29 17:33:37 Node n2 initialized
+2023/10/29 17:33:37 Sent {"src":"n2","dest":"c0","body":{"in_reply_to":1,"type":"init_ok"}}
+2023/10/29 17:33:37 Received {c7 n2 {"type":"read","msg_id":1}}
+2023/10/29 17:33:37 Sent {"src":"n2","dest":"seq-kv","body":{"key":"counter","msg_id":1,"type":"read"}}
+2023/10/29 17:33:37 Received {seq-kv n2 {"type":"error","code":20,"text":"key does not exist","in_reply_to":1}}
+2023/10/29 17:33:37 Sent {"src":"n2","dest":"c7","body":{"code":20,"in_reply_to":1,"text":"key does not exist","type":"error"}}
+2023/10/29 17:33:38 Received {c10 n2 {"type":"read","msg_id":1}}
+2023/10/29 17:33:38 Sent {"src":"n2","dest":"seq-kv","body":{"key":"counter","msg_id":2,"type":"read"}}
+2023/10/29 17:33:38 Received {seq-kv n2 {"type":"error","code":20,"text":"key does not exist","in_reply_to":2}}
+2023/10/29 17:33:38 Sent {"src":"n2","dest":"c10","body":{"code":20,"in_reply_to":1,"text":"key does not exist","type":"error"}}
+2023/10/29 17:33:38 Received {c11 n2 {"type":"read","msg_id":1}}
+2023/10/29 17:33:38 Sent {"src":"n2","dest":"seq-kv","body":{"key":"counter","msg_id":3,"type":"read"}}
+2023/10/29 17:33:38 Received {seq-kv n2 {"type":"error","code":20,"text":"key does not exist","in_reply_to":3}}
+2023/10/29 17:33:38 Sent {"src":"n2","dest":"c11","body":{"code":20,"in_reply_to":1,"text":"key does not exist","type":"error"}}
+2023/10/29 17:33:38 Received {c15 n2 {"type":"read","msg_id":1}}
+2023/10/29 17:33:38 Sent {"src":"n2","dest":"seq-kv","body":{"key":"counter","msg_id":4,"type":"read"}}
+2023/10/29 17:33:38 Received {seq-kv n2 {"type":"error","code":20,"text":"key does not exist","in_reply_to":4}}
+2023/10/29 17:33:38 Sent {"src":"n2","dest":"c15","body":{"code":20,"in_reply_to":1,"text":"key does not exist","type":"error"}}
+2023/10/29 17:33:38 Received {c16 n2 {"type":"read","msg_id":1}}
+2023/10/29 17:33:38 Sent {"src":"n2","dest":"seq-kv","body":{"key":"counter","msg_id":5,"type":"read"}}
+2023/10/29 17:33:38 Received {seq-kv n2 {"type":"error","code":20,"text":"key does not exist","in_reply_to":5}}
+2023/10/29 17:33:38 Sent {"src":"n2","dest":"c16","body":{"code":20,"in_reply_to":1,"text":"key does not exist","type":"error"}}
+2023/10/29 17:33:38 Received {c17 n2 {"delta":1,"type":"add","msg_id":1}}
+2023/10/29 17:33:38 Sent {"src":"n2","dest":"seq-kv","body":{"key":"counter","msg_id":6,"type":"read"}}
+2023/10/29 17:33:38 Received {seq-kv n2 {"type":"error","code":20,"text":"key does not exist","in_reply_to":6}}
+panic: interface conversion: interface {} is float64, not int
+
+goroutine 35 [running]:
+main.main.func4({{0x14000092650, 0x3}, {0x14000092654, 0x2}, {0x140000b20f0, 0x23, 0x30}})
+	/Users/googrand/projects/golang/dist_systems/counter/main.go:78 +0x290
+github.com/jepsen-io/maelstrom/demo/go.(*Node).handleMessage(0x0?, 0x0?, {{0x14000092650, 0x3}, {0x14000092654, 0x2}, {0x140000b20f0, 0x23, 0x30}})
+	/Users/googrand/go/pkg/mod/github.com/jepsen-io/maelstrom/demo/go@v0.0.0-20230918143807-815e8c3bd0a7/node.go:151 +0x70
+github.com/jepsen-io/maelstrom/demo/go.(*Node).Run.func2()
+	/Users/googrand/go/pkg/mod/github.com/jepsen-io/maelstrom/demo/go@v0.0.0-20230918143807-815e8c3bd0a7/node.go:129 +0x78
+created by github.com/jepsen-io/maelstrom/demo/go.(*Node).Run in goroutine 1
+	/Users/googrand/go/pkg/mod/github.com/jepsen-io/maelstrom/demo/go@v0.0.0-20230918143807-815e8c3bd0a7/node.go:127 +0x468

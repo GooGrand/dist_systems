@@ -1,0 +1,1803 @@
+2023/10/29 17:28:04 Received {c0 n1 {"type":"init","node_id":"n1","node_ids":["n0","n1","n2"],"msg_id":1}}
+2023/10/29 17:28:04 Node n1 initialized
+2023/10/29 17:28:04 Sent {"src":"n1","dest":"c0","body":{"in_reply_to":1,"type":"init_ok"}}
+2023/10/29 17:28:04 Received {c6 n1 {"delta":0,"type":"add","msg_id":1}}
+2023/10/29 17:28:04 Sent {"src":"n1","dest":"seq-kv","body":{"key":"counter","msg_id":1,"type":"read"}}
+2023/10/29 17:28:04 Received {seq-kv n1 {"type":"error","code":20,"text":"key does not exist","in_reply_to":1}}
+2023/10/29 17:28:04 Sent {"src":"n1","dest":"c6","body":{"code":20,"in_reply_to":1,"text":"key does not exist","type":"error"}}
+2023/10/29 17:28:05 Received {c10 n1 {"type":"read","msg_id":1}}
+2023/10/29 17:28:05 Sent {"src":"n1","dest":"seq-kv","body":{"key":"counter","msg_id":2,"type":"read"}}
+2023/10/29 17:28:05 Received {seq-kv n1 {"type":"error","code":20,"text":"key does not exist","in_reply_to":2}}
+2023/10/29 17:28:05 Sent {"src":"n1","dest":"c10","body":{"code":20,"in_reply_to":1,"text":"key does not exist","type":"error"}}
+2023/10/29 17:28:05 Received {c14 n1 {"delta":1,"type":"add","msg_id":1}}
+2023/10/29 17:28:05 Sent {"src":"n1","dest":"seq-kv","body":{"key":"counter","msg_id":3,"type":"read"}}
+2023/10/29 17:28:05 Received {seq-kv n1 {"type":"error","code":20,"text":"key does not exist","in_reply_to":3}}
+2023/10/29 17:28:05 Sent {"src":"n1","dest":"c14","body":{"code":20,"in_reply_to":1,"text":"key does not exist","type":"error"}}
+2023/10/29 17:28:05 Received {c18 n1 {"type":"read","msg_id":1}}
+2023/10/29 17:28:05 Sent {"src":"n1","dest":"seq-kv","body":{"key":"counter","msg_id":4,"type":"read"}}
+2023/10/29 17:28:05 Received {seq-kv n1 {"type":"error","code":20,"text":"key does not exist","in_reply_to":4}}
+2023/10/29 17:28:05 Sent {"src":"n1","dest":"c18","body":{"code":20,"in_reply_to":1,"text":"key does not exist","type":"error"}}
+2023/10/29 17:28:05 Received {c22 n1 {"type":"read","msg_id":1}}
+2023/10/29 17:28:05 Sent {"src":"n1","dest":"seq-kv","body":{"key":"counter","msg_id":5,"type":"read"}}
+2023/10/29 17:28:05 Received {seq-kv n1 {"type":"error","code":20,"text":"key does not exist","in_reply_to":5}}
+2023/10/29 17:28:05 Sent {"src":"n1","dest":"c22","body":{"code":20,"in_reply_to":1,"text":"key does not exist","type":"error"}}
+2023/10/29 17:28:05 Received {c26 n1 {"delta":3,"type":"add","msg_id":1}}
+2023/10/29 17:28:05 Sent {"src":"n1","dest":"seq-kv","body":{"key":"counter","msg_id":6,"type":"read"}}
+2023/10/29 17:28:05 Received {seq-kv n1 {"type":"error","code":20,"text":"key does not exist","in_reply_to":6}}
+2023/10/29 17:28:05 Sent {"src":"n1","dest":"c26","body":{"code":20,"in_reply_to":1,"text":"key does not exist","type":"error"}}
+2023/10/29 17:28:05 Received {c29 n1 {"delta":0,"type":"add","msg_id":1}}
+2023/10/29 17:28:05 Sent {"src":"n1","dest":"seq-kv","body":{"key":"counter","msg_id":7,"type":"read"}}
+2023/10/29 17:28:05 Received {seq-kv n1 {"type":"error","code":20,"text":"key does not exist","in_reply_to":7}}
+2023/10/29 17:28:05 Sent {"src":"n1","dest":"c29","body":{"code":20,"in_reply_to":1,"text":"key does not exist","type":"error"}}
+2023/10/29 17:28:05 Received {c30 n1 {"type":"read","msg_id":1}}
+2023/10/29 17:28:05 Sent {"src":"n1","dest":"seq-kv","body":{"key":"counter","msg_id":8,"type":"read"}}
+2023/10/29 17:28:05 Received {seq-kv n1 {"type":"error","code":20,"text":"key does not exist","in_reply_to":8}}
+2023/10/29 17:28:05 Sent {"src":"n1","dest":"c30","body":{"code":20,"in_reply_to":1,"text":"key does not exist","type":"error"}}
+2023/10/29 17:28:05 Received {c34 n1 {"type":"read","msg_id":1}}
+2023/10/29 17:28:05 Sent {"src":"n1","dest":"seq-kv","body":{"key":"counter","msg_id":9,"type":"read"}}
+2023/10/29 17:28:05 Received {seq-kv n1 {"type":"error","code":20,"text":"key does not exist","in_reply_to":9}}
+2023/10/29 17:28:05 Sent {"src":"n1","dest":"c34","body":{"code":20,"in_reply_to":1,"text":"key does not exist","type":"error"}}
+2023/10/29 17:28:05 Received {c38 n1 {"type":"read","msg_id":1}}
+2023/10/29 17:28:05 Sent {"src":"n1","dest":"seq-kv","body":{"key":"counter","msg_id":10,"type":"read"}}
+2023/10/29 17:28:05 Received {seq-kv n1 {"type":"error","code":20,"text":"key does not exist","in_reply_to":10}}
+2023/10/29 17:28:05 Sent {"src":"n1","dest":"c38","body":{"code":20,"in_reply_to":1,"text":"key does not exist","type":"error"}}
+2023/10/29 17:28:05 Received {c42 n1 {"delta":3,"type":"add","msg_id":1}}
+2023/10/29 17:28:05 Sent {"src":"n1","dest":"seq-kv","body":{"key":"counter","msg_id":11,"type":"read"}}
+2023/10/29 17:28:05 Received {seq-kv n1 {"type":"error","code":20,"text":"key does not exist","in_reply_to":11}}
+2023/10/29 17:28:05 Sent {"src":"n1","dest":"c42","body":{"code":20,"in_reply_to":1,"text":"key does not exist","type":"error"}}
+2023/10/29 17:28:05 Received {c46 n1 {"type":"read","msg_id":1}}
+2023/10/29 17:28:05 Sent {"src":"n1","dest":"seq-kv","body":{"key":"counter","msg_id":12,"type":"read"}}
+2023/10/29 17:28:05 Received {seq-kv n1 {"type":"error","code":20,"text":"key does not exist","in_reply_to":12}}
+2023/10/29 17:28:05 Sent {"src":"n1","dest":"c46","body":{"code":20,"in_reply_to":1,"text":"key does not exist","type":"error"}}
+2023/10/29 17:28:05 Received {c50 n1 {"delta":2,"type":"add","msg_id":1}}
+2023/10/29 17:28:05 Sent {"src":"n1","dest":"seq-kv","body":{"key":"counter","msg_id":13,"type":"read"}}
+2023/10/29 17:28:05 Received {seq-kv n1 {"type":"error","code":20,"text":"key does not exist","in_reply_to":13}}
+2023/10/29 17:28:05 Sent {"src":"n1","dest":"c50","body":{"code":20,"in_reply_to":1,"text":"key does not exist","type":"error"}}
+2023/10/29 17:28:05 Received {c53 n1 {"type":"read","msg_id":1}}
+2023/10/29 17:28:05 Sent {"src":"n1","dest":"seq-kv","body":{"key":"counter","msg_id":14,"type":"read"}}
+2023/10/29 17:28:05 Received {seq-kv n1 {"type":"error","code":20,"text":"key does not exist","in_reply_to":14}}
+2023/10/29 17:28:05 Sent {"src":"n1","dest":"c53","body":{"code":20,"in_reply_to":1,"text":"key does not exist","type":"error"}}
+2023/10/29 17:28:05 Received {c54 n1 {"type":"read","msg_id":1}}
+2023/10/29 17:28:05 Sent {"src":"n1","dest":"seq-kv","body":{"key":"counter","msg_id":15,"type":"read"}}
+2023/10/29 17:28:05 Received {seq-kv n1 {"type":"error","code":20,"text":"key does not exist","in_reply_to":15}}
+2023/10/29 17:28:05 Sent {"src":"n1","dest":"c54","body":{"code":20,"in_reply_to":1,"text":"key does not exist","type":"error"}}
+2023/10/29 17:28:05 Received {c58 n1 {"type":"read","msg_id":1}}
+2023/10/29 17:28:05 Sent {"src":"n1","dest":"seq-kv","body":{"key":"counter","msg_id":16,"type":"read"}}
+2023/10/29 17:28:05 Received {seq-kv n1 {"type":"error","code":20,"text":"key does not exist","in_reply_to":16}}
+2023/10/29 17:28:05 Sent {"src":"n1","dest":"c58","body":{"code":20,"in_reply_to":1,"text":"key does not exist","type":"error"}}
+2023/10/29 17:28:05 Received {c62 n1 {"type":"read","msg_id":1}}
+2023/10/29 17:28:05 Sent {"src":"n1","dest":"seq-kv","body":{"key":"counter","msg_id":17,"type":"read"}}
+2023/10/29 17:28:05 Received {seq-kv n1 {"type":"error","code":20,"text":"key does not exist","in_reply_to":17}}
+2023/10/29 17:28:05 Sent {"src":"n1","dest":"c62","body":{"code":20,"in_reply_to":1,"text":"key does not exist","type":"error"}}
+2023/10/29 17:28:05 Received {c66 n1 {"type":"read","msg_id":1}}
+2023/10/29 17:28:05 Sent {"src":"n1","dest":"seq-kv","body":{"key":"counter","msg_id":18,"type":"read"}}
+2023/10/29 17:28:05 Received {seq-kv n1 {"type":"error","code":20,"text":"key does not exist","in_reply_to":18}}
+2023/10/29 17:28:05 Sent {"src":"n1","dest":"c66","body":{"code":20,"in_reply_to":1,"text":"key does not exist","type":"error"}}
+2023/10/29 17:28:05 Received {c70 n1 {"type":"read","msg_id":1}}
+2023/10/29 17:28:05 Sent {"src":"n1","dest":"seq-kv","body":{"key":"counter","msg_id":19,"type":"read"}}
+2023/10/29 17:28:05 Received {seq-kv n1 {"type":"error","code":20,"text":"key does not exist","in_reply_to":19}}
+2023/10/29 17:28:05 Sent {"src":"n1","dest":"c70","body":{"code":20,"in_reply_to":1,"text":"key does not exist","type":"error"}}
+2023/10/29 17:28:05 Received {c74 n1 {"type":"read","msg_id":1}}
+2023/10/29 17:28:05 Sent {"src":"n1","dest":"seq-kv","body":{"key":"counter","msg_id":20,"type":"read"}}
+2023/10/29 17:28:05 Received {seq-kv n1 {"type":"error","code":20,"text":"key does not exist","in_reply_to":20}}
+2023/10/29 17:28:05 Sent {"src":"n1","dest":"c74","body":{"code":20,"in_reply_to":1,"text":"key does not exist","type":"error"}}
+2023/10/29 17:28:05 Received {c78 n1 {"type":"read","msg_id":1}}
+2023/10/29 17:28:05 Sent {"src":"n1","dest":"seq-kv","body":{"key":"counter","msg_id":21,"type":"read"}}
+2023/10/29 17:28:05 Received {seq-kv n1 {"type":"error","code":20,"text":"key does not exist","in_reply_to":21}}
+2023/10/29 17:28:05 Sent {"src":"n1","dest":"c78","body":{"code":20,"in_reply_to":1,"text":"key does not exist","type":"error"}}
+2023/10/29 17:28:05 Received {c82 n1 {"type":"read","msg_id":1}}
+2023/10/29 17:28:05 Sent {"src":"n1","dest":"seq-kv","body":{"key":"counter","msg_id":22,"type":"read"}}
+2023/10/29 17:28:05 Received {seq-kv n1 {"type":"error","code":20,"text":"key does not exist","in_reply_to":22}}
+2023/10/29 17:28:05 Sent {"src":"n1","dest":"c82","body":{"code":20,"in_reply_to":1,"text":"key does not exist","type":"error"}}
+2023/10/29 17:28:05 Received {c86 n1 {"type":"read","msg_id":1}}
+2023/10/29 17:28:05 Sent {"src":"n1","dest":"seq-kv","body":{"key":"counter","msg_id":23,"type":"read"}}
+2023/10/29 17:28:05 Received {seq-kv n1 {"type":"error","code":20,"text":"key does not exist","in_reply_to":23}}
+2023/10/29 17:28:05 Sent {"src":"n1","dest":"c86","body":{"code":20,"in_reply_to":1,"text":"key does not exist","type":"error"}}
+2023/10/29 17:28:05 Received {c90 n1 {"type":"read","msg_id":1}}
+2023/10/29 17:28:05 Sent {"src":"n1","dest":"seq-kv","body":{"key":"counter","msg_id":24,"type":"read"}}
+2023/10/29 17:28:05 Received {seq-kv n1 {"type":"error","code":20,"text":"key does not exist","in_reply_to":24}}
+2023/10/29 17:28:05 Sent {"src":"n1","dest":"c90","body":{"code":20,"in_reply_to":1,"text":"key does not exist","type":"error"}}
+2023/10/29 17:28:05 Received {c94 n1 {"delta":0,"type":"add","msg_id":1}}
+2023/10/29 17:28:05 Sent {"src":"n1","dest":"seq-kv","body":{"key":"counter","msg_id":25,"type":"read"}}
+2023/10/29 17:28:05 Received {seq-kv n1 {"type":"error","code":20,"text":"key does not exist","in_reply_to":25}}
+2023/10/29 17:28:05 Sent {"src":"n1","dest":"c94","body":{"code":20,"in_reply_to":1,"text":"key does not exist","type":"error"}}
+2023/10/29 17:28:06 Received {c98 n1 {"delta":1,"type":"add","msg_id":1}}
+2023/10/29 17:28:06 Sent {"src":"n1","dest":"seq-kv","body":{"key":"counter","msg_id":26,"type":"read"}}
+2023/10/29 17:28:06 Received {seq-kv n1 {"type":"error","code":20,"text":"key does not exist","in_reply_to":26}}
+2023/10/29 17:28:06 Sent {"src":"n1","dest":"c98","body":{"code":20,"in_reply_to":1,"text":"key does not exist","type":"error"}}
+2023/10/29 17:28:06 Received {c102 n1 {"type":"read","msg_id":1}}
+2023/10/29 17:28:06 Sent {"src":"n1","dest":"seq-kv","body":{"key":"counter","msg_id":27,"type":"read"}}
+2023/10/29 17:28:06 Received {seq-kv n1 {"type":"error","code":20,"text":"key does not exist","in_reply_to":27}}
+2023/10/29 17:28:06 Sent {"src":"n1","dest":"c102","body":{"code":20,"in_reply_to":1,"text":"key does not exist","type":"error"}}
+2023/10/29 17:28:06 Received {c106 n1 {"type":"read","msg_id":1}}
+2023/10/29 17:28:06 Sent {"src":"n1","dest":"seq-kv","body":{"key":"counter","msg_id":28,"type":"read"}}
+2023/10/29 17:28:06 Received {seq-kv n1 {"type":"error","code":20,"text":"key does not exist","in_reply_to":28}}
+2023/10/29 17:28:06 Sent {"src":"n1","dest":"c106","body":{"code":20,"in_reply_to":1,"text":"key does not exist","type":"error"}}
+2023/10/29 17:28:06 Received {c110 n1 {"type":"read","msg_id":1}}
+2023/10/29 17:28:06 Sent {"src":"n1","dest":"seq-kv","body":{"key":"counter","msg_id":29,"type":"read"}}
+2023/10/29 17:28:06 Received {seq-kv n1 {"type":"error","code":20,"text":"key does not exist","in_reply_to":29}}
+2023/10/29 17:28:06 Sent {"src":"n1","dest":"c110","body":{"code":20,"in_reply_to":1,"text":"key does not exist","type":"error"}}
+2023/10/29 17:28:06 Received {c114 n1 {"type":"read","msg_id":1}}
+2023/10/29 17:28:06 Sent {"src":"n1","dest":"seq-kv","body":{"key":"counter","msg_id":30,"type":"read"}}
+2023/10/29 17:28:06 Received {seq-kv n1 {"type":"error","code":20,"text":"key does not exist","in_reply_to":30}}
+2023/10/29 17:28:06 Sent {"src":"n1","dest":"c114","body":{"code":20,"in_reply_to":1,"text":"key does not exist","type":"error"}}
+2023/10/29 17:28:06 Received {c118 n1 {"type":"read","msg_id":1}}
+2023/10/29 17:28:06 Sent {"src":"n1","dest":"seq-kv","body":{"key":"counter","msg_id":31,"type":"read"}}
+2023/10/29 17:28:06 Received {seq-kv n1 {"type":"error","code":20,"text":"key does not exist","in_reply_to":31}}
+2023/10/29 17:28:06 Sent {"src":"n1","dest":"c118","body":{"code":20,"in_reply_to":1,"text":"key does not exist","type":"error"}}
+2023/10/29 17:28:06 Received {c122 n1 {"type":"read","msg_id":1}}
+2023/10/29 17:28:06 Sent {"src":"n1","dest":"seq-kv","body":{"key":"counter","msg_id":32,"type":"read"}}
+2023/10/29 17:28:06 Received {seq-kv n1 {"type":"error","code":20,"text":"key does not exist","in_reply_to":32}}
+2023/10/29 17:28:06 Sent {"src":"n1","dest":"c122","body":{"code":20,"in_reply_to":1,"text":"key does not exist","type":"error"}}
+2023/10/29 17:28:06 Received {c126 n1 {"delta":4,"type":"add","msg_id":1}}
+2023/10/29 17:28:06 Sent {"src":"n1","dest":"seq-kv","body":{"key":"counter","msg_id":33,"type":"read"}}
+2023/10/29 17:28:06 Received {seq-kv n1 {"type":"error","code":20,"text":"key does not exist","in_reply_to":33}}
+2023/10/29 17:28:06 Sent {"src":"n1","dest":"c126","body":{"code":20,"in_reply_to":1,"text":"key does not exist","type":"error"}}
+2023/10/29 17:28:06 Received {c130 n1 {"type":"read","msg_id":1}}
+2023/10/29 17:28:06 Sent {"src":"n1","dest":"seq-kv","body":{"key":"counter","msg_id":34,"type":"read"}}
+2023/10/29 17:28:06 Received {seq-kv n1 {"type":"error","code":20,"text":"key does not exist","in_reply_to":34}}
+2023/10/29 17:28:06 Sent {"src":"n1","dest":"c130","body":{"code":20,"in_reply_to":1,"text":"key does not exist","type":"error"}}
+2023/10/29 17:28:06 Received {c134 n1 {"type":"read","msg_id":1}}
+2023/10/29 17:28:06 Sent {"src":"n1","dest":"seq-kv","body":{"key":"counter","msg_id":35,"type":"read"}}
+2023/10/29 17:28:06 Received {seq-kv n1 {"type":"error","code":20,"text":"key does not exist","in_reply_to":35}}
+2023/10/29 17:28:06 Sent {"src":"n1","dest":"c134","body":{"code":20,"in_reply_to":1,"text":"key does not exist","type":"error"}}
+2023/10/29 17:28:06 Received {c138 n1 {"type":"read","msg_id":1}}
+2023/10/29 17:28:06 Sent {"src":"n1","dest":"seq-kv","body":{"key":"counter","msg_id":36,"type":"read"}}
+2023/10/29 17:28:06 Received {seq-kv n1 {"type":"error","code":20,"text":"key does not exist","in_reply_to":36}}
+2023/10/29 17:28:06 Sent {"src":"n1","dest":"c138","body":{"code":20,"in_reply_to":1,"text":"key does not exist","type":"error"}}
+2023/10/29 17:28:06 Received {c142 n1 {"delta":4,"type":"add","msg_id":1}}
+2023/10/29 17:28:06 Sent {"src":"n1","dest":"seq-kv","body":{"key":"counter","msg_id":37,"type":"read"}}
+2023/10/29 17:28:06 Received {seq-kv n1 {"type":"error","code":20,"text":"key does not exist","in_reply_to":37}}
+2023/10/29 17:28:06 Sent {"src":"n1","dest":"c142","body":{"code":20,"in_reply_to":1,"text":"key does not exist","type":"error"}}
+2023/10/29 17:28:06 Received {c146 n1 {"type":"read","msg_id":1}}
+2023/10/29 17:28:06 Sent {"src":"n1","dest":"seq-kv","body":{"key":"counter","msg_id":38,"type":"read"}}
+2023/10/29 17:28:06 Received {seq-kv n1 {"type":"error","code":20,"text":"key does not exist","in_reply_to":38}}
+2023/10/29 17:28:06 Sent {"src":"n1","dest":"c146","body":{"code":20,"in_reply_to":1,"text":"key does not exist","type":"error"}}
+2023/10/29 17:28:06 Received {c150 n1 {"type":"read","msg_id":1}}
+2023/10/29 17:28:06 Sent {"src":"n1","dest":"seq-kv","body":{"key":"counter","msg_id":39,"type":"read"}}
+2023/10/29 17:28:06 Received {seq-kv n1 {"type":"error","code":20,"text":"key does not exist","in_reply_to":39}}
+2023/10/29 17:28:06 Sent {"src":"n1","dest":"c150","body":{"code":20,"in_reply_to":1,"text":"key does not exist","type":"error"}}
+2023/10/29 17:28:06 Received {c154 n1 {"delta":2,"type":"add","msg_id":1}}
+2023/10/29 17:28:06 Sent {"src":"n1","dest":"seq-kv","body":{"key":"counter","msg_id":40,"type":"read"}}
+2023/10/29 17:28:06 Received {seq-kv n1 {"type":"error","code":20,"text":"key does not exist","in_reply_to":40}}
+2023/10/29 17:28:06 Sent {"src":"n1","dest":"c154","body":{"code":20,"in_reply_to":1,"text":"key does not exist","type":"error"}}
+2023/10/29 17:28:06 Received {c158 n1 {"type":"read","msg_id":1}}
+2023/10/29 17:28:06 Sent {"src":"n1","dest":"seq-kv","body":{"key":"counter","msg_id":41,"type":"read"}}
+2023/10/29 17:28:06 Received {seq-kv n1 {"type":"error","code":20,"text":"key does not exist","in_reply_to":41}}
+2023/10/29 17:28:06 Sent {"src":"n1","dest":"c158","body":{"code":20,"in_reply_to":1,"text":"key does not exist","type":"error"}}
+2023/10/29 17:28:06 Received {c162 n1 {"delta":3,"type":"add","msg_id":1}}
+2023/10/29 17:28:06 Sent {"src":"n1","dest":"seq-kv","body":{"key":"counter","msg_id":42,"type":"read"}}
+2023/10/29 17:28:06 Received {seq-kv n1 {"type":"error","code":20,"text":"key does not exist","in_reply_to":42}}
+2023/10/29 17:28:06 Sent {"src":"n1","dest":"c162","body":{"code":20,"in_reply_to":1,"text":"key does not exist","type":"error"}}
+2023/10/29 17:28:06 Received {c166 n1 {"type":"read","msg_id":1}}
+2023/10/29 17:28:06 Sent {"src":"n1","dest":"seq-kv","body":{"key":"counter","msg_id":43,"type":"read"}}
+2023/10/29 17:28:06 Received {seq-kv n1 {"type":"error","code":20,"text":"key does not exist","in_reply_to":43}}
+2023/10/29 17:28:06 Sent {"src":"n1","dest":"c166","body":{"code":20,"in_reply_to":1,"text":"key does not exist","type":"error"}}
+2023/10/29 17:28:06 Received {c170 n1 {"type":"read","msg_id":1}}
+2023/10/29 17:28:06 Sent {"src":"n1","dest":"seq-kv","body":{"key":"counter","msg_id":44,"type":"read"}}
+2023/10/29 17:28:06 Received {seq-kv n1 {"type":"error","code":20,"text":"key does not exist","in_reply_to":44}}
+2023/10/29 17:28:06 Sent {"src":"n1","dest":"c170","body":{"code":20,"in_reply_to":1,"text":"key does not exist","type":"error"}}
+2023/10/29 17:28:06 Received {c174 n1 {"type":"read","msg_id":1}}
+2023/10/29 17:28:06 Sent {"src":"n1","dest":"seq-kv","body":{"key":"counter","msg_id":45,"type":"read"}}
+2023/10/29 17:28:06 Received {seq-kv n1 {"type":"error","code":20,"text":"key does not exist","in_reply_to":45}}
+2023/10/29 17:28:06 Sent {"src":"n1","dest":"c174","body":{"code":20,"in_reply_to":1,"text":"key does not exist","type":"error"}}
+2023/10/29 17:28:07 Received {c178 n1 {"delta":4,"type":"add","msg_id":1}}
+2023/10/29 17:28:07 Sent {"src":"n1","dest":"seq-kv","body":{"key":"counter","msg_id":46,"type":"read"}}
+2023/10/29 17:28:07 Received {seq-kv n1 {"type":"error","code":20,"text":"key does not exist","in_reply_to":46}}
+2023/10/29 17:28:07 Sent {"src":"n1","dest":"c178","body":{"code":20,"in_reply_to":1,"text":"key does not exist","type":"error"}}
+2023/10/29 17:28:07 Received {c182 n1 {"delta":4,"type":"add","msg_id":1}}
+2023/10/29 17:28:07 Sent {"src":"n1","dest":"seq-kv","body":{"key":"counter","msg_id":47,"type":"read"}}
+2023/10/29 17:28:07 Received {seq-kv n1 {"type":"error","code":20,"text":"key does not exist","in_reply_to":47}}
+2023/10/29 17:28:07 Sent {"src":"n1","dest":"c182","body":{"code":20,"in_reply_to":1,"text":"key does not exist","type":"error"}}
+2023/10/29 17:28:07 Received {c186 n1 {"type":"read","msg_id":1}}
+2023/10/29 17:28:07 Sent {"src":"n1","dest":"seq-kv","body":{"key":"counter","msg_id":48,"type":"read"}}
+2023/10/29 17:28:07 Received {seq-kv n1 {"type":"error","code":20,"text":"key does not exist","in_reply_to":48}}
+2023/10/29 17:28:07 Sent {"src":"n1","dest":"c186","body":{"code":20,"in_reply_to":1,"text":"key does not exist","type":"error"}}
+2023/10/29 17:28:07 Received {c190 n1 {"delta":1,"type":"add","msg_id":1}}
+2023/10/29 17:28:07 Sent {"src":"n1","dest":"seq-kv","body":{"key":"counter","msg_id":49,"type":"read"}}
+2023/10/29 17:28:07 Received {seq-kv n1 {"type":"error","code":20,"text":"key does not exist","in_reply_to":49}}
+2023/10/29 17:28:07 Sent {"src":"n1","dest":"c190","body":{"code":20,"in_reply_to":1,"text":"key does not exist","type":"error"}}
+2023/10/29 17:28:07 Received {c194 n1 {"delta":1,"type":"add","msg_id":1}}
+2023/10/29 17:28:07 Sent {"src":"n1","dest":"seq-kv","body":{"key":"counter","msg_id":50,"type":"read"}}
+2023/10/29 17:28:07 Received {seq-kv n1 {"type":"error","code":20,"text":"key does not exist","in_reply_to":50}}
+2023/10/29 17:28:07 Sent {"src":"n1","dest":"c194","body":{"code":20,"in_reply_to":1,"text":"key does not exist","type":"error"}}
+2023/10/29 17:28:07 Received {c198 n1 {"type":"read","msg_id":1}}
+2023/10/29 17:28:07 Sent {"src":"n1","dest":"seq-kv","body":{"key":"counter","msg_id":51,"type":"read"}}
+2023/10/29 17:28:07 Received {seq-kv n1 {"type":"error","code":20,"text":"key does not exist","in_reply_to":51}}
+2023/10/29 17:28:07 Sent {"src":"n1","dest":"c198","body":{"code":20,"in_reply_to":1,"text":"key does not exist","type":"error"}}
+2023/10/29 17:28:07 Received {c202 n1 {"type":"read","msg_id":1}}
+2023/10/29 17:28:07 Sent {"src":"n1","dest":"seq-kv","body":{"key":"counter","msg_id":52,"type":"read"}}
+2023/10/29 17:28:07 Received {seq-kv n1 {"type":"error","code":20,"text":"key does not exist","in_reply_to":52}}
+2023/10/29 17:28:07 Sent {"src":"n1","dest":"c202","body":{"code":20,"in_reply_to":1,"text":"key does not exist","type":"error"}}
+2023/10/29 17:28:07 Received {c206 n1 {"type":"read","msg_id":1}}
+2023/10/29 17:28:07 Sent {"src":"n1","dest":"seq-kv","body":{"key":"counter","msg_id":53,"type":"read"}}
+2023/10/29 17:28:07 Received {seq-kv n1 {"type":"error","code":20,"text":"key does not exist","in_reply_to":53}}
+2023/10/29 17:28:07 Sent {"src":"n1","dest":"c206","body":{"code":20,"in_reply_to":1,"text":"key does not exist","type":"error"}}
+2023/10/29 17:28:07 Received {c210 n1 {"type":"read","msg_id":1}}
+2023/10/29 17:28:07 Sent {"src":"n1","dest":"seq-kv","body":{"key":"counter","msg_id":54,"type":"read"}}
+2023/10/29 17:28:07 Received {seq-kv n1 {"type":"error","code":20,"text":"key does not exist","in_reply_to":54}}
+2023/10/29 17:28:07 Sent {"src":"n1","dest":"c210","body":{"code":20,"in_reply_to":1,"text":"key does not exist","type":"error"}}
+2023/10/29 17:28:07 Received {c214 n1 {"delta":0,"type":"add","msg_id":1}}
+2023/10/29 17:28:07 Sent {"src":"n1","dest":"seq-kv","body":{"key":"counter","msg_id":55,"type":"read"}}
+2023/10/29 17:28:07 Received {seq-kv n1 {"type":"error","code":20,"text":"key does not exist","in_reply_to":55}}
+2023/10/29 17:28:07 Sent {"src":"n1","dest":"c214","body":{"code":20,"in_reply_to":1,"text":"key does not exist","type":"error"}}
+2023/10/29 17:28:07 Received {c218 n1 {"type":"read","msg_id":1}}
+2023/10/29 17:28:07 Sent {"src":"n1","dest":"seq-kv","body":{"key":"counter","msg_id":56,"type":"read"}}
+2023/10/29 17:28:07 Received {seq-kv n1 {"type":"error","code":20,"text":"key does not exist","in_reply_to":56}}
+2023/10/29 17:28:07 Sent {"src":"n1","dest":"c218","body":{"code":20,"in_reply_to":1,"text":"key does not exist","type":"error"}}
+2023/10/29 17:28:07 Received {c222 n1 {"type":"read","msg_id":1}}
+2023/10/29 17:28:07 Sent {"src":"n1","dest":"seq-kv","body":{"key":"counter","msg_id":57,"type":"read"}}
+2023/10/29 17:28:07 Received {seq-kv n1 {"type":"error","code":20,"text":"key does not exist","in_reply_to":57}}
+2023/10/29 17:28:07 Sent {"src":"n1","dest":"c222","body":{"code":20,"in_reply_to":1,"text":"key does not exist","type":"error"}}
+2023/10/29 17:28:07 Received {c226 n1 {"type":"read","msg_id":1}}
+2023/10/29 17:28:07 Sent {"src":"n1","dest":"seq-kv","body":{"key":"counter","msg_id":58,"type":"read"}}
+2023/10/29 17:28:07 Received {seq-kv n1 {"type":"error","code":20,"text":"key does not exist","in_reply_to":58}}
+2023/10/29 17:28:07 Sent {"src":"n1","dest":"c226","body":{"code":20,"in_reply_to":1,"text":"key does not exist","type":"error"}}
+2023/10/29 17:28:07 Received {c230 n1 {"delta":2,"type":"add","msg_id":1}}
+2023/10/29 17:28:07 Sent {"src":"n1","dest":"seq-kv","body":{"key":"counter","msg_id":59,"type":"read"}}
+2023/10/29 17:28:07 Received {seq-kv n1 {"type":"error","code":20,"text":"key does not exist","in_reply_to":59}}
+2023/10/29 17:28:07 Sent {"src":"n1","dest":"c230","body":{"code":20,"in_reply_to":1,"text":"key does not exist","type":"error"}}
+2023/10/29 17:28:07 Received {c234 n1 {"delta":4,"type":"add","msg_id":1}}
+2023/10/29 17:28:07 Sent {"src":"n1","dest":"seq-kv","body":{"key":"counter","msg_id":60,"type":"read"}}
+2023/10/29 17:28:07 Received {seq-kv n1 {"type":"error","code":20,"text":"key does not exist","in_reply_to":60}}
+2023/10/29 17:28:07 Sent {"src":"n1","dest":"c234","body":{"code":20,"in_reply_to":1,"text":"key does not exist","type":"error"}}
+2023/10/29 17:28:07 Received {c238 n1 {"type":"read","msg_id":1}}
+2023/10/29 17:28:07 Sent {"src":"n1","dest":"seq-kv","body":{"key":"counter","msg_id":61,"type":"read"}}
+2023/10/29 17:28:07 Received {seq-kv n1 {"type":"error","code":20,"text":"key does not exist","in_reply_to":61}}
+2023/10/29 17:28:07 Sent {"src":"n1","dest":"c238","body":{"code":20,"in_reply_to":1,"text":"key does not exist","type":"error"}}
+2023/10/29 17:28:07 Received {c242 n1 {"type":"read","msg_id":1}}
+2023/10/29 17:28:07 Sent {"src":"n1","dest":"seq-kv","body":{"key":"counter","msg_id":62,"type":"read"}}
+2023/10/29 17:28:07 Received {seq-kv n1 {"type":"error","code":20,"text":"key does not exist","in_reply_to":62}}
+2023/10/29 17:28:07 Sent {"src":"n1","dest":"c242","body":{"code":20,"in_reply_to":1,"text":"key does not exist","type":"error"}}
+2023/10/29 17:28:07 Received {c246 n1 {"type":"read","msg_id":1}}
+2023/10/29 17:28:07 Sent {"src":"n1","dest":"seq-kv","body":{"key":"counter","msg_id":63,"type":"read"}}
+2023/10/29 17:28:07 Received {seq-kv n1 {"type":"error","code":20,"text":"key does not exist","in_reply_to":63}}
+2023/10/29 17:28:07 Sent {"src":"n1","dest":"c246","body":{"code":20,"in_reply_to":1,"text":"key does not exist","type":"error"}}
+2023/10/29 17:28:07 Received {c250 n1 {"type":"read","msg_id":1}}
+2023/10/29 17:28:07 Sent {"src":"n1","dest":"seq-kv","body":{"key":"counter","msg_id":64,"type":"read"}}
+2023/10/29 17:28:07 Received {seq-kv n1 {"type":"error","code":20,"text":"key does not exist","in_reply_to":64}}
+2023/10/29 17:28:07 Sent {"src":"n1","dest":"c250","body":{"code":20,"in_reply_to":1,"text":"key does not exist","type":"error"}}
+2023/10/29 17:28:07 Received {c254 n1 {"delta":3,"type":"add","msg_id":1}}
+2023/10/29 17:28:07 Sent {"src":"n1","dest":"seq-kv","body":{"key":"counter","msg_id":65,"type":"read"}}
+2023/10/29 17:28:07 Received {seq-kv n1 {"type":"error","code":20,"text":"key does not exist","in_reply_to":65}}
+2023/10/29 17:28:07 Sent {"src":"n1","dest":"c254","body":{"code":20,"in_reply_to":1,"text":"key does not exist","type":"error"}}
+2023/10/29 17:28:07 Received {c258 n1 {"type":"read","msg_id":1}}
+2023/10/29 17:28:07 Sent {"src":"n1","dest":"seq-kv","body":{"key":"counter","msg_id":66,"type":"read"}}
+2023/10/29 17:28:07 Received {seq-kv n1 {"type":"error","code":20,"text":"key does not exist","in_reply_to":66}}
+2023/10/29 17:28:07 Sent {"src":"n1","dest":"c258","body":{"code":20,"in_reply_to":1,"text":"key does not exist","type":"error"}}
+2023/10/29 17:28:07 Received {c262 n1 {"type":"read","msg_id":1}}
+2023/10/29 17:28:07 Sent {"src":"n1","dest":"seq-kv","body":{"key":"counter","msg_id":67,"type":"read"}}
+2023/10/29 17:28:07 Received {seq-kv n1 {"type":"error","code":20,"text":"key does not exist","in_reply_to":67}}
+2023/10/29 17:28:07 Sent {"src":"n1","dest":"c262","body":{"code":20,"in_reply_to":1,"text":"key does not exist","type":"error"}}
+2023/10/29 17:28:08 Received {c266 n1 {"type":"read","msg_id":1}}
+2023/10/29 17:28:08 Sent {"src":"n1","dest":"seq-kv","body":{"key":"counter","msg_id":68,"type":"read"}}
+2023/10/29 17:28:08 Received {seq-kv n1 {"type":"error","code":20,"text":"key does not exist","in_reply_to":68}}
+2023/10/29 17:28:08 Sent {"src":"n1","dest":"c266","body":{"code":20,"in_reply_to":1,"text":"key does not exist","type":"error"}}
+2023/10/29 17:28:08 Received {c270 n1 {"type":"read","msg_id":1}}
+2023/10/29 17:28:08 Sent {"src":"n1","dest":"seq-kv","body":{"key":"counter","msg_id":69,"type":"read"}}
+2023/10/29 17:28:08 Received {seq-kv n1 {"type":"error","code":20,"text":"key does not exist","in_reply_to":69}}
+2023/10/29 17:28:08 Sent {"src":"n1","dest":"c270","body":{"code":20,"in_reply_to":1,"text":"key does not exist","type":"error"}}
+2023/10/29 17:28:08 Received {c274 n1 {"type":"read","msg_id":1}}
+2023/10/29 17:28:08 Sent {"src":"n1","dest":"seq-kv","body":{"key":"counter","msg_id":70,"type":"read"}}
+2023/10/29 17:28:08 Received {seq-kv n1 {"type":"error","code":20,"text":"key does not exist","in_reply_to":70}}
+2023/10/29 17:28:08 Sent {"src":"n1","dest":"c274","body":{"code":20,"in_reply_to":1,"text":"key does not exist","type":"error"}}
+2023/10/29 17:28:08 Received {c278 n1 {"delta":2,"type":"add","msg_id":1}}
+2023/10/29 17:28:08 Sent {"src":"n1","dest":"seq-kv","body":{"key":"counter","msg_id":71,"type":"read"}}
+2023/10/29 17:28:08 Received {seq-kv n1 {"type":"error","code":20,"text":"key does not exist","in_reply_to":71}}
+2023/10/29 17:28:08 Sent {"src":"n1","dest":"c278","body":{"code":20,"in_reply_to":1,"text":"key does not exist","type":"error"}}
+2023/10/29 17:28:08 Received {c282 n1 {"type":"read","msg_id":1}}
+2023/10/29 17:28:08 Sent {"src":"n1","dest":"seq-kv","body":{"key":"counter","msg_id":72,"type":"read"}}
+2023/10/29 17:28:08 Received {seq-kv n1 {"type":"error","code":20,"text":"key does not exist","in_reply_to":72}}
+2023/10/29 17:28:08 Sent {"src":"n1","dest":"c282","body":{"code":20,"in_reply_to":1,"text":"key does not exist","type":"error"}}
+2023/10/29 17:28:08 Received {c286 n1 {"type":"read","msg_id":1}}
+2023/10/29 17:28:08 Sent {"src":"n1","dest":"seq-kv","body":{"key":"counter","msg_id":73,"type":"read"}}
+2023/10/29 17:28:08 Received {seq-kv n1 {"type":"error","code":20,"text":"key does not exist","in_reply_to":73}}
+2023/10/29 17:28:08 Sent {"src":"n1","dest":"c286","body":{"code":20,"in_reply_to":1,"text":"key does not exist","type":"error"}}
+2023/10/29 17:28:08 Received {c290 n1 {"type":"read","msg_id":1}}
+2023/10/29 17:28:08 Sent {"src":"n1","dest":"seq-kv","body":{"key":"counter","msg_id":74,"type":"read"}}
+2023/10/29 17:28:08 Received {seq-kv n1 {"type":"error","code":20,"text":"key does not exist","in_reply_to":74}}
+2023/10/29 17:28:08 Sent {"src":"n1","dest":"c290","body":{"code":20,"in_reply_to":1,"text":"key does not exist","type":"error"}}
+2023/10/29 17:28:08 Received {c294 n1 {"delta":4,"type":"add","msg_id":1}}
+2023/10/29 17:28:08 Sent {"src":"n1","dest":"seq-kv","body":{"key":"counter","msg_id":75,"type":"read"}}
+2023/10/29 17:28:08 Received {seq-kv n1 {"type":"error","code":20,"text":"key does not exist","in_reply_to":75}}
+2023/10/29 17:28:08 Sent {"src":"n1","dest":"c294","body":{"code":20,"in_reply_to":1,"text":"key does not exist","type":"error"}}
+2023/10/29 17:28:08 Received {c298 n1 {"type":"read","msg_id":1}}
+2023/10/29 17:28:08 Sent {"src":"n1","dest":"seq-kv","body":{"key":"counter","msg_id":76,"type":"read"}}
+2023/10/29 17:28:08 Received {seq-kv n1 {"type":"error","code":20,"text":"key does not exist","in_reply_to":76}}
+2023/10/29 17:28:08 Sent {"src":"n1","dest":"c298","body":{"code":20,"in_reply_to":1,"text":"key does not exist","type":"error"}}
+2023/10/29 17:28:08 Received {c302 n1 {"delta":0,"type":"add","msg_id":1}}
+2023/10/29 17:28:08 Sent {"src":"n1","dest":"seq-kv","body":{"key":"counter","msg_id":77,"type":"read"}}
+2023/10/29 17:28:08 Received {seq-kv n1 {"type":"error","code":20,"text":"key does not exist","in_reply_to":77}}
+2023/10/29 17:28:08 Sent {"src":"n1","dest":"c302","body":{"code":20,"in_reply_to":1,"text":"key does not exist","type":"error"}}
+2023/10/29 17:28:08 Received {c306 n1 {"type":"read","msg_id":1}}
+2023/10/29 17:28:08 Sent {"src":"n1","dest":"seq-kv","body":{"key":"counter","msg_id":78,"type":"read"}}
+2023/10/29 17:28:08 Received {seq-kv n1 {"type":"error","code":20,"text":"key does not exist","in_reply_to":78}}
+2023/10/29 17:28:08 Sent {"src":"n1","dest":"c306","body":{"code":20,"in_reply_to":1,"text":"key does not exist","type":"error"}}
+2023/10/29 17:28:08 Received {c310 n1 {"delta":0,"type":"add","msg_id":1}}
+2023/10/29 17:28:08 Sent {"src":"n1","dest":"seq-kv","body":{"key":"counter","msg_id":79,"type":"read"}}
+2023/10/29 17:28:08 Received {seq-kv n1 {"type":"error","code":20,"text":"key does not exist","in_reply_to":79}}
+2023/10/29 17:28:08 Sent {"src":"n1","dest":"c310","body":{"code":20,"in_reply_to":1,"text":"key does not exist","type":"error"}}
+2023/10/29 17:28:08 Received {c314 n1 {"type":"read","msg_id":1}}
+2023/10/29 17:28:08 Sent {"src":"n1","dest":"seq-kv","body":{"key":"counter","msg_id":80,"type":"read"}}
+2023/10/29 17:28:08 Received {seq-kv n1 {"type":"error","code":20,"text":"key does not exist","in_reply_to":80}}
+2023/10/29 17:28:08 Sent {"src":"n1","dest":"c314","body":{"code":20,"in_reply_to":1,"text":"key does not exist","type":"error"}}
+2023/10/29 17:28:08 Received {c317 n1 {"delta":4,"type":"add","msg_id":1}}
+2023/10/29 17:28:08 Sent {"src":"n1","dest":"seq-kv","body":{"key":"counter","msg_id":81,"type":"read"}}
+2023/10/29 17:28:08 Received {seq-kv n1 {"type":"error","code":20,"text":"key does not exist","in_reply_to":81}}
+2023/10/29 17:28:08 Sent {"src":"n1","dest":"c317","body":{"code":20,"in_reply_to":1,"text":"key does not exist","type":"error"}}
+2023/10/29 17:28:08 Received {c322 n1 {"type":"read","msg_id":1}}
+2023/10/29 17:28:08 Sent {"src":"n1","dest":"seq-kv","body":{"key":"counter","msg_id":82,"type":"read"}}
+2023/10/29 17:28:08 Received {seq-kv n1 {"type":"error","code":20,"text":"key does not exist","in_reply_to":82}}
+2023/10/29 17:28:08 Sent {"src":"n1","dest":"c322","body":{"code":20,"in_reply_to":1,"text":"key does not exist","type":"error"}}
+2023/10/29 17:28:08 Received {c326 n1 {"type":"read","msg_id":1}}
+2023/10/29 17:28:08 Sent {"src":"n1","dest":"seq-kv","body":{"key":"counter","msg_id":83,"type":"read"}}
+2023/10/29 17:28:08 Received {seq-kv n1 {"type":"error","code":20,"text":"key does not exist","in_reply_to":83}}
+2023/10/29 17:28:08 Sent {"src":"n1","dest":"c326","body":{"code":20,"in_reply_to":1,"text":"key does not exist","type":"error"}}
+2023/10/29 17:28:08 Received {c330 n1 {"type":"read","msg_id":1}}
+2023/10/29 17:28:08 Sent {"src":"n1","dest":"seq-kv","body":{"key":"counter","msg_id":84,"type":"read"}}
+2023/10/29 17:28:08 Received {seq-kv n1 {"type":"error","code":20,"text":"key does not exist","in_reply_to":84}}
+2023/10/29 17:28:08 Sent {"src":"n1","dest":"c330","body":{"code":20,"in_reply_to":1,"text":"key does not exist","type":"error"}}
+2023/10/29 17:28:08 Received {c334 n1 {"delta":3,"type":"add","msg_id":1}}
+2023/10/29 17:28:08 Sent {"src":"n1","dest":"seq-kv","body":{"key":"counter","msg_id":85,"type":"read"}}
+2023/10/29 17:28:08 Received {seq-kv n1 {"type":"error","code":20,"text":"key does not exist","in_reply_to":85}}
+2023/10/29 17:28:08 Sent {"src":"n1","dest":"c334","body":{"code":20,"in_reply_to":1,"text":"key does not exist","type":"error"}}
+2023/10/29 17:28:08 Received {c338 n1 {"type":"read","msg_id":1}}
+2023/10/29 17:28:08 Sent {"src":"n1","dest":"seq-kv","body":{"key":"counter","msg_id":86,"type":"read"}}
+2023/10/29 17:28:08 Received {seq-kv n1 {"type":"error","code":20,"text":"key does not exist","in_reply_to":86}}
+2023/10/29 17:28:08 Sent {"src":"n1","dest":"c338","body":{"code":20,"in_reply_to":1,"text":"key does not exist","type":"error"}}
+2023/10/29 17:28:08 Received {c342 n1 {"type":"read","msg_id":1}}
+2023/10/29 17:28:08 Sent {"src":"n1","dest":"seq-kv","body":{"key":"counter","msg_id":87,"type":"read"}}
+2023/10/29 17:28:08 Received {seq-kv n1 {"type":"error","code":20,"text":"key does not exist","in_reply_to":87}}
+2023/10/29 17:28:08 Sent {"src":"n1","dest":"c342","body":{"code":20,"in_reply_to":1,"text":"key does not exist","type":"error"}}
+2023/10/29 17:28:08 Received {c345 n1 {"type":"read","msg_id":1}}
+2023/10/29 17:28:08 Sent {"src":"n1","dest":"seq-kv","body":{"key":"counter","msg_id":88,"type":"read"}}
+2023/10/29 17:28:08 Received {seq-kv n1 {"type":"error","code":20,"text":"key does not exist","in_reply_to":88}}
+2023/10/29 17:28:08 Sent {"src":"n1","dest":"c345","body":{"code":20,"in_reply_to":1,"text":"key does not exist","type":"error"}}
+2023/10/29 17:28:09 Received {c346 n1 {"type":"read","msg_id":1}}
+2023/10/29 17:28:09 Sent {"src":"n1","dest":"seq-kv","body":{"key":"counter","msg_id":89,"type":"read"}}
+2023/10/29 17:28:09 Received {seq-kv n1 {"type":"error","code":20,"text":"key does not exist","in_reply_to":89}}
+2023/10/29 17:28:09 Sent {"src":"n1","dest":"c346","body":{"code":20,"in_reply_to":1,"text":"key does not exist","type":"error"}}
+2023/10/29 17:28:09 Received {c350 n1 {"type":"read","msg_id":1}}
+2023/10/29 17:28:09 Sent {"src":"n1","dest":"seq-kv","body":{"key":"counter","msg_id":90,"type":"read"}}
+2023/10/29 17:28:09 Received {seq-kv n1 {"type":"error","code":20,"text":"key does not exist","in_reply_to":90}}
+2023/10/29 17:28:09 Sent {"src":"n1","dest":"c350","body":{"code":20,"in_reply_to":1,"text":"key does not exist","type":"error"}}
+2023/10/29 17:28:09 Received {c354 n1 {"type":"read","msg_id":1}}
+2023/10/29 17:28:09 Sent {"src":"n1","dest":"seq-kv","body":{"key":"counter","msg_id":91,"type":"read"}}
+2023/10/29 17:28:09 Received {seq-kv n1 {"type":"error","code":20,"text":"key does not exist","in_reply_to":91}}
+2023/10/29 17:28:09 Sent {"src":"n1","dest":"c354","body":{"code":20,"in_reply_to":1,"text":"key does not exist","type":"error"}}
+2023/10/29 17:28:09 Received {c358 n1 {"type":"read","msg_id":1}}
+2023/10/29 17:28:09 Sent {"src":"n1","dest":"seq-kv","body":{"key":"counter","msg_id":92,"type":"read"}}
+2023/10/29 17:28:09 Received {seq-kv n1 {"type":"error","code":20,"text":"key does not exist","in_reply_to":92}}
+2023/10/29 17:28:09 Sent {"src":"n1","dest":"c358","body":{"code":20,"in_reply_to":1,"text":"key does not exist","type":"error"}}
+2023/10/29 17:28:09 Received {c362 n1 {"type":"read","msg_id":1}}
+2023/10/29 17:28:09 Sent {"src":"n1","dest":"seq-kv","body":{"key":"counter","msg_id":93,"type":"read"}}
+2023/10/29 17:28:09 Received {seq-kv n1 {"type":"error","code":20,"text":"key does not exist","in_reply_to":93}}
+2023/10/29 17:28:09 Sent {"src":"n1","dest":"c362","body":{"code":20,"in_reply_to":1,"text":"key does not exist","type":"error"}}
+2023/10/29 17:28:09 Received {c366 n1 {"type":"read","msg_id":1}}
+2023/10/29 17:28:09 Sent {"src":"n1","dest":"seq-kv","body":{"key":"counter","msg_id":94,"type":"read"}}
+2023/10/29 17:28:09 Received {seq-kv n1 {"type":"error","code":20,"text":"key does not exist","in_reply_to":94}}
+2023/10/29 17:28:09 Sent {"src":"n1","dest":"c366","body":{"code":20,"in_reply_to":1,"text":"key does not exist","type":"error"}}
+2023/10/29 17:28:09 Received {c370 n1 {"delta":4,"type":"add","msg_id":1}}
+2023/10/29 17:28:09 Sent {"src":"n1","dest":"seq-kv","body":{"key":"counter","msg_id":95,"type":"read"}}
+2023/10/29 17:28:09 Received {seq-kv n1 {"type":"error","code":20,"text":"key does not exist","in_reply_to":95}}
+2023/10/29 17:28:09 Sent {"src":"n1","dest":"c370","body":{"code":20,"in_reply_to":1,"text":"key does not exist","type":"error"}}
+2023/10/29 17:28:09 Received {c374 n1 {"type":"read","msg_id":1}}
+2023/10/29 17:28:09 Sent {"src":"n1","dest":"seq-kv","body":{"key":"counter","msg_id":96,"type":"read"}}
+2023/10/29 17:28:09 Received {seq-kv n1 {"type":"error","code":20,"text":"key does not exist","in_reply_to":96}}
+2023/10/29 17:28:09 Sent {"src":"n1","dest":"c374","body":{"code":20,"in_reply_to":1,"text":"key does not exist","type":"error"}}
+2023/10/29 17:28:09 Received {c378 n1 {"type":"read","msg_id":1}}
+2023/10/29 17:28:09 Sent {"src":"n1","dest":"seq-kv","body":{"key":"counter","msg_id":97,"type":"read"}}
+2023/10/29 17:28:09 Received {seq-kv n1 {"type":"error","code":20,"text":"key does not exist","in_reply_to":97}}
+2023/10/29 17:28:09 Sent {"src":"n1","dest":"c378","body":{"code":20,"in_reply_to":1,"text":"key does not exist","type":"error"}}
+2023/10/29 17:28:09 Received {c382 n1 {"type":"read","msg_id":1}}
+2023/10/29 17:28:09 Sent {"src":"n1","dest":"seq-kv","body":{"key":"counter","msg_id":98,"type":"read"}}
+2023/10/29 17:28:09 Received {seq-kv n1 {"type":"error","code":20,"text":"key does not exist","in_reply_to":98}}
+2023/10/29 17:28:09 Sent {"src":"n1","dest":"c382","body":{"code":20,"in_reply_to":1,"text":"key does not exist","type":"error"}}
+2023/10/29 17:28:09 Received {c386 n1 {"type":"read","msg_id":1}}
+2023/10/29 17:28:09 Sent {"src":"n1","dest":"seq-kv","body":{"key":"counter","msg_id":99,"type":"read"}}
+2023/10/29 17:28:09 Received {seq-kv n1 {"type":"error","code":20,"text":"key does not exist","in_reply_to":99}}
+2023/10/29 17:28:09 Sent {"src":"n1","dest":"c386","body":{"code":20,"in_reply_to":1,"text":"key does not exist","type":"error"}}
+2023/10/29 17:28:09 Received {c390 n1 {"type":"read","msg_id":1}}
+2023/10/29 17:28:09 Sent {"src":"n1","dest":"seq-kv","body":{"key":"counter","msg_id":100,"type":"read"}}
+2023/10/29 17:28:09 Received {seq-kv n1 {"type":"error","code":20,"text":"key does not exist","in_reply_to":100}}
+2023/10/29 17:28:09 Sent {"src":"n1","dest":"c390","body":{"code":20,"in_reply_to":1,"text":"key does not exist","type":"error"}}
+2023/10/29 17:28:09 Received {c394 n1 {"type":"read","msg_id":1}}
+2023/10/29 17:28:09 Sent {"src":"n1","dest":"seq-kv","body":{"key":"counter","msg_id":101,"type":"read"}}
+2023/10/29 17:28:09 Received {seq-kv n1 {"type":"error","code":20,"text":"key does not exist","in_reply_to":101}}
+2023/10/29 17:28:09 Sent {"src":"n1","dest":"c394","body":{"code":20,"in_reply_to":1,"text":"key does not exist","type":"error"}}
+2023/10/29 17:28:09 Received {c398 n1 {"type":"read","msg_id":1}}
+2023/10/29 17:28:09 Sent {"src":"n1","dest":"seq-kv","body":{"key":"counter","msg_id":102,"type":"read"}}
+2023/10/29 17:28:09 Received {seq-kv n1 {"type":"error","code":20,"text":"key does not exist","in_reply_to":102}}
+2023/10/29 17:28:09 Sent {"src":"n1","dest":"c398","body":{"code":20,"in_reply_to":1,"text":"key does not exist","type":"error"}}
+2023/10/29 17:28:09 Received {c402 n1 {"delta":1,"type":"add","msg_id":1}}
+2023/10/29 17:28:09 Sent {"src":"n1","dest":"seq-kv","body":{"key":"counter","msg_id":103,"type":"read"}}
+2023/10/29 17:28:09 Received {seq-kv n1 {"type":"error","code":20,"text":"key does not exist","in_reply_to":103}}
+2023/10/29 17:28:09 Sent {"src":"n1","dest":"c402","body":{"code":20,"in_reply_to":1,"text":"key does not exist","type":"error"}}
+2023/10/29 17:28:09 Received {c406 n1 {"delta":4,"type":"add","msg_id":1}}
+2023/10/29 17:28:09 Sent {"src":"n1","dest":"seq-kv","body":{"key":"counter","msg_id":104,"type":"read"}}
+2023/10/29 17:28:09 Received {seq-kv n1 {"type":"error","code":20,"text":"key does not exist","in_reply_to":104}}
+2023/10/29 17:28:09 Sent {"src":"n1","dest":"c406","body":{"code":20,"in_reply_to":1,"text":"key does not exist","type":"error"}}
+2023/10/29 17:28:09 Received {c410 n1 {"type":"read","msg_id":1}}
+2023/10/29 17:28:09 Sent {"src":"n1","dest":"seq-kv","body":{"key":"counter","msg_id":105,"type":"read"}}
+2023/10/29 17:28:09 Received {seq-kv n1 {"type":"error","code":20,"text":"key does not exist","in_reply_to":105}}
+2023/10/29 17:28:09 Sent {"src":"n1","dest":"c410","body":{"code":20,"in_reply_to":1,"text":"key does not exist","type":"error"}}
+2023/10/29 17:28:09 Received {c414 n1 {"type":"read","msg_id":1}}
+2023/10/29 17:28:09 Sent {"src":"n1","dest":"seq-kv","body":{"key":"counter","msg_id":106,"type":"read"}}
+2023/10/29 17:28:09 Received {seq-kv n1 {"type":"error","code":20,"text":"key does not exist","in_reply_to":106}}
+2023/10/29 17:28:09 Sent {"src":"n1","dest":"c414","body":{"code":20,"in_reply_to":1,"text":"key does not exist","type":"error"}}
+2023/10/29 17:28:09 Received {c418 n1 {"type":"read","msg_id":1}}
+2023/10/29 17:28:09 Sent {"src":"n1","dest":"seq-kv","body":{"key":"counter","msg_id":107,"type":"read"}}
+2023/10/29 17:28:09 Received {seq-kv n1 {"type":"error","code":20,"text":"key does not exist","in_reply_to":107}}
+2023/10/29 17:28:09 Sent {"src":"n1","dest":"c418","body":{"code":20,"in_reply_to":1,"text":"key does not exist","type":"error"}}
+2023/10/29 17:28:09 Received {c422 n1 {"delta":2,"type":"add","msg_id":1}}
+2023/10/29 17:28:09 Sent {"src":"n1","dest":"seq-kv","body":{"key":"counter","msg_id":108,"type":"read"}}
+2023/10/29 17:28:09 Received {seq-kv n1 {"type":"error","code":20,"text":"key does not exist","in_reply_to":108}}
+2023/10/29 17:28:09 Sent {"src":"n1","dest":"c422","body":{"code":20,"in_reply_to":1,"text":"key does not exist","type":"error"}}
+2023/10/29 17:28:09 Received {c426 n1 {"delta":3,"type":"add","msg_id":1}}
+2023/10/29 17:28:09 Sent {"src":"n1","dest":"seq-kv","body":{"key":"counter","msg_id":109,"type":"read"}}
+2023/10/29 17:28:09 Received {seq-kv n1 {"type":"error","code":20,"text":"key does not exist","in_reply_to":109}}
+2023/10/29 17:28:09 Sent {"src":"n1","dest":"c426","body":{"code":20,"in_reply_to":1,"text":"key does not exist","type":"error"}}
+2023/10/29 17:28:10 Received {c430 n1 {"delta":4,"type":"add","msg_id":1}}
+2023/10/29 17:28:10 Sent {"src":"n1","dest":"seq-kv","body":{"key":"counter","msg_id":110,"type":"read"}}
+2023/10/29 17:28:10 Received {seq-kv n1 {"type":"error","code":20,"text":"key does not exist","in_reply_to":110}}
+2023/10/29 17:28:10 Sent {"src":"n1","dest":"c430","body":{"code":20,"in_reply_to":1,"text":"key does not exist","type":"error"}}
+2023/10/29 17:28:10 Received {c434 n1 {"delta":2,"type":"add","msg_id":1}}
+2023/10/29 17:28:10 Sent {"src":"n1","dest":"seq-kv","body":{"key":"counter","msg_id":111,"type":"read"}}
+2023/10/29 17:28:10 Received {seq-kv n1 {"type":"error","code":20,"text":"key does not exist","in_reply_to":111}}
+2023/10/29 17:28:10 Sent {"src":"n1","dest":"c434","body":{"code":20,"in_reply_to":1,"text":"key does not exist","type":"error"}}
+2023/10/29 17:28:10 Received {c438 n1 {"type":"read","msg_id":1}}
+2023/10/29 17:28:10 Sent {"src":"n1","dest":"seq-kv","body":{"key":"counter","msg_id":112,"type":"read"}}
+2023/10/29 17:28:10 Received {seq-kv n1 {"type":"error","code":20,"text":"key does not exist","in_reply_to":112}}
+2023/10/29 17:28:10 Sent {"src":"n1","dest":"c438","body":{"code":20,"in_reply_to":1,"text":"key does not exist","type":"error"}}
+2023/10/29 17:28:10 Received {c442 n1 {"type":"read","msg_id":1}}
+2023/10/29 17:28:10 Sent {"src":"n1","dest":"seq-kv","body":{"key":"counter","msg_id":113,"type":"read"}}
+2023/10/29 17:28:10 Received {seq-kv n1 {"type":"error","code":20,"text":"key does not exist","in_reply_to":113}}
+2023/10/29 17:28:10 Sent {"src":"n1","dest":"c442","body":{"code":20,"in_reply_to":1,"text":"key does not exist","type":"error"}}
+2023/10/29 17:28:10 Received {c446 n1 {"delta":4,"type":"add","msg_id":1}}
+2023/10/29 17:28:10 Sent {"src":"n1","dest":"seq-kv","body":{"key":"counter","msg_id":114,"type":"read"}}
+2023/10/29 17:28:10 Received {seq-kv n1 {"type":"error","code":20,"text":"key does not exist","in_reply_to":114}}
+2023/10/29 17:28:10 Sent {"src":"n1","dest":"c446","body":{"code":20,"in_reply_to":1,"text":"key does not exist","type":"error"}}
+2023/10/29 17:28:10 Received {c449 n1 {"type":"read","msg_id":1}}
+2023/10/29 17:28:10 Sent {"src":"n1","dest":"seq-kv","body":{"key":"counter","msg_id":115,"type":"read"}}
+2023/10/29 17:28:10 Received {seq-kv n1 {"type":"error","code":20,"text":"key does not exist","in_reply_to":115}}
+2023/10/29 17:28:10 Sent {"src":"n1","dest":"c449","body":{"code":20,"in_reply_to":1,"text":"key does not exist","type":"error"}}
+2023/10/29 17:28:10 Received {c450 n1 {"type":"read","msg_id":1}}
+2023/10/29 17:28:10 Sent {"src":"n1","dest":"seq-kv","body":{"key":"counter","msg_id":116,"type":"read"}}
+2023/10/29 17:28:10 Received {seq-kv n1 {"type":"error","code":20,"text":"key does not exist","in_reply_to":116}}
+2023/10/29 17:28:10 Sent {"src":"n1","dest":"c450","body":{"code":20,"in_reply_to":1,"text":"key does not exist","type":"error"}}
+2023/10/29 17:28:10 Received {c454 n1 {"type":"read","msg_id":1}}
+2023/10/29 17:28:10 Sent {"src":"n1","dest":"seq-kv","body":{"key":"counter","msg_id":117,"type":"read"}}
+2023/10/29 17:28:10 Received {seq-kv n1 {"type":"error","code":20,"text":"key does not exist","in_reply_to":117}}
+2023/10/29 17:28:10 Sent {"src":"n1","dest":"c454","body":{"code":20,"in_reply_to":1,"text":"key does not exist","type":"error"}}
+2023/10/29 17:28:10 Received {c458 n1 {"type":"read","msg_id":1}}
+2023/10/29 17:28:10 Sent {"src":"n1","dest":"seq-kv","body":{"key":"counter","msg_id":118,"type":"read"}}
+2023/10/29 17:28:10 Received {seq-kv n1 {"type":"error","code":20,"text":"key does not exist","in_reply_to":118}}
+2023/10/29 17:28:10 Sent {"src":"n1","dest":"c458","body":{"code":20,"in_reply_to":1,"text":"key does not exist","type":"error"}}
+2023/10/29 17:28:10 Received {c462 n1 {"type":"read","msg_id":1}}
+2023/10/29 17:28:10 Sent {"src":"n1","dest":"seq-kv","body":{"key":"counter","msg_id":119,"type":"read"}}
+2023/10/29 17:28:10 Received {seq-kv n1 {"type":"error","code":20,"text":"key does not exist","in_reply_to":119}}
+2023/10/29 17:28:10 Sent {"src":"n1","dest":"c462","body":{"code":20,"in_reply_to":1,"text":"key does not exist","type":"error"}}
+2023/10/29 17:28:10 Received {c466 n1 {"type":"read","msg_id":1}}
+2023/10/29 17:28:10 Sent {"src":"n1","dest":"seq-kv","body":{"key":"counter","msg_id":120,"type":"read"}}
+2023/10/29 17:28:10 Received {seq-kv n1 {"type":"error","code":20,"text":"key does not exist","in_reply_to":120}}
+2023/10/29 17:28:10 Sent {"src":"n1","dest":"c466","body":{"code":20,"in_reply_to":1,"text":"key does not exist","type":"error"}}
+2023/10/29 17:28:10 Received {c470 n1 {"type":"read","msg_id":1}}
+2023/10/29 17:28:10 Sent {"src":"n1","dest":"seq-kv","body":{"key":"counter","msg_id":121,"type":"read"}}
+2023/10/29 17:28:10 Received {seq-kv n1 {"type":"error","code":20,"text":"key does not exist","in_reply_to":121}}
+2023/10/29 17:28:10 Sent {"src":"n1","dest":"c470","body":{"code":20,"in_reply_to":1,"text":"key does not exist","type":"error"}}
+2023/10/29 17:28:10 Received {c474 n1 {"type":"read","msg_id":1}}
+2023/10/29 17:28:10 Sent {"src":"n1","dest":"seq-kv","body":{"key":"counter","msg_id":122,"type":"read"}}
+2023/10/29 17:28:10 Received {seq-kv n1 {"type":"error","code":20,"text":"key does not exist","in_reply_to":122}}
+2023/10/29 17:28:10 Sent {"src":"n1","dest":"c474","body":{"code":20,"in_reply_to":1,"text":"key does not exist","type":"error"}}
+2023/10/29 17:28:10 Received {c477 n1 {"type":"read","msg_id":1}}
+2023/10/29 17:28:10 Sent {"src":"n1","dest":"seq-kv","body":{"key":"counter","msg_id":123,"type":"read"}}
+2023/10/29 17:28:10 Received {seq-kv n1 {"type":"error","code":20,"text":"key does not exist","in_reply_to":123}}
+2023/10/29 17:28:10 Sent {"src":"n1","dest":"c477","body":{"code":20,"in_reply_to":1,"text":"key does not exist","type":"error"}}
+2023/10/29 17:28:10 Received {c478 n1 {"type":"read","msg_id":1}}
+2023/10/29 17:28:10 Sent {"src":"n1","dest":"seq-kv","body":{"key":"counter","msg_id":124,"type":"read"}}
+2023/10/29 17:28:10 Received {seq-kv n1 {"type":"error","code":20,"text":"key does not exist","in_reply_to":124}}
+2023/10/29 17:28:10 Sent {"src":"n1","dest":"c478","body":{"code":20,"in_reply_to":1,"text":"key does not exist","type":"error"}}
+2023/10/29 17:28:10 Received {c482 n1 {"type":"read","msg_id":1}}
+2023/10/29 17:28:10 Sent {"src":"n1","dest":"seq-kv","body":{"key":"counter","msg_id":125,"type":"read"}}
+2023/10/29 17:28:10 Received {seq-kv n1 {"type":"error","code":20,"text":"key does not exist","in_reply_to":125}}
+2023/10/29 17:28:10 Sent {"src":"n1","dest":"c482","body":{"code":20,"in_reply_to":1,"text":"key does not exist","type":"error"}}
+2023/10/29 17:28:10 Received {c486 n1 {"type":"read","msg_id":1}}
+2023/10/29 17:28:10 Sent {"src":"n1","dest":"seq-kv","body":{"key":"counter","msg_id":126,"type":"read"}}
+2023/10/29 17:28:10 Received {seq-kv n1 {"type":"error","code":20,"text":"key does not exist","in_reply_to":126}}
+2023/10/29 17:28:10 Sent {"src":"n1","dest":"c486","body":{"code":20,"in_reply_to":1,"text":"key does not exist","type":"error"}}
+2023/10/29 17:28:10 Received {c490 n1 {"type":"read","msg_id":1}}
+2023/10/29 17:28:10 Sent {"src":"n1","dest":"seq-kv","body":{"key":"counter","msg_id":127,"type":"read"}}
+2023/10/29 17:28:10 Received {seq-kv n1 {"type":"error","code":20,"text":"key does not exist","in_reply_to":127}}
+2023/10/29 17:28:10 Sent {"src":"n1","dest":"c490","body":{"code":20,"in_reply_to":1,"text":"key does not exist","type":"error"}}
+2023/10/29 17:28:10 Received {c494 n1 {"type":"read","msg_id":1}}
+2023/10/29 17:28:10 Sent {"src":"n1","dest":"seq-kv","body":{"key":"counter","msg_id":128,"type":"read"}}
+2023/10/29 17:28:10 Received {seq-kv n1 {"type":"error","code":20,"text":"key does not exist","in_reply_to":128}}
+2023/10/29 17:28:10 Sent {"src":"n1","dest":"c494","body":{"code":20,"in_reply_to":1,"text":"key does not exist","type":"error"}}
+2023/10/29 17:28:10 Received {c498 n1 {"delta":4,"type":"add","msg_id":1}}
+2023/10/29 17:28:10 Sent {"src":"n1","dest":"seq-kv","body":{"key":"counter","msg_id":129,"type":"read"}}
+2023/10/29 17:28:10 Received {seq-kv n1 {"type":"error","code":20,"text":"key does not exist","in_reply_to":129}}
+2023/10/29 17:28:10 Sent {"src":"n1","dest":"c498","body":{"code":20,"in_reply_to":1,"text":"key does not exist","type":"error"}}
+2023/10/29 17:28:10 Received {c502 n1 {"type":"read","msg_id":1}}
+2023/10/29 17:28:10 Sent {"src":"n1","dest":"seq-kv","body":{"key":"counter","msg_id":130,"type":"read"}}
+2023/10/29 17:28:10 Received {seq-kv n1 {"type":"error","code":20,"text":"key does not exist","in_reply_to":130}}
+2023/10/29 17:28:10 Sent {"src":"n1","dest":"c502","body":{"code":20,"in_reply_to":1,"text":"key does not exist","type":"error"}}
+2023/10/29 17:28:10 Received {c506 n1 {"delta":0,"type":"add","msg_id":1}}
+2023/10/29 17:28:10 Sent {"src":"n1","dest":"seq-kv","body":{"key":"counter","msg_id":131,"type":"read"}}
+2023/10/29 17:28:10 Received {seq-kv n1 {"type":"error","code":20,"text":"key does not exist","in_reply_to":131}}
+2023/10/29 17:28:10 Sent {"src":"n1","dest":"c506","body":{"code":20,"in_reply_to":1,"text":"key does not exist","type":"error"}}
+2023/10/29 17:28:10 Received {c510 n1 {"type":"read","msg_id":1}}
+2023/10/29 17:28:10 Sent {"src":"n1","dest":"seq-kv","body":{"key":"counter","msg_id":132,"type":"read"}}
+2023/10/29 17:28:10 Received {seq-kv n1 {"type":"error","code":20,"text":"key does not exist","in_reply_to":132}}
+2023/10/29 17:28:10 Sent {"src":"n1","dest":"c510","body":{"code":20,"in_reply_to":1,"text":"key does not exist","type":"error"}}
+2023/10/29 17:28:10 Received {c514 n1 {"type":"read","msg_id":1}}
+2023/10/29 17:28:10 Sent {"src":"n1","dest":"seq-kv","body":{"key":"counter","msg_id":133,"type":"read"}}
+2023/10/29 17:28:10 Received {seq-kv n1 {"type":"error","code":20,"text":"key does not exist","in_reply_to":133}}
+2023/10/29 17:28:10 Sent {"src":"n1","dest":"c514","body":{"code":20,"in_reply_to":1,"text":"key does not exist","type":"error"}}
+2023/10/29 17:28:10 Received {c518 n1 {"delta":2,"type":"add","msg_id":1}}
+2023/10/29 17:28:10 Sent {"src":"n1","dest":"seq-kv","body":{"key":"counter","msg_id":134,"type":"read"}}
+2023/10/29 17:28:10 Received {seq-kv n1 {"type":"error","code":20,"text":"key does not exist","in_reply_to":134}}
+2023/10/29 17:28:10 Sent {"src":"n1","dest":"c518","body":{"code":20,"in_reply_to":1,"text":"key does not exist","type":"error"}}
+2023/10/29 17:28:10 Received {c521 n1 {"type":"read","msg_id":1}}
+2023/10/29 17:28:10 Sent {"src":"n1","dest":"seq-kv","body":{"key":"counter","msg_id":135,"type":"read"}}
+2023/10/29 17:28:10 Received {seq-kv n1 {"type":"error","code":20,"text":"key does not exist","in_reply_to":135}}
+2023/10/29 17:28:10 Sent {"src":"n1","dest":"c521","body":{"code":20,"in_reply_to":1,"text":"key does not exist","type":"error"}}
+2023/10/29 17:28:11 Received {c522 n1 {"type":"read","msg_id":1}}
+2023/10/29 17:28:11 Sent {"src":"n1","dest":"seq-kv","body":{"key":"counter","msg_id":136,"type":"read"}}
+2023/10/29 17:28:11 Received {seq-kv n1 {"type":"error","code":20,"text":"key does not exist","in_reply_to":136}}
+2023/10/29 17:28:11 Sent {"src":"n1","dest":"c522","body":{"code":20,"in_reply_to":1,"text":"key does not exist","type":"error"}}
+2023/10/29 17:28:11 Received {c526 n1 {"type":"read","msg_id":1}}
+2023/10/29 17:28:11 Sent {"src":"n1","dest":"seq-kv","body":{"key":"counter","msg_id":137,"type":"read"}}
+2023/10/29 17:28:11 Received {seq-kv n1 {"type":"error","code":20,"text":"key does not exist","in_reply_to":137}}
+2023/10/29 17:28:11 Sent {"src":"n1","dest":"c526","body":{"code":20,"in_reply_to":1,"text":"key does not exist","type":"error"}}
+2023/10/29 17:28:11 Received {c530 n1 {"type":"read","msg_id":1}}
+2023/10/29 17:28:11 Sent {"src":"n1","dest":"seq-kv","body":{"key":"counter","msg_id":138,"type":"read"}}
+2023/10/29 17:28:11 Received {seq-kv n1 {"type":"error","code":20,"text":"key does not exist","in_reply_to":138}}
+2023/10/29 17:28:11 Sent {"src":"n1","dest":"c530","body":{"code":20,"in_reply_to":1,"text":"key does not exist","type":"error"}}
+2023/10/29 17:28:11 Received {c534 n1 {"delta":1,"type":"add","msg_id":1}}
+2023/10/29 17:28:11 Sent {"src":"n1","dest":"seq-kv","body":{"key":"counter","msg_id":139,"type":"read"}}
+2023/10/29 17:28:11 Received {seq-kv n1 {"type":"error","code":20,"text":"key does not exist","in_reply_to":139}}
+2023/10/29 17:28:11 Sent {"src":"n1","dest":"c534","body":{"code":20,"in_reply_to":1,"text":"key does not exist","type":"error"}}
+2023/10/29 17:28:11 Received {c538 n1 {"type":"read","msg_id":1}}
+2023/10/29 17:28:11 Sent {"src":"n1","dest":"seq-kv","body":{"key":"counter","msg_id":140,"type":"read"}}
+2023/10/29 17:28:11 Received {seq-kv n1 {"type":"error","code":20,"text":"key does not exist","in_reply_to":140}}
+2023/10/29 17:28:11 Sent {"src":"n1","dest":"c538","body":{"code":20,"in_reply_to":1,"text":"key does not exist","type":"error"}}
+2023/10/29 17:28:11 Received {c542 n1 {"delta":1,"type":"add","msg_id":1}}
+2023/10/29 17:28:11 Sent {"src":"n1","dest":"seq-kv","body":{"key":"counter","msg_id":141,"type":"read"}}
+2023/10/29 17:28:11 Received {seq-kv n1 {"type":"error","code":20,"text":"key does not exist","in_reply_to":141}}
+2023/10/29 17:28:11 Sent {"src":"n1","dest":"c542","body":{"code":20,"in_reply_to":1,"text":"key does not exist","type":"error"}}
+2023/10/29 17:28:11 Received {c546 n1 {"type":"read","msg_id":1}}
+2023/10/29 17:28:11 Sent {"src":"n1","dest":"seq-kv","body":{"key":"counter","msg_id":142,"type":"read"}}
+2023/10/29 17:28:11 Received {seq-kv n1 {"type":"error","code":20,"text":"key does not exist","in_reply_to":142}}
+2023/10/29 17:28:11 Sent {"src":"n1","dest":"c546","body":{"code":20,"in_reply_to":1,"text":"key does not exist","type":"error"}}
+2023/10/29 17:28:11 Received {c550 n1 {"type":"read","msg_id":1}}
+2023/10/29 17:28:11 Sent {"src":"n1","dest":"seq-kv","body":{"key":"counter","msg_id":143,"type":"read"}}
+2023/10/29 17:28:11 Received {seq-kv n1 {"type":"error","code":20,"text":"key does not exist","in_reply_to":143}}
+2023/10/29 17:28:11 Sent {"src":"n1","dest":"c550","body":{"code":20,"in_reply_to":1,"text":"key does not exist","type":"error"}}
+2023/10/29 17:28:11 Received {c554 n1 {"delta":0,"type":"add","msg_id":1}}
+2023/10/29 17:28:11 Sent {"src":"n1","dest":"seq-kv","body":{"key":"counter","msg_id":144,"type":"read"}}
+2023/10/29 17:28:11 Received {seq-kv n1 {"type":"error","code":20,"text":"key does not exist","in_reply_to":144}}
+2023/10/29 17:28:11 Sent {"src":"n1","dest":"c554","body":{"code":20,"in_reply_to":1,"text":"key does not exist","type":"error"}}
+2023/10/29 17:28:11 Received {c558 n1 {"type":"read","msg_id":1}}
+2023/10/29 17:28:11 Sent {"src":"n1","dest":"seq-kv","body":{"key":"counter","msg_id":145,"type":"read"}}
+2023/10/29 17:28:11 Received {seq-kv n1 {"type":"error","code":20,"text":"key does not exist","in_reply_to":145}}
+2023/10/29 17:28:11 Sent {"src":"n1","dest":"c558","body":{"code":20,"in_reply_to":1,"text":"key does not exist","type":"error"}}
+2023/10/29 17:28:11 Received {c562 n1 {"delta":0,"type":"add","msg_id":1}}
+2023/10/29 17:28:11 Sent {"src":"n1","dest":"seq-kv","body":{"key":"counter","msg_id":146,"type":"read"}}
+2023/10/29 17:28:11 Received {seq-kv n1 {"type":"error","code":20,"text":"key does not exist","in_reply_to":146}}
+2023/10/29 17:28:11 Sent {"src":"n1","dest":"c562","body":{"code":20,"in_reply_to":1,"text":"key does not exist","type":"error"}}
+2023/10/29 17:28:11 Received {c565 n1 {"type":"read","msg_id":1}}
+2023/10/29 17:28:11 Sent {"src":"n1","dest":"seq-kv","body":{"key":"counter","msg_id":147,"type":"read"}}
+2023/10/29 17:28:11 Received {seq-kv n1 {"type":"error","code":20,"text":"key does not exist","in_reply_to":147}}
+2023/10/29 17:28:11 Sent {"src":"n1","dest":"c565","body":{"code":20,"in_reply_to":1,"text":"key does not exist","type":"error"}}
+2023/10/29 17:28:11 Received {c566 n1 {"type":"read","msg_id":1}}
+2023/10/29 17:28:11 Sent {"src":"n1","dest":"seq-kv","body":{"key":"counter","msg_id":148,"type":"read"}}
+2023/10/29 17:28:11 Received {seq-kv n1 {"type":"error","code":20,"text":"key does not exist","in_reply_to":148}}
+2023/10/29 17:28:11 Sent {"src":"n1","dest":"c566","body":{"code":20,"in_reply_to":1,"text":"key does not exist","type":"error"}}
+2023/10/29 17:28:11 Received {c570 n1 {"type":"read","msg_id":1}}
+2023/10/29 17:28:11 Sent {"src":"n1","dest":"seq-kv","body":{"key":"counter","msg_id":149,"type":"read"}}
+2023/10/29 17:28:11 Received {seq-kv n1 {"type":"error","code":20,"text":"key does not exist","in_reply_to":149}}
+2023/10/29 17:28:11 Sent {"src":"n1","dest":"c570","body":{"code":20,"in_reply_to":1,"text":"key does not exist","type":"error"}}
+2023/10/29 17:28:11 Received {c574 n1 {"type":"read","msg_id":1}}
+2023/10/29 17:28:11 Sent {"src":"n1","dest":"seq-kv","body":{"key":"counter","msg_id":150,"type":"read"}}
+2023/10/29 17:28:11 Received {seq-kv n1 {"type":"error","code":20,"text":"key does not exist","in_reply_to":150}}
+2023/10/29 17:28:11 Sent {"src":"n1","dest":"c574","body":{"code":20,"in_reply_to":1,"text":"key does not exist","type":"error"}}
+2023/10/29 17:28:11 Received {c578 n1 {"type":"read","msg_id":1}}
+2023/10/29 17:28:11 Sent {"src":"n1","dest":"seq-kv","body":{"key":"counter","msg_id":151,"type":"read"}}
+2023/10/29 17:28:11 Received {seq-kv n1 {"type":"error","code":20,"text":"key does not exist","in_reply_to":151}}
+2023/10/29 17:28:11 Sent {"src":"n1","dest":"c578","body":{"code":20,"in_reply_to":1,"text":"key does not exist","type":"error"}}
+2023/10/29 17:28:11 Received {c581 n1 {"type":"read","msg_id":1}}
+2023/10/29 17:28:11 Sent {"src":"n1","dest":"seq-kv","body":{"key":"counter","msg_id":152,"type":"read"}}
+2023/10/29 17:28:11 Received {seq-kv n1 {"type":"error","code":20,"text":"key does not exist","in_reply_to":152}}
+2023/10/29 17:28:11 Sent {"src":"n1","dest":"c581","body":{"code":20,"in_reply_to":1,"text":"key does not exist","type":"error"}}
+2023/10/29 17:28:11 Received {c582 n1 {"delta":1,"type":"add","msg_id":1}}
+2023/10/29 17:28:11 Sent {"src":"n1","dest":"seq-kv","body":{"key":"counter","msg_id":153,"type":"read"}}
+2023/10/29 17:28:11 Received {seq-kv n1 {"type":"error","code":20,"text":"key does not exist","in_reply_to":153}}
+2023/10/29 17:28:11 Sent {"src":"n1","dest":"c582","body":{"code":20,"in_reply_to":1,"text":"key does not exist","type":"error"}}
+2023/10/29 17:28:11 Received {c586 n1 {"type":"read","msg_id":1}}
+2023/10/29 17:28:11 Sent {"src":"n1","dest":"seq-kv","body":{"key":"counter","msg_id":154,"type":"read"}}
+2023/10/29 17:28:11 Received {seq-kv n1 {"type":"error","code":20,"text":"key does not exist","in_reply_to":154}}
+2023/10/29 17:28:11 Sent {"src":"n1","dest":"c586","body":{"code":20,"in_reply_to":1,"text":"key does not exist","type":"error"}}
+2023/10/29 17:28:11 Received {c590 n1 {"type":"read","msg_id":1}}
+2023/10/29 17:28:11 Sent {"src":"n1","dest":"seq-kv","body":{"key":"counter","msg_id":155,"type":"read"}}
+2023/10/29 17:28:11 Received {seq-kv n1 {"type":"error","code":20,"text":"key does not exist","in_reply_to":155}}
+2023/10/29 17:28:11 Sent {"src":"n1","dest":"c590","body":{"code":20,"in_reply_to":1,"text":"key does not exist","type":"error"}}
+2023/10/29 17:28:11 Received {c594 n1 {"delta":1,"type":"add","msg_id":1}}
+2023/10/29 17:28:11 Sent {"src":"n1","dest":"seq-kv","body":{"key":"counter","msg_id":156,"type":"read"}}
+2023/10/29 17:28:11 Received {seq-kv n1 {"type":"error","code":20,"text":"key does not exist","in_reply_to":156}}
+2023/10/29 17:28:11 Sent {"src":"n1","dest":"c594","body":{"code":20,"in_reply_to":1,"text":"key does not exist","type":"error"}}
+2023/10/29 17:28:11 Received {c598 n1 {"delta":4,"type":"add","msg_id":1}}
+2023/10/29 17:28:11 Sent {"src":"n1","dest":"seq-kv","body":{"key":"counter","msg_id":157,"type":"read"}}
+2023/10/29 17:28:11 Received {seq-kv n1 {"type":"error","code":20,"text":"key does not exist","in_reply_to":157}}
+2023/10/29 17:28:11 Sent {"src":"n1","dest":"c598","body":{"code":20,"in_reply_to":1,"text":"key does not exist","type":"error"}}
+2023/10/29 17:28:12 Received {c602 n1 {"type":"read","msg_id":1}}
+2023/10/29 17:28:12 Sent {"src":"n1","dest":"seq-kv","body":{"key":"counter","msg_id":158,"type":"read"}}
+2023/10/29 17:28:12 Received {seq-kv n1 {"type":"error","code":20,"text":"key does not exist","in_reply_to":158}}
+2023/10/29 17:28:12 Sent {"src":"n1","dest":"c602","body":{"code":20,"in_reply_to":1,"text":"key does not exist","type":"error"}}
+2023/10/29 17:28:12 Received {c606 n1 {"type":"read","msg_id":1}}
+2023/10/29 17:28:12 Sent {"src":"n1","dest":"seq-kv","body":{"key":"counter","msg_id":159,"type":"read"}}
+2023/10/29 17:28:12 Received {seq-kv n1 {"type":"error","code":20,"text":"key does not exist","in_reply_to":159}}
+2023/10/29 17:28:12 Sent {"src":"n1","dest":"c606","body":{"code":20,"in_reply_to":1,"text":"key does not exist","type":"error"}}
+2023/10/29 17:28:12 Received {c610 n1 {"delta":1,"type":"add","msg_id":1}}
+2023/10/29 17:28:12 Sent {"src":"n1","dest":"seq-kv","body":{"key":"counter","msg_id":160,"type":"read"}}
+2023/10/29 17:28:12 Received {seq-kv n1 {"type":"error","code":20,"text":"key does not exist","in_reply_to":160}}
+2023/10/29 17:28:12 Sent {"src":"n1","dest":"c610","body":{"code":20,"in_reply_to":1,"text":"key does not exist","type":"error"}}
+2023/10/29 17:28:12 Received {c614 n1 {"delta":3,"type":"add","msg_id":1}}
+2023/10/29 17:28:12 Sent {"src":"n1","dest":"seq-kv","body":{"key":"counter","msg_id":161,"type":"read"}}
+2023/10/29 17:28:12 Received {seq-kv n1 {"type":"error","code":20,"text":"key does not exist","in_reply_to":161}}
+2023/10/29 17:28:12 Sent {"src":"n1","dest":"c614","body":{"code":20,"in_reply_to":1,"text":"key does not exist","type":"error"}}
+2023/10/29 17:28:12 Received {c618 n1 {"delta":1,"type":"add","msg_id":1}}
+2023/10/29 17:28:12 Sent {"src":"n1","dest":"seq-kv","body":{"key":"counter","msg_id":162,"type":"read"}}
+2023/10/29 17:28:12 Received {seq-kv n1 {"type":"error","code":20,"text":"key does not exist","in_reply_to":162}}
+2023/10/29 17:28:12 Sent {"src":"n1","dest":"c618","body":{"code":20,"in_reply_to":1,"text":"key does not exist","type":"error"}}
+2023/10/29 17:28:12 Received {c622 n1 {"type":"read","msg_id":1}}
+2023/10/29 17:28:12 Sent {"src":"n1","dest":"seq-kv","body":{"key":"counter","msg_id":163,"type":"read"}}
+2023/10/29 17:28:12 Received {seq-kv n1 {"type":"error","code":20,"text":"key does not exist","in_reply_to":163}}
+2023/10/29 17:28:12 Sent {"src":"n1","dest":"c622","body":{"code":20,"in_reply_to":1,"text":"key does not exist","type":"error"}}
+2023/10/29 17:28:12 Received {c626 n1 {"delta":0,"type":"add","msg_id":1}}
+2023/10/29 17:28:12 Sent {"src":"n1","dest":"seq-kv","body":{"key":"counter","msg_id":164,"type":"read"}}
+2023/10/29 17:28:12 Received {seq-kv n1 {"type":"error","code":20,"text":"key does not exist","in_reply_to":164}}
+2023/10/29 17:28:12 Sent {"src":"n1","dest":"c626","body":{"code":20,"in_reply_to":1,"text":"key does not exist","type":"error"}}
+2023/10/29 17:28:12 Received {c630 n1 {"type":"read","msg_id":1}}
+2023/10/29 17:28:12 Sent {"src":"n1","dest":"seq-kv","body":{"key":"counter","msg_id":165,"type":"read"}}
+2023/10/29 17:28:12 Received {seq-kv n1 {"type":"error","code":20,"text":"key does not exist","in_reply_to":165}}
+2023/10/29 17:28:12 Sent {"src":"n1","dest":"c630","body":{"code":20,"in_reply_to":1,"text":"key does not exist","type":"error"}}
+2023/10/29 17:28:12 Received {c634 n1 {"type":"read","msg_id":1}}
+2023/10/29 17:28:12 Sent {"src":"n1","dest":"seq-kv","body":{"key":"counter","msg_id":166,"type":"read"}}
+2023/10/29 17:28:12 Received {seq-kv n1 {"type":"error","code":20,"text":"key does not exist","in_reply_to":166}}
+2023/10/29 17:28:12 Sent {"src":"n1","dest":"c634","body":{"code":20,"in_reply_to":1,"text":"key does not exist","type":"error"}}
+2023/10/29 17:28:12 Received {c638 n1 {"type":"read","msg_id":1}}
+2023/10/29 17:28:12 Sent {"src":"n1","dest":"seq-kv","body":{"key":"counter","msg_id":167,"type":"read"}}
+2023/10/29 17:28:12 Received {seq-kv n1 {"type":"error","code":20,"text":"key does not exist","in_reply_to":167}}
+2023/10/29 17:28:12 Sent {"src":"n1","dest":"c638","body":{"code":20,"in_reply_to":1,"text":"key does not exist","type":"error"}}
+2023/10/29 17:28:12 Received {c642 n1 {"delta":1,"type":"add","msg_id":1}}
+2023/10/29 17:28:12 Sent {"src":"n1","dest":"seq-kv","body":{"key":"counter","msg_id":168,"type":"read"}}
+2023/10/29 17:28:12 Received {seq-kv n1 {"type":"error","code":20,"text":"key does not exist","in_reply_to":168}}
+2023/10/29 17:28:12 Sent {"src":"n1","dest":"c642","body":{"code":20,"in_reply_to":1,"text":"key does not exist","type":"error"}}
+2023/10/29 17:28:12 Received {c646 n1 {"type":"read","msg_id":1}}
+2023/10/29 17:28:12 Sent {"src":"n1","dest":"seq-kv","body":{"key":"counter","msg_id":169,"type":"read"}}
+2023/10/29 17:28:12 Received {seq-kv n1 {"type":"error","code":20,"text":"key does not exist","in_reply_to":169}}
+2023/10/29 17:28:12 Sent {"src":"n1","dest":"c646","body":{"code":20,"in_reply_to":1,"text":"key does not exist","type":"error"}}
+2023/10/29 17:28:12 Received {c650 n1 {"type":"read","msg_id":1}}
+2023/10/29 17:28:12 Sent {"src":"n1","dest":"seq-kv","body":{"key":"counter","msg_id":170,"type":"read"}}
+2023/10/29 17:28:12 Received {seq-kv n1 {"type":"error","code":20,"text":"key does not exist","in_reply_to":170}}
+2023/10/29 17:28:12 Sent {"src":"n1","dest":"c650","body":{"code":20,"in_reply_to":1,"text":"key does not exist","type":"error"}}
+2023/10/29 17:28:12 Received {c654 n1 {"type":"read","msg_id":1}}
+2023/10/29 17:28:12 Sent {"src":"n1","dest":"seq-kv","body":{"key":"counter","msg_id":171,"type":"read"}}
+2023/10/29 17:28:12 Received {seq-kv n1 {"type":"error","code":20,"text":"key does not exist","in_reply_to":171}}
+2023/10/29 17:28:12 Sent {"src":"n1","dest":"c654","body":{"code":20,"in_reply_to":1,"text":"key does not exist","type":"error"}}
+2023/10/29 17:28:12 Received {c658 n1 {"type":"read","msg_id":1}}
+2023/10/29 17:28:12 Sent {"src":"n1","dest":"seq-kv","body":{"key":"counter","msg_id":172,"type":"read"}}
+2023/10/29 17:28:12 Received {seq-kv n1 {"type":"error","code":20,"text":"key does not exist","in_reply_to":172}}
+2023/10/29 17:28:12 Sent {"src":"n1","dest":"c658","body":{"code":20,"in_reply_to":1,"text":"key does not exist","type":"error"}}
+2023/10/29 17:28:12 Received {c662 n1 {"delta":2,"type":"add","msg_id":1}}
+2023/10/29 17:28:12 Sent {"src":"n1","dest":"seq-kv","body":{"key":"counter","msg_id":173,"type":"read"}}
+2023/10/29 17:28:12 Received {seq-kv n1 {"type":"error","code":20,"text":"key does not exist","in_reply_to":173}}
+2023/10/29 17:28:12 Sent {"src":"n1","dest":"c662","body":{"code":20,"in_reply_to":1,"text":"key does not exist","type":"error"}}
+2023/10/29 17:28:12 Received {c665 n1 {"delta":0,"type":"add","msg_id":1}}
+2023/10/29 17:28:12 Sent {"src":"n1","dest":"seq-kv","body":{"key":"counter","msg_id":174,"type":"read"}}
+2023/10/29 17:28:12 Received {seq-kv n1 {"type":"error","code":20,"text":"key does not exist","in_reply_to":174}}
+2023/10/29 17:28:12 Sent {"src":"n1","dest":"c665","body":{"code":20,"in_reply_to":1,"text":"key does not exist","type":"error"}}
+2023/10/29 17:28:12 Received {c666 n1 {"type":"read","msg_id":1}}
+2023/10/29 17:28:12 Sent {"src":"n1","dest":"seq-kv","body":{"key":"counter","msg_id":175,"type":"read"}}
+2023/10/29 17:28:12 Received {seq-kv n1 {"type":"error","code":20,"text":"key does not exist","in_reply_to":175}}
+2023/10/29 17:28:12 Sent {"src":"n1","dest":"c666","body":{"code":20,"in_reply_to":1,"text":"key does not exist","type":"error"}}
+2023/10/29 17:28:12 Received {c670 n1 {"type":"read","msg_id":1}}
+2023/10/29 17:28:12 Sent {"src":"n1","dest":"seq-kv","body":{"key":"counter","msg_id":176,"type":"read"}}
+2023/10/29 17:28:12 Received {seq-kv n1 {"type":"error","code":20,"text":"key does not exist","in_reply_to":176}}
+2023/10/29 17:28:12 Sent {"src":"n1","dest":"c670","body":{"code":20,"in_reply_to":1,"text":"key does not exist","type":"error"}}
+2023/10/29 17:28:12 Received {c674 n1 {"delta":0,"type":"add","msg_id":1}}
+2023/10/29 17:28:12 Sent {"src":"n1","dest":"seq-kv","body":{"key":"counter","msg_id":177,"type":"read"}}
+2023/10/29 17:28:12 Received {seq-kv n1 {"type":"error","code":20,"text":"key does not exist","in_reply_to":177}}
+2023/10/29 17:28:12 Sent {"src":"n1","dest":"c674","body":{"code":20,"in_reply_to":1,"text":"key does not exist","type":"error"}}
+2023/10/29 17:28:12 Received {c678 n1 {"delta":1,"type":"add","msg_id":1}}
+2023/10/29 17:28:12 Sent {"src":"n1","dest":"seq-kv","body":{"key":"counter","msg_id":178,"type":"read"}}
+2023/10/29 17:28:12 Received {seq-kv n1 {"type":"error","code":20,"text":"key does not exist","in_reply_to":178}}
+2023/10/29 17:28:12 Sent {"src":"n1","dest":"c678","body":{"code":20,"in_reply_to":1,"text":"key does not exist","type":"error"}}
+2023/10/29 17:28:12 Received {c682 n1 {"type":"read","msg_id":1}}
+2023/10/29 17:28:12 Sent {"src":"n1","dest":"seq-kv","body":{"key":"counter","msg_id":179,"type":"read"}}
+2023/10/29 17:28:12 Received {seq-kv n1 {"type":"error","code":20,"text":"key does not exist","in_reply_to":179}}
+2023/10/29 17:28:12 Sent {"src":"n1","dest":"c682","body":{"code":20,"in_reply_to":1,"text":"key does not exist","type":"error"}}
+2023/10/29 17:28:12 Received {c686 n1 {"type":"read","msg_id":1}}
+2023/10/29 17:28:12 Sent {"src":"n1","dest":"seq-kv","body":{"key":"counter","msg_id":180,"type":"read"}}
+2023/10/29 17:28:12 Received {seq-kv n1 {"type":"error","code":20,"text":"key does not exist","in_reply_to":180}}
+2023/10/29 17:28:12 Sent {"src":"n1","dest":"c686","body":{"code":20,"in_reply_to":1,"text":"key does not exist","type":"error"}}
+2023/10/29 17:28:13 Received {c690 n1 {"type":"read","msg_id":1}}
+2023/10/29 17:28:13 Sent {"src":"n1","dest":"seq-kv","body":{"key":"counter","msg_id":181,"type":"read"}}
+2023/10/29 17:28:13 Received {seq-kv n1 {"type":"error","code":20,"text":"key does not exist","in_reply_to":181}}
+2023/10/29 17:28:13 Sent {"src":"n1","dest":"c690","body":{"code":20,"in_reply_to":1,"text":"key does not exist","type":"error"}}
+2023/10/29 17:28:13 Received {c694 n1 {"type":"read","msg_id":1}}
+2023/10/29 17:28:13 Sent {"src":"n1","dest":"seq-kv","body":{"key":"counter","msg_id":182,"type":"read"}}
+2023/10/29 17:28:13 Received {seq-kv n1 {"type":"error","code":20,"text":"key does not exist","in_reply_to":182}}
+2023/10/29 17:28:13 Sent {"src":"n1","dest":"c694","body":{"code":20,"in_reply_to":1,"text":"key does not exist","type":"error"}}
+2023/10/29 17:28:13 Received {c698 n1 {"type":"read","msg_id":1}}
+2023/10/29 17:28:13 Sent {"src":"n1","dest":"seq-kv","body":{"key":"counter","msg_id":183,"type":"read"}}
+2023/10/29 17:28:13 Received {seq-kv n1 {"type":"error","code":20,"text":"key does not exist","in_reply_to":183}}
+2023/10/29 17:28:13 Sent {"src":"n1","dest":"c698","body":{"code":20,"in_reply_to":1,"text":"key does not exist","type":"error"}}
+2023/10/29 17:28:13 Received {c702 n1 {"delta":2,"type":"add","msg_id":1}}
+2023/10/29 17:28:13 Sent {"src":"n1","dest":"seq-kv","body":{"key":"counter","msg_id":184,"type":"read"}}
+2023/10/29 17:28:13 Received {seq-kv n1 {"type":"error","code":20,"text":"key does not exist","in_reply_to":184}}
+2023/10/29 17:28:13 Sent {"src":"n1","dest":"c702","body":{"code":20,"in_reply_to":1,"text":"key does not exist","type":"error"}}
+2023/10/29 17:28:13 Received {c706 n1 {"type":"read","msg_id":1}}
+2023/10/29 17:28:13 Sent {"src":"n1","dest":"seq-kv","body":{"key":"counter","msg_id":185,"type":"read"}}
+2023/10/29 17:28:13 Received {seq-kv n1 {"type":"error","code":20,"text":"key does not exist","in_reply_to":185}}
+2023/10/29 17:28:13 Sent {"src":"n1","dest":"c706","body":{"code":20,"in_reply_to":1,"text":"key does not exist","type":"error"}}
+2023/10/29 17:28:13 Received {c710 n1 {"delta":1,"type":"add","msg_id":1}}
+2023/10/29 17:28:13 Sent {"src":"n1","dest":"seq-kv","body":{"key":"counter","msg_id":186,"type":"read"}}
+2023/10/29 17:28:13 Received {seq-kv n1 {"type":"error","code":20,"text":"key does not exist","in_reply_to":186}}
+2023/10/29 17:28:13 Sent {"src":"n1","dest":"c710","body":{"code":20,"in_reply_to":1,"text":"key does not exist","type":"error"}}
+2023/10/29 17:28:13 Received {c714 n1 {"type":"read","msg_id":1}}
+2023/10/29 17:28:13 Sent {"src":"n1","dest":"seq-kv","body":{"key":"counter","msg_id":187,"type":"read"}}
+2023/10/29 17:28:13 Received {seq-kv n1 {"type":"error","code":20,"text":"key does not exist","in_reply_to":187}}
+2023/10/29 17:28:13 Sent {"src":"n1","dest":"c714","body":{"code":20,"in_reply_to":1,"text":"key does not exist","type":"error"}}
+2023/10/29 17:28:13 Received {c718 n1 {"delta":3,"type":"add","msg_id":1}}
+2023/10/29 17:28:13 Sent {"src":"n1","dest":"seq-kv","body":{"key":"counter","msg_id":188,"type":"read"}}
+2023/10/29 17:28:13 Received {seq-kv n1 {"type":"error","code":20,"text":"key does not exist","in_reply_to":188}}
+2023/10/29 17:28:13 Sent {"src":"n1","dest":"c718","body":{"code":20,"in_reply_to":1,"text":"key does not exist","type":"error"}}
+2023/10/29 17:28:13 Received {c722 n1 {"delta":1,"type":"add","msg_id":1}}
+2023/10/29 17:28:13 Sent {"src":"n1","dest":"seq-kv","body":{"key":"counter","msg_id":189,"type":"read"}}
+2023/10/29 17:28:13 Received {seq-kv n1 {"type":"error","code":20,"text":"key does not exist","in_reply_to":189}}
+2023/10/29 17:28:13 Sent {"src":"n1","dest":"c722","body":{"code":20,"in_reply_to":1,"text":"key does not exist","type":"error"}}
+2023/10/29 17:28:13 Received {c726 n1 {"delta":0,"type":"add","msg_id":1}}
+2023/10/29 17:28:13 Sent {"src":"n1","dest":"seq-kv","body":{"key":"counter","msg_id":190,"type":"read"}}
+2023/10/29 17:28:13 Received {seq-kv n1 {"type":"error","code":20,"text":"key does not exist","in_reply_to":190}}
+2023/10/29 17:28:13 Sent {"src":"n1","dest":"c726","body":{"code":20,"in_reply_to":1,"text":"key does not exist","type":"error"}}
+2023/10/29 17:28:13 Received {c730 n1 {"delta":4,"type":"add","msg_id":1}}
+2023/10/29 17:28:13 Sent {"src":"n1","dest":"seq-kv","body":{"key":"counter","msg_id":191,"type":"read"}}
+2023/10/29 17:28:13 Received {seq-kv n1 {"type":"error","code":20,"text":"key does not exist","in_reply_to":191}}
+2023/10/29 17:28:13 Sent {"src":"n1","dest":"c730","body":{"code":20,"in_reply_to":1,"text":"key does not exist","type":"error"}}
+2023/10/29 17:28:13 Received {c734 n1 {"delta":3,"type":"add","msg_id":1}}
+2023/10/29 17:28:13 Sent {"src":"n1","dest":"seq-kv","body":{"key":"counter","msg_id":192,"type":"read"}}
+2023/10/29 17:28:13 Received {seq-kv n1 {"type":"error","code":20,"text":"key does not exist","in_reply_to":192}}
+2023/10/29 17:28:13 Sent {"src":"n1","dest":"c734","body":{"code":20,"in_reply_to":1,"text":"key does not exist","type":"error"}}
+2023/10/29 17:28:13 Received {c738 n1 {"type":"read","msg_id":1}}
+2023/10/29 17:28:13 Sent {"src":"n1","dest":"seq-kv","body":{"key":"counter","msg_id":193,"type":"read"}}
+2023/10/29 17:28:13 Received {seq-kv n1 {"type":"error","code":20,"text":"key does not exist","in_reply_to":193}}
+2023/10/29 17:28:13 Sent {"src":"n1","dest":"c738","body":{"code":20,"in_reply_to":1,"text":"key does not exist","type":"error"}}
+2023/10/29 17:28:13 Received {c742 n1 {"type":"read","msg_id":1}}
+2023/10/29 17:28:13 Sent {"src":"n1","dest":"seq-kv","body":{"key":"counter","msg_id":194,"type":"read"}}
+2023/10/29 17:28:13 Received {seq-kv n1 {"type":"error","code":20,"text":"key does not exist","in_reply_to":194}}
+2023/10/29 17:28:13 Sent {"src":"n1","dest":"c742","body":{"code":20,"in_reply_to":1,"text":"key does not exist","type":"error"}}
+2023/10/29 17:28:13 Received {c746 n1 {"type":"read","msg_id":1}}
+2023/10/29 17:28:13 Sent {"src":"n1","dest":"seq-kv","body":{"key":"counter","msg_id":195,"type":"read"}}
+2023/10/29 17:28:13 Received {seq-kv n1 {"type":"error","code":20,"text":"key does not exist","in_reply_to":195}}
+2023/10/29 17:28:13 Sent {"src":"n1","dest":"c746","body":{"code":20,"in_reply_to":1,"text":"key does not exist","type":"error"}}
+2023/10/29 17:28:13 Received {c749 n1 {"type":"read","msg_id":1}}
+2023/10/29 17:28:13 Sent {"src":"n1","dest":"seq-kv","body":{"key":"counter","msg_id":196,"type":"read"}}
+2023/10/29 17:28:13 Received {seq-kv n1 {"type":"error","code":20,"text":"key does not exist","in_reply_to":196}}
+2023/10/29 17:28:13 Sent {"src":"n1","dest":"c749","body":{"code":20,"in_reply_to":1,"text":"key does not exist","type":"error"}}
+2023/10/29 17:28:13 Received {c750 n1 {"type":"read","msg_id":1}}
+2023/10/29 17:28:13 Sent {"src":"n1","dest":"seq-kv","body":{"key":"counter","msg_id":197,"type":"read"}}
+2023/10/29 17:28:13 Received {seq-kv n1 {"type":"error","code":20,"text":"key does not exist","in_reply_to":197}}
+2023/10/29 17:28:13 Sent {"src":"n1","dest":"c750","body":{"code":20,"in_reply_to":1,"text":"key does not exist","type":"error"}}
+2023/10/29 17:28:13 Received {c754 n1 {"type":"read","msg_id":1}}
+2023/10/29 17:28:13 Sent {"src":"n1","dest":"seq-kv","body":{"key":"counter","msg_id":198,"type":"read"}}
+2023/10/29 17:28:13 Received {seq-kv n1 {"type":"error","code":20,"text":"key does not exist","in_reply_to":198}}
+2023/10/29 17:28:13 Sent {"src":"n1","dest":"c754","body":{"code":20,"in_reply_to":1,"text":"key does not exist","type":"error"}}
+2023/10/29 17:28:13 Received {c758 n1 {"delta":0,"type":"add","msg_id":1}}
+2023/10/29 17:28:13 Sent {"src":"n1","dest":"seq-kv","body":{"key":"counter","msg_id":199,"type":"read"}}
+2023/10/29 17:28:13 Received {seq-kv n1 {"type":"error","code":20,"text":"key does not exist","in_reply_to":199}}
+2023/10/29 17:28:13 Sent {"src":"n1","dest":"c758","body":{"code":20,"in_reply_to":1,"text":"key does not exist","type":"error"}}
+2023/10/29 17:28:14 Received {c762 n1 {"type":"read","msg_id":1}}
+2023/10/29 17:28:14 Sent {"src":"n1","dest":"seq-kv","body":{"key":"counter","msg_id":200,"type":"read"}}
+2023/10/29 17:28:14 Received {seq-kv n1 {"type":"error","code":20,"text":"key does not exist","in_reply_to":200}}
+2023/10/29 17:28:14 Sent {"src":"n1","dest":"c762","body":{"code":20,"in_reply_to":1,"text":"key does not exist","type":"error"}}
+2023/10/29 17:28:14 Received {c766 n1 {"type":"read","msg_id":1}}
+2023/10/29 17:28:14 Sent {"src":"n1","dest":"seq-kv","body":{"key":"counter","msg_id":201,"type":"read"}}
+2023/10/29 17:28:14 Received {seq-kv n1 {"type":"error","code":20,"text":"key does not exist","in_reply_to":201}}
+2023/10/29 17:28:14 Sent {"src":"n1","dest":"c766","body":{"code":20,"in_reply_to":1,"text":"key does not exist","type":"error"}}
+2023/10/29 17:28:14 Received {c770 n1 {"delta":3,"type":"add","msg_id":1}}
+2023/10/29 17:28:14 Sent {"src":"n1","dest":"seq-kv","body":{"key":"counter","msg_id":202,"type":"read"}}
+2023/10/29 17:28:14 Received {seq-kv n1 {"type":"error","code":20,"text":"key does not exist","in_reply_to":202}}
+2023/10/29 17:28:14 Sent {"src":"n1","dest":"c770","body":{"code":20,"in_reply_to":1,"text":"key does not exist","type":"error"}}
+2023/10/29 17:28:14 Received {c774 n1 {"delta":4,"type":"add","msg_id":1}}
+2023/10/29 17:28:14 Sent {"src":"n1","dest":"seq-kv","body":{"key":"counter","msg_id":203,"type":"read"}}
+2023/10/29 17:28:14 Received {seq-kv n1 {"type":"error","code":20,"text":"key does not exist","in_reply_to":203}}
+2023/10/29 17:28:14 Sent {"src":"n1","dest":"c774","body":{"code":20,"in_reply_to":1,"text":"key does not exist","type":"error"}}
+2023/10/29 17:28:14 Received {c777 n1 {"type":"read","msg_id":1}}
+2023/10/29 17:28:14 Sent {"src":"n1","dest":"seq-kv","body":{"key":"counter","msg_id":204,"type":"read"}}
+2023/10/29 17:28:14 Received {seq-kv n1 {"type":"error","code":20,"text":"key does not exist","in_reply_to":204}}
+2023/10/29 17:28:14 Sent {"src":"n1","dest":"c777","body":{"code":20,"in_reply_to":1,"text":"key does not exist","type":"error"}}
+2023/10/29 17:28:14 Received {c781 n1 {"delta":2,"type":"add","msg_id":1}}
+2023/10/29 17:28:14 Sent {"src":"n1","dest":"seq-kv","body":{"key":"counter","msg_id":205,"type":"read"}}
+2023/10/29 17:28:14 Received {seq-kv n1 {"type":"error","code":20,"text":"key does not exist","in_reply_to":205}}
+2023/10/29 17:28:14 Sent {"src":"n1","dest":"c781","body":{"code":20,"in_reply_to":1,"text":"key does not exist","type":"error"}}
+2023/10/29 17:28:14 Received {c784 n1 {"type":"read","msg_id":1}}
+2023/10/29 17:28:14 Sent {"src":"n1","dest":"seq-kv","body":{"key":"counter","msg_id":206,"type":"read"}}
+2023/10/29 17:28:14 Received {seq-kv n1 {"type":"error","code":20,"text":"key does not exist","in_reply_to":206}}
+2023/10/29 17:28:14 Sent {"src":"n1","dest":"c784","body":{"code":20,"in_reply_to":1,"text":"key does not exist","type":"error"}}
+2023/10/29 17:28:14 Received {c785 n1 {"delta":2,"type":"add","msg_id":1}}
+2023/10/29 17:28:14 Sent {"src":"n1","dest":"seq-kv","body":{"key":"counter","msg_id":207,"type":"read"}}
+2023/10/29 17:28:14 Received {seq-kv n1 {"type":"error","code":20,"text":"key does not exist","in_reply_to":207}}
+2023/10/29 17:28:14 Sent {"src":"n1","dest":"c785","body":{"code":20,"in_reply_to":1,"text":"key does not exist","type":"error"}}
+2023/10/29 17:28:14 Received {c789 n1 {"type":"read","msg_id":1}}
+2023/10/29 17:28:14 Sent {"src":"n1","dest":"seq-kv","body":{"key":"counter","msg_id":208,"type":"read"}}
+2023/10/29 17:28:14 Received {seq-kv n1 {"type":"error","code":20,"text":"key does not exist","in_reply_to":208}}
+2023/10/29 17:28:14 Sent {"src":"n1","dest":"c789","body":{"code":20,"in_reply_to":1,"text":"key does not exist","type":"error"}}
+2023/10/29 17:28:14 Received {c793 n1 {"delta":1,"type":"add","msg_id":1}}
+2023/10/29 17:28:14 Sent {"src":"n1","dest":"seq-kv","body":{"key":"counter","msg_id":209,"type":"read"}}
+2023/10/29 17:28:14 Received {seq-kv n1 {"type":"error","code":20,"text":"key does not exist","in_reply_to":209}}
+2023/10/29 17:28:14 Sent {"src":"n1","dest":"c793","body":{"code":20,"in_reply_to":1,"text":"key does not exist","type":"error"}}
+2023/10/29 17:28:14 Received {c797 n1 {"delta":0,"type":"add","msg_id":1}}
+2023/10/29 17:28:14 Sent {"src":"n1","dest":"seq-kv","body":{"key":"counter","msg_id":210,"type":"read"}}
+2023/10/29 17:28:14 Received {seq-kv n1 {"type":"error","code":20,"text":"key does not exist","in_reply_to":210}}
+2023/10/29 17:28:14 Sent {"src":"n1","dest":"c797","body":{"code":20,"in_reply_to":1,"text":"key does not exist","type":"error"}}
+2023/10/29 17:28:14 Received {c801 n1 {"type":"read","msg_id":1}}
+2023/10/29 17:28:14 Sent {"src":"n1","dest":"seq-kv","body":{"key":"counter","msg_id":211,"type":"read"}}
+2023/10/29 17:28:14 Received {seq-kv n1 {"type":"error","code":20,"text":"key does not exist","in_reply_to":211}}
+2023/10/29 17:28:14 Sent {"src":"n1","dest":"c801","body":{"code":20,"in_reply_to":1,"text":"key does not exist","type":"error"}}
+2023/10/29 17:28:14 Received {c805 n1 {"delta":0,"type":"add","msg_id":1}}
+2023/10/29 17:28:14 Sent {"src":"n1","dest":"seq-kv","body":{"key":"counter","msg_id":212,"type":"read"}}
+2023/10/29 17:28:14 Received {seq-kv n1 {"type":"error","code":20,"text":"key does not exist","in_reply_to":212}}
+2023/10/29 17:28:14 Sent {"src":"n1","dest":"c805","body":{"code":20,"in_reply_to":1,"text":"key does not exist","type":"error"}}
+2023/10/29 17:28:14 Received {c809 n1 {"type":"read","msg_id":1}}
+2023/10/29 17:28:14 Sent {"src":"n1","dest":"seq-kv","body":{"key":"counter","msg_id":213,"type":"read"}}
+2023/10/29 17:28:14 Received {seq-kv n1 {"type":"error","code":20,"text":"key does not exist","in_reply_to":213}}
+2023/10/29 17:28:14 Sent {"src":"n1","dest":"c809","body":{"code":20,"in_reply_to":1,"text":"key does not exist","type":"error"}}
+2023/10/29 17:28:14 Received {c813 n1 {"type":"read","msg_id":1}}
+2023/10/29 17:28:14 Sent {"src":"n1","dest":"seq-kv","body":{"key":"counter","msg_id":214,"type":"read"}}
+2023/10/29 17:28:14 Received {seq-kv n1 {"type":"error","code":20,"text":"key does not exist","in_reply_to":214}}
+2023/10/29 17:28:14 Sent {"src":"n1","dest":"c813","body":{"code":20,"in_reply_to":1,"text":"key does not exist","type":"error"}}
+2023/10/29 17:28:14 Received {c817 n1 {"delta":0,"type":"add","msg_id":1}}
+2023/10/29 17:28:14 Sent {"src":"n1","dest":"seq-kv","body":{"key":"counter","msg_id":215,"type":"read"}}
+2023/10/29 17:28:14 Received {seq-kv n1 {"type":"error","code":20,"text":"key does not exist","in_reply_to":215}}
+2023/10/29 17:28:14 Sent {"src":"n1","dest":"c817","body":{"code":20,"in_reply_to":1,"text":"key does not exist","type":"error"}}
+2023/10/29 17:28:14 Received {c821 n1 {"type":"read","msg_id":1}}
+2023/10/29 17:28:14 Sent {"src":"n1","dest":"seq-kv","body":{"key":"counter","msg_id":216,"type":"read"}}
+2023/10/29 17:28:14 Received {seq-kv n1 {"type":"error","code":20,"text":"key does not exist","in_reply_to":216}}
+2023/10/29 17:28:14 Sent {"src":"n1","dest":"c821","body":{"code":20,"in_reply_to":1,"text":"key does not exist","type":"error"}}
+2023/10/29 17:28:14 Received {c825 n1 {"type":"read","msg_id":1}}
+2023/10/29 17:28:14 Sent {"src":"n1","dest":"seq-kv","body":{"key":"counter","msg_id":217,"type":"read"}}
+2023/10/29 17:28:14 Received {seq-kv n1 {"type":"error","code":20,"text":"key does not exist","in_reply_to":217}}
+2023/10/29 17:28:14 Sent {"src":"n1","dest":"c825","body":{"code":20,"in_reply_to":1,"text":"key does not exist","type":"error"}}
+2023/10/29 17:28:14 Received {c829 n1 {"type":"read","msg_id":1}}
+2023/10/29 17:28:14 Sent {"src":"n1","dest":"seq-kv","body":{"key":"counter","msg_id":218,"type":"read"}}
+2023/10/29 17:28:14 Received {seq-kv n1 {"type":"error","code":20,"text":"key does not exist","in_reply_to":218}}
+2023/10/29 17:28:14 Sent {"src":"n1","dest":"c829","body":{"code":20,"in_reply_to":1,"text":"key does not exist","type":"error"}}
+2023/10/29 17:28:14 Received {c832 n1 {"type":"read","msg_id":1}}
+2023/10/29 17:28:14 Sent {"src":"n1","dest":"seq-kv","body":{"key":"counter","msg_id":219,"type":"read"}}
+2023/10/29 17:28:14 Received {seq-kv n1 {"type":"error","code":20,"text":"key does not exist","in_reply_to":219}}
+2023/10/29 17:28:14 Sent {"src":"n1","dest":"c832","body":{"code":20,"in_reply_to":1,"text":"key does not exist","type":"error"}}
+2023/10/29 17:28:14 Received {c833 n1 {"type":"read","msg_id":1}}
+2023/10/29 17:28:14 Sent {"src":"n1","dest":"seq-kv","body":{"key":"counter","msg_id":220,"type":"read"}}
+2023/10/29 17:28:14 Received {seq-kv n1 {"type":"error","code":20,"text":"key does not exist","in_reply_to":220}}
+2023/10/29 17:28:14 Sent {"src":"n1","dest":"c833","body":{"code":20,"in_reply_to":1,"text":"key does not exist","type":"error"}}
+2023/10/29 17:28:14 Received {c837 n1 {"type":"read","msg_id":1}}
+2023/10/29 17:28:14 Sent {"src":"n1","dest":"seq-kv","body":{"key":"counter","msg_id":221,"type":"read"}}
+2023/10/29 17:28:14 Received {seq-kv n1 {"type":"error","code":20,"text":"key does not exist","in_reply_to":221}}
+2023/10/29 17:28:14 Sent {"src":"n1","dest":"c837","body":{"code":20,"in_reply_to":1,"text":"key does not exist","type":"error"}}
+2023/10/29 17:28:14 Received {c841 n1 {"delta":1,"type":"add","msg_id":1}}
+2023/10/29 17:28:14 Sent {"src":"n1","dest":"seq-kv","body":{"key":"counter","msg_id":222,"type":"read"}}
+2023/10/29 17:28:14 Received {seq-kv n1 {"type":"error","code":20,"text":"key does not exist","in_reply_to":222}}
+2023/10/29 17:28:14 Sent {"src":"n1","dest":"c841","body":{"code":20,"in_reply_to":1,"text":"key does not exist","type":"error"}}
+2023/10/29 17:28:14 Received {c845 n1 {"type":"read","msg_id":1}}
+2023/10/29 17:28:14 Sent {"src":"n1","dest":"seq-kv","body":{"key":"counter","msg_id":223,"type":"read"}}
+2023/10/29 17:28:14 Received {seq-kv n1 {"type":"error","code":20,"text":"key does not exist","in_reply_to":223}}
+2023/10/29 17:28:14 Sent {"src":"n1","dest":"c845","body":{"code":20,"in_reply_to":1,"text":"key does not exist","type":"error"}}
+2023/10/29 17:28:14 Received {c849 n1 {"type":"read","msg_id":1}}
+2023/10/29 17:28:14 Sent {"src":"n1","dest":"seq-kv","body":{"key":"counter","msg_id":224,"type":"read"}}
+2023/10/29 17:28:14 Received {seq-kv n1 {"type":"error","code":20,"text":"key does not exist","in_reply_to":224}}
+2023/10/29 17:28:14 Sent {"src":"n1","dest":"c849","body":{"code":20,"in_reply_to":1,"text":"key does not exist","type":"error"}}
+2023/10/29 17:28:14 Received {c853 n1 {"type":"read","msg_id":1}}
+2023/10/29 17:28:14 Sent {"src":"n1","dest":"seq-kv","body":{"key":"counter","msg_id":225,"type":"read"}}
+2023/10/29 17:28:14 Received {seq-kv n1 {"type":"error","code":20,"text":"key does not exist","in_reply_to":225}}
+2023/10/29 17:28:14 Sent {"src":"n1","dest":"c853","body":{"code":20,"in_reply_to":1,"text":"key does not exist","type":"error"}}
+2023/10/29 17:28:15 Received {c857 n1 {"delta":1,"type":"add","msg_id":1}}
+2023/10/29 17:28:15 Sent {"src":"n1","dest":"seq-kv","body":{"key":"counter","msg_id":226,"type":"read"}}
+2023/10/29 17:28:15 Received {seq-kv n1 {"type":"error","code":20,"text":"key does not exist","in_reply_to":226}}
+2023/10/29 17:28:15 Sent {"src":"n1","dest":"c857","body":{"code":20,"in_reply_to":1,"text":"key does not exist","type":"error"}}
+2023/10/29 17:28:15 Received {c861 n1 {"type":"read","msg_id":1}}
+2023/10/29 17:28:15 Sent {"src":"n1","dest":"seq-kv","body":{"key":"counter","msg_id":227,"type":"read"}}
+2023/10/29 17:28:15 Received {seq-kv n1 {"type":"error","code":20,"text":"key does not exist","in_reply_to":227}}
+2023/10/29 17:28:15 Sent {"src":"n1","dest":"c861","body":{"code":20,"in_reply_to":1,"text":"key does not exist","type":"error"}}
+2023/10/29 17:28:15 Received {c865 n1 {"type":"read","msg_id":1}}
+2023/10/29 17:28:15 Sent {"src":"n1","dest":"seq-kv","body":{"key":"counter","msg_id":228,"type":"read"}}
+2023/10/29 17:28:15 Received {seq-kv n1 {"type":"error","code":20,"text":"key does not exist","in_reply_to":228}}
+2023/10/29 17:28:15 Sent {"src":"n1","dest":"c865","body":{"code":20,"in_reply_to":1,"text":"key does not exist","type":"error"}}
+2023/10/29 17:28:15 Received {c867 n1 {"delta":0,"type":"add","msg_id":1}}
+2023/10/29 17:28:15 Sent {"src":"n1","dest":"seq-kv","body":{"key":"counter","msg_id":229,"type":"read"}}
+2023/10/29 17:28:15 Received {seq-kv n1 {"type":"error","code":20,"text":"key does not exist","in_reply_to":229}}
+2023/10/29 17:28:15 Sent {"src":"n1","dest":"c867","body":{"code":20,"in_reply_to":1,"text":"key does not exist","type":"error"}}
+2023/10/29 17:28:15 Received {c869 n1 {"type":"read","msg_id":1}}
+2023/10/29 17:28:15 Sent {"src":"n1","dest":"seq-kv","body":{"key":"counter","msg_id":230,"type":"read"}}
+2023/10/29 17:28:15 Received {seq-kv n1 {"type":"error","code":20,"text":"key does not exist","in_reply_to":230}}
+2023/10/29 17:28:15 Sent {"src":"n1","dest":"c869","body":{"code":20,"in_reply_to":1,"text":"key does not exist","type":"error"}}
+2023/10/29 17:28:15 Received {c873 n1 {"delta":1,"type":"add","msg_id":1}}
+2023/10/29 17:28:15 Sent {"src":"n1","dest":"seq-kv","body":{"key":"counter","msg_id":231,"type":"read"}}
+2023/10/29 17:28:15 Received {seq-kv n1 {"type":"error","code":20,"text":"key does not exist","in_reply_to":231}}
+2023/10/29 17:28:15 Sent {"src":"n1","dest":"c873","body":{"code":20,"in_reply_to":1,"text":"key does not exist","type":"error"}}
+2023/10/29 17:28:15 Received {c877 n1 {"delta":2,"type":"add","msg_id":1}}
+2023/10/29 17:28:15 Sent {"src":"n1","dest":"seq-kv","body":{"key":"counter","msg_id":232,"type":"read"}}
+2023/10/29 17:28:15 Received {seq-kv n1 {"type":"error","code":20,"text":"key does not exist","in_reply_to":232}}
+2023/10/29 17:28:15 Sent {"src":"n1","dest":"c877","body":{"code":20,"in_reply_to":1,"text":"key does not exist","type":"error"}}
+2023/10/29 17:28:15 Received {c881 n1 {"delta":1,"type":"add","msg_id":1}}
+2023/10/29 17:28:15 Sent {"src":"n1","dest":"seq-kv","body":{"key":"counter","msg_id":233,"type":"read"}}
+2023/10/29 17:28:15 Received {seq-kv n1 {"type":"error","code":20,"text":"key does not exist","in_reply_to":233}}
+2023/10/29 17:28:15 Sent {"src":"n1","dest":"c881","body":{"code":20,"in_reply_to":1,"text":"key does not exist","type":"error"}}
+2023/10/29 17:28:15 Received {c885 n1 {"type":"read","msg_id":1}}
+2023/10/29 17:28:15 Sent {"src":"n1","dest":"seq-kv","body":{"key":"counter","msg_id":234,"type":"read"}}
+2023/10/29 17:28:15 Received {seq-kv n1 {"type":"error","code":20,"text":"key does not exist","in_reply_to":234}}
+2023/10/29 17:28:15 Sent {"src":"n1","dest":"c885","body":{"code":20,"in_reply_to":1,"text":"key does not exist","type":"error"}}
+2023/10/29 17:28:15 Received {c889 n1 {"delta":2,"type":"add","msg_id":1}}
+2023/10/29 17:28:15 Sent {"src":"n1","dest":"seq-kv","body":{"key":"counter","msg_id":235,"type":"read"}}
+2023/10/29 17:28:15 Received {seq-kv n1 {"type":"error","code":20,"text":"key does not exist","in_reply_to":235}}
+2023/10/29 17:28:15 Sent {"src":"n1","dest":"c889","body":{"code":20,"in_reply_to":1,"text":"key does not exist","type":"error"}}
+2023/10/29 17:28:15 Received {c892 n1 {"type":"read","msg_id":1}}
+2023/10/29 17:28:15 Sent {"src":"n1","dest":"seq-kv","body":{"key":"counter","msg_id":236,"type":"read"}}
+2023/10/29 17:28:15 Received {seq-kv n1 {"type":"error","code":20,"text":"key does not exist","in_reply_to":236}}
+2023/10/29 17:28:15 Sent {"src":"n1","dest":"c892","body":{"code":20,"in_reply_to":1,"text":"key does not exist","type":"error"}}
+2023/10/29 17:28:15 Received {c893 n1 {"type":"read","msg_id":1}}
+2023/10/29 17:28:15 Sent {"src":"n1","dest":"seq-kv","body":{"key":"counter","msg_id":237,"type":"read"}}
+2023/10/29 17:28:15 Received {seq-kv n1 {"type":"error","code":20,"text":"key does not exist","in_reply_to":237}}
+2023/10/29 17:28:15 Sent {"src":"n1","dest":"c893","body":{"code":20,"in_reply_to":1,"text":"key does not exist","type":"error"}}
+2023/10/29 17:28:15 Received {c897 n1 {"type":"read","msg_id":1}}
+2023/10/29 17:28:15 Sent {"src":"n1","dest":"seq-kv","body":{"key":"counter","msg_id":238,"type":"read"}}
+2023/10/29 17:28:15 Received {seq-kv n1 {"type":"error","code":20,"text":"key does not exist","in_reply_to":238}}
+2023/10/29 17:28:15 Sent {"src":"n1","dest":"c897","body":{"code":20,"in_reply_to":1,"text":"key does not exist","type":"error"}}
+2023/10/29 17:28:15 Received {c902 n1 {"delta":3,"type":"add","msg_id":1}}
+2023/10/29 17:28:15 Sent {"src":"n1","dest":"seq-kv","body":{"key":"counter","msg_id":239,"type":"read"}}
+2023/10/29 17:28:15 Received {seq-kv n1 {"type":"error","code":20,"text":"key does not exist","in_reply_to":239}}
+2023/10/29 17:28:15 Sent {"src":"n1","dest":"c902","body":{"code":20,"in_reply_to":1,"text":"key does not exist","type":"error"}}
+2023/10/29 17:28:15 Received {c905 n1 {"type":"read","msg_id":1}}
+2023/10/29 17:28:15 Sent {"src":"n1","dest":"seq-kv","body":{"key":"counter","msg_id":240,"type":"read"}}
+2023/10/29 17:28:15 Received {seq-kv n1 {"type":"error","code":20,"text":"key does not exist","in_reply_to":240}}
+2023/10/29 17:28:15 Sent {"src":"n1","dest":"c905","body":{"code":20,"in_reply_to":1,"text":"key does not exist","type":"error"}}
+2023/10/29 17:28:15 Received {c909 n1 {"type":"read","msg_id":1}}
+2023/10/29 17:28:15 Sent {"src":"n1","dest":"seq-kv","body":{"key":"counter","msg_id":241,"type":"read"}}
+2023/10/29 17:28:15 Received {seq-kv n1 {"type":"error","code":20,"text":"key does not exist","in_reply_to":241}}
+2023/10/29 17:28:15 Sent {"src":"n1","dest":"c909","body":{"code":20,"in_reply_to":1,"text":"key does not exist","type":"error"}}
+2023/10/29 17:28:15 Received {c913 n1 {"type":"read","msg_id":1}}
+2023/10/29 17:28:15 Sent {"src":"n1","dest":"seq-kv","body":{"key":"counter","msg_id":242,"type":"read"}}
+2023/10/29 17:28:15 Received {seq-kv n1 {"type":"error","code":20,"text":"key does not exist","in_reply_to":242}}
+2023/10/29 17:28:15 Sent {"src":"n1","dest":"c913","body":{"code":20,"in_reply_to":1,"text":"key does not exist","type":"error"}}
+2023/10/29 17:28:15 Received {c917 n1 {"delta":0,"type":"add","msg_id":1}}
+2023/10/29 17:28:15 Sent {"src":"n1","dest":"seq-kv","body":{"key":"counter","msg_id":243,"type":"read"}}
+2023/10/29 17:28:15 Received {seq-kv n1 {"type":"error","code":20,"text":"key does not exist","in_reply_to":243}}
+2023/10/29 17:28:15 Sent {"src":"n1","dest":"c917","body":{"code":20,"in_reply_to":1,"text":"key does not exist","type":"error"}}
+2023/10/29 17:28:15 Received {c921 n1 {"type":"read","msg_id":1}}
+2023/10/29 17:28:15 Sent {"src":"n1","dest":"seq-kv","body":{"key":"counter","msg_id":244,"type":"read"}}
+2023/10/29 17:28:15 Received {seq-kv n1 {"type":"error","code":20,"text":"key does not exist","in_reply_to":244}}
+2023/10/29 17:28:15 Sent {"src":"n1","dest":"c921","body":{"code":20,"in_reply_to":1,"text":"key does not exist","type":"error"}}
+2023/10/29 17:28:15 Received {c925 n1 {"type":"read","msg_id":1}}
+2023/10/29 17:28:15 Sent {"src":"n1","dest":"seq-kv","body":{"key":"counter","msg_id":245,"type":"read"}}
+2023/10/29 17:28:15 Received {seq-kv n1 {"type":"error","code":20,"text":"key does not exist","in_reply_to":245}}
+2023/10/29 17:28:15 Sent {"src":"n1","dest":"c925","body":{"code":20,"in_reply_to":1,"text":"key does not exist","type":"error"}}
+2023/10/29 17:28:15 Received {c929 n1 {"delta":3,"type":"add","msg_id":1}}
+2023/10/29 17:28:15 Sent {"src":"n1","dest":"seq-kv","body":{"key":"counter","msg_id":246,"type":"read"}}
+2023/10/29 17:28:15 Received {seq-kv n1 {"type":"error","code":20,"text":"key does not exist","in_reply_to":246}}
+2023/10/29 17:28:15 Sent {"src":"n1","dest":"c929","body":{"code":20,"in_reply_to":1,"text":"key does not exist","type":"error"}}
+2023/10/29 17:28:15 Received {c933 n1 {"type":"read","msg_id":1}}
+2023/10/29 17:28:15 Sent {"src":"n1","dest":"seq-kv","body":{"key":"counter","msg_id":247,"type":"read"}}
+2023/10/29 17:28:15 Received {seq-kv n1 {"type":"error","code":20,"text":"key does not exist","in_reply_to":247}}
+2023/10/29 17:28:15 Sent {"src":"n1","dest":"c933","body":{"code":20,"in_reply_to":1,"text":"key does not exist","type":"error"}}
+2023/10/29 17:28:15 Received {c937 n1 {"delta":4,"type":"add","msg_id":1}}
+2023/10/29 17:28:15 Sent {"src":"n1","dest":"seq-kv","body":{"key":"counter","msg_id":248,"type":"read"}}
+2023/10/29 17:28:15 Received {seq-kv n1 {"type":"error","code":20,"text":"key does not exist","in_reply_to":248}}
+2023/10/29 17:28:15 Sent {"src":"n1","dest":"c937","body":{"code":20,"in_reply_to":1,"text":"key does not exist","type":"error"}}
+2023/10/29 17:28:15 Received {c941 n1 {"type":"read","msg_id":1}}
+2023/10/29 17:28:15 Sent {"src":"n1","dest":"seq-kv","body":{"key":"counter","msg_id":249,"type":"read"}}
+2023/10/29 17:28:15 Received {seq-kv n1 {"type":"error","code":20,"text":"key does not exist","in_reply_to":249}}
+2023/10/29 17:28:15 Sent {"src":"n1","dest":"c941","body":{"code":20,"in_reply_to":1,"text":"key does not exist","type":"error"}}
+2023/10/29 17:28:16 Received {c945 n1 {"delta":4,"type":"add","msg_id":1}}
+2023/10/29 17:28:16 Sent {"src":"n1","dest":"seq-kv","body":{"key":"counter","msg_id":250,"type":"read"}}
+2023/10/29 17:28:16 Received {seq-kv n1 {"type":"error","code":20,"text":"key does not exist","in_reply_to":250}}
+2023/10/29 17:28:16 Sent {"src":"n1","dest":"c945","body":{"code":20,"in_reply_to":1,"text":"key does not exist","type":"error"}}
+2023/10/29 17:28:16 Received {c949 n1 {"type":"read","msg_id":1}}
+2023/10/29 17:28:16 Sent {"src":"n1","dest":"seq-kv","body":{"key":"counter","msg_id":251,"type":"read"}}
+2023/10/29 17:28:16 Received {seq-kv n1 {"type":"error","code":20,"text":"key does not exist","in_reply_to":251}}
+2023/10/29 17:28:16 Sent {"src":"n1","dest":"c949","body":{"code":20,"in_reply_to":1,"text":"key does not exist","type":"error"}}
+2023/10/29 17:28:16 Received {c953 n1 {"type":"read","msg_id":1}}
+2023/10/29 17:28:16 Sent {"src":"n1","dest":"seq-kv","body":{"key":"counter","msg_id":252,"type":"read"}}
+2023/10/29 17:28:16 Received {seq-kv n1 {"type":"error","code":20,"text":"key does not exist","in_reply_to":252}}
+2023/10/29 17:28:16 Sent {"src":"n1","dest":"c953","body":{"code":20,"in_reply_to":1,"text":"key does not exist","type":"error"}}
+2023/10/29 17:28:16 Received {c957 n1 {"type":"read","msg_id":1}}
+2023/10/29 17:28:16 Sent {"src":"n1","dest":"seq-kv","body":{"key":"counter","msg_id":253,"type":"read"}}
+2023/10/29 17:28:16 Received {seq-kv n1 {"type":"error","code":20,"text":"key does not exist","in_reply_to":253}}
+2023/10/29 17:28:16 Sent {"src":"n1","dest":"c957","body":{"code":20,"in_reply_to":1,"text":"key does not exist","type":"error"}}
+2023/10/29 17:28:16 Received {c961 n1 {"type":"read","msg_id":1}}
+2023/10/29 17:28:16 Sent {"src":"n1","dest":"seq-kv","body":{"key":"counter","msg_id":254,"type":"read"}}
+2023/10/29 17:28:16 Received {seq-kv n1 {"type":"error","code":20,"text":"key does not exist","in_reply_to":254}}
+2023/10/29 17:28:16 Sent {"src":"n1","dest":"c961","body":{"code":20,"in_reply_to":1,"text":"key does not exist","type":"error"}}
+2023/10/29 17:28:16 Received {c965 n1 {"delta":0,"type":"add","msg_id":1}}
+2023/10/29 17:28:16 Sent {"src":"n1","dest":"seq-kv","body":{"key":"counter","msg_id":255,"type":"read"}}
+2023/10/29 17:28:16 Received {seq-kv n1 {"type":"error","code":20,"text":"key does not exist","in_reply_to":255}}
+2023/10/29 17:28:16 Sent {"src":"n1","dest":"c965","body":{"code":20,"in_reply_to":1,"text":"key does not exist","type":"error"}}
+2023/10/29 17:28:16 Received {c968 n1 {"type":"read","msg_id":1}}
+2023/10/29 17:28:16 Sent {"src":"n1","dest":"seq-kv","body":{"key":"counter","msg_id":256,"type":"read"}}
+2023/10/29 17:28:16 Received {seq-kv n1 {"type":"error","code":20,"text":"key does not exist","in_reply_to":256}}
+2023/10/29 17:28:16 Sent {"src":"n1","dest":"c968","body":{"code":20,"in_reply_to":1,"text":"key does not exist","type":"error"}}
+2023/10/29 17:28:16 Received {c969 n1 {"type":"read","msg_id":1}}
+2023/10/29 17:28:16 Sent {"src":"n1","dest":"seq-kv","body":{"key":"counter","msg_id":257,"type":"read"}}
+2023/10/29 17:28:16 Received {seq-kv n1 {"type":"error","code":20,"text":"key does not exist","in_reply_to":257}}
+2023/10/29 17:28:16 Sent {"src":"n1","dest":"c969","body":{"code":20,"in_reply_to":1,"text":"key does not exist","type":"error"}}
+2023/10/29 17:28:16 Received {c973 n1 {"delta":3,"type":"add","msg_id":1}}
+2023/10/29 17:28:16 Sent {"src":"n1","dest":"seq-kv","body":{"key":"counter","msg_id":258,"type":"read"}}
+2023/10/29 17:28:16 Received {seq-kv n1 {"type":"error","code":20,"text":"key does not exist","in_reply_to":258}}
+2023/10/29 17:28:16 Sent {"src":"n1","dest":"c973","body":{"code":20,"in_reply_to":1,"text":"key does not exist","type":"error"}}
+2023/10/29 17:28:16 Received {c977 n1 {"type":"read","msg_id":1}}
+2023/10/29 17:28:16 Sent {"src":"n1","dest":"seq-kv","body":{"key":"counter","msg_id":259,"type":"read"}}
+2023/10/29 17:28:16 Received {seq-kv n1 {"type":"error","code":20,"text":"key does not exist","in_reply_to":259}}
+2023/10/29 17:28:16 Sent {"src":"n1","dest":"c977","body":{"code":20,"in_reply_to":1,"text":"key does not exist","type":"error"}}
+2023/10/29 17:28:16 Received {c981 n1 {"type":"read","msg_id":1}}
+2023/10/29 17:28:16 Sent {"src":"n1","dest":"seq-kv","body":{"key":"counter","msg_id":260,"type":"read"}}
+2023/10/29 17:28:16 Received {seq-kv n1 {"type":"error","code":20,"text":"key does not exist","in_reply_to":260}}
+2023/10/29 17:28:16 Sent {"src":"n1","dest":"c981","body":{"code":20,"in_reply_to":1,"text":"key does not exist","type":"error"}}
+2023/10/29 17:28:16 Received {c985 n1 {"type":"read","msg_id":1}}
+2023/10/29 17:28:16 Sent {"src":"n1","dest":"seq-kv","body":{"key":"counter","msg_id":261,"type":"read"}}
+2023/10/29 17:28:16 Received {seq-kv n1 {"type":"error","code":20,"text":"key does not exist","in_reply_to":261}}
+2023/10/29 17:28:16 Sent {"src":"n1","dest":"c985","body":{"code":20,"in_reply_to":1,"text":"key does not exist","type":"error"}}
+2023/10/29 17:28:16 Received {c989 n1 {"delta":3,"type":"add","msg_id":1}}
+2023/10/29 17:28:16 Sent {"src":"n1","dest":"seq-kv","body":{"key":"counter","msg_id":262,"type":"read"}}
+2023/10/29 17:28:16 Received {seq-kv n1 {"type":"error","code":20,"text":"key does not exist","in_reply_to":262}}
+2023/10/29 17:28:16 Sent {"src":"n1","dest":"c989","body":{"code":20,"in_reply_to":1,"text":"key does not exist","type":"error"}}
+2023/10/29 17:28:16 Received {c993 n1 {"delta":1,"type":"add","msg_id":1}}
+2023/10/29 17:28:16 Sent {"src":"n1","dest":"seq-kv","body":{"key":"counter","msg_id":263,"type":"read"}}
+2023/10/29 17:28:16 Received {seq-kv n1 {"type":"error","code":20,"text":"key does not exist","in_reply_to":263}}
+2023/10/29 17:28:16 Sent {"src":"n1","dest":"c993","body":{"code":20,"in_reply_to":1,"text":"key does not exist","type":"error"}}
+2023/10/29 17:28:16 Received {c997 n1 {"delta":1,"type":"add","msg_id":1}}
+2023/10/29 17:28:16 Sent {"src":"n1","dest":"seq-kv","body":{"key":"counter","msg_id":264,"type":"read"}}
+2023/10/29 17:28:16 Received {seq-kv n1 {"type":"error","code":20,"text":"key does not exist","in_reply_to":264}}
+2023/10/29 17:28:16 Sent {"src":"n1","dest":"c997","body":{"code":20,"in_reply_to":1,"text":"key does not exist","type":"error"}}
+2023/10/29 17:28:16 Received {c1000 n1 {"type":"read","msg_id":1}}
+2023/10/29 17:28:16 Sent {"src":"n1","dest":"seq-kv","body":{"key":"counter","msg_id":265,"type":"read"}}
+2023/10/29 17:28:16 Received {seq-kv n1 {"type":"error","code":20,"text":"key does not exist","in_reply_to":265}}
+2023/10/29 17:28:16 Sent {"src":"n1","dest":"c1000","body":{"code":20,"in_reply_to":1,"text":"key does not exist","type":"error"}}
+2023/10/29 17:28:16 Received {c1001 n1 {"delta":0,"type":"add","msg_id":1}}
+2023/10/29 17:28:16 Sent {"src":"n1","dest":"seq-kv","body":{"key":"counter","msg_id":266,"type":"read"}}
+2023/10/29 17:28:16 Received {seq-kv n1 {"type":"error","code":20,"text":"key does not exist","in_reply_to":266}}
+2023/10/29 17:28:16 Sent {"src":"n1","dest":"c1001","body":{"code":20,"in_reply_to":1,"text":"key does not exist","type":"error"}}
+2023/10/29 17:28:16 Received {c1005 n1 {"type":"read","msg_id":1}}
+2023/10/29 17:28:16 Sent {"src":"n1","dest":"seq-kv","body":{"key":"counter","msg_id":267,"type":"read"}}
+2023/10/29 17:28:16 Received {seq-kv n1 {"type":"error","code":20,"text":"key does not exist","in_reply_to":267}}
+2023/10/29 17:28:16 Sent {"src":"n1","dest":"c1005","body":{"code":20,"in_reply_to":1,"text":"key does not exist","type":"error"}}
+2023/10/29 17:28:16 Received {c1009 n1 {"delta":2,"type":"add","msg_id":1}}
+2023/10/29 17:28:16 Sent {"src":"n1","dest":"seq-kv","body":{"key":"counter","msg_id":268,"type":"read"}}
+2023/10/29 17:28:16 Received {seq-kv n1 {"type":"error","code":20,"text":"key does not exist","in_reply_to":268}}
+2023/10/29 17:28:16 Sent {"src":"n1","dest":"c1009","body":{"code":20,"in_reply_to":1,"text":"key does not exist","type":"error"}}
+2023/10/29 17:28:16 Received {c1013 n1 {"type":"read","msg_id":1}}
+2023/10/29 17:28:16 Sent {"src":"n1","dest":"seq-kv","body":{"key":"counter","msg_id":269,"type":"read"}}
+2023/10/29 17:28:16 Received {seq-kv n1 {"type":"error","code":20,"text":"key does not exist","in_reply_to":269}}
+2023/10/29 17:28:16 Sent {"src":"n1","dest":"c1013","body":{"code":20,"in_reply_to":1,"text":"key does not exist","type":"error"}}
+2023/10/29 17:28:16 Received {c1017 n1 {"delta":2,"type":"add","msg_id":1}}
+2023/10/29 17:28:16 Sent {"src":"n1","dest":"seq-kv","body":{"key":"counter","msg_id":270,"type":"read"}}
+2023/10/29 17:28:16 Received {seq-kv n1 {"type":"error","code":20,"text":"key does not exist","in_reply_to":270}}
+2023/10/29 17:28:16 Sent {"src":"n1","dest":"c1017","body":{"code":20,"in_reply_to":1,"text":"key does not exist","type":"error"}}
+2023/10/29 17:28:16 Received {c1021 n1 {"delta":1,"type":"add","msg_id":1}}
+2023/10/29 17:28:16 Sent {"src":"n1","dest":"seq-kv","body":{"key":"counter","msg_id":271,"type":"read"}}
+2023/10/29 17:28:16 Received {seq-kv n1 {"type":"error","code":20,"text":"key does not exist","in_reply_to":271}}
+2023/10/29 17:28:16 Sent {"src":"n1","dest":"c1021","body":{"code":20,"in_reply_to":1,"text":"key does not exist","type":"error"}}
+2023/10/29 17:28:16 Received {c1025 n1 {"delta":1,"type":"add","msg_id":1}}
+2023/10/29 17:28:16 Sent {"src":"n1","dest":"seq-kv","body":{"key":"counter","msg_id":272,"type":"read"}}
+2023/10/29 17:28:16 Received {seq-kv n1 {"type":"error","code":20,"text":"key does not exist","in_reply_to":272}}
+2023/10/29 17:28:16 Sent {"src":"n1","dest":"c1025","body":{"code":20,"in_reply_to":1,"text":"key does not exist","type":"error"}}
+2023/10/29 17:28:16 Received {c1029 n1 {"type":"read","msg_id":1}}
+2023/10/29 17:28:16 Sent {"src":"n1","dest":"seq-kv","body":{"key":"counter","msg_id":273,"type":"read"}}
+2023/10/29 17:28:16 Received {seq-kv n1 {"type":"error","code":20,"text":"key does not exist","in_reply_to":273}}
+2023/10/29 17:28:16 Sent {"src":"n1","dest":"c1029","body":{"code":20,"in_reply_to":1,"text":"key does not exist","type":"error"}}
+2023/10/29 17:28:16 Received {c1033 n1 {"type":"read","msg_id":1}}
+2023/10/29 17:28:16 Sent {"src":"n1","dest":"seq-kv","body":{"key":"counter","msg_id":274,"type":"read"}}
+2023/10/29 17:28:16 Received {seq-kv n1 {"type":"error","code":20,"text":"key does not exist","in_reply_to":274}}
+2023/10/29 17:28:16 Sent {"src":"n1","dest":"c1033","body":{"code":20,"in_reply_to":1,"text":"key does not exist","type":"error"}}
+2023/10/29 17:28:16 Received {c1037 n1 {"type":"read","msg_id":1}}
+2023/10/29 17:28:16 Sent {"src":"n1","dest":"seq-kv","body":{"key":"counter","msg_id":275,"type":"read"}}
+2023/10/29 17:28:16 Received {seq-kv n1 {"type":"error","code":20,"text":"key does not exist","in_reply_to":275}}
+2023/10/29 17:28:16 Sent {"src":"n1","dest":"c1037","body":{"code":20,"in_reply_to":1,"text":"key does not exist","type":"error"}}
+2023/10/29 17:28:17 Received {c1041 n1 {"type":"read","msg_id":1}}
+2023/10/29 17:28:17 Sent {"src":"n1","dest":"seq-kv","body":{"key":"counter","msg_id":276,"type":"read"}}
+2023/10/29 17:28:17 Received {seq-kv n1 {"type":"error","code":20,"text":"key does not exist","in_reply_to":276}}
+2023/10/29 17:28:17 Sent {"src":"n1","dest":"c1041","body":{"code":20,"in_reply_to":1,"text":"key does not exist","type":"error"}}
+2023/10/29 17:28:17 Received {c1045 n1 {"type":"read","msg_id":1}}
+2023/10/29 17:28:17 Sent {"src":"n1","dest":"seq-kv","body":{"key":"counter","msg_id":277,"type":"read"}}
+2023/10/29 17:28:17 Received {seq-kv n1 {"type":"error","code":20,"text":"key does not exist","in_reply_to":277}}
+2023/10/29 17:28:17 Sent {"src":"n1","dest":"c1045","body":{"code":20,"in_reply_to":1,"text":"key does not exist","type":"error"}}
+2023/10/29 17:28:17 Received {c1049 n1 {"type":"read","msg_id":1}}
+2023/10/29 17:28:17 Sent {"src":"n1","dest":"seq-kv","body":{"key":"counter","msg_id":278,"type":"read"}}
+2023/10/29 17:28:17 Received {seq-kv n1 {"type":"error","code":20,"text":"key does not exist","in_reply_to":278}}
+2023/10/29 17:28:17 Sent {"src":"n1","dest":"c1049","body":{"code":20,"in_reply_to":1,"text":"key does not exist","type":"error"}}
+2023/10/29 17:28:17 Received {c1053 n1 {"type":"read","msg_id":1}}
+2023/10/29 17:28:17 Sent {"src":"n1","dest":"seq-kv","body":{"key":"counter","msg_id":279,"type":"read"}}
+2023/10/29 17:28:17 Received {seq-kv n1 {"type":"error","code":20,"text":"key does not exist","in_reply_to":279}}
+2023/10/29 17:28:17 Sent {"src":"n1","dest":"c1053","body":{"code":20,"in_reply_to":1,"text":"key does not exist","type":"error"}}
+2023/10/29 17:28:17 Received {c1057 n1 {"type":"read","msg_id":1}}
+2023/10/29 17:28:17 Sent {"src":"n1","dest":"seq-kv","body":{"key":"counter","msg_id":280,"type":"read"}}
+2023/10/29 17:28:17 Received {seq-kv n1 {"type":"error","code":20,"text":"key does not exist","in_reply_to":280}}
+2023/10/29 17:28:17 Sent {"src":"n1","dest":"c1057","body":{"code":20,"in_reply_to":1,"text":"key does not exist","type":"error"}}
+2023/10/29 17:28:17 Received {c1061 n1 {"type":"read","msg_id":1}}
+2023/10/29 17:28:17 Sent {"src":"n1","dest":"seq-kv","body":{"key":"counter","msg_id":281,"type":"read"}}
+2023/10/29 17:28:17 Received {seq-kv n1 {"type":"error","code":20,"text":"key does not exist","in_reply_to":281}}
+2023/10/29 17:28:17 Sent {"src":"n1","dest":"c1061","body":{"code":20,"in_reply_to":1,"text":"key does not exist","type":"error"}}
+2023/10/29 17:28:17 Received {c1065 n1 {"type":"read","msg_id":1}}
+2023/10/29 17:28:17 Sent {"src":"n1","dest":"seq-kv","body":{"key":"counter","msg_id":282,"type":"read"}}
+2023/10/29 17:28:17 Received {seq-kv n1 {"type":"error","code":20,"text":"key does not exist","in_reply_to":282}}
+2023/10/29 17:28:17 Sent {"src":"n1","dest":"c1065","body":{"code":20,"in_reply_to":1,"text":"key does not exist","type":"error"}}
+2023/10/29 17:28:17 Received {c1069 n1 {"type":"read","msg_id":1}}
+2023/10/29 17:28:17 Sent {"src":"n1","dest":"seq-kv","body":{"key":"counter","msg_id":283,"type":"read"}}
+2023/10/29 17:28:17 Received {seq-kv n1 {"type":"error","code":20,"text":"key does not exist","in_reply_to":283}}
+2023/10/29 17:28:17 Sent {"src":"n1","dest":"c1069","body":{"code":20,"in_reply_to":1,"text":"key does not exist","type":"error"}}
+2023/10/29 17:28:17 Received {c1073 n1 {"type":"read","msg_id":1}}
+2023/10/29 17:28:17 Sent {"src":"n1","dest":"seq-kv","body":{"key":"counter","msg_id":284,"type":"read"}}
+2023/10/29 17:28:17 Received {seq-kv n1 {"type":"error","code":20,"text":"key does not exist","in_reply_to":284}}
+2023/10/29 17:28:17 Sent {"src":"n1","dest":"c1073","body":{"code":20,"in_reply_to":1,"text":"key does not exist","type":"error"}}
+2023/10/29 17:28:17 Received {c1077 n1 {"type":"read","msg_id":1}}
+2023/10/29 17:28:17 Sent {"src":"n1","dest":"seq-kv","body":{"key":"counter","msg_id":285,"type":"read"}}
+2023/10/29 17:28:17 Received {seq-kv n1 {"type":"error","code":20,"text":"key does not exist","in_reply_to":285}}
+2023/10/29 17:28:17 Sent {"src":"n1","dest":"c1077","body":{"code":20,"in_reply_to":1,"text":"key does not exist","type":"error"}}
+2023/10/29 17:28:17 Received {c1081 n1 {"delta":4,"type":"add","msg_id":1}}
+2023/10/29 17:28:17 Sent {"src":"n1","dest":"seq-kv","body":{"key":"counter","msg_id":286,"type":"read"}}
+2023/10/29 17:28:17 Received {seq-kv n1 {"type":"error","code":20,"text":"key does not exist","in_reply_to":286}}
+2023/10/29 17:28:17 Sent {"src":"n1","dest":"c1081","body":{"code":20,"in_reply_to":1,"text":"key does not exist","type":"error"}}
+2023/10/29 17:28:17 Received {c1085 n1 {"type":"read","msg_id":1}}
+2023/10/29 17:28:17 Sent {"src":"n1","dest":"seq-kv","body":{"key":"counter","msg_id":287,"type":"read"}}
+2023/10/29 17:28:17 Received {seq-kv n1 {"type":"error","code":20,"text":"key does not exist","in_reply_to":287}}
+2023/10/29 17:28:17 Sent {"src":"n1","dest":"c1085","body":{"code":20,"in_reply_to":1,"text":"key does not exist","type":"error"}}
+2023/10/29 17:28:17 Received {c1089 n1 {"type":"read","msg_id":1}}
+2023/10/29 17:28:17 Sent {"src":"n1","dest":"seq-kv","body":{"key":"counter","msg_id":288,"type":"read"}}
+2023/10/29 17:28:17 Received {seq-kv n1 {"type":"error","code":20,"text":"key does not exist","in_reply_to":288}}
+2023/10/29 17:28:17 Sent {"src":"n1","dest":"c1089","body":{"code":20,"in_reply_to":1,"text":"key does not exist","type":"error"}}
+2023/10/29 17:28:17 Received {c1093 n1 {"type":"read","msg_id":1}}
+2023/10/29 17:28:17 Sent {"src":"n1","dest":"seq-kv","body":{"key":"counter","msg_id":289,"type":"read"}}
+2023/10/29 17:28:17 Received {seq-kv n1 {"type":"error","code":20,"text":"key does not exist","in_reply_to":289}}
+2023/10/29 17:28:17 Sent {"src":"n1","dest":"c1093","body":{"code":20,"in_reply_to":1,"text":"key does not exist","type":"error"}}
+2023/10/29 17:28:17 Received {c1097 n1 {"type":"read","msg_id":1}}
+2023/10/29 17:28:17 Sent {"src":"n1","dest":"seq-kv","body":{"key":"counter","msg_id":290,"type":"read"}}
+2023/10/29 17:28:17 Received {seq-kv n1 {"type":"error","code":20,"text":"key does not exist","in_reply_to":290}}
+2023/10/29 17:28:17 Sent {"src":"n1","dest":"c1097","body":{"code":20,"in_reply_to":1,"text":"key does not exist","type":"error"}}
+2023/10/29 17:28:17 Received {c1101 n1 {"type":"read","msg_id":1}}
+2023/10/29 17:28:17 Sent {"src":"n1","dest":"seq-kv","body":{"key":"counter","msg_id":291,"type":"read"}}
+2023/10/29 17:28:17 Received {seq-kv n1 {"type":"error","code":20,"text":"key does not exist","in_reply_to":291}}
+2023/10/29 17:28:17 Sent {"src":"n1","dest":"c1101","body":{"code":20,"in_reply_to":1,"text":"key does not exist","type":"error"}}
+2023/10/29 17:28:17 Received {c1105 n1 {"type":"read","msg_id":1}}
+2023/10/29 17:28:17 Sent {"src":"n1","dest":"seq-kv","body":{"key":"counter","msg_id":292,"type":"read"}}
+2023/10/29 17:28:17 Received {seq-kv n1 {"type":"error","code":20,"text":"key does not exist","in_reply_to":292}}
+2023/10/29 17:28:17 Sent {"src":"n1","dest":"c1105","body":{"code":20,"in_reply_to":1,"text":"key does not exist","type":"error"}}
+2023/10/29 17:28:17 Received {c1109 n1 {"delta":0,"type":"add","msg_id":1}}
+2023/10/29 17:28:17 Sent {"src":"n1","dest":"seq-kv","body":{"key":"counter","msg_id":293,"type":"read"}}
+2023/10/29 17:28:17 Received {seq-kv n1 {"type":"error","code":20,"text":"key does not exist","in_reply_to":293}}
+2023/10/29 17:28:17 Sent {"src":"n1","dest":"c1109","body":{"code":20,"in_reply_to":1,"text":"key does not exist","type":"error"}}
+2023/10/29 17:28:17 Received {c1113 n1 {"type":"read","msg_id":1}}
+2023/10/29 17:28:17 Sent {"src":"n1","dest":"seq-kv","body":{"key":"counter","msg_id":294,"type":"read"}}
+2023/10/29 17:28:17 Received {seq-kv n1 {"type":"error","code":20,"text":"key does not exist","in_reply_to":294}}
+2023/10/29 17:28:17 Sent {"src":"n1","dest":"c1113","body":{"code":20,"in_reply_to":1,"text":"key does not exist","type":"error"}}
+2023/10/29 17:28:17 Received {c1117 n1 {"type":"read","msg_id":1}}
+2023/10/29 17:28:17 Sent {"src":"n1","dest":"seq-kv","body":{"key":"counter","msg_id":295,"type":"read"}}
+2023/10/29 17:28:17 Received {seq-kv n1 {"type":"error","code":20,"text":"key does not exist","in_reply_to":295}}
+2023/10/29 17:28:17 Sent {"src":"n1","dest":"c1117","body":{"code":20,"in_reply_to":1,"text":"key does not exist","type":"error"}}
+2023/10/29 17:28:17 Received {c1121 n1 {"type":"read","msg_id":1}}
+2023/10/29 17:28:17 Sent {"src":"n1","dest":"seq-kv","body":{"key":"counter","msg_id":296,"type":"read"}}
+2023/10/29 17:28:17 Received {seq-kv n1 {"type":"error","code":20,"text":"key does not exist","in_reply_to":296}}
+2023/10/29 17:28:17 Sent {"src":"n1","dest":"c1121","body":{"code":20,"in_reply_to":1,"text":"key does not exist","type":"error"}}
+2023/10/29 17:28:18 Received {c1125 n1 {"delta":4,"type":"add","msg_id":1}}
+2023/10/29 17:28:18 Sent {"src":"n1","dest":"seq-kv","body":{"key":"counter","msg_id":297,"type":"read"}}
+2023/10/29 17:28:18 Received {seq-kv n1 {"type":"error","code":20,"text":"key does not exist","in_reply_to":297}}
+2023/10/29 17:28:18 Sent {"src":"n1","dest":"c1125","body":{"code":20,"in_reply_to":1,"text":"key does not exist","type":"error"}}
+2023/10/29 17:28:18 Received {c1129 n1 {"delta":0,"type":"add","msg_id":1}}
+2023/10/29 17:28:18 Sent {"src":"n1","dest":"seq-kv","body":{"key":"counter","msg_id":298,"type":"read"}}
+2023/10/29 17:28:18 Received {seq-kv n1 {"type":"error","code":20,"text":"key does not exist","in_reply_to":298}}
+2023/10/29 17:28:18 Sent {"src":"n1","dest":"c1129","body":{"code":20,"in_reply_to":1,"text":"key does not exist","type":"error"}}
+2023/10/29 17:28:18 Received {c1133 n1 {"type":"read","msg_id":1}}
+2023/10/29 17:28:18 Sent {"src":"n1","dest":"seq-kv","body":{"key":"counter","msg_id":299,"type":"read"}}
+2023/10/29 17:28:18 Received {seq-kv n1 {"type":"error","code":20,"text":"key does not exist","in_reply_to":299}}
+2023/10/29 17:28:18 Sent {"src":"n1","dest":"c1133","body":{"code":20,"in_reply_to":1,"text":"key does not exist","type":"error"}}
+2023/10/29 17:28:18 Received {c1137 n1 {"type":"read","msg_id":1}}
+2023/10/29 17:28:18 Sent {"src":"n1","dest":"seq-kv","body":{"key":"counter","msg_id":300,"type":"read"}}
+2023/10/29 17:28:18 Received {seq-kv n1 {"type":"error","code":20,"text":"key does not exist","in_reply_to":300}}
+2023/10/29 17:28:18 Sent {"src":"n1","dest":"c1137","body":{"code":20,"in_reply_to":1,"text":"key does not exist","type":"error"}}
+2023/10/29 17:28:18 Received {c1141 n1 {"delta":2,"type":"add","msg_id":1}}
+2023/10/29 17:28:18 Sent {"src":"n1","dest":"seq-kv","body":{"key":"counter","msg_id":301,"type":"read"}}
+2023/10/29 17:28:18 Received {seq-kv n1 {"type":"error","code":20,"text":"key does not exist","in_reply_to":301}}
+2023/10/29 17:28:18 Sent {"src":"n1","dest":"c1141","body":{"code":20,"in_reply_to":1,"text":"key does not exist","type":"error"}}
+2023/10/29 17:28:18 Received {c1145 n1 {"type":"read","msg_id":1}}
+2023/10/29 17:28:18 Sent {"src":"n1","dest":"seq-kv","body":{"key":"counter","msg_id":302,"type":"read"}}
+2023/10/29 17:28:18 Received {seq-kv n1 {"type":"error","code":20,"text":"key does not exist","in_reply_to":302}}
+2023/10/29 17:28:18 Sent {"src":"n1","dest":"c1145","body":{"code":20,"in_reply_to":1,"text":"key does not exist","type":"error"}}
+2023/10/29 17:28:18 Received {c1149 n1 {"type":"read","msg_id":1}}
+2023/10/29 17:28:18 Sent {"src":"n1","dest":"seq-kv","body":{"key":"counter","msg_id":303,"type":"read"}}
+2023/10/29 17:28:18 Received {seq-kv n1 {"type":"error","code":20,"text":"key does not exist","in_reply_to":303}}
+2023/10/29 17:28:18 Sent {"src":"n1","dest":"c1149","body":{"code":20,"in_reply_to":1,"text":"key does not exist","type":"error"}}
+2023/10/29 17:28:18 Received {c1153 n1 {"type":"read","msg_id":1}}
+2023/10/29 17:28:18 Sent {"src":"n1","dest":"seq-kv","body":{"key":"counter","msg_id":304,"type":"read"}}
+2023/10/29 17:28:18 Received {seq-kv n1 {"type":"error","code":20,"text":"key does not exist","in_reply_to":304}}
+2023/10/29 17:28:18 Sent {"src":"n1","dest":"c1153","body":{"code":20,"in_reply_to":1,"text":"key does not exist","type":"error"}}
+2023/10/29 17:28:18 Received {c1157 n1 {"type":"read","msg_id":1}}
+2023/10/29 17:28:18 Sent {"src":"n1","dest":"seq-kv","body":{"key":"counter","msg_id":305,"type":"read"}}
+2023/10/29 17:28:18 Received {seq-kv n1 {"type":"error","code":20,"text":"key does not exist","in_reply_to":305}}
+2023/10/29 17:28:18 Sent {"src":"n1","dest":"c1157","body":{"code":20,"in_reply_to":1,"text":"key does not exist","type":"error"}}
+2023/10/29 17:28:18 Received {c1161 n1 {"type":"read","msg_id":1}}
+2023/10/29 17:28:18 Sent {"src":"n1","dest":"seq-kv","body":{"key":"counter","msg_id":306,"type":"read"}}
+2023/10/29 17:28:18 Received {seq-kv n1 {"type":"error","code":20,"text":"key does not exist","in_reply_to":306}}
+2023/10/29 17:28:18 Sent {"src":"n1","dest":"c1161","body":{"code":20,"in_reply_to":1,"text":"key does not exist","type":"error"}}
+2023/10/29 17:28:18 Received {c1165 n1 {"type":"read","msg_id":1}}
+2023/10/29 17:28:18 Sent {"src":"n1","dest":"seq-kv","body":{"key":"counter","msg_id":307,"type":"read"}}
+2023/10/29 17:28:18 Received {seq-kv n1 {"type":"error","code":20,"text":"key does not exist","in_reply_to":307}}
+2023/10/29 17:28:18 Sent {"src":"n1","dest":"c1165","body":{"code":20,"in_reply_to":1,"text":"key does not exist","type":"error"}}
+2023/10/29 17:28:18 Received {c1169 n1 {"type":"read","msg_id":1}}
+2023/10/29 17:28:18 Sent {"src":"n1","dest":"seq-kv","body":{"key":"counter","msg_id":308,"type":"read"}}
+2023/10/29 17:28:18 Received {seq-kv n1 {"type":"error","code":20,"text":"key does not exist","in_reply_to":308}}
+2023/10/29 17:28:18 Sent {"src":"n1","dest":"c1169","body":{"code":20,"in_reply_to":1,"text":"key does not exist","type":"error"}}
+2023/10/29 17:28:18 Received {c1173 n1 {"type":"read","msg_id":1}}
+2023/10/29 17:28:18 Sent {"src":"n1","dest":"seq-kv","body":{"key":"counter","msg_id":309,"type":"read"}}
+2023/10/29 17:28:18 Received {seq-kv n1 {"type":"error","code":20,"text":"key does not exist","in_reply_to":309}}
+2023/10/29 17:28:18 Sent {"src":"n1","dest":"c1173","body":{"code":20,"in_reply_to":1,"text":"key does not exist","type":"error"}}
+2023/10/29 17:28:18 Received {c1177 n1 {"delta":0,"type":"add","msg_id":1}}
+2023/10/29 17:28:18 Sent {"src":"n1","dest":"seq-kv","body":{"key":"counter","msg_id":310,"type":"read"}}
+2023/10/29 17:28:18 Received {seq-kv n1 {"type":"error","code":20,"text":"key does not exist","in_reply_to":310}}
+2023/10/29 17:28:18 Sent {"src":"n1","dest":"c1177","body":{"code":20,"in_reply_to":1,"text":"key does not exist","type":"error"}}
+2023/10/29 17:28:18 Received {c1181 n1 {"type":"read","msg_id":1}}
+2023/10/29 17:28:18 Sent {"src":"n1","dest":"seq-kv","body":{"key":"counter","msg_id":311,"type":"read"}}
+2023/10/29 17:28:18 Received {seq-kv n1 {"type":"error","code":20,"text":"key does not exist","in_reply_to":311}}
+2023/10/29 17:28:18 Sent {"src":"n1","dest":"c1181","body":{"code":20,"in_reply_to":1,"text":"key does not exist","type":"error"}}
+2023/10/29 17:28:18 Received {c1185 n1 {"type":"read","msg_id":1}}
+2023/10/29 17:28:18 Sent {"src":"n1","dest":"seq-kv","body":{"key":"counter","msg_id":312,"type":"read"}}
+2023/10/29 17:28:18 Received {seq-kv n1 {"type":"error","code":20,"text":"key does not exist","in_reply_to":312}}
+2023/10/29 17:28:18 Sent {"src":"n1","dest":"c1185","body":{"code":20,"in_reply_to":1,"text":"key does not exist","type":"error"}}
+2023/10/29 17:28:18 Received {c1189 n1 {"delta":0,"type":"add","msg_id":1}}
+2023/10/29 17:28:18 Sent {"src":"n1","dest":"seq-kv","body":{"key":"counter","msg_id":313,"type":"read"}}
+2023/10/29 17:28:18 Received {seq-kv n1 {"type":"error","code":20,"text":"key does not exist","in_reply_to":313}}
+2023/10/29 17:28:18 Sent {"src":"n1","dest":"c1189","body":{"code":20,"in_reply_to":1,"text":"key does not exist","type":"error"}}
+2023/10/29 17:28:18 Received {c1193 n1 {"type":"read","msg_id":1}}
+2023/10/29 17:28:18 Sent {"src":"n1","dest":"seq-kv","body":{"key":"counter","msg_id":314,"type":"read"}}
+2023/10/29 17:28:18 Received {seq-kv n1 {"type":"error","code":20,"text":"key does not exist","in_reply_to":314}}
+2023/10/29 17:28:18 Sent {"src":"n1","dest":"c1193","body":{"code":20,"in_reply_to":1,"text":"key does not exist","type":"error"}}
+2023/10/29 17:28:18 Received {c1197 n1 {"delta":1,"type":"add","msg_id":1}}
+2023/10/29 17:28:18 Sent {"src":"n1","dest":"seq-kv","body":{"key":"counter","msg_id":315,"type":"read"}}
+2023/10/29 17:28:18 Received {seq-kv n1 {"type":"error","code":20,"text":"key does not exist","in_reply_to":315}}
+2023/10/29 17:28:18 Sent {"src":"n1","dest":"c1197","body":{"code":20,"in_reply_to":1,"text":"key does not exist","type":"error"}}
+2023/10/29 17:28:18 Received {c1201 n1 {"type":"read","msg_id":1}}
+2023/10/29 17:28:18 Sent {"src":"n1","dest":"seq-kv","body":{"key":"counter","msg_id":316,"type":"read"}}
+2023/10/29 17:28:18 Received {seq-kv n1 {"type":"error","code":20,"text":"key does not exist","in_reply_to":316}}
+2023/10/29 17:28:18 Sent {"src":"n1","dest":"c1201","body":{"code":20,"in_reply_to":1,"text":"key does not exist","type":"error"}}
+2023/10/29 17:28:18 Received {c1205 n1 {"type":"read","msg_id":1}}
+2023/10/29 17:28:18 Sent {"src":"n1","dest":"seq-kv","body":{"key":"counter","msg_id":317,"type":"read"}}
+2023/10/29 17:28:18 Received {seq-kv n1 {"type":"error","code":20,"text":"key does not exist","in_reply_to":317}}
+2023/10/29 17:28:18 Sent {"src":"n1","dest":"c1205","body":{"code":20,"in_reply_to":1,"text":"key does not exist","type":"error"}}
+2023/10/29 17:28:19 Received {c1209 n1 {"delta":3,"type":"add","msg_id":1}}
+2023/10/29 17:28:19 Sent {"src":"n1","dest":"seq-kv","body":{"key":"counter","msg_id":318,"type":"read"}}
+2023/10/29 17:28:19 Received {seq-kv n1 {"type":"error","code":20,"text":"key does not exist","in_reply_to":318}}
+2023/10/29 17:28:19 Sent {"src":"n1","dest":"c1209","body":{"code":20,"in_reply_to":1,"text":"key does not exist","type":"error"}}
+2023/10/29 17:28:19 Received {c1213 n1 {"type":"read","msg_id":1}}
+2023/10/29 17:28:19 Sent {"src":"n1","dest":"seq-kv","body":{"key":"counter","msg_id":319,"type":"read"}}
+2023/10/29 17:28:19 Received {seq-kv n1 {"type":"error","code":20,"text":"key does not exist","in_reply_to":319}}
+2023/10/29 17:28:19 Sent {"src":"n1","dest":"c1213","body":{"code":20,"in_reply_to":1,"text":"key does not exist","type":"error"}}
+2023/10/29 17:28:19 Received {c1217 n1 {"delta":3,"type":"add","msg_id":1}}
+2023/10/29 17:28:19 Sent {"src":"n1","dest":"seq-kv","body":{"key":"counter","msg_id":320,"type":"read"}}
+2023/10/29 17:28:19 Received {seq-kv n1 {"type":"error","code":20,"text":"key does not exist","in_reply_to":320}}
+2023/10/29 17:28:19 Sent {"src":"n1","dest":"c1217","body":{"code":20,"in_reply_to":1,"text":"key does not exist","type":"error"}}
+2023/10/29 17:28:19 Received {c1221 n1 {"type":"read","msg_id":1}}
+2023/10/29 17:28:19 Sent {"src":"n1","dest":"seq-kv","body":{"key":"counter","msg_id":321,"type":"read"}}
+2023/10/29 17:28:19 Received {seq-kv n1 {"type":"error","code":20,"text":"key does not exist","in_reply_to":321}}
+2023/10/29 17:28:19 Sent {"src":"n1","dest":"c1221","body":{"code":20,"in_reply_to":1,"text":"key does not exist","type":"error"}}
+2023/10/29 17:28:19 Received {c1225 n1 {"delta":1,"type":"add","msg_id":1}}
+2023/10/29 17:28:19 Sent {"src":"n1","dest":"seq-kv","body":{"key":"counter","msg_id":322,"type":"read"}}
+2023/10/29 17:28:19 Received {seq-kv n1 {"type":"error","code":20,"text":"key does not exist","in_reply_to":322}}
+2023/10/29 17:28:19 Sent {"src":"n1","dest":"c1225","body":{"code":20,"in_reply_to":1,"text":"key does not exist","type":"error"}}
+2023/10/29 17:28:19 Received {c1229 n1 {"type":"read","msg_id":1}}
+2023/10/29 17:28:19 Sent {"src":"n1","dest":"seq-kv","body":{"key":"counter","msg_id":323,"type":"read"}}
+2023/10/29 17:28:19 Received {seq-kv n1 {"type":"error","code":20,"text":"key does not exist","in_reply_to":323}}
+2023/10/29 17:28:19 Sent {"src":"n1","dest":"c1229","body":{"code":20,"in_reply_to":1,"text":"key does not exist","type":"error"}}
+2023/10/29 17:28:19 Received {c1233 n1 {"delta":1,"type":"add","msg_id":1}}
+2023/10/29 17:28:19 Sent {"src":"n1","dest":"seq-kv","body":{"key":"counter","msg_id":324,"type":"read"}}
+2023/10/29 17:28:19 Received {seq-kv n1 {"type":"error","code":20,"text":"key does not exist","in_reply_to":324}}
+2023/10/29 17:28:19 Sent {"src":"n1","dest":"c1233","body":{"code":20,"in_reply_to":1,"text":"key does not exist","type":"error"}}
+2023/10/29 17:28:19 Received {c1237 n1 {"type":"read","msg_id":1}}
+2023/10/29 17:28:19 Sent {"src":"n1","dest":"seq-kv","body":{"key":"counter","msg_id":325,"type":"read"}}
+2023/10/29 17:28:19 Received {seq-kv n1 {"type":"error","code":20,"text":"key does not exist","in_reply_to":325}}
+2023/10/29 17:28:19 Sent {"src":"n1","dest":"c1237","body":{"code":20,"in_reply_to":1,"text":"key does not exist","type":"error"}}
+2023/10/29 17:28:19 Received {c1241 n1 {"type":"read","msg_id":1}}
+2023/10/29 17:28:19 Sent {"src":"n1","dest":"seq-kv","body":{"key":"counter","msg_id":326,"type":"read"}}
+2023/10/29 17:28:19 Received {seq-kv n1 {"type":"error","code":20,"text":"key does not exist","in_reply_to":326}}
+2023/10/29 17:28:19 Sent {"src":"n1","dest":"c1241","body":{"code":20,"in_reply_to":1,"text":"key does not exist","type":"error"}}
+2023/10/29 17:28:19 Received {c1245 n1 {"type":"read","msg_id":1}}
+2023/10/29 17:28:19 Sent {"src":"n1","dest":"seq-kv","body":{"key":"counter","msg_id":327,"type":"read"}}
+2023/10/29 17:28:19 Received {seq-kv n1 {"type":"error","code":20,"text":"key does not exist","in_reply_to":327}}
+2023/10/29 17:28:19 Sent {"src":"n1","dest":"c1245","body":{"code":20,"in_reply_to":1,"text":"key does not exist","type":"error"}}
+2023/10/29 17:28:19 Received {c1249 n1 {"type":"read","msg_id":1}}
+2023/10/29 17:28:19 Sent {"src":"n1","dest":"seq-kv","body":{"key":"counter","msg_id":328,"type":"read"}}
+2023/10/29 17:28:19 Received {seq-kv n1 {"type":"error","code":20,"text":"key does not exist","in_reply_to":328}}
+2023/10/29 17:28:19 Sent {"src":"n1","dest":"c1249","body":{"code":20,"in_reply_to":1,"text":"key does not exist","type":"error"}}
+2023/10/29 17:28:19 Received {c1253 n1 {"type":"read","msg_id":1}}
+2023/10/29 17:28:19 Sent {"src":"n1","dest":"seq-kv","body":{"key":"counter","msg_id":329,"type":"read"}}
+2023/10/29 17:28:19 Received {seq-kv n1 {"type":"error","code":20,"text":"key does not exist","in_reply_to":329}}
+2023/10/29 17:28:19 Sent {"src":"n1","dest":"c1253","body":{"code":20,"in_reply_to":1,"text":"key does not exist","type":"error"}}
+2023/10/29 17:28:19 Received {c1257 n1 {"delta":0,"type":"add","msg_id":1}}
+2023/10/29 17:28:19 Sent {"src":"n1","dest":"seq-kv","body":{"key":"counter","msg_id":330,"type":"read"}}
+2023/10/29 17:28:19 Received {seq-kv n1 {"type":"error","code":20,"text":"key does not exist","in_reply_to":330}}
+2023/10/29 17:28:19 Sent {"src":"n1","dest":"c1257","body":{"code":20,"in_reply_to":1,"text":"key does not exist","type":"error"}}
+2023/10/29 17:28:19 Received {c1261 n1 {"type":"read","msg_id":1}}
+2023/10/29 17:28:19 Sent {"src":"n1","dest":"seq-kv","body":{"key":"counter","msg_id":331,"type":"read"}}
+2023/10/29 17:28:19 Received {seq-kv n1 {"type":"error","code":20,"text":"key does not exist","in_reply_to":331}}
+2023/10/29 17:28:19 Sent {"src":"n1","dest":"c1261","body":{"code":20,"in_reply_to":1,"text":"key does not exist","type":"error"}}
+2023/10/29 17:28:19 Received {c1265 n1 {"type":"read","msg_id":1}}
+2023/10/29 17:28:19 Sent {"src":"n1","dest":"seq-kv","body":{"key":"counter","msg_id":332,"type":"read"}}
+2023/10/29 17:28:19 Received {seq-kv n1 {"type":"error","code":20,"text":"key does not exist","in_reply_to":332}}
+2023/10/29 17:28:19 Sent {"src":"n1","dest":"c1265","body":{"code":20,"in_reply_to":1,"text":"key does not exist","type":"error"}}
+2023/10/29 17:28:19 Received {c1269 n1 {"type":"read","msg_id":1}}
+2023/10/29 17:28:19 Sent {"src":"n1","dest":"seq-kv","body":{"key":"counter","msg_id":333,"type":"read"}}
+2023/10/29 17:28:19 Received {seq-kv n1 {"type":"error","code":20,"text":"key does not exist","in_reply_to":333}}
+2023/10/29 17:28:19 Sent {"src":"n1","dest":"c1269","body":{"code":20,"in_reply_to":1,"text":"key does not exist","type":"error"}}
+2023/10/29 17:28:19 Received {c1273 n1 {"type":"read","msg_id":1}}
+2023/10/29 17:28:19 Sent {"src":"n1","dest":"seq-kv","body":{"key":"counter","msg_id":334,"type":"read"}}
+2023/10/29 17:28:19 Received {seq-kv n1 {"type":"error","code":20,"text":"key does not exist","in_reply_to":334}}
+2023/10/29 17:28:19 Sent {"src":"n1","dest":"c1273","body":{"code":20,"in_reply_to":1,"text":"key does not exist","type":"error"}}
+2023/10/29 17:28:19 Received {c1277 n1 {"delta":2,"type":"add","msg_id":1}}
+2023/10/29 17:28:19 Sent {"src":"n1","dest":"seq-kv","body":{"key":"counter","msg_id":335,"type":"read"}}
+2023/10/29 17:28:19 Received {seq-kv n1 {"type":"error","code":20,"text":"key does not exist","in_reply_to":335}}
+2023/10/29 17:28:19 Sent {"src":"n1","dest":"c1277","body":{"code":20,"in_reply_to":1,"text":"key does not exist","type":"error"}}
+2023/10/29 17:28:19 Received {c1281 n1 {"delta":1,"type":"add","msg_id":1}}
+2023/10/29 17:28:19 Sent {"src":"n1","dest":"seq-kv","body":{"key":"counter","msg_id":336,"type":"read"}}
+2023/10/29 17:28:19 Received {seq-kv n1 {"type":"error","code":20,"text":"key does not exist","in_reply_to":336}}
+2023/10/29 17:28:19 Sent {"src":"n1","dest":"c1281","body":{"code":20,"in_reply_to":1,"text":"key does not exist","type":"error"}}
+2023/10/29 17:28:19 Received {c1285 n1 {"delta":1,"type":"add","msg_id":1}}
+2023/10/29 17:28:19 Sent {"src":"n1","dest":"seq-kv","body":{"key":"counter","msg_id":337,"type":"read"}}
+2023/10/29 17:28:19 Received {seq-kv n1 {"type":"error","code":20,"text":"key does not exist","in_reply_to":337}}
+2023/10/29 17:28:19 Sent {"src":"n1","dest":"c1285","body":{"code":20,"in_reply_to":1,"text":"key does not exist","type":"error"}}
+2023/10/29 17:28:19 Received {c1289 n1 {"type":"read","msg_id":1}}
+2023/10/29 17:28:19 Sent {"src":"n1","dest":"seq-kv","body":{"key":"counter","msg_id":338,"type":"read"}}
+2023/10/29 17:28:19 Received {seq-kv n1 {"type":"error","code":20,"text":"key does not exist","in_reply_to":338}}
+2023/10/29 17:28:19 Sent {"src":"n1","dest":"c1289","body":{"code":20,"in_reply_to":1,"text":"key does not exist","type":"error"}}
+2023/10/29 17:28:19 Received {c1292 n1 {"type":"read","msg_id":1}}
+2023/10/29 17:28:19 Sent {"src":"n1","dest":"seq-kv","body":{"key":"counter","msg_id":339,"type":"read"}}
+2023/10/29 17:28:19 Received {seq-kv n1 {"type":"error","code":20,"text":"key does not exist","in_reply_to":339}}
+2023/10/29 17:28:19 Sent {"src":"n1","dest":"c1292","body":{"code":20,"in_reply_to":1,"text":"key does not exist","type":"error"}}
+2023/10/29 17:28:19 Received {c1293 n1 {"type":"read","msg_id":1}}
+2023/10/29 17:28:19 Sent {"src":"n1","dest":"seq-kv","body":{"key":"counter","msg_id":340,"type":"read"}}
+2023/10/29 17:28:19 Received {seq-kv n1 {"type":"error","code":20,"text":"key does not exist","in_reply_to":340}}
+2023/10/29 17:28:19 Sent {"src":"n1","dest":"c1293","body":{"code":20,"in_reply_to":1,"text":"key does not exist","type":"error"}}
+2023/10/29 17:28:19 Received {c1297 n1 {"delta":0,"type":"add","msg_id":1}}
+2023/10/29 17:28:19 Sent {"src":"n1","dest":"seq-kv","body":{"key":"counter","msg_id":341,"type":"read"}}
+2023/10/29 17:28:19 Received {seq-kv n1 {"type":"error","code":20,"text":"key does not exist","in_reply_to":341}}
+2023/10/29 17:28:19 Sent {"src":"n1","dest":"c1297","body":{"code":20,"in_reply_to":1,"text":"key does not exist","type":"error"}}
+2023/10/29 17:28:20 Received {c1301 n1 {"type":"read","msg_id":1}}
+2023/10/29 17:28:20 Sent {"src":"n1","dest":"seq-kv","body":{"key":"counter","msg_id":342,"type":"read"}}
+2023/10/29 17:28:20 Received {seq-kv n1 {"type":"error","code":20,"text":"key does not exist","in_reply_to":342}}
+2023/10/29 17:28:20 Sent {"src":"n1","dest":"c1301","body":{"code":20,"in_reply_to":1,"text":"key does not exist","type":"error"}}
+2023/10/29 17:28:20 Received {c1305 n1 {"delta":3,"type":"add","msg_id":1}}
+2023/10/29 17:28:20 Sent {"src":"n1","dest":"seq-kv","body":{"key":"counter","msg_id":343,"type":"read"}}
+2023/10/29 17:28:20 Received {seq-kv n1 {"type":"error","code":20,"text":"key does not exist","in_reply_to":343}}
+2023/10/29 17:28:20 Sent {"src":"n1","dest":"c1305","body":{"code":20,"in_reply_to":1,"text":"key does not exist","type":"error"}}
+2023/10/29 17:28:20 Received {c1309 n1 {"delta":0,"type":"add","msg_id":1}}
+2023/10/29 17:28:20 Sent {"src":"n1","dest":"seq-kv","body":{"key":"counter","msg_id":344,"type":"read"}}
+2023/10/29 17:28:20 Received {seq-kv n1 {"type":"error","code":20,"text":"key does not exist","in_reply_to":344}}
+2023/10/29 17:28:20 Sent {"src":"n1","dest":"c1309","body":{"code":20,"in_reply_to":1,"text":"key does not exist","type":"error"}}
+2023/10/29 17:28:20 Received {c1313 n1 {"type":"read","msg_id":1}}
+2023/10/29 17:28:20 Sent {"src":"n1","dest":"seq-kv","body":{"key":"counter","msg_id":345,"type":"read"}}
+2023/10/29 17:28:20 Received {seq-kv n1 {"type":"error","code":20,"text":"key does not exist","in_reply_to":345}}
+2023/10/29 17:28:20 Sent {"src":"n1","dest":"c1313","body":{"code":20,"in_reply_to":1,"text":"key does not exist","type":"error"}}
+2023/10/29 17:28:20 Received {c1315 n1 {"type":"read","msg_id":1}}
+2023/10/29 17:28:20 Sent {"src":"n1","dest":"seq-kv","body":{"key":"counter","msg_id":346,"type":"read"}}
+2023/10/29 17:28:20 Received {seq-kv n1 {"type":"error","code":20,"text":"key does not exist","in_reply_to":346}}
+2023/10/29 17:28:20 Sent {"src":"n1","dest":"c1315","body":{"code":20,"in_reply_to":1,"text":"key does not exist","type":"error"}}
+2023/10/29 17:28:20 Received {c1317 n1 {"type":"read","msg_id":1}}
+2023/10/29 17:28:20 Sent {"src":"n1","dest":"seq-kv","body":{"key":"counter","msg_id":347,"type":"read"}}
+2023/10/29 17:28:20 Received {seq-kv n1 {"type":"error","code":20,"text":"key does not exist","in_reply_to":347}}
+2023/10/29 17:28:20 Sent {"src":"n1","dest":"c1317","body":{"code":20,"in_reply_to":1,"text":"key does not exist","type":"error"}}
+2023/10/29 17:28:20 Received {c1320 n1 {"type":"read","msg_id":1}}
+2023/10/29 17:28:20 Sent {"src":"n1","dest":"seq-kv","body":{"key":"counter","msg_id":348,"type":"read"}}
+2023/10/29 17:28:20 Received {seq-kv n1 {"type":"error","code":20,"text":"key does not exist","in_reply_to":348}}
+2023/10/29 17:28:20 Sent {"src":"n1","dest":"c1320","body":{"code":20,"in_reply_to":1,"text":"key does not exist","type":"error"}}
+2023/10/29 17:28:20 Received {c1321 n1 {"type":"read","msg_id":1}}
+2023/10/29 17:28:20 Sent {"src":"n1","dest":"seq-kv","body":{"key":"counter","msg_id":349,"type":"read"}}
+2023/10/29 17:28:20 Received {seq-kv n1 {"type":"error","code":20,"text":"key does not exist","in_reply_to":349}}
+2023/10/29 17:28:20 Sent {"src":"n1","dest":"c1321","body":{"code":20,"in_reply_to":1,"text":"key does not exist","type":"error"}}
+2023/10/29 17:28:20 Received {c1325 n1 {"delta":3,"type":"add","msg_id":1}}
+2023/10/29 17:28:20 Sent {"src":"n1","dest":"seq-kv","body":{"key":"counter","msg_id":350,"type":"read"}}
+2023/10/29 17:28:20 Received {seq-kv n1 {"type":"error","code":20,"text":"key does not exist","in_reply_to":350}}
+2023/10/29 17:28:20 Sent {"src":"n1","dest":"c1325","body":{"code":20,"in_reply_to":1,"text":"key does not exist","type":"error"}}
+2023/10/29 17:28:20 Received {c1329 n1 {"type":"read","msg_id":1}}
+2023/10/29 17:28:20 Sent {"src":"n1","dest":"seq-kv","body":{"key":"counter","msg_id":351,"type":"read"}}
+2023/10/29 17:28:20 Received {seq-kv n1 {"type":"error","code":20,"text":"key does not exist","in_reply_to":351}}
+2023/10/29 17:28:20 Sent {"src":"n1","dest":"c1329","body":{"code":20,"in_reply_to":1,"text":"key does not exist","type":"error"}}
+2023/10/29 17:28:20 Received {c1333 n1 {"delta":2,"type":"add","msg_id":1}}
+2023/10/29 17:28:20 Sent {"src":"n1","dest":"seq-kv","body":{"key":"counter","msg_id":352,"type":"read"}}
+2023/10/29 17:28:20 Received {seq-kv n1 {"type":"error","code":20,"text":"key does not exist","in_reply_to":352}}
+2023/10/29 17:28:20 Sent {"src":"n1","dest":"c1333","body":{"code":20,"in_reply_to":1,"text":"key does not exist","type":"error"}}
+2023/10/29 17:28:20 Received {c1337 n1 {"type":"read","msg_id":1}}
+2023/10/29 17:28:20 Sent {"src":"n1","dest":"seq-kv","body":{"key":"counter","msg_id":353,"type":"read"}}
+2023/10/29 17:28:20 Received {seq-kv n1 {"type":"error","code":20,"text":"key does not exist","in_reply_to":353}}
+2023/10/29 17:28:20 Sent {"src":"n1","dest":"c1337","body":{"code":20,"in_reply_to":1,"text":"key does not exist","type":"error"}}
+2023/10/29 17:28:20 Received {c1341 n1 {"type":"read","msg_id":1}}
+2023/10/29 17:28:20 Sent {"src":"n1","dest":"seq-kv","body":{"key":"counter","msg_id":354,"type":"read"}}
+2023/10/29 17:28:20 Received {seq-kv n1 {"type":"error","code":20,"text":"key does not exist","in_reply_to":354}}
+2023/10/29 17:28:20 Sent {"src":"n1","dest":"c1341","body":{"code":20,"in_reply_to":1,"text":"key does not exist","type":"error"}}
+2023/10/29 17:28:20 Received {c1345 n1 {"type":"read","msg_id":1}}
+2023/10/29 17:28:20 Sent {"src":"n1","dest":"seq-kv","body":{"key":"counter","msg_id":355,"type":"read"}}
+2023/10/29 17:28:20 Received {seq-kv n1 {"type":"error","code":20,"text":"key does not exist","in_reply_to":355}}
+2023/10/29 17:28:20 Sent {"src":"n1","dest":"c1345","body":{"code":20,"in_reply_to":1,"text":"key does not exist","type":"error"}}
+2023/10/29 17:28:20 Received {c1349 n1 {"type":"read","msg_id":1}}
+2023/10/29 17:28:20 Sent {"src":"n1","dest":"seq-kv","body":{"key":"counter","msg_id":356,"type":"read"}}
+2023/10/29 17:28:20 Received {seq-kv n1 {"type":"error","code":20,"text":"key does not exist","in_reply_to":356}}
+2023/10/29 17:28:20 Sent {"src":"n1","dest":"c1349","body":{"code":20,"in_reply_to":1,"text":"key does not exist","type":"error"}}
+2023/10/29 17:28:20 Received {c1353 n1 {"type":"read","msg_id":1}}
+2023/10/29 17:28:20 Sent {"src":"n1","dest":"seq-kv","body":{"key":"counter","msg_id":357,"type":"read"}}
+2023/10/29 17:28:20 Received {seq-kv n1 {"type":"error","code":20,"text":"key does not exist","in_reply_to":357}}
+2023/10/29 17:28:20 Sent {"src":"n1","dest":"c1353","body":{"code":20,"in_reply_to":1,"text":"key does not exist","type":"error"}}
+2023/10/29 17:28:20 Received {c1357 n1 {"type":"read","msg_id":1}}
+2023/10/29 17:28:20 Sent {"src":"n1","dest":"seq-kv","body":{"key":"counter","msg_id":358,"type":"read"}}
+2023/10/29 17:28:20 Received {seq-kv n1 {"type":"error","code":20,"text":"key does not exist","in_reply_to":358}}
+2023/10/29 17:28:20 Sent {"src":"n1","dest":"c1357","body":{"code":20,"in_reply_to":1,"text":"key does not exist","type":"error"}}
+2023/10/29 17:28:20 Received {c1361 n1 {"type":"read","msg_id":1}}
+2023/10/29 17:28:20 Sent {"src":"n1","dest":"seq-kv","body":{"key":"counter","msg_id":359,"type":"read"}}
+2023/10/29 17:28:20 Received {seq-kv n1 {"type":"error","code":20,"text":"key does not exist","in_reply_to":359}}
+2023/10/29 17:28:20 Sent {"src":"n1","dest":"c1361","body":{"code":20,"in_reply_to":1,"text":"key does not exist","type":"error"}}
+2023/10/29 17:28:20 Received {c1365 n1 {"type":"read","msg_id":1}}
+2023/10/29 17:28:20 Sent {"src":"n1","dest":"seq-kv","body":{"key":"counter","msg_id":360,"type":"read"}}
+2023/10/29 17:28:20 Received {seq-kv n1 {"type":"error","code":20,"text":"key does not exist","in_reply_to":360}}
+2023/10/29 17:28:20 Sent {"src":"n1","dest":"c1365","body":{"code":20,"in_reply_to":1,"text":"key does not exist","type":"error"}}
+2023/10/29 17:28:20 Received {c1369 n1 {"type":"read","msg_id":1}}
+2023/10/29 17:28:20 Sent {"src":"n1","dest":"seq-kv","body":{"key":"counter","msg_id":361,"type":"read"}}
+2023/10/29 17:28:20 Received {seq-kv n1 {"type":"error","code":20,"text":"key does not exist","in_reply_to":361}}
+2023/10/29 17:28:20 Sent {"src":"n1","dest":"c1369","body":{"code":20,"in_reply_to":1,"text":"key does not exist","type":"error"}}
+2023/10/29 17:28:20 Received {c1373 n1 {"delta":3,"type":"add","msg_id":1}}
+2023/10/29 17:28:20 Sent {"src":"n1","dest":"seq-kv","body":{"key":"counter","msg_id":362,"type":"read"}}
+2023/10/29 17:28:20 Received {seq-kv n1 {"type":"error","code":20,"text":"key does not exist","in_reply_to":362}}
+2023/10/29 17:28:20 Sent {"src":"n1","dest":"c1373","body":{"code":20,"in_reply_to":1,"text":"key does not exist","type":"error"}}
+2023/10/29 17:28:20 Received {c1377 n1 {"type":"read","msg_id":1}}
+2023/10/29 17:28:20 Sent {"src":"n1","dest":"seq-kv","body":{"key":"counter","msg_id":363,"type":"read"}}
+2023/10/29 17:28:20 Received {seq-kv n1 {"type":"error","code":20,"text":"key does not exist","in_reply_to":363}}
+2023/10/29 17:28:20 Sent {"src":"n1","dest":"c1377","body":{"code":20,"in_reply_to":1,"text":"key does not exist","type":"error"}}
+2023/10/29 17:28:20 Received {c1381 n1 {"type":"read","msg_id":1}}
+2023/10/29 17:28:20 Sent {"src":"n1","dest":"seq-kv","body":{"key":"counter","msg_id":364,"type":"read"}}
+2023/10/29 17:28:20 Received {seq-kv n1 {"type":"error","code":20,"text":"key does not exist","in_reply_to":364}}
+2023/10/29 17:28:20 Sent {"src":"n1","dest":"c1381","body":{"code":20,"in_reply_to":1,"text":"key does not exist","type":"error"}}
+2023/10/29 17:28:21 Received {c1385 n1 {"delta":1,"type":"add","msg_id":1}}
+2023/10/29 17:28:21 Sent {"src":"n1","dest":"seq-kv","body":{"key":"counter","msg_id":365,"type":"read"}}
+2023/10/29 17:28:21 Received {seq-kv n1 {"type":"error","code":20,"text":"key does not exist","in_reply_to":365}}
+2023/10/29 17:28:21 Sent {"src":"n1","dest":"c1385","body":{"code":20,"in_reply_to":1,"text":"key does not exist","type":"error"}}
+2023/10/29 17:28:21 Received {c1389 n1 {"delta":3,"type":"add","msg_id":1}}
+2023/10/29 17:28:21 Sent {"src":"n1","dest":"seq-kv","body":{"key":"counter","msg_id":366,"type":"read"}}
+2023/10/29 17:28:21 Received {seq-kv n1 {"type":"error","code":20,"text":"key does not exist","in_reply_to":366}}
+2023/10/29 17:28:21 Sent {"src":"n1","dest":"c1389","body":{"code":20,"in_reply_to":1,"text":"key does not exist","type":"error"}}
+2023/10/29 17:28:21 Received {c1393 n1 {"type":"read","msg_id":1}}
+2023/10/29 17:28:21 Sent {"src":"n1","dest":"seq-kv","body":{"key":"counter","msg_id":367,"type":"read"}}
+2023/10/29 17:28:21 Received {seq-kv n1 {"type":"error","code":20,"text":"key does not exist","in_reply_to":367}}
+2023/10/29 17:28:21 Sent {"src":"n1","dest":"c1393","body":{"code":20,"in_reply_to":1,"text":"key does not exist","type":"error"}}
+2023/10/29 17:28:21 Received {c1397 n1 {"type":"read","msg_id":1}}
+2023/10/29 17:28:21 Sent {"src":"n1","dest":"seq-kv","body":{"key":"counter","msg_id":368,"type":"read"}}
+2023/10/29 17:28:21 Received {seq-kv n1 {"type":"error","code":20,"text":"key does not exist","in_reply_to":368}}
+2023/10/29 17:28:21 Sent {"src":"n1","dest":"c1397","body":{"code":20,"in_reply_to":1,"text":"key does not exist","type":"error"}}
+2023/10/29 17:28:21 Received {c1401 n1 {"delta":0,"type":"add","msg_id":1}}
+2023/10/29 17:28:21 Sent {"src":"n1","dest":"seq-kv","body":{"key":"counter","msg_id":369,"type":"read"}}
+2023/10/29 17:28:21 Received {seq-kv n1 {"type":"error","code":20,"text":"key does not exist","in_reply_to":369}}
+2023/10/29 17:28:21 Sent {"src":"n1","dest":"c1401","body":{"code":20,"in_reply_to":1,"text":"key does not exist","type":"error"}}
+2023/10/29 17:28:21 Received {c1405 n1 {"delta":4,"type":"add","msg_id":1}}
+2023/10/29 17:28:21 Sent {"src":"n1","dest":"seq-kv","body":{"key":"counter","msg_id":370,"type":"read"}}
+2023/10/29 17:28:21 Received {seq-kv n1 {"type":"error","code":20,"text":"key does not exist","in_reply_to":370}}
+2023/10/29 17:28:21 Sent {"src":"n1","dest":"c1405","body":{"code":20,"in_reply_to":1,"text":"key does not exist","type":"error"}}
+2023/10/29 17:28:21 Received {c1409 n1 {"type":"read","msg_id":1}}
+2023/10/29 17:28:21 Sent {"src":"n1","dest":"seq-kv","body":{"key":"counter","msg_id":371,"type":"read"}}
+2023/10/29 17:28:21 Received {seq-kv n1 {"type":"error","code":20,"text":"key does not exist","in_reply_to":371}}
+2023/10/29 17:28:21 Sent {"src":"n1","dest":"c1409","body":{"code":20,"in_reply_to":1,"text":"key does not exist","type":"error"}}
+2023/10/29 17:28:21 Received {c1413 n1 {"type":"read","msg_id":1}}
+2023/10/29 17:28:21 Sent {"src":"n1","dest":"seq-kv","body":{"key":"counter","msg_id":372,"type":"read"}}
+2023/10/29 17:28:21 Received {seq-kv n1 {"type":"error","code":20,"text":"key does not exist","in_reply_to":372}}
+2023/10/29 17:28:21 Sent {"src":"n1","dest":"c1413","body":{"code":20,"in_reply_to":1,"text":"key does not exist","type":"error"}}
+2023/10/29 17:28:21 Received {c1417 n1 {"type":"read","msg_id":1}}
+2023/10/29 17:28:21 Sent {"src":"n1","dest":"seq-kv","body":{"key":"counter","msg_id":373,"type":"read"}}
+2023/10/29 17:28:21 Received {seq-kv n1 {"type":"error","code":20,"text":"key does not exist","in_reply_to":373}}
+2023/10/29 17:28:21 Sent {"src":"n1","dest":"c1417","body":{"code":20,"in_reply_to":1,"text":"key does not exist","type":"error"}}
+2023/10/29 17:28:21 Received {c1421 n1 {"delta":3,"type":"add","msg_id":1}}
+2023/10/29 17:28:21 Sent {"src":"n1","dest":"seq-kv","body":{"key":"counter","msg_id":374,"type":"read"}}
+2023/10/29 17:28:21 Received {seq-kv n1 {"type":"error","code":20,"text":"key does not exist","in_reply_to":374}}
+2023/10/29 17:28:21 Sent {"src":"n1","dest":"c1421","body":{"code":20,"in_reply_to":1,"text":"key does not exist","type":"error"}}
+2023/10/29 17:28:21 Received {c1425 n1 {"type":"read","msg_id":1}}
+2023/10/29 17:28:21 Sent {"src":"n1","dest":"seq-kv","body":{"key":"counter","msg_id":375,"type":"read"}}
+2023/10/29 17:28:21 Received {seq-kv n1 {"type":"error","code":20,"text":"key does not exist","in_reply_to":375}}
+2023/10/29 17:28:21 Sent {"src":"n1","dest":"c1425","body":{"code":20,"in_reply_to":1,"text":"key does not exist","type":"error"}}
+2023/10/29 17:28:21 Received {c1429 n1 {"delta":2,"type":"add","msg_id":1}}
+2023/10/29 17:28:21 Sent {"src":"n1","dest":"seq-kv","body":{"key":"counter","msg_id":376,"type":"read"}}
+2023/10/29 17:28:21 Received {seq-kv n1 {"type":"error","code":20,"text":"key does not exist","in_reply_to":376}}
+2023/10/29 17:28:21 Sent {"src":"n1","dest":"c1429","body":{"code":20,"in_reply_to":1,"text":"key does not exist","type":"error"}}
+2023/10/29 17:28:21 Received {c1433 n1 {"type":"read","msg_id":1}}
+2023/10/29 17:28:21 Sent {"src":"n1","dest":"seq-kv","body":{"key":"counter","msg_id":377,"type":"read"}}
+2023/10/29 17:28:21 Received {seq-kv n1 {"type":"error","code":20,"text":"key does not exist","in_reply_to":377}}
+2023/10/29 17:28:21 Sent {"src":"n1","dest":"c1433","body":{"code":20,"in_reply_to":1,"text":"key does not exist","type":"error"}}
+2023/10/29 17:28:21 Received {c1437 n1 {"type":"read","msg_id":1}}
+2023/10/29 17:28:21 Sent {"src":"n1","dest":"seq-kv","body":{"key":"counter","msg_id":378,"type":"read"}}
+2023/10/29 17:28:21 Received {seq-kv n1 {"type":"error","code":20,"text":"key does not exist","in_reply_to":378}}
+2023/10/29 17:28:21 Sent {"src":"n1","dest":"c1437","body":{"code":20,"in_reply_to":1,"text":"key does not exist","type":"error"}}
+2023/10/29 17:28:21 Received {c1441 n1 {"delta":0,"type":"add","msg_id":1}}
+2023/10/29 17:28:21 Sent {"src":"n1","dest":"seq-kv","body":{"key":"counter","msg_id":379,"type":"read"}}
+2023/10/29 17:28:21 Received {seq-kv n1 {"type":"error","code":20,"text":"key does not exist","in_reply_to":379}}
+2023/10/29 17:28:21 Sent {"src":"n1","dest":"c1441","body":{"code":20,"in_reply_to":1,"text":"key does not exist","type":"error"}}
+2023/10/29 17:28:21 Received {c1445 n1 {"delta":0,"type":"add","msg_id":1}}
+2023/10/29 17:28:21 Sent {"src":"n1","dest":"seq-kv","body":{"key":"counter","msg_id":380,"type":"read"}}
+2023/10/29 17:28:21 Received {seq-kv n1 {"type":"error","code":20,"text":"key does not exist","in_reply_to":380}}
+2023/10/29 17:28:21 Sent {"src":"n1","dest":"c1445","body":{"code":20,"in_reply_to":1,"text":"key does not exist","type":"error"}}
+2023/10/29 17:28:21 Received {c1449 n1 {"type":"read","msg_id":1}}
+2023/10/29 17:28:21 Sent {"src":"n1","dest":"seq-kv","body":{"key":"counter","msg_id":381,"type":"read"}}
+2023/10/29 17:28:21 Received {seq-kv n1 {"type":"error","code":20,"text":"key does not exist","in_reply_to":381}}
+2023/10/29 17:28:21 Sent {"src":"n1","dest":"c1449","body":{"code":20,"in_reply_to":1,"text":"key does not exist","type":"error"}}
+2023/10/29 17:28:21 Received {c1452 n1 {"type":"read","msg_id":1}}
+2023/10/29 17:28:21 Sent {"src":"n1","dest":"seq-kv","body":{"key":"counter","msg_id":382,"type":"read"}}
+2023/10/29 17:28:21 Received {seq-kv n1 {"type":"error","code":20,"text":"key does not exist","in_reply_to":382}}
+2023/10/29 17:28:21 Sent {"src":"n1","dest":"c1452","body":{"code":20,"in_reply_to":1,"text":"key does not exist","type":"error"}}
+2023/10/29 17:28:21 Received {c1453 n1 {"type":"read","msg_id":1}}
+2023/10/29 17:28:21 Sent {"src":"n1","dest":"seq-kv","body":{"key":"counter","msg_id":383,"type":"read"}}
+2023/10/29 17:28:21 Received {seq-kv n1 {"type":"error","code":20,"text":"key does not exist","in_reply_to":383}}
+2023/10/29 17:28:21 Sent {"src":"n1","dest":"c1453","body":{"code":20,"in_reply_to":1,"text":"key does not exist","type":"error"}}
+2023/10/29 17:28:22 Received {c1457 n1 {"type":"read","msg_id":1}}
+2023/10/29 17:28:22 Sent {"src":"n1","dest":"seq-kv","body":{"key":"counter","msg_id":384,"type":"read"}}
+2023/10/29 17:28:22 Received {seq-kv n1 {"type":"error","code":20,"text":"key does not exist","in_reply_to":384}}
+2023/10/29 17:28:22 Sent {"src":"n1","dest":"c1457","body":{"code":20,"in_reply_to":1,"text":"key does not exist","type":"error"}}
+2023/10/29 17:28:22 Received {c1461 n1 {"delta":4,"type":"add","msg_id":1}}
+2023/10/29 17:28:22 Sent {"src":"n1","dest":"seq-kv","body":{"key":"counter","msg_id":385,"type":"read"}}
+2023/10/29 17:28:22 Received {seq-kv n1 {"type":"error","code":20,"text":"key does not exist","in_reply_to":385}}
+2023/10/29 17:28:22 Sent {"src":"n1","dest":"c1461","body":{"code":20,"in_reply_to":1,"text":"key does not exist","type":"error"}}
+2023/10/29 17:28:22 Received {c1465 n1 {"type":"read","msg_id":1}}
+2023/10/29 17:28:22 Sent {"src":"n1","dest":"seq-kv","body":{"key":"counter","msg_id":386,"type":"read"}}
+2023/10/29 17:28:22 Received {seq-kv n1 {"type":"error","code":20,"text":"key does not exist","in_reply_to":386}}
+2023/10/29 17:28:22 Sent {"src":"n1","dest":"c1465","body":{"code":20,"in_reply_to":1,"text":"key does not exist","type":"error"}}
+2023/10/29 17:28:22 Received {c1469 n1 {"type":"read","msg_id":1}}
+2023/10/29 17:28:22 Sent {"src":"n1","dest":"seq-kv","body":{"key":"counter","msg_id":387,"type":"read"}}
+2023/10/29 17:28:22 Received {seq-kv n1 {"type":"error","code":20,"text":"key does not exist","in_reply_to":387}}
+2023/10/29 17:28:22 Sent {"src":"n1","dest":"c1469","body":{"code":20,"in_reply_to":1,"text":"key does not exist","type":"error"}}
+2023/10/29 17:28:22 Received {c1472 n1 {"type":"read","msg_id":1}}
+2023/10/29 17:28:22 Sent {"src":"n1","dest":"seq-kv","body":{"key":"counter","msg_id":388,"type":"read"}}
+2023/10/29 17:28:22 Received {seq-kv n1 {"type":"error","code":20,"text":"key does not exist","in_reply_to":388}}
+2023/10/29 17:28:22 Sent {"src":"n1","dest":"c1472","body":{"code":20,"in_reply_to":1,"text":"key does not exist","type":"error"}}
+2023/10/29 17:28:22 Received {c1473 n1 {"delta":2,"type":"add","msg_id":1}}
+2023/10/29 17:28:22 Sent {"src":"n1","dest":"seq-kv","body":{"key":"counter","msg_id":389,"type":"read"}}
+2023/10/29 17:28:22 Received {seq-kv n1 {"type":"error","code":20,"text":"key does not exist","in_reply_to":389}}
+2023/10/29 17:28:22 Sent {"src":"n1","dest":"c1473","body":{"code":20,"in_reply_to":1,"text":"key does not exist","type":"error"}}
+2023/10/29 17:28:22 Received {c1477 n1 {"type":"read","msg_id":1}}
+2023/10/29 17:28:22 Sent {"src":"n1","dest":"seq-kv","body":{"key":"counter","msg_id":390,"type":"read"}}
+2023/10/29 17:28:22 Received {seq-kv n1 {"type":"error","code":20,"text":"key does not exist","in_reply_to":390}}
+2023/10/29 17:28:22 Sent {"src":"n1","dest":"c1477","body":{"code":20,"in_reply_to":1,"text":"key does not exist","type":"error"}}
+2023/10/29 17:28:22 Received {c1481 n1 {"delta":1,"type":"add","msg_id":1}}
+2023/10/29 17:28:22 Sent {"src":"n1","dest":"seq-kv","body":{"key":"counter","msg_id":391,"type":"read"}}
+2023/10/29 17:28:22 Received {seq-kv n1 {"type":"error","code":20,"text":"key does not exist","in_reply_to":391}}
+2023/10/29 17:28:22 Sent {"src":"n1","dest":"c1481","body":{"code":20,"in_reply_to":1,"text":"key does not exist","type":"error"}}
+2023/10/29 17:28:22 Received {c1485 n1 {"type":"read","msg_id":1}}
+2023/10/29 17:28:22 Sent {"src":"n1","dest":"seq-kv","body":{"key":"counter","msg_id":392,"type":"read"}}
+2023/10/29 17:28:22 Received {seq-kv n1 {"type":"error","code":20,"text":"key does not exist","in_reply_to":392}}
+2023/10/29 17:28:22 Sent {"src":"n1","dest":"c1485","body":{"code":20,"in_reply_to":1,"text":"key does not exist","type":"error"}}
+2023/10/29 17:28:22 Received {c1489 n1 {"type":"read","msg_id":1}}
+2023/10/29 17:28:22 Sent {"src":"n1","dest":"seq-kv","body":{"key":"counter","msg_id":393,"type":"read"}}
+2023/10/29 17:28:22 Received {seq-kv n1 {"type":"error","code":20,"text":"key does not exist","in_reply_to":393}}
+2023/10/29 17:28:22 Sent {"src":"n1","dest":"c1489","body":{"code":20,"in_reply_to":1,"text":"key does not exist","type":"error"}}
+2023/10/29 17:28:22 Received {c1493 n1 {"type":"read","msg_id":1}}
+2023/10/29 17:28:22 Sent {"src":"n1","dest":"seq-kv","body":{"key":"counter","msg_id":394,"type":"read"}}
+2023/10/29 17:28:22 Received {seq-kv n1 {"type":"error","code":20,"text":"key does not exist","in_reply_to":394}}
+2023/10/29 17:28:22 Sent {"src":"n1","dest":"c1493","body":{"code":20,"in_reply_to":1,"text":"key does not exist","type":"error"}}
+2023/10/29 17:28:22 Received {c1497 n1 {"delta":3,"type":"add","msg_id":1}}
+2023/10/29 17:28:22 Sent {"src":"n1","dest":"seq-kv","body":{"key":"counter","msg_id":395,"type":"read"}}
+2023/10/29 17:28:22 Received {seq-kv n1 {"type":"error","code":20,"text":"key does not exist","in_reply_to":395}}
+2023/10/29 17:28:22 Sent {"src":"n1","dest":"c1497","body":{"code":20,"in_reply_to":1,"text":"key does not exist","type":"error"}}
+2023/10/29 17:28:22 Received {c1501 n1 {"delta":0,"type":"add","msg_id":1}}
+2023/10/29 17:28:22 Sent {"src":"n1","dest":"seq-kv","body":{"key":"counter","msg_id":396,"type":"read"}}
+2023/10/29 17:28:22 Received {seq-kv n1 {"type":"error","code":20,"text":"key does not exist","in_reply_to":396}}
+2023/10/29 17:28:22 Sent {"src":"n1","dest":"c1501","body":{"code":20,"in_reply_to":1,"text":"key does not exist","type":"error"}}
+2023/10/29 17:28:22 Received {c1505 n1 {"type":"read","msg_id":1}}
+2023/10/29 17:28:22 Sent {"src":"n1","dest":"seq-kv","body":{"key":"counter","msg_id":397,"type":"read"}}
+2023/10/29 17:28:22 Received {seq-kv n1 {"type":"error","code":20,"text":"key does not exist","in_reply_to":397}}
+2023/10/29 17:28:22 Sent {"src":"n1","dest":"c1505","body":{"code":20,"in_reply_to":1,"text":"key does not exist","type":"error"}}
+2023/10/29 17:28:22 Received {c1509 n1 {"delta":1,"type":"add","msg_id":1}}
+2023/10/29 17:28:22 Sent {"src":"n1","dest":"seq-kv","body":{"key":"counter","msg_id":398,"type":"read"}}
+2023/10/29 17:28:22 Received {seq-kv n1 {"type":"error","code":20,"text":"key does not exist","in_reply_to":398}}
+2023/10/29 17:28:22 Sent {"src":"n1","dest":"c1509","body":{"code":20,"in_reply_to":1,"text":"key does not exist","type":"error"}}
+2023/10/29 17:28:22 Received {c1513 n1 {"type":"read","msg_id":1}}
+2023/10/29 17:28:22 Sent {"src":"n1","dest":"seq-kv","body":{"key":"counter","msg_id":399,"type":"read"}}
+2023/10/29 17:28:22 Received {seq-kv n1 {"type":"error","code":20,"text":"key does not exist","in_reply_to":399}}
+2023/10/29 17:28:22 Sent {"src":"n1","dest":"c1513","body":{"code":20,"in_reply_to":1,"text":"key does not exist","type":"error"}}
+2023/10/29 17:28:22 Received {c1517 n1 {"type":"read","msg_id":1}}
+2023/10/29 17:28:22 Sent {"src":"n1","dest":"seq-kv","body":{"key":"counter","msg_id":400,"type":"read"}}
+2023/10/29 17:28:22 Received {seq-kv n1 {"type":"error","code":20,"text":"key does not exist","in_reply_to":400}}
+2023/10/29 17:28:22 Sent {"src":"n1","dest":"c1517","body":{"code":20,"in_reply_to":1,"text":"key does not exist","type":"error"}}
+2023/10/29 17:28:22 Received {c1521 n1 {"type":"read","msg_id":1}}
+2023/10/29 17:28:22 Sent {"src":"n1","dest":"seq-kv","body":{"key":"counter","msg_id":401,"type":"read"}}
+2023/10/29 17:28:22 Received {seq-kv n1 {"type":"error","code":20,"text":"key does not exist","in_reply_to":401}}
+2023/10/29 17:28:22 Sent {"src":"n1","dest":"c1521","body":{"code":20,"in_reply_to":1,"text":"key does not exist","type":"error"}}
+2023/10/29 17:28:22 Received {c1525 n1 {"delta":1,"type":"add","msg_id":1}}
+2023/10/29 17:28:22 Sent {"src":"n1","dest":"seq-kv","body":{"key":"counter","msg_id":402,"type":"read"}}
+2023/10/29 17:28:22 Received {seq-kv n1 {"type":"error","code":20,"text":"key does not exist","in_reply_to":402}}
+2023/10/29 17:28:22 Sent {"src":"n1","dest":"c1525","body":{"code":20,"in_reply_to":1,"text":"key does not exist","type":"error"}}
+2023/10/29 17:28:22 Received {c1529 n1 {"delta":2,"type":"add","msg_id":1}}
+2023/10/29 17:28:22 Sent {"src":"n1","dest":"seq-kv","body":{"key":"counter","msg_id":403,"type":"read"}}
+2023/10/29 17:28:22 Received {seq-kv n1 {"type":"error","code":20,"text":"key does not exist","in_reply_to":403}}
+2023/10/29 17:28:22 Sent {"src":"n1","dest":"c1529","body":{"code":20,"in_reply_to":1,"text":"key does not exist","type":"error"}}
+2023/10/29 17:28:22 Received {c1533 n1 {"type":"read","msg_id":1}}
+2023/10/29 17:28:22 Sent {"src":"n1","dest":"seq-kv","body":{"key":"counter","msg_id":404,"type":"read"}}
+2023/10/29 17:28:22 Received {seq-kv n1 {"type":"error","code":20,"text":"key does not exist","in_reply_to":404}}
+2023/10/29 17:28:22 Sent {"src":"n1","dest":"c1533","body":{"code":20,"in_reply_to":1,"text":"key does not exist","type":"error"}}
+2023/10/29 17:28:22 Received {c1537 n1 {"delta":1,"type":"add","msg_id":1}}
+2023/10/29 17:28:22 Sent {"src":"n1","dest":"seq-kv","body":{"key":"counter","msg_id":405,"type":"read"}}
+2023/10/29 17:28:22 Received {seq-kv n1 {"type":"error","code":20,"text":"key does not exist","in_reply_to":405}}
+2023/10/29 17:28:22 Sent {"src":"n1","dest":"c1537","body":{"code":20,"in_reply_to":1,"text":"key does not exist","type":"error"}}
+2023/10/29 17:28:23 Received {c1541 n1 {"type":"read","msg_id":1}}
+2023/10/29 17:28:23 Sent {"src":"n1","dest":"seq-kv","body":{"key":"counter","msg_id":406,"type":"read"}}
+2023/10/29 17:28:23 Received {seq-kv n1 {"type":"error","code":20,"text":"key does not exist","in_reply_to":406}}
+2023/10/29 17:28:23 Sent {"src":"n1","dest":"c1541","body":{"code":20,"in_reply_to":1,"text":"key does not exist","type":"error"}}
+2023/10/29 17:28:23 Received {c1545 n1 {"delta":1,"type":"add","msg_id":1}}
+2023/10/29 17:28:23 Sent {"src":"n1","dest":"seq-kv","body":{"key":"counter","msg_id":407,"type":"read"}}
+2023/10/29 17:28:23 Received {seq-kv n1 {"type":"error","code":20,"text":"key does not exist","in_reply_to":407}}
+2023/10/29 17:28:23 Sent {"src":"n1","dest":"c1545","body":{"code":20,"in_reply_to":1,"text":"key does not exist","type":"error"}}
+2023/10/29 17:28:23 Received {c1549 n1 {"delta":0,"type":"add","msg_id":1}}
+2023/10/29 17:28:23 Sent {"src":"n1","dest":"seq-kv","body":{"key":"counter","msg_id":408,"type":"read"}}
+2023/10/29 17:28:23 Received {seq-kv n1 {"type":"error","code":20,"text":"key does not exist","in_reply_to":408}}
+2023/10/29 17:28:23 Sent {"src":"n1","dest":"c1549","body":{"code":20,"in_reply_to":1,"text":"key does not exist","type":"error"}}
+2023/10/29 17:28:23 Received {c1553 n1 {"type":"read","msg_id":1}}
+2023/10/29 17:28:23 Sent {"src":"n1","dest":"seq-kv","body":{"key":"counter","msg_id":409,"type":"read"}}
+2023/10/29 17:28:23 Received {seq-kv n1 {"type":"error","code":20,"text":"key does not exist","in_reply_to":409}}
+2023/10/29 17:28:23 Sent {"src":"n1","dest":"c1553","body":{"code":20,"in_reply_to":1,"text":"key does not exist","type":"error"}}
+2023/10/29 17:28:23 Received {c1557 n1 {"delta":1,"type":"add","msg_id":1}}
+2023/10/29 17:28:23 Sent {"src":"n1","dest":"seq-kv","body":{"key":"counter","msg_id":410,"type":"read"}}
+2023/10/29 17:28:23 Received {seq-kv n1 {"type":"error","code":20,"text":"key does not exist","in_reply_to":410}}
+2023/10/29 17:28:23 Sent {"src":"n1","dest":"c1557","body":{"code":20,"in_reply_to":1,"text":"key does not exist","type":"error"}}
+2023/10/29 17:28:23 Received {c1561 n1 {"type":"read","msg_id":1}}
+2023/10/29 17:28:23 Sent {"src":"n1","dest":"seq-kv","body":{"key":"counter","msg_id":411,"type":"read"}}
+2023/10/29 17:28:23 Received {seq-kv n1 {"type":"error","code":20,"text":"key does not exist","in_reply_to":411}}
+2023/10/29 17:28:23 Sent {"src":"n1","dest":"c1561","body":{"code":20,"in_reply_to":1,"text":"key does not exist","type":"error"}}
+2023/10/29 17:28:23 Received {c1565 n1 {"type":"read","msg_id":1}}
+2023/10/29 17:28:23 Sent {"src":"n1","dest":"seq-kv","body":{"key":"counter","msg_id":412,"type":"read"}}
+2023/10/29 17:28:23 Received {seq-kv n1 {"type":"error","code":20,"text":"key does not exist","in_reply_to":412}}
+2023/10/29 17:28:23 Sent {"src":"n1","dest":"c1565","body":{"code":20,"in_reply_to":1,"text":"key does not exist","type":"error"}}
+2023/10/29 17:28:23 Received {c1569 n1 {"delta":4,"type":"add","msg_id":1}}
+2023/10/29 17:28:23 Sent {"src":"n1","dest":"seq-kv","body":{"key":"counter","msg_id":413,"type":"read"}}
+2023/10/29 17:28:23 Received {seq-kv n1 {"type":"error","code":20,"text":"key does not exist","in_reply_to":413}}
+2023/10/29 17:28:23 Sent {"src":"n1","dest":"c1569","body":{"code":20,"in_reply_to":1,"text":"key does not exist","type":"error"}}
+2023/10/29 17:28:23 Received {c1573 n1 {"type":"read","msg_id":1}}
+2023/10/29 17:28:23 Sent {"src":"n1","dest":"seq-kv","body":{"key":"counter","msg_id":414,"type":"read"}}
+2023/10/29 17:28:23 Received {seq-kv n1 {"type":"error","code":20,"text":"key does not exist","in_reply_to":414}}
+2023/10/29 17:28:23 Sent {"src":"n1","dest":"c1573","body":{"code":20,"in_reply_to":1,"text":"key does not exist","type":"error"}}
+2023/10/29 17:28:23 Received {c1576 n1 {"type":"read","msg_id":1}}
+2023/10/29 17:28:23 Sent {"src":"n1","dest":"seq-kv","body":{"key":"counter","msg_id":415,"type":"read"}}
+2023/10/29 17:28:23 Received {seq-kv n1 {"type":"error","code":20,"text":"key does not exist","in_reply_to":415}}
+2023/10/29 17:28:23 Sent {"src":"n1","dest":"c1576","body":{"code":20,"in_reply_to":1,"text":"key does not exist","type":"error"}}
+2023/10/29 17:28:23 Received {c1577 n1 {"type":"read","msg_id":1}}
+2023/10/29 17:28:23 Sent {"src":"n1","dest":"seq-kv","body":{"key":"counter","msg_id":416,"type":"read"}}
+2023/10/29 17:28:23 Received {seq-kv n1 {"type":"error","code":20,"text":"key does not exist","in_reply_to":416}}
+2023/10/29 17:28:23 Sent {"src":"n1","dest":"c1577","body":{"code":20,"in_reply_to":1,"text":"key does not exist","type":"error"}}
+2023/10/29 17:28:23 Received {c1581 n1 {"delta":3,"type":"add","msg_id":1}}
+2023/10/29 17:28:23 Sent {"src":"n1","dest":"seq-kv","body":{"key":"counter","msg_id":417,"type":"read"}}
+2023/10/29 17:28:23 Received {seq-kv n1 {"type":"error","code":20,"text":"key does not exist","in_reply_to":417}}
+2023/10/29 17:28:23 Sent {"src":"n1","dest":"c1581","body":{"code":20,"in_reply_to":1,"text":"key does not exist","type":"error"}}
+2023/10/29 17:28:23 Received {c1585 n1 {"type":"read","msg_id":1}}
+2023/10/29 17:28:23 Sent {"src":"n1","dest":"seq-kv","body":{"key":"counter","msg_id":418,"type":"read"}}
+2023/10/29 17:28:23 Received {seq-kv n1 {"type":"error","code":20,"text":"key does not exist","in_reply_to":418}}
+2023/10/29 17:28:23 Sent {"src":"n1","dest":"c1585","body":{"code":20,"in_reply_to":1,"text":"key does not exist","type":"error"}}
+2023/10/29 17:28:23 Received {c1589 n1 {"type":"read","msg_id":1}}
+2023/10/29 17:28:23 Sent {"src":"n1","dest":"seq-kv","body":{"key":"counter","msg_id":419,"type":"read"}}
+2023/10/29 17:28:23 Received {seq-kv n1 {"type":"error","code":20,"text":"key does not exist","in_reply_to":419}}
+2023/10/29 17:28:23 Sent {"src":"n1","dest":"c1589","body":{"code":20,"in_reply_to":1,"text":"key does not exist","type":"error"}}
+2023/10/29 17:28:23 Received {c1593 n1 {"type":"read","msg_id":1}}
+2023/10/29 17:28:23 Sent {"src":"n1","dest":"seq-kv","body":{"key":"counter","msg_id":420,"type":"read"}}
+2023/10/29 17:28:23 Received {seq-kv n1 {"type":"error","code":20,"text":"key does not exist","in_reply_to":420}}
+2023/10/29 17:28:23 Sent {"src":"n1","dest":"c1593","body":{"code":20,"in_reply_to":1,"text":"key does not exist","type":"error"}}
+2023/10/29 17:28:23 Received {c1597 n1 {"type":"read","msg_id":1}}
+2023/10/29 17:28:23 Sent {"src":"n1","dest":"seq-kv","body":{"key":"counter","msg_id":421,"type":"read"}}
+2023/10/29 17:28:23 Received {seq-kv n1 {"type":"error","code":20,"text":"key does not exist","in_reply_to":421}}
+2023/10/29 17:28:23 Sent {"src":"n1","dest":"c1597","body":{"code":20,"in_reply_to":1,"text":"key does not exist","type":"error"}}
+2023/10/29 17:28:23 Received {c1601 n1 {"type":"read","msg_id":1}}
+2023/10/29 17:28:23 Sent {"src":"n1","dest":"seq-kv","body":{"key":"counter","msg_id":422,"type":"read"}}
+2023/10/29 17:28:23 Received {seq-kv n1 {"type":"error","code":20,"text":"key does not exist","in_reply_to":422}}
+2023/10/29 17:28:23 Sent {"src":"n1","dest":"c1601","body":{"code":20,"in_reply_to":1,"text":"key does not exist","type":"error"}}
+2023/10/29 17:28:23 Received {c1605 n1 {"type":"read","msg_id":1}}
+2023/10/29 17:28:23 Sent {"src":"n1","dest":"seq-kv","body":{"key":"counter","msg_id":423,"type":"read"}}
+2023/10/29 17:28:23 Received {seq-kv n1 {"type":"error","code":20,"text":"key does not exist","in_reply_to":423}}
+2023/10/29 17:28:23 Sent {"src":"n1","dest":"c1605","body":{"code":20,"in_reply_to":1,"text":"key does not exist","type":"error"}}
+2023/10/29 17:28:23 Received {c1609 n1 {"delta":3,"type":"add","msg_id":1}}
+2023/10/29 17:28:23 Sent {"src":"n1","dest":"seq-kv","body":{"key":"counter","msg_id":424,"type":"read"}}
+2023/10/29 17:28:23 Received {seq-kv n1 {"type":"error","code":20,"text":"key does not exist","in_reply_to":424}}
+2023/10/29 17:28:23 Sent {"src":"n1","dest":"c1609","body":{"code":20,"in_reply_to":1,"text":"key does not exist","type":"error"}}
+2023/10/29 17:28:23 Received {c1613 n1 {"type":"read","msg_id":1}}
+2023/10/29 17:28:23 Sent {"src":"n1","dest":"seq-kv","body":{"key":"counter","msg_id":425,"type":"read"}}
+2023/10/29 17:28:23 Received {seq-kv n1 {"type":"error","code":20,"text":"key does not exist","in_reply_to":425}}
+2023/10/29 17:28:23 Sent {"src":"n1","dest":"c1613","body":{"code":20,"in_reply_to":1,"text":"key does not exist","type":"error"}}
+2023/10/29 17:28:23 Received {c1617 n1 {"type":"read","msg_id":1}}
+2023/10/29 17:28:23 Sent {"src":"n1","dest":"seq-kv","body":{"key":"counter","msg_id":426,"type":"read"}}
+2023/10/29 17:28:23 Received {seq-kv n1 {"type":"error","code":20,"text":"key does not exist","in_reply_to":426}}
+2023/10/29 17:28:23 Sent {"src":"n1","dest":"c1617","body":{"code":20,"in_reply_to":1,"text":"key does not exist","type":"error"}}
+2023/10/29 17:28:23 Received {c1621 n1 {"delta":4,"type":"add","msg_id":1}}
+2023/10/29 17:28:23 Sent {"src":"n1","dest":"seq-kv","body":{"key":"counter","msg_id":427,"type":"read"}}
+2023/10/29 17:28:23 Received {seq-kv n1 {"type":"error","code":20,"text":"key does not exist","in_reply_to":427}}
+2023/10/29 17:28:23 Sent {"src":"n1","dest":"c1621","body":{"code":20,"in_reply_to":1,"text":"key does not exist","type":"error"}}
+2023/10/29 17:28:23 Received {c1625 n1 {"type":"read","msg_id":1}}
+2023/10/29 17:28:23 Sent {"src":"n1","dest":"seq-kv","body":{"key":"counter","msg_id":428,"type":"read"}}
+2023/10/29 17:28:23 Received {seq-kv n1 {"type":"error","code":20,"text":"key does not exist","in_reply_to":428}}
+2023/10/29 17:28:23 Sent {"src":"n1","dest":"c1625","body":{"code":20,"in_reply_to":1,"text":"key does not exist","type":"error"}}
+2023/10/29 17:28:24 Received {c1629 n1 {"type":"read","msg_id":1}}
+2023/10/29 17:28:24 Sent {"src":"n1","dest":"seq-kv","body":{"key":"counter","msg_id":429,"type":"read"}}
+2023/10/29 17:28:24 Received {seq-kv n1 {"type":"error","code":20,"text":"key does not exist","in_reply_to":429}}
+2023/10/29 17:28:24 Sent {"src":"n1","dest":"c1629","body":{"code":20,"in_reply_to":1,"text":"key does not exist","type":"error"}}
+2023/10/29 17:28:24 Received {c1633 n1 {"type":"read","msg_id":1}}
+2023/10/29 17:28:24 Sent {"src":"n1","dest":"seq-kv","body":{"key":"counter","msg_id":430,"type":"read"}}
+2023/10/29 17:28:24 Received {seq-kv n1 {"type":"error","code":20,"text":"key does not exist","in_reply_to":430}}
+2023/10/29 17:28:24 Sent {"src":"n1","dest":"c1633","body":{"code":20,"in_reply_to":1,"text":"key does not exist","type":"error"}}
+2023/10/29 17:28:24 Received {c1637 n1 {"type":"read","msg_id":1}}
+2023/10/29 17:28:24 Sent {"src":"n1","dest":"seq-kv","body":{"key":"counter","msg_id":431,"type":"read"}}
+2023/10/29 17:28:24 Received {seq-kv n1 {"type":"error","code":20,"text":"key does not exist","in_reply_to":431}}
+2023/10/29 17:28:24 Sent {"src":"n1","dest":"c1637","body":{"code":20,"in_reply_to":1,"text":"key does not exist","type":"error"}}
+2023/10/29 17:28:24 Received {c1641 n1 {"delta":4,"type":"add","msg_id":1}}
+2023/10/29 17:28:24 Sent {"src":"n1","dest":"seq-kv","body":{"key":"counter","msg_id":432,"type":"read"}}
+2023/10/29 17:28:24 Received {seq-kv n1 {"type":"error","code":20,"text":"key does not exist","in_reply_to":432}}
+2023/10/29 17:28:24 Sent {"src":"n1","dest":"c1641","body":{"code":20,"in_reply_to":1,"text":"key does not exist","type":"error"}}
+2023/10/29 17:28:24 Received {c1645 n1 {"type":"read","msg_id":1}}
+2023/10/29 17:28:24 Sent {"src":"n1","dest":"seq-kv","body":{"key":"counter","msg_id":433,"type":"read"}}
+2023/10/29 17:28:24 Received {seq-kv n1 {"type":"error","code":20,"text":"key does not exist","in_reply_to":433}}
+2023/10/29 17:28:24 Sent {"src":"n1","dest":"c1645","body":{"code":20,"in_reply_to":1,"text":"key does not exist","type":"error"}}
+2023/10/29 17:28:24 Received {c1649 n1 {"delta":4,"type":"add","msg_id":1}}
+2023/10/29 17:28:24 Sent {"src":"n1","dest":"seq-kv","body":{"key":"counter","msg_id":434,"type":"read"}}
+2023/10/29 17:28:24 Received {seq-kv n1 {"type":"error","code":20,"text":"key does not exist","in_reply_to":434}}
+2023/10/29 17:28:24 Sent {"src":"n1","dest":"c1649","body":{"code":20,"in_reply_to":1,"text":"key does not exist","type":"error"}}
+2023/10/29 17:28:24 Received {c1653 n1 {"type":"read","msg_id":1}}
+2023/10/29 17:28:24 Sent {"src":"n1","dest":"seq-kv","body":{"key":"counter","msg_id":435,"type":"read"}}
+2023/10/29 17:28:24 Received {seq-kv n1 {"type":"error","code":20,"text":"key does not exist","in_reply_to":435}}
+2023/10/29 17:28:24 Sent {"src":"n1","dest":"c1653","body":{"code":20,"in_reply_to":1,"text":"key does not exist","type":"error"}}
+2023/10/29 17:28:24 Received {c1657 n1 {"type":"read","msg_id":1}}
+2023/10/29 17:28:24 Sent {"src":"n1","dest":"seq-kv","body":{"key":"counter","msg_id":436,"type":"read"}}
+2023/10/29 17:28:24 Received {seq-kv n1 {"type":"error","code":20,"text":"key does not exist","in_reply_to":436}}
+2023/10/29 17:28:24 Sent {"src":"n1","dest":"c1657","body":{"code":20,"in_reply_to":1,"text":"key does not exist","type":"error"}}
+2023/10/29 17:28:24 Received {c1661 n1 {"type":"read","msg_id":1}}
+2023/10/29 17:28:24 Sent {"src":"n1","dest":"seq-kv","body":{"key":"counter","msg_id":437,"type":"read"}}
+2023/10/29 17:28:24 Received {seq-kv n1 {"type":"error","code":20,"text":"key does not exist","in_reply_to":437}}
+2023/10/29 17:28:24 Sent {"src":"n1","dest":"c1661","body":{"code":20,"in_reply_to":1,"text":"key does not exist","type":"error"}}
+2023/10/29 17:28:24 Received {c1665 n1 {"type":"read","msg_id":1}}
+2023/10/29 17:28:24 Sent {"src":"n1","dest":"seq-kv","body":{"key":"counter","msg_id":438,"type":"read"}}
+2023/10/29 17:28:24 Received {seq-kv n1 {"type":"error","code":20,"text":"key does not exist","in_reply_to":438}}
+2023/10/29 17:28:24 Sent {"src":"n1","dest":"c1665","body":{"code":20,"in_reply_to":1,"text":"key does not exist","type":"error"}}
+2023/10/29 17:28:24 Received {c1669 n1 {"type":"read","msg_id":1}}
+2023/10/29 17:28:24 Sent {"src":"n1","dest":"seq-kv","body":{"key":"counter","msg_id":439,"type":"read"}}
+2023/10/29 17:28:24 Received {seq-kv n1 {"type":"error","code":20,"text":"key does not exist","in_reply_to":439}}
+2023/10/29 17:28:24 Sent {"src":"n1","dest":"c1669","body":{"code":20,"in_reply_to":1,"text":"key does not exist","type":"error"}}
+2023/10/29 17:28:24 Received {c1673 n1 {"type":"read","msg_id":1}}
+2023/10/29 17:28:24 Sent {"src":"n1","dest":"seq-kv","body":{"key":"counter","msg_id":440,"type":"read"}}
+2023/10/29 17:28:24 Received {seq-kv n1 {"type":"error","code":20,"text":"key does not exist","in_reply_to":440}}
+2023/10/29 17:28:24 Sent {"src":"n1","dest":"c1673","body":{"code":20,"in_reply_to":1,"text":"key does not exist","type":"error"}}
+2023/10/29 17:28:24 Received {c1677 n1 {"type":"read","msg_id":1}}
+2023/10/29 17:28:24 Sent {"src":"n1","dest":"seq-kv","body":{"key":"counter","msg_id":441,"type":"read"}}
+2023/10/29 17:28:24 Received {seq-kv n1 {"type":"error","code":20,"text":"key does not exist","in_reply_to":441}}
+2023/10/29 17:28:24 Sent {"src":"n1","dest":"c1677","body":{"code":20,"in_reply_to":1,"text":"key does not exist","type":"error"}}
+2023/10/29 17:28:24 Received {c1681 n1 {"type":"read","msg_id":1}}
+2023/10/29 17:28:24 Sent {"src":"n1","dest":"seq-kv","body":{"key":"counter","msg_id":442,"type":"read"}}
+2023/10/29 17:28:24 Received {seq-kv n1 {"type":"error","code":20,"text":"key does not exist","in_reply_to":442}}
+2023/10/29 17:28:24 Sent {"src":"n1","dest":"c1681","body":{"code":20,"in_reply_to":1,"text":"key does not exist","type":"error"}}
+2023/10/29 17:28:24 Received {c1685 n1 {"type":"read","msg_id":1}}
+2023/10/29 17:28:24 Sent {"src":"n1","dest":"seq-kv","body":{"key":"counter","msg_id":443,"type":"read"}}
+2023/10/29 17:28:24 Received {seq-kv n1 {"type":"error","code":20,"text":"key does not exist","in_reply_to":443}}
+2023/10/29 17:28:24 Sent {"src":"n1","dest":"c1685","body":{"code":20,"in_reply_to":1,"text":"key does not exist","type":"error"}}
+2023/10/29 17:28:24 Received {c1689 n1 {"delta":0,"type":"add","msg_id":1}}
+2023/10/29 17:28:24 Sent {"src":"n1","dest":"seq-kv","body":{"key":"counter","msg_id":444,"type":"read"}}
+2023/10/29 17:28:24 Received {seq-kv n1 {"type":"error","code":20,"text":"key does not exist","in_reply_to":444}}
+2023/10/29 17:28:24 Sent {"src":"n1","dest":"c1689","body":{"code":20,"in_reply_to":1,"text":"key does not exist","type":"error"}}
+2023/10/29 17:28:24 Received {c1693 n1 {"type":"read","msg_id":1}}
+2023/10/29 17:28:24 Sent {"src":"n1","dest":"seq-kv","body":{"key":"counter","msg_id":445,"type":"read"}}
+2023/10/29 17:28:24 Received {seq-kv n1 {"type":"error","code":20,"text":"key does not exist","in_reply_to":445}}
+2023/10/29 17:28:24 Sent {"src":"n1","dest":"c1693","body":{"code":20,"in_reply_to":1,"text":"key does not exist","type":"error"}}
+2023/10/29 17:28:24 Received {c1697 n1 {"type":"read","msg_id":1}}
+2023/10/29 17:28:24 Sent {"src":"n1","dest":"seq-kv","body":{"key":"counter","msg_id":446,"type":"read"}}
+2023/10/29 17:28:24 Received {seq-kv n1 {"type":"error","code":20,"text":"key does not exist","in_reply_to":446}}
+2023/10/29 17:28:24 Sent {"src":"n1","dest":"c1697","body":{"code":20,"in_reply_to":1,"text":"key does not exist","type":"error"}}
+2023/10/29 17:28:24 Received {c1701 n1 {"delta":1,"type":"add","msg_id":1}}
+2023/10/29 17:28:24 Sent {"src":"n1","dest":"seq-kv","body":{"key":"counter","msg_id":447,"type":"read"}}
+2023/10/29 17:28:24 Received {seq-kv n1 {"type":"error","code":20,"text":"key does not exist","in_reply_to":447}}
+2023/10/29 17:28:24 Sent {"src":"n1","dest":"c1701","body":{"code":20,"in_reply_to":1,"text":"key does not exist","type":"error"}}
+2023/10/29 17:28:24 Received {c1703 n1 {"type":"read","msg_id":1}}
+2023/10/29 17:28:24 Sent {"src":"n1","dest":"seq-kv","body":{"key":"counter","msg_id":448,"type":"read"}}
+2023/10/29 17:28:24 Received {seq-kv n1 {"type":"error","code":20,"text":"key does not exist","in_reply_to":448}}
+2023/10/29 17:28:24 Sent {"src":"n1","dest":"c1703","body":{"code":20,"in_reply_to":1,"text":"key does not exist","type":"error"}}
+2023/10/29 17:28:24 Received {c1705 n1 {"type":"read","msg_id":1}}
+2023/10/29 17:28:24 Sent {"src":"n1","dest":"seq-kv","body":{"key":"counter","msg_id":449,"type":"read"}}
+2023/10/29 17:28:24 Received {seq-kv n1 {"type":"error","code":20,"text":"key does not exist","in_reply_to":449}}
+2023/10/29 17:28:24 Sent {"src":"n1","dest":"c1705","body":{"code":20,"in_reply_to":1,"text":"key does not exist","type":"error"}}
+2023/10/29 17:28:34 Received {c1708 n1 {"type":"read","msg_id":1}}
+2023/10/29 17:28:34 Sent {"src":"n1","dest":"seq-kv","body":{"key":"counter","msg_id":450,"type":"read"}}
+2023/10/29 17:28:34 Received {seq-kv n1 {"type":"error","code":20,"text":"key does not exist","in_reply_to":450}}
+2023/10/29 17:28:34 Sent {"src":"n1","dest":"c1708","body":{"code":20,"in_reply_to":1,"text":"key does not exist","type":"error"}}
